@@ -21,7 +21,7 @@ body.qr{
     text-align: center;
     background-color: hsl(212, 45%, 89%);
 }
-.container{
+body.qr .container{
     background-color: hsl(0, 0%, 100%);
     font-family: 'Outfit', sans-serif;
     width: var(--size);
@@ -31,15 +31,15 @@ body.qr{
     margin-bottom: 100px;
     border-radius: 10px;
 }
-.container img{
+body.qr .container img{
     border-radius: 10px;
     width: var(--size);
     height: var(--size);
 }
-.container .p1{
+body.qr .container .p1{
     font-weight: 700;
 }
-.container .p2{
+body.qr .container .p2{
     font-weight: 400;
 }
 
