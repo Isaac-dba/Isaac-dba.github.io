@@ -42,6 +42,10 @@ body.qr{
 .container .p2{
     font-weight: 400;
 }
+.attribution{
+    position: relative;
+    bottom: -70px;
+}
 @media  screen and (max-width: 370px) {
     .container{
         width: 150px;
@@ -53,9 +57,6 @@ body.qr{
     }
     body.qr{
         text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
     }
 }
 /*fin qr*/
