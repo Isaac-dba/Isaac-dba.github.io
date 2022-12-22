@@ -42,21 +42,22 @@ body.qr{
 .container .p2{
     font-weight: 400;
 }
-.attribution{
-    position: relative;
-    bottom: -70px;
-}
+
 @media  screen and (max-width: 370px) {
-    .container{
+    body.qr .container{
         width: 150px;
         height: 400px;
     }
-    .container img{
+    body.qr .container img{
         width: 150px;
         height: 200px;
     }
     body.qr{
         text-align: center;
+    }
+    body.qr .attribution{
+        position: relative;
+        bottom: -70px;
     }
 }
 /*fin qr*/
