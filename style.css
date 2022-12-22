@@ -44,15 +44,18 @@ body.qr{
 }
 @media  screen and (max-width: 370px) {
     .container{
-        width: 200px;
+        width: 150px;
         height: 400px;
     }
     .container img{
-        width: 200px;
+        width: 150px;
         height: 200px;
     }
-    body{
+    body.qr{
         text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 }
 /*fin qr*/
