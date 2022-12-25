@@ -26,7 +26,7 @@ body.qr .container{
     font-family: 'Outfit', sans-serif;
     width: var(--size);
     height: 100%;
-    margin: 50px auto 0px;
+    margin: 50px auto;
     padding: 10px;
     margin-bottom: 100px;
     border-radius: 10px;
@@ -55,6 +55,18 @@ body.qr .container .p2{
     }
     body.qr{
         text-align: center;
+        
+    }
+ 
+}
+@media  screen and (min-width: 500px) {
+   
+    body.qr{
+        text-align: center;
+        margin-left: 40px;
+    }
+    body.qr .attribution{
+        margin-left: 50px;
     }
  
 }
