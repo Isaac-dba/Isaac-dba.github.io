@@ -67,6 +67,7 @@ body.qr .container .p2{
     body.qr{
         text-align: center;
         margin: 0% auto;
+        padding-right:30px;
     }
     body.qr .attribution{
         margin-left: 50px;
