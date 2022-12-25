@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 :root{
-    --size: 400px;}
+    --size: 200px;}
 body.principal{
     background-color: rgba(0, 23, 34, 0.5);
     background-image:url("waves.svg"), 
@@ -14,9 +14,9 @@ body.principal{
 }
 /*qr-code-component-main*/
 body.qr{
-    width: 100%;
+    width: 375px;
     height: 100%;
-    margin: 0%;
+    margin: 0% auto;
     padding: 0%;
     text-align: center;
     background-color: hsl(212, 45%, 89%);
@@ -25,7 +25,7 @@ body.qr .container{
     background-color: hsl(0, 0%, 100%);
     font-family: 'Outfit', sans-serif;
     width: var(--size);
-    height: 500px;
+    height: 100%;
     margin: 50px auto 0px;
     padding: 10px;
     margin-bottom: 100px;
@@ -43,21 +43,19 @@ body.qr .container .p2{
     font-weight: 400;
 }
 
-@media  screen and (max-width: 370px) {
+@media  screen and (min-width: 370px) {
     body.qr .container{
-        width: 150px;
-        height: 400px;
+       width: 400px;
+       height: 500px;
+
     }
     body.qr .container img{
-        width: 150px;
-        height: 200px;
+       width: 400px;
+       height: 400px;
     }
     body.qr{
         text-align: center;
     }
-    body.qr .attribution{
-        position: relative;
-        bottom: -70px;
-    }
+ 
 }
 /*fin qr*/
