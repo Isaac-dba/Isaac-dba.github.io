@@ -57,13 +57,16 @@ body.qr .container .p2{
         text-align: center;
         
     }
+    body.qr .attribution{
+        margin-left: 50px;
+    }
  
 }
 @media  screen and (min-width: 500px) {
    
     body.qr{
         text-align: center;
-        margin-left: 40px;
+        margin: 0% auto;
     }
     body.qr .attribution{
         margin-left: 50px;
