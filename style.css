@@ -4,13 +4,37 @@
 body.principal{
     background-color: rgba(0, 23, 34, 0.5);
     background-image:url("waves.svg"), 
-    linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+    linear-gradient(to top, #48c6ef 0%, #6e1268 50%, #6f86d6 100%);
     background-repeat: no-repeat;
+    background-size:100% 150px, cover ;
+    background-position: bottom;
     margin: 0%;
     padding: 0%;
     width: 100%;
     height: 100vh;/*cambiar a % cuando tenga contenido*/
   
+}
+nav .mobile{
+   display: flex;
+   justify-content: space-between;
+   border: none;
+   background-color: white;
+   align-items: center;
+   padding-left: 10px;
+}
+nav .mobile .links{
+   display: flex;
+   gap: 10px;   
+}
+nav .mobile .links a{
+    text-decoration: none;
+    color: black;
+    display:block;
+    padding: 10px;
+}
+nav .mobile .links a:hover{
+    background-color: #6f86d6;
+    color: gold;
 }
 /*qr-code-component-main*/
 body.qr{
