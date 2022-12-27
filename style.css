@@ -20,12 +20,14 @@ nav{
    border: none;
    background-color: white;
    align-items: center;
-   padding-left: 10px;
+   padding:0px 10px;
+   position: fixed;
+   width: 100%;
 }
 nav .frontendmentor{
     position: absolute;
     display: none;
-    width: 100px;
+    width: 120px;
     right: 0;
     
 
@@ -35,7 +37,7 @@ nav .frontendmentor a{
 }
 nav .menu:hover .frontendmentor{
   display: block;
-   background:linear-gradient(to bottom, #000000 0%, #1a1a4d 100%);
+  
 }  
 nav a{
     display: block;
@@ -43,7 +45,9 @@ nav a{
     text-decoration: none;
     color: #111114;
 }
-
+nav a:hover{
+    background-color: #48c6ef;
+}
 /*qr-code-component-main*/
 body.qr{
     width: 375px;
