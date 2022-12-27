@@ -14,7 +14,7 @@ body.principal{
     height: 100vh;/*cambiar a % cuando tenga contenido*/
      
 }
-nav .mobile{
+nav{
    display: flex;
    justify-content: space-between;
    border: none;
@@ -22,20 +22,28 @@ nav .mobile{
    align-items: center;
    padding-left: 10px;
 }
-nav .mobile .links{
-   display: flex;
-   gap: 10px;   
+nav .frontendmentor{
+    position: absolute;
+    display: none;
+    width: 100px;
+    right: 0;
+    
+
 }
-nav .mobile .links a{
-    text-decoration: none;
-    color: black;
-    display:block;
+nav .frontendmentor a{
+    color: lightcoral;
+}
+nav .menu:hover .frontendmentor{
+  display: block;
+   background:linear-gradient(to bottom, #000000 0%, #1a1a4d 100%);
+}  
+nav a{
+    display: block;
     padding: 10px;
+    text-decoration: none;
+    color: #111114;
 }
-nav .mobile .links a:hover{
-    background-color: #6f86d6;
-    color: gold;
-}
+
 /*qr-code-component-main*/
 body.qr{
     width: 375px;
