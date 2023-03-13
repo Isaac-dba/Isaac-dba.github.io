@@ -1,36 +1,1190 @@
-<!DOCTYPE html>
-<html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>gocument</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<!--desktop fisrt-->
-
-<body class="principal">
-    <main>
-        <nav>
-
+<header>
+    <nav class="horizontal">
+        <div class="mobile">
+            <div class="header">
+                <div class="logo">logo</div>
+                <div class="menu">
+                    <button id="bmenu"><i class="bi bi-list"></i></button>
+                </div>
+            </div>
+            <div class="link collapse" id="links">
+                <a href="#service">service</a>
+                <a href="#">contact</a>
+                <a href="#">about</a>
+                <a href="#search">search</a>
+                <a href="#">sign up</a>
+                <a href="#login">login</a>
+            </div>
+        </div>
+        <div class="desktop">
             <div class="logo">logo</div>
-            <div class="menu">
-                <a href="#">frontendmentor</a>
-                <div class="frontendmentor">
-                    <a href="qr-code-component-main/qr.html.html">QR</a>
-                    <a href="product-card-component-main/card-perfume.htmt.html">PCC</a>
-
+            <div class="primary">
+                <a href="#service">service</a>
+                <a href="#">contact</a>
+                <a href="#">about</a>
+            </div>
+            <div class="secondary full">
+                <a href="#search">search</a>
+                <a href="#">sign up</a>
+                <a href="#login">login</a>
+            </div>
+            <div class="secondary mini">
+                <a href="#">mas</a>
+                <div class="submenu">
+                    <a href="#search">search</a>
+                    <a href="#">sign up</a>
+                    <a href="#login">login</a>
                 </div>
 
             </div>
+        </div>
+    </nav>
+    <script>
+        const bmenu = document.querySelector('#bmenu');
+        const links = document.querySelector('#links');
 
-        </nav>
-7iuty
-    </main>
-    <footer>
-
-    </footer>
-</body>
-
-</html>
+        bmenu.addEventListener('click', (e) => {
+            links.classList.toggle('collapse');
+        })
+    </script>
+    <nav class="vertical">
+        <div class="user">
+            <div class="bar"></div>
+            <div class="user-photo">
+                <img src="imagen/deepool.jpg" alt="user-photo">
+                <div class="name">pedera isaac</div>
+            </div>
+        </div>
+        <div class="link">
+            <a href="#"><i class="bi bi-headset"></i>
+                <p>remote assistance</p>
+            </a>
+            <a href="#"><i class="bi bi-calendar"></i>
+                <p>calendar</p>
+            </a>
+            <a href="#"><i class="bi bi-gear"></i>
+                <p>settings</p>
+            </a>
+            <a href="#"><i class="bi bi-graph-down"></i>
+                <p>analytics</p>
+            </a>
+            <a href="#"><i class="bi bi-camera"></i>
+                <p>photos</p>
+            </a>
+        </div>
+    </nav>
+</header>
+<main>
+    <section class="cards-section">
+        <div class="cards">
+            <div class="card">
+                <div class="header">
+                    <p class="date">32 de abril</p>
+                    <p class="title">practicas css</p>
+                </div>
+                <div class="footer">
+                    <a href="#">
+                        <img src="imagen/deepool.jpg" alt="photo" />
+                        <span>joel santos</span>
+                    </a>
+                </div>
+            </div>
+            <div class="card element-1">
+                <div class="header">
+                    <p class="date">32 de abril</p>
+                    <p class="title">practicas css</p>
+                </div>
+                <div class="footer">
+                    <a href="#">
+                        <img src="imagen/Epic_Games.png" alt="photo" />
+                        <span>joel santos</span>
+                    </a>
+                </div>
+            </div>
+            <div class="card element-2">
+                <div class="header">
+                    <p class="date">32 de abril</p>
+                    <p class="title">practicas css</p>
+                </div>
+                <div class="footer">
+                    <a href="#">
+                        <img src="imagen/manzana.jpg" alt="photo" />
+                        <span>joel santos</span>
+                    </a>
+                </div>
+            </div>
+            <div class="card element-3">
+                <div class="header">
+                    <p class="date">32 de abril</p>
+                    <p class="title">practicas css</p>
+                </div>
+                <div class="footer">
+                    <a href="#">
+                        <img src="imagen/ojo.jpg" alt="photo" />
+                        <span>joel santos</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="table">
+        <table>
+            <caption>mi primera table</caption>
+            <thead>
+                <tr>
+                    <th>nombre</th>
+                    <th>apellido</th>
+                    <th>pais</th>
+                    <th>ciudad</th>
+                    <th>edad</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>joel</td>
+                    <td>santos</td>
+                    <td>españa</td>
+                    <td>salamanca</td>
+                    <td>34</td>
+                </tr>
+                <tr>
+                    <td>joel</td>
+                    <td>santos</td>
+                    <td>españa</td>
+                    <td>salamanca</td>
+                    <td>34</td>
+                </tr>
+                <tr>
+                    <td>joel</td>
+                    <td>santos</td>
+                    <td>españa</td>
+                    <td>salamanca</td>
+                    <td>34</td>
+                </tr>
+                <tr>
+                    <td>joel</td>
+                    <td>santos</td>
+                    <td>españa</td>
+                    <td>salamanca</td>
+                    <td>34</td>
+                </tr>
+                <tr>
+                    <td>joel</td>
+                    <td>santos</td>
+                    <td>españa</td>
+                    <td>salamanca</td>
+                    <td>34</td>
+                </tr>
+                <tr>
+                    <td>joel</td>
+                    <td>santos</td>
+                    <td>españa</td>
+                    <td>salamanca</td>
+                    <td>34</td>
+                </tr>
+                <tr>
+                    <td>joel</td>
+                    <td>santos</td>
+                    <td>españa</td>
+                    <td>salamanca</td>
+                    <td>34</td>
+                </tr>
+                <tr>
+                    <td>joel</td>
+                    <td>santos</td>
+                    <td>españa</td>
+                    <td>salamanca</td>
+                    <td>34</td>
+                </tr>
+                <tr>
+                    <td>joel</td>
+                    <td>santos</td>
+                    <td>españa</td>
+                    <td>salamanca</td>
+                    <td>34</td>
+                </tr>
+                <tr>
+                    <td>joel</td>
+                    <td>santos</td>
+                    <td>españa</td>
+                    <td>salamanca</td>
+                    <td>34</td>
+                </tr>
+                <tr>
+                    <td>joel</td>
+                    <td>santos</td>
+                    <td>españa</td>
+                    <td>salamanca</td>
+                    <td>34</td>
+                </tr>
+                <tr>
+                    <td>joel</td>
+                    <td>santos</td>
+                    <td>españa</td>
+                    <td>salamanca</td>
+                    <td>34</td>
+                </tr>
+                <tr>
+                    <td>joel</td>
+                    <td>santos</td>
+                    <td>españa</td>
+                    <td>salamanca</td>
+                    <td>34</td>
+                </tr>
+                <tr>
+                    <td>joel</td>
+                    <td>santos</td>
+                    <td>españa</td>
+                    <td>salamanca</td>
+                    <td>34</td>
+                </tr>
+                <tr>
+                    <td>joel</td>
+                    <td>santos</td>
+                    <td>españa</td>
+                    <td>salamanca</td>
+                    <td>34</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>total</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th>535</th>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+    <section class="notification-section">
+        <div class="notification">
+            <div class="count">23</div>
+            <i class="bi bi-bell-fill"></i>
+        </div>
+    </section>
+    <section class="checkbox-radio-section">
+        <div class="checkbox-radio">
+            <label>
+                soy un checkbox
+                <input type="checkbox">
+                <span class="check-mark">
+                    <i class="bi bi-check"></i>
+                </span>
+            </label>
+            <label>
+                soy un checkbox
+                <input type="checkbox">
+                <span class="check-mark">
+                    <i class="bi bi-check"></i>
+                </span>
+            </label>
+            <label>
+                soy un radio button
+                <input type="radio" name="radio">
+                <span class="check-radio">
+                    <div class="circle"></div>
+                </span>
+            </label>
+            <label>
+                soy un radio button
+                <input type="radio" name="radio">
+                <span class="check-radio">
+                    <div class="circle"></div>
+                </span>
+            </label>
+        </div>
+    </section>
+    <section class="search-section" id="search">
+        <div class="search-content">
+            <input type="text" name="text" id="search" placeholder="search">
+            <div class="button-container">
+                <button>
+                    <i class="bi bi-mic"></i>
+                </button>
+                <button>
+                    <i class="bi bi-upc-scan"></i>
+                </button>
+                <button>
+                    <i class="bi bi-search"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="flip-cards-section">
+        <div class="flip-cards">
+            <div class="flip-card">
+                <div class="inner-card">
+                    <div class="front-card">
+                        <img src="imagen/deepool.jpg" alt="user">
+                    </div>
+                    <div class="black-card">
+                        <h1 class="title">loade resar</h1>
+                        <p>ingeniero de software</p>
+                        <p>me gusta el javascript</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="inner-card">
+                    <div class="front-card">
+                        <img src="imagen/circulo-rgb.jpg" alt="user">
+                    </div>
+                    <div class="black-card">
+                        <h1 class="title">loade resar</h1>
+                        <p>ingeniero de software</p>
+                        <p>me gusta el javascript</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="inner-card">
+                    <div class="front-card">
+                        <img src="imagen/Epic_Games.png" alt="user">
+                    </div>
+                    <div class="black-card">
+                        <h1 class="title">loade resar</h1>
+                        <p>ingeniero de software</p>
+                        <p>me gusta el javascript</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="conments-section">
+        <div class="conments-container">
+            <div class="conment">
+                <div class="conment-wrap">
+                    <div class="content">
+                        <div class="user-photo">
+                            <img src="imagen/deepool.jpg" alt="">
+                        </div>
+                        <div class="info-content">
+                            <div class="user-info">
+                                <p class="name">amaya</p>
+                                <p class="date">5 de abril</p>
+                            </div>
+                            <p class="comentario">este es un comentario</p>
+                            <div class="button-container">
+                                <button>like</button>
+                                <button>reply</button>
+                                <button>share</button>
+                                <button>follow</button>
+                                <button>report</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="replies">
+                        <div class="conment">
+                            <div class="line"></div>
+                            <div class="conment-wrap">
+                                <div class="content">
+                                    <div class="user-photo">
+                                        <img src="imagen/circulo-rgb.jpg" alt="">
+                                    </div>
+                                    <div class="info-content">
+                                        <div class="user-info">
+                                            <p class="name">amaya</p>
+                                            <p class="date">5 de abril</p>
+                                        </div>
+                                        <p class="comentario">este es un comentario</p>
+                                        <div class="button-container">
+                                            <button>like</button>
+                                            <button>reply</button>
+                                            <button>share</button>
+                                            <button>follow</button>
+                                            <button>report</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="conment">
+                            <div class="line"></div>
+                            <div class="conment-wrap">
+                                <div class="content">
+                                    <div class="user-photo">
+                                        <img src="imagen/manzana.jpg" alt="">
+                                    </div>
+                                    <div class="info-content">
+                                        <div class="user-info">
+                                            <p class="name">amaya</p>
+                                            <p class="date">5 de abril</p>
+                                        </div>
+                                        <p class="comentario">este es un comentario</p>
+                                        <div class="button-container">
+                                            <button>like</button>
+                                            <button>reply</button>
+                                            <button>share</button>
+                                            <button>follow</button>
+                                            <button>report</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="conment">
+                            <div class="line"></div>
+                            <div class="conment-wrap">
+                                <div class="content">
+                                    <div class="user-photo">
+                                        <img src="imagen/ojo.jpg" alt="">
+                                    </div>
+                                    <div class="info-content">
+                                        <div class="user-info">
+                                            <p class="name">amaya</p>
+                                            <p class="date">5 de abril</p>
+                                        </div>
+                                        <p class="comentario">este es un comentario</p>
+                                        <div class="button-container">
+                                            <button>like</button>
+                                            <button>reply</button>
+                                            <button>share</button>
+                                            <button>follow</button>
+                                            <button>report</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="conment">
+                            <div class="line"></div>
+                            <div class="conment-wrap">
+                                <div class="content">
+                                    <div class="user-photo">
+                                        <img src="imagen/menu.svg" alt="">
+                                    </div>
+                                    <div class="info-content">
+                                        <div class="user-info">
+                                            <p class="name">amaya</p>
+                                            <p class="date">5 de abril</p>
+                                        </div>
+                                        <p class="comentario">este es un comentario</p>
+                                        <div class="button-container">
+                                            <button>like</button>
+                                            <button>reply</button>
+                                            <button>share</button>
+                                            <button>follow</button>
+                                            <button>report</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="conment">
+                <div class="conment-wrap">
+                    <div class="content">
+                        <div class="user-photo">
+                            <img src="imagen/approval.svg" alt="">
+                        </div>
+                        <div class="info-content">
+                            <div class="user-info">
+                                <p class="name">amaya</p>
+                                <p class="date">5 de abril</p>
+                            </div>
+                            <p class="comentario">este es un comentario</p>
+                            <div class="button-container">
+                                <button>like</button>
+                                <button>reply</button>
+                                <button>share</button>
+                                <button>follow</button>
+                                <button>report</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="replies">
+                        <div class="conment">
+                            <div class="line"></div>
+                            <div class="conment-wrap">
+                                <div class="content">
+                                    <div class="user-photo">
+                                        <img src="imagen/deepool.jpg" alt="">
+                                    </div>
+                                    <div class="info-content">
+                                        <div class="user-info">
+                                            <p class="name">amaya</p>
+                                            <p class="date">5 de abril</p>
+                                        </div>
+                                        <p class="comentario">este es un comentario</p>
+                                        <div class="button-container">
+                                            <button>like</button>
+                                            <button>reply</button>
+                                            <button>share</button>
+                                            <button>follow</button>
+                                            <button>report</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="conment">
+                            <div class="line"></div>
+                            <div class="conment-wrap">
+                                <div class="content">
+                                    <div class="user-photo">
+                                        <img src="imagen/nube.png" alt="">
+                                    </div>
+                                    <div class="info-content">
+                                        <div class="user-info">
+                                            <p class="name">amaya</p>
+                                            <p class="date">5 de abril</p>
+                                        </div>
+                                        <p class="comentario">este es un comentario</p>
+                                        <div class="button-container">
+                                            <button>like</button>
+                                            <button>reply</button>
+                                            <button>share</button>
+                                            <button>follow</button>
+                                            <button>report</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="conment">
+                            <div class="line"></div>
+                            <div class="conment-wrap">
+                                <div class="content">
+                                    <div class="user-photo">
+                                        <img src="imagen/nube1.png" alt="">
+                                    </div>
+                                    <div class="info-content">
+                                        <div class="user-info">
+                                            <p class="name">amaya</p>
+                                            <p class="date">5 de abril</p>
+                                        </div>
+                                        <p class="comentario">este es un comentario</p>
+                                        <div class="button-container">
+                                            <button>like</button>
+                                            <button>reply</button>
+                                            <button>share</button>
+                                            <button>follow</button>
+                                            <button>report</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="conment">
+                <div class="conment-wrap">
+                    <div class="content">
+                        <div class="user-photo">
+                            <img src="imagen/manzana.jpg" alt="">
+                        </div>
+                        <div class="info-content">
+                            <div class="user-info">
+                                <p class="name">amaya</p>
+                                <p class="date">5 de abril</p>
+                            </div>
+                            <p class="comentario">este es un comentario</p>
+                            <div class="button-container">
+                                <button>like</button>
+                                <button>reply</button>
+                                <button>share</button>
+                                <button>follow</button>
+                                <button>report</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="replies">
+                        <div class="conment">
+                            <div class="line"></div>
+                            <div class="conment-wrap">
+                                <div class="content">
+                                    <div class="user-photo">
+                                        <img src="imagen/ojo.jpg" alt="">
+                                    </div>
+                                    <div class="info-content">
+                                        <div class="user-info">
+                                            <p class="name">amaya</p>
+                                            <p class="date">5 de abril</p>
+                                        </div>
+                                        <p class="comentario">este es un comentario</p>
+                                        <div class="button-container">
+                                            <button>like</button>
+                                            <button>reply</button>
+                                            <button>share</button>
+                                            <button>follow</button>
+                                            <button>report</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="conment">
+                            <div class="line"></div>
+                            <div class="conment-wrap">
+                                <div class="content">
+                                    <div class="user-photo">
+                                        <img src="imagen/manzana.jpg" alt="">
+                                    </div>
+                                    <div class="info-content">
+                                        <div class="user-info">
+                                            <p class="name">amaya</p>
+                                            <p class="date">5 de abril</p>
+                                        </div>
+                                        <p class="comentario">este es un comentario</p>
+                                        <div class="button-container">
+                                            <button>like</button>
+                                            <button>reply</button>
+                                            <button>share</button>
+                                            <button>follow</button>
+                                            <button>report</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="stap-personas-section">
+        <div class="stap-personas">
+            <div class="persona">
+                <img src="imagen/deepool.jpg" alt="">
+                <div class="text">
+                    <div class="name">julian valverde</div>
+                </div>
+            </div>
+            <div class="persona">
+                <img src="imagen/ojo.jpg" alt="">
+                <div class="text">
+                    <div class="name">julian valverde de la rosas</div>
+                </div>
+            </div>
+            <div class="persona">
+                <img src="imagen/manzana.jpg" alt="">
+                <div class="text">
+                    <div class="name">julian valverde</div>
+                </div>
+            </div>
+            <div class="persona">
+                <img src="imagen/Epic_Games.png" alt="">
+                <div class="text">
+                    <div class="name">julian valverde</div>
+                </div>
+            </div>
+            <div class="persona">
+                <img src="imagen/deepool.jpg" alt="">
+                <div class="text">
+                    <div class="name">julian valverde</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="modal-section">
+        <div class="modal">
+            <div class="modal-conten">
+                <div class="info">
+                    <div class="user-photo">
+                        <img src="imagen/approval.svg" alt="apd">
+                    </div>
+                    <div class="info-conment">
+                        <h1>este es un modal</h1>
+                        <p>¿desea confirmar los cambios?</p>
+                    </div>
+                </div>
+                <div class="btn-container">
+                    <button class="btn btn-confir">crear elemento</button>
+                    <button class="btn btn-cancel">cancelar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="upload-section">
+        <div class="upload-container">
+            <h1>upload files</h1>
+            <p>upload the files you want share with your team</p>
+            <div class="drag-drop">
+                <div class="icon">
+                    <i class="bi bi-cloud-arrow-up"></i>
+                </div>
+                <p>Drag and Drop the files here<br />or</p>
+                <button>browse file</button>
+            </div>
+            <p class="title-file">uploaded files</p>
+            <div class="file-container">
+                <div class="file">
+                    <div class="icon">
+                        <i class="bi bi-file-text"></i>
+                    </div>
+                    <div class="info">
+                        <p class="title">importante.pdf</p>
+                        <div class="progress-bar">
+                            <div class="progress"></div>
+                        </div>
+                    </div>
+                    <button>x</button>
+                </div>
+                <div class="file">
+                    <div class="icon">
+                        <i class="bi bi-file-text"></i>
+                    </div>
+                    <div class="info">
+                        <p class="title">importante.pdf</p>
+                        <div class="size">60 kb</div>
+                    </div>
+                    <button>x</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cards-price-section" id="service">
+        <div class="cards-price">
+            <div class="card-price">
+                <h1>startup plan</h1>
+                <div class="price">
+                    <div class="currency">€</div>
+                    <div class="number">23</div>
+                    <div class="frecuncy">/mes</div>
+                </div>
+                <div class="access">
+                    <ul>
+                        <li>
+                            <i class="bi bi-check-circle"></i>
+                            access
+                        </li>
+                        <li>
+                            <i class="bi bi-check-circle"></i>
+                            access
+                        </li>
+                        <li>
+                            <i class="bi bi-check-circle"></i>
+                            access
+                        </li>
+                        <li>
+                            <i class="bi bi-check-circle"></i>
+                            access
+                        </li>
+                        <li>
+                            <i class="bi bi-check-circle"></i>
+                            access
+                        </li>
+                    </ul>
+                </div>
+                <div class="action">
+                    <button class="btn btn-free">try for free</button>
+                </div>
+            </div>
+            <div class="card-price recomendy">
+                <h1>startup plan</h1>
+                <div class="price">
+                    <div class="currency">€</div>
+                    <div class="number">23</div>
+                    <div class="frecuncy">/mes</div>
+                </div>
+                <div class="access">
+                    <ul>
+                        <li>
+                            <i class="bi bi-check-circle"></i>
+                            access
+                        </li>
+                        <li>
+                            <i class="bi bi-check-circle"></i>
+                            access
+                        </li>
+                        <li>
+                            <i class="bi bi-check-circle"></i>
+                            access
+                        </li>
+                        <li>
+                            <i class="bi bi-check-circle"></i>
+                            access
+                        </li>
+                        <li>
+                            <i class="bi bi-check-circle"></i>
+                            access
+                        </li>
+                    </ul>
+                </div>
+                <div class="action recomendy">
+                    <button class="btn btn-free">try for free</button>
+                </div>
+            </div>
+            <div class="card-price">
+                <h1>startup plan</h1>
+                <div class="price">
+                    <div class="currency">€</div>
+                    <div class="number">23</div>
+                    <div class="frecuncy">/mes</div>
+                </div>
+                <div class="access">
+                    <ul>
+                        <li>
+                            <i class="bi bi-check-circle"></i>
+                            access
+                        </li>
+                        <li>
+                            <i class="bi bi-check-circle"></i>
+                            access
+                        </li>
+                        <li>
+                            <i class="bi bi-check-circle"></i>
+                            access
+                        </li>
+                        <li>
+                            <i class="bi bi-check-circle"></i>
+                            access
+                        </li>
+                        <li>
+                            <i class="bi bi-check-circle"></i>
+                            access
+                        </li>
+                    </ul>
+                </div>
+                <div class="action">
+                    <button class="btn btn-free">try for free</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="style-whatsapp-section">
+        <div class="container-bubble">
+            <div class="bubble-container left">
+                <div class="bubble">
+                    <div class="bubble-text">
+                        <div>
+                            <span>soy una burbuja</span>
+                            <div class="date">23 min ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bubble">
+                    <div class="bubble-text">
+                        <div>
+                            <span>hola</span>
+                            <div class="date">12 min ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bubble">
+                    <div class="bubble-text">
+                        <div>
+                            <span>hola soy una burbuja que quiere explotar</span>
+                            <div class="date">3 min ago</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bubble-container right">
+                <div class="bubble">
+                    <div class="bubble-text">
+                        <div>
+                            <span>hola soy una burbuja</span>
+                            <div class="date">2 min ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bubble">
+                    <div class="bubble-text">
+                        <div>
+                            <span>hola</span>
+                            <div class="date">10 min ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bubble">
+                    <div class="bubble-text">
+                        <div>
+                            <span>hola soy una burbuja que</span>
+                            <div class="date">8 min ago</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="profile-section">
+        <div class="profile">
+            <img src="imagen/deepool.jpg" alt="user">
+            <div class="content">
+                <div class="header">
+                    <img src="imagen/Epic_Games.png" alt="user">
+                    <button>follow</button>
+                </div>
+                <div class="user-info">
+                    <p class="name">marcor rivar rojar</p>
+                    <p class="mail">@gmail.com</p>
+                </div>
+                <p class="context">desarrollador web, ingeniero de software en microsoft
+                    <a href="#">#javascript.</a></a>
+                </p>
+                <div class="follower-container">
+                    <div class="following">
+                        <a href="#">
+                            <p class="number">100k<span>siguiendo</span></p>
+                        </a>
+                    </div>
+                    <div class="followers">
+                        <a href="#">
+                            <p class="number">1mk<span>seguidores</span></p>
+                        </a>
+                    </div>
+                </div>
+                <div class="user">
+                    <a href="#">
+                        <img src="imagen/ojo.jpg" alt="ojo">
+                        <img src="imagen/Epic_Games.png" alt="epic">
+                        <img src="imagen/manzana.jpg" alt="manzana">
+                        <p>Elon Musk, Bill Gater y 80 personas que sigues también siguen esta cuenta</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="widget-clima-section">
+        <div class="content-widget">
+            <div class="actually-container">
+                <p class="city">salamanca</p>
+                <p class="date">now</p>
+                <div class="time-now">
+                    <img src="imagen/nube1.png" alt="nube">
+                    <div class="temp-container">
+                        <div class="temp">
+                            <div class="temp-max">20º</div>
+                            <div class="temp-min">/10º</div>
+                        </div>
+                        <p class="PC">partially Cloudy</p>
+                    </div>
+                </div>
+                <div class="item-container">
+                    <div class="item">
+                        <div class="icon">
+                            <i class="bi bi-droplet"></i>
+                        </div>
+                        <div class="text">
+                            <span>9km/h</span>
+                            <p>wind</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="icon">
+                            <i class="bi bi-cloud-fog2"></i>
+                        </div>
+                        <div class="text">
+                            <span>92%</span>
+                            <p>changes of rain</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="icon">
+                            <i class="bi bi-cloud-fog"></i>
+                        </div>
+                        <div class="text">
+                            <span>31%</span>
+                            <p>humidity</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="days-container">
+                <div class="day">
+                    <div class="name">
+                        <p>mon</p>
+                    </div>
+                    <div class="info-temp">
+                        <div class="icon">
+                            <i class="bi bi-cloud"></i>
+                        </div>
+                        <span>cloudy</span>
+                    </div>
+                    <div class="temp-container">
+                        <p class="temp-max">20º</p>
+                        <p class="tem-min">16º</p>
+                    </div>
+                </div>
+                <div class="day">
+                    <div class="name">
+                        <p>tue</p>
+                    </div>
+                    <div class="info-temp">
+                        <div class="icon">
+                            <i class="bi bi-cloud-snow"></i>
+                        </div>
+                        <span>snow</span>
+                    </div>
+                    <div class="temp-container">
+                        <p class="temp-max">20º</p>
+                        <p class="tem-min">-16º</p>
+                    </div>
+                </div>
+                <div class="day">
+                    <div class="name">
+                        <p>wed</p>
+                    </div>
+                    <div class="info-temp">
+                        <div class="icon">
+                            <i class="bi bi-cloud-lightning-rain"></i>
+                        </div>
+                        <span>thunderstorm</span>
+                    </div>
+                    <div class="temp-container">
+                        <p class="temp-max">10º</p>
+                        <p class="tem-min">6º</p>
+                    </div>
+                </div>
+                <div class="day">
+                    <div class="name">
+                        <p>thu</p>
+                    </div>
+                    <div class="info-temp">
+                        <div class="icon">
+                            <i class="bi bi-cloud-sun"></i>
+                        </div>
+                        <span>partially sunny</span>
+                    </div>
+                    <div class="temp-container">
+                        <p class="temp-max">12º</p>
+                        <p class="tem-min">10º</p>
+                    </div>
+                </div>
+                <div class="day">
+                    <div class="name">
+                        <p>fri</p>
+                    </div>
+                    <div class="info-temp">
+                        <div class="icon">
+                            <i class="bi bi-sun"></i>
+                        </div>
+                        <span>sunny</span>
+                    </div>
+                    <div class="temp-container">
+                        <p class="temp-max">30º</p>
+                        <p class="tem-min">26º</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-instagran">
+        <div class="profile-container">
+            <div class="story">
+                <div class="outer-box">
+                    <a href="#">
+                        <img src="imagen/deepool.jpg" alt="profile">
+                    </a>
+                </div>
+                <div class="text">
+                    <p>marcos rivas</p>
+                </div>
+            </div>
+            <div class="story">
+                <div class="outer-box">
+                    <a href="#">
+                        <img src="imagen/deepool.jpg" alt="profile">
+                    </a>
+                </div>
+                <div class="text">
+                    <p>marcos rivas</p>
+                </div>
+            </div>
+            <div class="story">
+                <div class="outer-box">
+                    <a href="#">
+                        <img src="imagen/deepool.jpg" alt="profile">
+                    </a>
+                </div>
+                <div class="text">
+                    <p>marcos rivas</p>
+                </div>
+            </div>
+            <div class="story">
+                <div class="outer-box">
+                    <a href="#">
+                        <img src="imagen/deepool.jpg" alt="profile">
+                    </a>
+                </div>
+                <div class="text">
+                    <p>marcos rivas</p>
+                </div>
+            </div>
+            <div class="story">
+                <div class="outer-box">
+                    <a href="#">
+                        <img src="imagen/deepool.jpg" alt="profile">
+                    </a>
+                </div>
+                <div class="text">
+                    <p>marcos rivas</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="slider-section">
+        <div class="slider-container">
+            <div class="slider-viewport">
+                <div class="slider" id="slider1">1</div>
+                <div class="slider" id="slider2">2</div>
+                <div class="slider" id="slider3">3</div>
+                <div class="slider" id="slider4">4</div>
+                <div class="slider" id="slider5">5</div>
+            </div>
+            <div class="links-container">
+                <a href="#slider1">1</a>
+                <a href="#slider2">2</a>
+                <a href="#slider3">3</a>
+                <a href="#slider4">4</a>
+                <a href="#slider5">5</a>
+            </div>
+        </div>
+    </section>
+    <section class="login-section" id="login">
+        <div class="form-container">
+            <div class="login-container">
+                <h1>welcome</h1>
+                <span>seleccione metodo de autenticación</span>
+                <form action="#">
+                    <p>
+                        <label class="user">username</label>
+                        <input class="input" type="text" required placeholder="Name"/>
+                    </p>
+                    <p>
+                        <label class="password">password</label>
+                        <input class="input" type="password" name="password" placeholder="Password" id="#" required/>
+                    </p>
+                    <div class="optional">
+                        <p>Remember me <input type="checkbox"></p>
+                        <a href="#">i forgot my password</a>
+                    </div>
+                    <input type="submit" value="log in" class="btn btn-login">
+                    <div class="provider-container">
+                        <p>choose another method to authenticate</p>
+                        <div class="button-container">
+                            <button class="btn btn-google">google</button>
+                            <button class="btn btn-facebook">facebook</button>
+                            <button class="btn btn-twitter">twitter</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="welcome-container">
+                <div class="progresbar-container">
+                    <div class="outer-box">
+                        <div class="inner-box">loading...</div>
+                        <svg xmlns="https://www.w3.org/2000/svg" version="1.1" width="200" height="200">
+                            <defs>
+                                <linearGradient id="gradientcolor">
+                                    <stop offset="0%" stop-color="blue"></stop>
+                                    <stop offset="25%" stop-color="yellow"></stop>
+                                    <stop offset="50%" stop-color="green"></stop>
+                                    <stop offset="75%" stop-color="red"></stop>
+                                    <stop offset="100%" stop-color="purple"></stop>
+                                </linearGradient>
+                            </defs>
+                            <circle cx="100" cy="100" r="80" stroke-linecap="round"></circle>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer></footer>
