@@ -1,25 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
     <!--FAVICON-->
     <link rel="icon" type="imagen/x-icon" href="/Isaac-dba.github.io/imagen/deepool.jpg" />
     <title>HTML AND CSS para movil</title>
 </head>
+
 <body>
-    <head>
+
+    <header>
         <nav class="horizontal">
             <div class="mobile">
                 <div class="header">
                     <div class="logo">logo</div>
-                    <div class="menu"><button class="bmenu">
-                        icon
-                    </button></div>
+                    <div class="menu"><button id="bmenu">
+                            icon
+                        </button></div>
                 </div>
-                <div class="links">
+                <div id="link" class="links collapse">
                     <a href="#">service</a>
                     <a href="#">contact</a>
                     <a href="#">about</a>
@@ -28,11 +31,61 @@
                     <a href="#">login</a>
                 </div>
             </div>
-            <div class="mobile2"></div>
+            <div class="mobile2">
+                <div class="logo">logo</div>
+                <div class="primary">
+                    <a href="#">service</a>
+                    <a href="#">contact</a>
+                    <a href="#">about</a>
+                </div>
+                <div class="secundary-full">
+                    <a href="#">search</a>
+                    <a href="#">sign up</a>
+                    <a href="#">login</a>
+                </div>
+                <div class="secundary-mini">
+                    <a href="#">mas</a>
+                    <div class="submenu">
+                        <a href="#">search</a>
+                        <a href="#">sign up</a>
+                        <a href="#">login</a>
+                    </div>
+                </div>
+            </div>
         </nav>
-        <nav class="vertical"></nav>
-    </head>
+        <script>
+            const bmenu = document.querySelector('#bmenu');
+            const link = document.querySelector('#link');
+
+            bmenu.addEventListener('click', (e) => {
+                link.classList.toggle('collapse');
+            })
+        </script>
+        <nav class="vertical">
+            <div class="header">
+                <div class="user-photo">
+                    <img src="imagen/deepool.jpg" alt="perfile">
+                </div>
+                <div class="text">
+                    <p class="name">pedera isaac</p>
+                </div>
+            </div>
+            <div class="links">
+                <a href="#"><i class="bi bi-headset"></i>
+                    <p>remote assistance</p></a>
+                <a href="#"><i class="bi bi-calendar-check-fill"></i>
+                    <p>calendar</p></a>
+                <a href="#"><i class="bi bi-gear-fill"></i>
+                    <p>settings</p></a>
+                <a href="#"><i class="bi bi-graph-down-arrow"></i>
+                    <p>analytics</p></a>
+                <a href="#"><i class="bi bi-camera-fill"></i>
+                    <p>photos</p></a>
+            </div>
+        </nav>
+    </header>
     <main></main>
     <footer></footer>
 </body>
+
 </html>
