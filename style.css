@@ -133,7 +133,7 @@ nav.vertical .header{
     align-items: center;
     opacity: 0;
     transform: translateY(-200px);
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 nav.vertical:hover .header{
     transform: translateY(0px);
