@@ -10,11 +10,17 @@
     --font-mechanical:Gajraj one;
     --font-letter1:Pacifico;
     --font-letter2:Shantell Sans;
+    --border-color:#558bff;
+    --width1:200px;
+    --size1:75px;
+    --width2:400px;
+    --size2:14px;
 }
 *,::after,::before{
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
+    user-select: none;
 }
 .collapse{
     display: none;
@@ -25,7 +31,194 @@ img{
     border-radius: 50%;
 }
 body{
+    width: 390px;
+    height: 844px;
+    position: relative;
+    top: 40px;
+}
+header{
+    width: 100%;
+}
+main{
     width: 100%;
     height: 100%;
+    padding-left:55px;
 }
 /*nav horizontal*/
+nav.horizontal .mobile2{
+    display: none;
+}
+a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: hotpink;
+    font-family: var(--font-secondary);
+}
+a:hover{
+    background-color: aqua;
+    text-shadow: 1px 1px 10px black;
+}
+.logo{
+    width: 100px;
+    padding-left: 10px;
+}
+nav.horizontal{
+    width: 100%;
+    background-image: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+    font-family: var(--font-primary);
+    position: fixed;
+    top: 0%;
+    z-index: 3;
+}
+nav.horizontal .mobile1 .head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav.horizontal .mobile1 .head button{
+    padding: 10px;
+    border: none;
+    background-color: blueviolet;
+}
+nav.horizontal .mobile1 .links a{
+    text-align: center;
+}
+nav.horizontal .mobile2{
+    justify-content: space-between;
+    align-items: center;
+}
+nav.horizontal .mobile2 .secondary.mini{
+    display: none;
+}
+nav.horizontal .mobile2 .secondary.mini .submenu{
+    position: absolute;
+    display: none;
+    width: 100px;
+    background-color: #703926;
+    right: 0;
+}
+nav.horizontal .mobile2 .secondary,
+nav.horizontal .mobile2 .primary{
+    display: flex;
+}
+nav.horizontal .mobile2 .secondary.mini:hover .submenu{
+    display: block;
+}
+/*nav vertical*/
+nav.vertical{
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    height: 100vh;
+    position: fixed;
+    top: 34px;
+    background-image: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+    transition: width 0.5s ease-in-out;
+    z-index: 2;
+}
+nav.vertical .header{
+    width: var(--width1);
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transform: translateY(-200px);
+    margin-bottom: 100px;
+}
+nav.vertical:hover .header{
+    transform: translateY(0px);
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+
+}
+nav.vertical:hover{
+    width: 200px;
+}
+nav.vertical .header img{
+    width: 100px;
+    height: 100px;
+}
+nav.vertical .header .text p{
+    font-size: 28px;
+    text-transform: capitalize;
+}
+nav.vertical .links a{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+nav.vertical .links a i{
+    font-size: 1.8rem;
+}
+nav.vertical .links a p{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Querrys*/
+/*nav horizontal*/
+@media (min-width:844px){
+    body{
+        width: 844px;
+    }
+    nav.horizontal .mobile1{
+        display: none;
+    }
+    nav.horizontal .mobile2{
+        display: flex;
+    }
+
+}
+@media (min-width:1024px) {
+    body{
+        width: 1024px;
+    }
+    nav.horizontal .mobile2 .secondary.mini{
+        display: block;
+    }
+    nav.horizontal .mobile2 .secondary.full{
+        display: none;
+    }
+    
+}
+/*nav vertical*/
+@media (min-width:844px) {
+    nav.vertical{
+        top:40px;
+    }
+    nav.vertical .header{
+        display: none;
+    }
+    nav.vertical .links{
+        margin-top: 30px;
+    }
+}
