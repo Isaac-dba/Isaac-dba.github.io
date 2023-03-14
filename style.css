@@ -4,11 +4,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Gajraj+One&family=Mynerve&family=Outfit:wght@400;700&family=Pacifico&family=Shantell+Sans:wght@300&family=Smokum&family=Zeyada&display=swap');
 
 /*generales*/
-
+:root{
+    --font-primary:Outfit;
+    --font-secondary:Smokum;
+    --font-mechanical:Gajraj one;
+    --font-letter1:Pacifico;
+    --font-letter2:Shantell Sans;
+}
+*,::after,::before{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
 .collapse{
     display: none;
 }
 img{
     width: 50px;
     height: 50px;
+    border-radius: 50%;
 }
+body{
+    width: 100%;
+    height: 100%;
+}
+/*nav horizontal*/
