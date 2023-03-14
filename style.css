@@ -255,6 +255,9 @@ nav.vertical .links a p {
 table{
     width: 250px;
     margin: 50px auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    white-space: nowrap;
 }
 
 
@@ -290,6 +293,14 @@ table{
 
 
 /*Querrys*/
+@media (min-width:390px) {
+    body{
+        width: 100%;
+    }
+    main{
+        width: 100%;
+    }
+}
 @media (min-width:500px) {
     body{
         width: 100%;
@@ -346,13 +357,3 @@ table{
     width: 600px;
   }
 }
-/*nav vertical*/
-@media (min-width: 844px) {
-  nav.vertical .header {
-    display: none;
-  }
-  nav.vertical .links {
-    margin-top: 40px;
-  }
-}
-
