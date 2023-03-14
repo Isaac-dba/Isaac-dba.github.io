@@ -295,6 +295,9 @@ table{
   body {
     width: 844px;
   }
+  main{
+    width: 100%;
+  }
   nav.horizontal .mobile1 {
     display: none;
   }
@@ -309,6 +312,9 @@ table{
 @media (min-width: 1024px) {
   body {
     width: 1024px;
+  }
+  main{
+    width:100%;
   }
   nav.horizontal .mobile2 .secondary.mini {
     display: block;
