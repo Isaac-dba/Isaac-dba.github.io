@@ -293,6 +293,7 @@ table{
 
 
 /*Querrys*/
+/*WIDTH 390px*/
 @media (min-width:390px) {
     body{
         width: 100%;
@@ -301,6 +302,7 @@ table{
         width: 100%;
     }
 }
+/*WIDTH 500*/
 @media (min-width:500px) {
     body{
         width: 100%;
@@ -308,8 +310,15 @@ table{
     main{
         width: 100%;
     }
+    /*nav vertical*/
+    nav.vertical .header {
+      display: none;
+    }
+    nav.vertical .links {
+      margin-top: 40px;
+    }
 }
-/*nav horizontal*/
+/*WIDTH 844*/
 @media (min-width: 844px) {
   body {
     width: 100%;
@@ -317,6 +326,7 @@ table{
   main{
     width: 100%;
   }
+  /*nav horizontal*/
   nav.horizontal .mobile1 {
     display: none;
   }
@@ -335,6 +345,7 @@ table{
     width: 600px;
   }
 }
+/*WIDTH 1024*/
 @media (min-width: 1024px) {
   body {
     width: 100%;
