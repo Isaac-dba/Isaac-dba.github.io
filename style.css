@@ -194,6 +194,10 @@ nav.vertical .links a p {
   overflow: hidden;
   white-space: nowrap;
 }
+/*section hero*/
+.hero{
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
 /*section card*/
 .section-card {
   background-color: darksalmon;
@@ -315,7 +319,11 @@ table{
       display: none;
     }
     nav.vertical .links {
-      margin-top: 40px;
+      margin-top: 50px;
+    }
+    nav.vertical .links a i{
+      font-size: 1.5rem;
+      padding-left: 4px;
     }
 }
 /*WIDTH 844*/
@@ -332,13 +340,6 @@ table{
   }
   nav.horizontal .mobile2 {
     display: flex;
-  }
-  /*nav vertical*/
-  nav.vertical .header {
-    display: none;
-  }
-  nav.vertical .links {
-    margin-top: 40px;
   }
   /*card*/
   .cards-container {
@@ -358,10 +359,6 @@ table{
   }
   nav.horizontal .mobile2 .secondary.full {
     display: none;
-  }
-  /*nav vertical*/
-  nav.vertical .links {
-    margin-top: 120px;
   }
   /*card*/
   .cards-container {
