@@ -195,8 +195,10 @@ nav.vertical .links a p {
   white-space: nowrap;
 }
 /*section hero*/
-.section-hero{
-  background-color: black;
+.section-hero .hero{
+  width: 100%;
+  height: 50vh;
+  background-image:radial-gradient(circle 350px at center, #ff69b4 0%, #ff11a9 100%);
 }
 /*section card*/
 .section-card {
