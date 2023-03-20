@@ -262,7 +262,6 @@ nav.vertical .links a p {
 /*section card*/
 .section-card {
   background: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
-  height: 400px;
   padding-left: 10px;
 }
 .cards-container {
@@ -315,7 +314,6 @@ nav.vertical .links a p {
 .section-table{
     background: linear-gradient(to bottom, greenyellow 0%,
     yellow 50%, gold 100% );
-    height: 450px;    
 }
 table{
     width: 300px;
@@ -532,12 +530,79 @@ table tbody tr:nth-child(n + 1 ){
       transform: rotate(0deg);
   }
 }
-
-
-
-
-
-
+/*section checkbox*/
+.section-checkbox{
+  background:linear-gradient(to left, #ff8177 0%, #ff867a 5%, #ff8c7f 21%, #f99184 52%, #cf556c 78%, #b12a5b 100%);
+}
+.checkbox-container{
+  width: 250px;
+  height: 200px;
+  margin: 50px auto;
+  background-color: #00f2fe;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 10px;
+}
+.checkbox-container label{
+  display: block;
+  position: relative;
+  margin-bottom: 15px;
+  padding-left: 35px;
+}
+.checkbox-container label input{
+  position: absolute;
+  width: 0px;
+  height: 0px;
+}
+.checkbox-container label .check-mack{
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  border-radius: 4px;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  
+}
+.checkbox-container label .check-mack i{
+  color:red;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  font-size: 20px;
+  transform: scale(0);
+  transition: all 1s ease-in-out;
+}
+.checkbox-container label .check-radio{
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+.checkbox-container label .check-radio .circle{
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  transform: scale(0);
+  transition: all 1s ease-in-out;
+}
+.checkbox-container label input:checked ~ .check-radio .circle{
+  transform: scale(1);
+  position: absolute;
+}
+.checkbox-container label input:checked ~ .check-mack i{
+  transform: scale(1);
+  position: absolute;
+}
 
 
 
