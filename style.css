@@ -346,6 +346,9 @@ table tbody tr:nth-child(even){
 table tbody tr:hover{
   background-color: darkgreen;
 }
+table tbody tr:nth-child(n + 1 ){
+  text-align: center;
+}
 /*section notification*/
 .section-notification{
   background: radial-gradient(circle 100px at top left, purple 0%, #fbc2eb 100%);
