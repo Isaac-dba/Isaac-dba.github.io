@@ -348,14 +348,187 @@ table tbody tr:hover{
 }
 /*section notification*/
 .section-notification{
-  background-color: radial-gradient(circle 20px at left,  );
+  background: radial-gradient(circle 100px at top left, purple 0%, #fbc2eb 100%);
 }
-
-
-
-
-
-
+.notif-container{
+  width: 50px;
+  margin: 100px auto;
+  display: flex;
+  animation: ring 10s infinite ease-in-out;
+  transform-origin: 50% 4px;
+}
+.notif-container .count{
+  font-size: 10px;
+  width: var(--size2);
+  height: var(--size2);
+  min-width: var(--size2);
+  min-height: var(--size2);
+  background-color: #4facfe;
+  border-radius: 50%;display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: -7px;
+  left: 20px;
+}
+@keyframes ring {
+  0%{
+      transform: rotate(0deg);
+  }
+  1%{
+      transform: rotate(50deg);
+  }
+  3%{
+      transform: rotate(-50deg);
+  }
+  5%{
+      transform: rotate(48deg);
+  }
+  7%{
+      transform: rotate(-48deg);
+  }
+  9%{
+      transform: rotate(46deg);
+  }
+  11%{
+      transform: rotate(-46deg);
+  }
+  13%{
+      transform: rotate(44deg);
+  }
+  15%{
+      transform: rotate(-44deg);
+  }
+  17%{
+      transform: rotate(42deg);
+  }
+  19%{
+      transform: rotate(-42deg);
+  }
+  21%{
+      transform: rotate(40deg);
+  }
+  23%{
+      transform: rotate(-40deg);
+  }
+  25%{
+      transform: rotate(38deg);
+  }
+  27%{
+      transform: rotate(-38deg);
+  }
+  29%{
+      transform: rotate(36deg);
+  }
+  31%{
+      transform: rotate(-36deg);
+  }
+  33%{
+      transform: rotate(34deg);
+  }
+  35%{
+      transform: rotate(-34deg);
+  }
+  37%{
+      transform: rotate(32deg);
+  }
+  39%{
+      transform: rotate(-32deg);
+  }
+  41%{
+      transform: rotate(30deg);
+  }
+  43%{
+      transform: rotate(-30deg);
+  }
+  45%{
+      transform: rotate(28deg);
+  }
+  47%{
+      transform: rotate(-28deg);
+  }
+  49%{
+      transform: rotate(26deg);
+  }
+  51%{
+      transform: rotate(-26deg);
+  }
+  53%{
+      transform: rotate(24deg);
+  }
+  55%{
+      transform: rotate(-24deg);
+  }
+  57%{
+      transform: rotate(22deg);
+  }
+  59%{
+      transform: rotate(-22deg);
+  }
+  61%{
+      transform: rotate(20deg);
+  }
+  63%{
+      transform: rotate(-20deg);
+  }
+  65%{
+      transform: rotate(18deg);
+  }
+  67%{
+      transform: rotate(-18deg);
+  }
+  69%{
+      transform: rotate(16deg);
+  }
+  71%{
+      transform: rotate(-16deg);
+  }
+  73%{
+      transform: rotate(14deg);
+  }
+  75%{
+      transform: rotate(-14deg);
+  }
+  77%{
+      transform: rotate(12deg);
+  }
+  79%{
+      transform: rotate(-12deg);
+  }
+  81%{
+      transform: rotate(10deg);
+  }
+  83%{
+      transform: rotate(-10deg);
+  }
+  85%{
+      transform: rotate(8deg);
+  }
+  87%{
+      transform: rotate(-8deg);
+  }
+  89%{
+      transform: rotate(6deg);
+  }
+  91%{
+      transform: rotate(-6deg);
+  }
+  93%{
+      transform: rotate(4deg);
+  }
+  95%{
+      transform: rotate(-4deg);
+  }
+  97%{
+      transform: rotate(2deg);
+  }
+  99%{
+      transform: rotate(-2deg);
+  }
+  100%{
+      transform: rotate(0deg);
+  }
+}
 
 
 
