@@ -228,31 +228,35 @@ nav.vertical .links a p {
   color: gold;
 }
 .section-hero .hero h3 .p1 {
-  animation: letter2 10s ease-in-out;
+  animation: letter2 10s ease-in-out infinite;
 }
 .section-hero .hero h3 .p2 {
-  animation: letter1 10s ease-in-out;
+  animation: letter1 10s ease-in-out infinite;
 }
 @keyframes letter1 {
-  0% {
+  5% {
     transform: translateY(15%);
   }
   25% {
     transform: rotate(15deg);
+    color: #5d9fff;
   }
   50% {
     transform: scale(1.5);
+    color: sienna;
   }
   75% {
     transform: translateX(20%);
   }
 }
 @keyframes letter2 {
-  0% {
+  5% {
     transform: translateY(-15%);
+    color: darkblue;
   }
   25% {
     transform: rotate(-15deg);
+    color: gold;
   }
   50% {
     transform: scale(-1.5);
@@ -617,6 +621,110 @@ table tbody tr:nth-child(n + 1) {
   transform: scale(1);
   position: absolute;
 }
+/*section search*/
+.section-search{
+  background: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100% );
+}
+.search-container{
+  width: 80%;
+  margin: 50px auto;
+  border: solid 1px rgba(0, 0, 0, 0.434);
+  border-radius: 30px;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  background:white;
+}
+.search-container:focus-within{
+  box-shadow: 5px 5px 10px rgb(0, 0, 0);
+  transition: box-shadow 1s ease-in-out;
+}
+.search-container input{
+  flex: 1;
+  padding: 2px;
+  border: none;
+  outline: none;
+  color: #558bff;
+  font-family: var(--font-letter1);
+}
+.search-container .button-container{
+  display: flex;
+}
+.search-container .button-container button{
+  padding: 5px;
+  border: none;
+  background-color: white;
+  color: #558bff;
+}
+.search-container .button-container button:hover{
+  text-shadow: 0px 0px 4px rgb(253, 2, 211);
+  transition: all 1s ease-in-out;
+}
+/*section flip-card*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*Querrys*/
 /*WIDTH 390px*/
