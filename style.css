@@ -721,7 +721,7 @@ table tbody tr:nth-child(n + 1) {
   background:linear-gradient(-225deg, #65379B 0%, #886AEA 53%, #6457C6 100%);
 }
 .coment-container{
-  width: 350px;
+  width: 325px;
   margin: 50px auto;
   display: flex;
   flex-direction: column;
