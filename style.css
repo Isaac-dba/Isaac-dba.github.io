@@ -103,16 +103,16 @@ nav.horizontal .mobile2 {
   justify-content: space-between;
   align-items: center;
 }
-nav.horizontal .mobile2 a{
-    padding: 10px;
-    text-decoration: none;
-    display: block;
-    color: hotpink;
+nav.horizontal .mobile2 a {
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+  color: hotpink;
   font-family: var(--font-secondary);
 }
-nav.horizontal .mobile2 a:hover{
-    background-color: aqua;
-    text-shadow: 1px 1px 10px black;
+nav.horizontal .mobile2 a:hover {
+  background-color: aqua;
+  text-shadow: 1px 1px 10px black;
 }
 nav.horizontal .mobile2 .secondary.mini {
   display: none;
@@ -195,23 +195,27 @@ nav.vertical .links a p {
   white-space: nowrap;
 }
 /*section hero*/
-.section-hero .hero{
+.section-hero .hero {
   width: 100%;
   height: 50vh;
   text-align: center;
-  background-image:radial-gradient(circle 80px at center, #ff69b4 0%, #ff11a9 100%);
+  background-image: radial-gradient(
+    circle 80px at center,
+    #ff69b4 0%,
+    #ff11a9 100%
+  );
 }
-.section-hero .hero h1{
+.section-hero .hero h1 {
   padding: 100px 0px 50px;
   letter-spacing: 10px;
 }
-.section-hero .hero h1 .html{
+.section-hero .hero h1 .html {
   color: blue;
 }
-.section-hero .hero h1 .css{
+.section-hero .hero h1 .css {
   color: greenyellow;
 }
-.section-hero .hero h3{
+.section-hero .hero h3 {
   transition: all 1s ease-in-out;
   display: flex;
   text-align: center;
@@ -219,45 +223,43 @@ nav.vertical .links a p {
   letter-spacing: 5px;
   text-transform: capitalize;
 }
-.section-hero .hero h3:hover{
+.section-hero .hero h3:hover {
   letter-spacing: 10px;
-  color: gold;  
+  color: gold;
 }
-.section-hero .hero h3 .p1{
-    animation: letter2 10s ease-in-out ;
-  }
-  .section-hero .hero h3 .p2{
-    animation: letter1 10s ease-in-out;
-  }
+.section-hero .hero h3 .p1 {
+  animation: letter2 10s ease-in-out;
+}
+.section-hero .hero h3 .p2 {
+  animation: letter1 10s ease-in-out;
+}
 @keyframes letter1 {
-  0%{
+  0% {
     transform: translateY(15%);
   }
-  25%{
+  25% {
     transform: rotate(15deg);
   }
-  50%{
+  50% {
     transform: scale(1.5);
   }
-  75%{
+  75% {
     transform: translateX(20%);
   }
-  
 }
 @keyframes letter2 {
-  0%{
+  0% {
     transform: translateY(-15%);
   }
-  25%{
+  25% {
     transform: rotate(-15deg);
   }
-  50%{
+  50% {
     transform: scale(-1.5);
   }
-  75%{
+  75% {
     transform: translateX(-20%);
   }
-  
 }
 /*section card*/
 .section-card {
@@ -282,90 +284,95 @@ nav.vertical .links a p {
   display: flex;
   flex-direction: column;
 }
-.cards-container .card:hover{
-    transform: translateY(-15%) rotate(4deg);
-    margin-right: 100px;
+.cards-container .card:hover {
+  transform: translateY(-15%) rotate(4deg);
+  margin-right: 100px;
 }
-.cards-container .card.element{
-    margin-left: -100px;
+.cards-container .card.element {
+  margin-left: -100px;
 }
 .cards-container .element-1,
-.cards-container .element-2{
-    margin-left: -120px;
+.cards-container .element-2 {
+  margin-left: -120px;
 }
-.cards-container .card .header{
-    flex: 1;
+.cards-container .card .header {
+  flex: 1;
 }
-.cards-container .card .header .date{
-    padding-bottom:10px ;
+.cards-container .card .header .date {
+  padding-bottom: 10px;
 }
-.cards-container .card .footer a{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    text-decoration: none;
-    color: hotpink;
+.cards-container .card .footer a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: hotpink;
 }
-.cards-container .card .footer a img{
-    width: 28px;
-    height: 28px;
+.cards-container .card .footer a img {
+  width: 28px;
+  height: 28px;
 }
 /*section table*/
-.section-table{
-    background: linear-gradient(to bottom, greenyellow 0%,
-    yellow 50%, gold 100% );
+.section-table {
+  background: linear-gradient(to bottom, greenyellow 0%, yellow 50%, gold 100%);
 }
-table{
-    width: 300px;
-    margin: 50px auto;
-    border-collapse: collapse;
-    border-spacing: 0;
-    white-space: nowrap;
-    font-family: var(--font-secondary);
+table {
+  width: 300px;
+  margin: 50px auto;
+  border-collapse: collapse;
+  border-spacing: 0;
+  white-space: nowrap;
+  font-family: var(--font-secondary);
 }
-caption{
+caption {
   text-transform: capitalize;
 }
-table tr td,th{
+table tr td,
+th {
   border: solid 1px white;
 }
-table tr th{
+table tr th {
   background-color: black;
   color: white;
   text-transform: capitalize;
 }
-table thead{
+table thead {
   position: sticky;
   top: 5%;
 }
-table tbody tr:nth-child(even){
+table tbody tr:nth-child(even) {
   background-color: chartreuse;
 }
-table tbody tr:hover{
+table tbody tr:hover {
   background-color: darkgreen;
 }
-table tbody tr:nth-child(n + 1 ){
+table tbody tr:nth-child(n + 1) {
   text-align: center;
 }
 /*section notification*/
-.section-notification{
-  background: radial-gradient(circle 100px at top left, purple 0%, #fbc2eb 100%);
+.section-notification {
+  background: radial-gradient(
+    circle 100px at top left,
+    purple 0%,
+    #fbc2eb 100%
+  );
 }
-.notif-container{
+.notif-container {
   width: 50px;
   margin: 100px auto;
   display: flex;
   animation: ring 10s infinite ease-in-out;
   transform-origin: 50% 4px;
 }
-.notif-container .count{
+.notif-container .count {
   font-size: 10px;
   width: var(--size2);
   height: var(--size2);
   min-width: var(--size2);
   min-height: var(--size2);
   background-color: #4facfe;
-  border-radius: 50%;display: flex;
+  border-radius: 50%;
+  display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
@@ -373,168 +380,176 @@ table tbody tr:nth-child(n + 1 ){
   left: 20px;
 }
 @keyframes ring {
-  0%{
-      transform: rotate(0deg);
+  0% {
+    transform: rotate(0deg);
   }
-  1%{
-      transform: rotate(50deg);
+  1% {
+    transform: rotate(50deg);
   }
-  3%{
-      transform: rotate(-50deg);
+  3% {
+    transform: rotate(-50deg);
   }
-  5%{
-      transform: rotate(48deg);
+  5% {
+    transform: rotate(48deg);
   }
-  7%{
-      transform: rotate(-48deg);
+  7% {
+    transform: rotate(-48deg);
   }
-  9%{
-      transform: rotate(46deg);
+  9% {
+    transform: rotate(46deg);
   }
-  11%{
-      transform: rotate(-46deg);
+  11% {
+    transform: rotate(-46deg);
   }
-  13%{
-      transform: rotate(44deg);
+  13% {
+    transform: rotate(44deg);
   }
-  15%{
-      transform: rotate(-44deg);
+  15% {
+    transform: rotate(-44deg);
   }
-  17%{
-      transform: rotate(42deg);
+  17% {
+    transform: rotate(42deg);
   }
-  19%{
-      transform: rotate(-42deg);
+  19% {
+    transform: rotate(-42deg);
   }
-  21%{
-      transform: rotate(40deg);
+  21% {
+    transform: rotate(40deg);
   }
-  23%{
-      transform: rotate(-40deg);
+  23% {
+    transform: rotate(-40deg);
   }
-  25%{
-      transform: rotate(38deg);
+  25% {
+    transform: rotate(38deg);
   }
-  27%{
-      transform: rotate(-38deg);
+  27% {
+    transform: rotate(-38deg);
   }
-  29%{
-      transform: rotate(36deg);
+  29% {
+    transform: rotate(36deg);
   }
-  31%{
-      transform: rotate(-36deg);
+  31% {
+    transform: rotate(-36deg);
   }
-  33%{
-      transform: rotate(34deg);
+  33% {
+    transform: rotate(34deg);
   }
-  35%{
-      transform: rotate(-34deg);
+  35% {
+    transform: rotate(-34deg);
   }
-  37%{
-      transform: rotate(32deg);
+  37% {
+    transform: rotate(32deg);
   }
-  39%{
-      transform: rotate(-32deg);
+  39% {
+    transform: rotate(-32deg);
   }
-  41%{
-      transform: rotate(30deg);
+  41% {
+    transform: rotate(30deg);
   }
-  43%{
-      transform: rotate(-30deg);
+  43% {
+    transform: rotate(-30deg);
   }
-  45%{
-      transform: rotate(28deg);
+  45% {
+    transform: rotate(28deg);
   }
-  47%{
-      transform: rotate(-28deg);
+  47% {
+    transform: rotate(-28deg);
   }
-  49%{
-      transform: rotate(26deg);
+  49% {
+    transform: rotate(26deg);
   }
-  51%{
-      transform: rotate(-26deg);
+  51% {
+    transform: rotate(-26deg);
   }
-  53%{
-      transform: rotate(24deg);
+  53% {
+    transform: rotate(24deg);
   }
-  55%{
-      transform: rotate(-24deg);
+  55% {
+    transform: rotate(-24deg);
   }
-  57%{
-      transform: rotate(22deg);
+  57% {
+    transform: rotate(22deg);
   }
-  59%{
-      transform: rotate(-22deg);
+  59% {
+    transform: rotate(-22deg);
   }
-  61%{
-      transform: rotate(20deg);
+  61% {
+    transform: rotate(20deg);
   }
-  63%{
-      transform: rotate(-20deg);
+  63% {
+    transform: rotate(-20deg);
   }
-  65%{
-      transform: rotate(18deg);
+  65% {
+    transform: rotate(18deg);
   }
-  67%{
-      transform: rotate(-18deg);
+  67% {
+    transform: rotate(-18deg);
   }
-  69%{
-      transform: rotate(16deg);
+  69% {
+    transform: rotate(16deg);
   }
-  71%{
-      transform: rotate(-16deg);
+  71% {
+    transform: rotate(-16deg);
   }
-  73%{
-      transform: rotate(14deg);
+  73% {
+    transform: rotate(14deg);
   }
-  75%{
-      transform: rotate(-14deg);
+  75% {
+    transform: rotate(-14deg);
   }
-  77%{
-      transform: rotate(12deg);
+  77% {
+    transform: rotate(12deg);
   }
-  79%{
-      transform: rotate(-12deg);
+  79% {
+    transform: rotate(-12deg);
   }
-  81%{
-      transform: rotate(10deg);
+  81% {
+    transform: rotate(10deg);
   }
-  83%{
-      transform: rotate(-10deg);
+  83% {
+    transform: rotate(-10deg);
   }
-  85%{
-      transform: rotate(8deg);
+  85% {
+    transform: rotate(8deg);
   }
-  87%{
-      transform: rotate(-8deg);
+  87% {
+    transform: rotate(-8deg);
   }
-  89%{
-      transform: rotate(6deg);
+  89% {
+    transform: rotate(6deg);
   }
-  91%{
-      transform: rotate(-6deg);
+  91% {
+    transform: rotate(-6deg);
   }
-  93%{
-      transform: rotate(4deg);
+  93% {
+    transform: rotate(4deg);
   }
-  95%{
-      transform: rotate(-4deg);
+  95% {
+    transform: rotate(-4deg);
   }
-  97%{
-      transform: rotate(2deg);
+  97% {
+    transform: rotate(2deg);
   }
-  99%{
-      transform: rotate(-2deg);
+  99% {
+    transform: rotate(-2deg);
   }
-  100%{
-      transform: rotate(0deg);
+  100% {
+    transform: rotate(0deg);
   }
 }
 /*section checkbox*/
-.section-checkbox{
-  background:linear-gradient(to left, #ff8177 0%, #ff867a 5%, #ff8c7f 21%, #f99184 52%, #cf556c 78%, #b12a5b 100%);
+.section-checkbox {
+  background: linear-gradient(
+    to left,
+    #ff8177 0%,
+    #ff867a 5%,
+    #ff8c7f 21%,
+    #f99184 52%,
+    #cf556c 78%,
+    #b12a5b 100%
+  );
 }
-.checkbox-container{
+.checkbox-container {
   width: 250px;
   height: 200px;
   margin: 50px auto;
@@ -545,18 +560,18 @@ table tbody tr:nth-child(n + 1 ){
   gap: 10px;
   border-radius: 10px;
 }
-.checkbox-container label{
+.checkbox-container label {
   display: block;
   position: relative;
   margin-bottom: 15px;
   padding-left: 35px;
 }
-.checkbox-container label input{
+.checkbox-container label input {
   position: absolute;
   width: 0px;
   height: 0px;
 }
-.checkbox-container label .check-mack{
+.checkbox-container label .check-mack {
   width: 25px;
   height: 25px;
   background-color: black;
@@ -564,10 +579,9 @@ table tbody tr:nth-child(n + 1 ){
   position: absolute;
   top: 0%;
   left: 0%;
-  
 }
-.checkbox-container label .check-mack i{
-  color:red;
+.checkbox-container label .check-mack i {
+  color: red;
   position: absolute;
   top: 2px;
   left: 2px;
@@ -575,7 +589,7 @@ table tbody tr:nth-child(n + 1 ){
   transform: scale(0);
   transition: all 1s ease-in-out;
 }
-.checkbox-container label .check-radio{
+.checkbox-container label .check-radio {
   width: 25px;
   height: 25px;
   background-color: black;
@@ -584,7 +598,7 @@ table tbody tr:nth-child(n + 1 ){
   top: 0%;
   left: 0%;
 }
-.checkbox-container label .check-radio .circle{
+.checkbox-container label .check-radio .circle {
   width: 15px;
   height: 15px;
   background-color: white;
@@ -595,68 +609,51 @@ table tbody tr:nth-child(n + 1 ){
   transform: scale(0);
   transition: all 1s ease-in-out;
 }
-.checkbox-container label input:checked ~ .check-radio .circle{
+.checkbox-container label input:checked ~ .check-radio .circle {
   transform: scale(1);
   position: absolute;
 }
-.checkbox-container label input:checked ~ .check-mack i{
+.checkbox-container label input:checked ~ .check-mack i {
   transform: scale(1);
   position: absolute;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*Querrys*/
 /*WIDTH 390px*/
-@media (min-width:390px) {
-    body{
-        width: 100%;
-    }
-    main{
-        width: 100%;
-    }
+@media (min-width: 390px) {
+  body {
+    width: 100%;
+  }
+  main {
+    width: 100%;
+  }
 }
 /*WIDTH 500*/
-@media (min-width:500px) {
-    body{
-        width: 100%;
-    }
-    main{
-        width: 100%;
-    }
-    /*nav vertical*/
-    nav.vertical .header {
-      display: none;
-    }
-    nav.vertical .links {
-      margin-top: 50px;
-    }
-    nav.vertical .links a i{
-      font-size: 1.2rem;
-      padding-left: 4px;
-    }
+@media (min-width: 500px) {
+  body {
+    width: 100%;
+  }
+  main {
+    width: 100%;
+  }
+  /*nav vertical*/
+  nav.vertical .header {
+    display: none;
+  }
+  nav.vertical .links {
+    margin-top: 50px;
+  }
+  nav.vertical .links a i {
+    font-size: 1.2rem;
+    padding-left: 4px;
+  }
 }
 /*WIDTH 844*/
 @media (min-width: 844px) {
   body {
     width: 100%;
   }
-  main{
+  main {
     width: 100%;
   }
   /*nav horizontal*/
@@ -676,8 +673,8 @@ table tbody tr:nth-child(n + 1 ){
   body {
     width: 100%;
   }
-  main{
-    width:100%;
+  main {
+    width: 100%;
   }
   nav.horizontal .mobile2 .secondary.mini {
     display: block;
