@@ -201,12 +201,16 @@ nav.vertical .links a p {
   text-align: center;
   background-image: radial-gradient(
     circle 80px at center,
-    #ff69b4 0%,
+    #dd81af 0%,
     #ff11a9 100%
   );
 }
+.section-hero .hero img{
+  width: 100px;
+  height: 100px;
+}
 .section-hero .hero h1 {
-  padding: 100px 0px 50px;
+  padding: 0px 0px 50px;
   letter-spacing: 10px;
 }
 .section-hero .hero h1 .html {
