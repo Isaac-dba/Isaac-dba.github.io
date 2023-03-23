@@ -197,7 +197,7 @@ nav.vertical .links a p {
 /*section hero*/
 .section-hero .hero {
   width: 100%;
-  height: 40vh;
+  height: 100%;
   text-align: center;
   background-image: radial-gradient(
     circle 80px at center,
@@ -226,6 +226,7 @@ nav.vertical .links a p {
   justify-content: center;
   letter-spacing: 5px;
   text-transform: capitalize;
+  margin-bottom: 40px;
 }
 .section-hero .hero h3:hover {
   letter-spacing: 10px;
