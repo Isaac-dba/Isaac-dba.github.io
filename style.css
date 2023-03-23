@@ -816,14 +816,61 @@ table tbody tr:nth-child(n + 1) {
   height: calc(100% - 50px);
   top: 0%;
 }
-
-
-
-
-
-
-
-
+/*section stap personas*/
+.section-stap-persona{
+  background:linear-gradient(to top, red 0%, blue 50%, yellow 100%);
+}
+.stap-personas{
+  width: 250px;
+  margin: 100px auto;
+  display: flex;
+}
+.stap-personas .persona{
+  margin-right: -20px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.stap-personas .persona .text{
+  position: absolute;
+  top: -55px;
+  width: 140px;
+  border: solid 1px white;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  left: calc((100% - 4px) * -1);
+  display: none;
+}
+.stap-personas .persona .text .name{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 10px;
+  margin: 0 auto;
+}
+.stap-personas .persona img:hover ~ .text{
+  display: inline-flex;
+}
+.stap-personas .persona .text::before{
+  content: "";
+  position: relative;
+  width: 0px;
+  height: 0px;
+  border-top: solid 10px white;
+  border-right: solid 10px transparent;
+  border-bottom: solid 10px transparent;
+  border-left: solid 10px transparent;
+  top: 39px;
+  left: calc(50% - 10px);
+}
+.stap-personas .persona:hover img{
+  transform: translateY(-4px);
+}
+.stap-personas .persona img{
+  transition: transform 1s ease-in-out;
+}
 
 
 
