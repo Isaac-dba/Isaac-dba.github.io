@@ -141,7 +141,7 @@ nav.vertical {
   display: flex;
   flex-direction: column;
   width: 50px;
-  height: 100vh;
+  height: 100%;
   position: fixed;
   top: 34px;
   background-image: linear-gradient(
@@ -834,7 +834,7 @@ table tbody tr:nth-child(n + 1) {
 }
 .stap-personas .persona .text{
   position: absolute;
-  top: -55px;
+  top: -65px;
   width: 140px;
   border: solid 1px white;
   background-color: black;
@@ -875,17 +875,70 @@ table tbody tr:nth-child(n + 1) {
 /*section modal*/
 .section-modal{
   background-image: url(/Isaac-dba.github.io/imge.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
-
-
-
-
-
-
-
-
-
-
+.modal-container{
+  width: 300px;
+  margin: 100px auto;
+  background-color: #5d9eff;
+  border-radius:20px;
+  padding: 40px 20px;
+}
+.modal-container .modal{
+  background-color: #2e519e;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.modal-container .modal .header{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.modal-container .modal .header .info h1{
+  text-transform: capitalize;
+  font-family: var(--font-letter1);
+  font-size: 19px;
+}
+.modal-container .modal .header .info span{
+  color: #9999;
+  font-size: 11px;
+}
+.modal-container .modal .action{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+.modal-container .modal .action button{
+  padding: 5px;
+  border-radius: 5px;
+  border:none;
+  text-transform: capitalize;
+  transition: all 0.4s ease-in-out;
+}
+.modal-container .modal .action .btn-confir{
+  background-color: #4facfe;
+  color: white;
+  text-shadow: 0 0 5px blue;
+}
+.modal-container .modal .action .btn-cancel{
+  background-color: red;
+  color: black;
+  text-shadow: 0 0 10px black;
+}
+.modal-container .modal .action .btn-confir:hover{
+  background-color: #7fadf1;
+  box-shadow: 0 0 10px black;
+}
+.modal-container .modal .action .btn-cancel:hover{
+  background-color: rgb(104, 32, 32);
+  box-shadow: 0 0 10px black;
+  color: white;
+}
 
 
 
@@ -948,6 +1001,20 @@ table tbody tr:nth-child(n + 1) {
   .coment-container{
     width: 400px;
   }
+  /*modal*/
+  .modal-container{
+    width: 400px;
+  }
+.modal-container .modal .action{
+  flex-direction: row;
+  justify-content: end;
+}
+.modal-container .modal .header .info h1{
+  font-size: 28px;
+}
+.modal-container .modal .header .info span{
+  font-size: 15px;
+}
 }
 /*WIDTH 844*/
 @media (min-width: 844px) {
