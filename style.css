@@ -876,8 +876,8 @@ table tbody tr:nth-child(n + 1) {
 .section-modal{
   background-image: url(img-svg/imge.svg);
   background-repeat: no-repeat;
-  background-position:bottom ;
-
+  background-position: bottom;
+  background-color: #6457c6b3;
 }
 .modal-container{
   width: 300px;
@@ -885,6 +885,7 @@ table tbody tr:nth-child(n + 1) {
   background-color: #5d9eff;
   border-radius:20px;
   padding: 40px 20px;
+  box-shadow: 0px 0px 8px black;
 }
 .modal-container .modal{
   background-color: #2e519e;
@@ -892,6 +893,7 @@ table tbody tr:nth-child(n + 1) {
   padding: 10px;
   display: flex;
   flex-direction: column;
+  box-shadow: 0px 0px 9px honeydew;
 }
 .modal-container .modal .header{
   display: flex;
