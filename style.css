@@ -876,7 +876,8 @@ table tbody tr:nth-child(n + 1) {
 .section-modal{
   background-image: url(/Isaac-dba.github.io/imge.svg);
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position:bottom ;
+  background-attachment: fixed;
 }
 .modal-container{
   width: 300px;
