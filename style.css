@@ -874,10 +874,10 @@ table tbody tr:nth-child(n + 1) {
 }
 /*section modal*/
 .section-modal{
-  background-image: url(/Isaac-dba.github.io/imge.svg);
+  background-image: url(/Isaac-dba.github.io/img-svg/imge.svg);
   background-repeat: no-repeat;
   background-position:bottom ;
-  background-attachment: fixed;
+
 }
 .modal-container{
   width: 300px;
@@ -940,10 +940,10 @@ table tbody tr:nth-child(n + 1) {
   box-shadow: 0 0 10px black;
   color: white;
 }
-
-
-
-
+/*section upload*/
+.section-upload{
+  background-image: var();
+}
 
 
 
