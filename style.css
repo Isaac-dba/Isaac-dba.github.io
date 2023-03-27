@@ -942,8 +942,107 @@ table tbody tr:nth-child(n + 1) {
 }
 /*section upload*/
 .section-upload{
-  background-image: var();
+  background-image: url(img-svg/img1.svg);
+  background-repeat: no-repeat;
+  background-color: #184db5bd;
 }
+.upload-container{
+  background:radial-gradient(circle 248px at center,
+  #16d9e38f 0%, #30c6ec99 47%, #46adf79f 100%);
+  width:300px ;
+  margin: 50px auto;
+  padding:30px 10px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 0px 4px black,
+              -2px -2px 4px white;
+}
+.upload-container h1{
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.upload-container > p{
+  color: #f99184;
+  text-align: start;
+  font-size: 14px;
+}
+.upload-container .drag-drop{
+  border: dashed 1px white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px ;
+  padding: 30px 10px;
+}
+.upload-container .drag-drop .icon i{
+  font-size: 100px;
+}
+.upload-container .drag-drop p{
+  font-family: var(--font-letter1);
+  margin-top: -15px;
+}
+.upload-container .drag-drop button{
+  padding: 10px;
+  border: none;
+  text-transform: capitalize;
+  font-weight: bolder;
+  border-radius: 4px;
+}
+.upload-container .drag-drop button:hover{
+  background-color: #65379B;
+  color: white;
+  box-shadow: 0 0 5px #65379b;
+  text-shadow: 0 0 5px white;
+}
+.upload-container .subtitle{
+  margin: 10px 0px ;
+}
+.upload-container .files-container{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.upload-container .files-container .file{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  border: solid 1px white;
+  padding: 5px;
+  transition: box-shadow 1s ease-in-out;
+}
+.upload-container .files-container .file:hover{
+  box-shadow: 0 0 8px white;
+}
+.upload-container .files-container .file .icon i{
+  font-size: 40px;
+}
+.upload-container .files-container .file .conten{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 5px;
+}
+.upload-container .files-container .file button{
+  padding: 10px;
+  border: none;
+  text-transform: capitalize;
+  border-radius: 4px;
+  color: #2e519e;
+  box-shadow: 0 0 4px purple;
+}
+.upload-container .files-container .file button:hover{
+  background-color: #4facfe;
+  color:white;
+}
+
+
+
+
+
+
+
+
 
 
 
