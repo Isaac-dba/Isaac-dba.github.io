@@ -716,6 +716,7 @@ table tbody tr:nth-child(n + 1) {
   gap: 10px;
   justify-content: center;
   text-align: center;
+  padding: 0px 5px;
 }
 /*section coment*/
 .section-coment{
