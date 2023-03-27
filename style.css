@@ -872,7 +872,10 @@ table tbody tr:nth-child(n + 1) {
 .stap-personas .persona img{
   transition: transform 1s ease-in-out;
 }
-
+/*section modal*/
+.section-modal{
+  background-image: url(/Isaac-dba.github.io/imge.svg);
+}
 
 
 
