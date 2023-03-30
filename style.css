@@ -1050,19 +1050,68 @@ table tbody tr:nth-child(n + 1) {
   background-color: #4facfe;
   color:white;
 }
+/*section service*/
+.section-service{
+  background:linear-gradient(to left, #a18cd1 0%, #fbc2eb 100%);
+}
+.service-container{
+  display: flex;
+  width: 300px;
+  margin: 100px auto;
+  align-items: center;
+}
+.service-container .card-price{
+  width: 250px;
+  height: 350px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background:radial-gradient(circle 250px at center, #ff11a9 0%, #dd81af 50%,
+  #fbc2eb 100%) ;
+  border: none;
+  z-index: 1;
+  box-shadow: 0px 0px 8px black;
+  animation: color 10s ease-in-out infinite;
+  font-family: var(--font-primary);
 
+}
+.service-container .card-price.recomendy{
+  height: 450px;
+  z-index: 2;
+  padding: 60px 10px;
+  border-radius: 10px;
+}
+.service-container .card-price:last-child{
+  border-radius: 0px 10px 10px 0px;
+}
+.service-container .card-price:first-child{
+  border-radius: 10px 0px 0px 10px;
+}
+@keyframes color {
 
-
-
-
-
-
-
-
-
-
-
-
+  from{
+    background: linear-gradient(120deg, #fccb9086 0%, #d57eeb99 100%);
+    
+  }
+  to{
+    background:radial-gradient(circle 250px at center, #ff11a9 0%, #dd81af 50%,
+    #fbc2eb 100%) ;
+  }
+}
+.service-container .card-price h1{
+  text-align: center;
+  text-transform: capitalize;
+}
+.service-container .card-price .price{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-family: 19px;
+}
+.service-container .card-price .price .number{
+  font-size: 48px;
+}
 
 
 
