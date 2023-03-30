@@ -1062,8 +1062,8 @@ table tbody tr:nth-child(n + 1) {
 }
 .service-container .card-price{
   width: 250px;
-  height: 350px;
-  padding: 10px;
+  height: 300px;
+  padding: 15px 5px;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -1077,9 +1077,9 @@ table tbody tr:nth-child(n + 1) {
 
 }
 .service-container .card-price.recomendy{
-  height: 450px;
+  height: 350px;
   z-index: 2;
-  padding: 60px 10px;
+  padding: 40px 5px;
   border-radius: 10px;
 }
 .service-container .card-price:last-child{
@@ -1106,15 +1106,46 @@ table tbody tr:nth-child(n + 1) {
 .service-container .card-price .price{
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 5px;
   font-family: 19px;
 }
 .service-container .card-price .price .number{
-  font-size: 48px;
+  font-size: 28px;
 }
-
-
-
+.service-container .card-price .access{
+  flex: 1;
+}
+.service-container .card-price .access ul{
+  list-style: none;
+}
+.service-container .card-price .access ul li{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  text-transform: capitalize;
+}
+.service-container .card-price .access ul li i{
+  color: white;
+}
+.service-container .card-price .access ul li i:hover{
+  color: #4facfe;
+}
+.service-container .card-price .action button{
+  display: block;
+  width: 100%;
+  padding: 5px;
+  text-transform: capitalize;
+  border: none;
+  border-radius: 4px;
+  background-color: black;
+  color: white;
+  box-shadow: 0px 0px 9px white;
+  transition: background-color 1s ease-in-out;
+}
+.service-container .card-price .action button:hover{
+  background-color: gold;
+}
 
 
 
@@ -1183,6 +1214,23 @@ table tbody tr:nth-child(n + 1) {
 .upload-container{
   width: 450px;
 }
+/*card price*/
+.service-container{
+  width: 90%;
+}
+.service-container .card-price{
+  padding: 15px 10px;
+}
+.service-container .card-price.recomendy{
+  padding: 40px 10px;
+}
+.service-container .card-price .price .number{
+  font-size: 38px;
+}
+.service-container .card-price .action button{
+  padding: 10px;
+}
+
 }
 /*WIDTH 844*/
 @media (min-width: 844px) {
@@ -1211,6 +1259,16 @@ table tbody tr:nth-child(n + 1) {
   .flip-cards{
     width: 600px;
   }
+  /*card price*/
+  .service-container .card-price{
+    padding: 20px 20px;
+  }
+  .service-container .card-price.recomendy{
+    padding: 45px 20px;
+  }
+  .service-container .card-price .price .number{
+    font-size: 48px;
+  }
 }
 /*WIDTH 1024*/
 @media (min-width: 1024px) {
@@ -1230,4 +1288,5 @@ table tbody tr:nth-child(n + 1) {
   .cards-container {
     width: 600px;
   }
+   /**/
 }
