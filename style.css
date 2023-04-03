@@ -1147,6 +1147,100 @@ table tbody tr:nth-child(n + 1) {
   background-color: gold;
 }
 /*section-whatsaap*/
+.section-whatsaap{
+  background:linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+.bubbles-container{
+  width: 300px;
+  background-color: var(--border-color);
+  margin: 50px auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.bubbles-container .bubble-container.right{
+  width: 50%;
+  align-items: flex-end;
+  margin-left: auto;
+}
+.bubbles-container .bubble-container.left{
+  width: 50%;
+  align-items: flex-start;
+  margin-right: auto;
+}
+.bubbles-container .bubble-container{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+}
+.bubbles-container .bubble-container .bubble{
+  width: 100%;
+  padding: 5px;
+  display: flex;
+}
+.bubbles-container .bubble-container.right .bubble{
+  background-color: #3471f4;
+  
+}
+.bubbles-container .bubble-container.left .bubble{
+  background-color: #3059ec;
+}
+.bubbles-container .bubble-container .bubble .bubble-text > div{
+  display: flex;
+  gap: 10px;
+  position: relative;
+}
+.bubbles-container .bubble-container .bubble .bubble-text > div p{
+  font-size: 14px;
+}
+.bubbles-container .bubble-container .bubble .bubble-text > div span{
+  font-size: 10px;
+  width: 70px;
+  display: flex;
+  align-items: end;
+  text-align: end;
+  justify-content: end;
+  color: #9999;
+}
+.bubbles-container .bubble-container.right .bubble:nth-child(1) .bubble-text > div::before{
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 0%;
+  border-top: solid 5px #3471f4;
+  border-left: solid 5px #3471f4;
+  border-bottom: solid 5px transparent;
+  border-right: solid 5px transparent;
+  right: -12px;
+  top: -5px ;
+}
+.bubbles-container .bubble-container.left .bubble:nth-child(1) .bubble-text > div::before{
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 0%;
+  border-top: solid 5px #3059ec;
+  border-right: solid 5px #3059ec;
+  border-bottom: solid 5px transparent;
+  border-left: solid 5px transparent;
+  left: -12px;
+  top: -5px;
+}
+/*section profile*/
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1231,6 +1325,11 @@ table tbody tr:nth-child(n + 1) {
 .service-container .card-price .action button{
   padding: 10px;
 }
+/*Whatsaap*/
+.bubbles-container{
+  width: 400px;
+}
+
 
 }
 /*WIDTH 844*/
@@ -1270,6 +1369,10 @@ table tbody tr:nth-child(n + 1) {
   .service-container .card-price .price .number{
     font-size: 48px;
   }
+  /*Whatsaap*/
+.bubbles-container{
+  width: 450px;
+}
 }
 /*WIDTH 1024*/
 @media (min-width: 1024px) {
