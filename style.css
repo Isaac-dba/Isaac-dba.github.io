@@ -1152,7 +1152,7 @@ table tbody tr:nth-child(n + 1) {
 }
 .bubbles-container{
   width: 300px;
-  height: 400px;
+  height: 450px;
   background-color: var(--border-color);
   margin: 50px auto;
   padding: 10px;
