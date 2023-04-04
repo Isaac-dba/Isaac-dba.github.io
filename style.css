@@ -1215,7 +1215,7 @@ table tbody tr:nth-child(n + 1) {
   border-left: solid 5px #3471f4;
   border-bottom: solid 5px transparent;
   border-right: solid 5px transparent;
-  right: -11px;
+  right: -10px;
   top: -5px ;
 }
 .bubbles-container .bubble-container.left .bubble:nth-child(1) .bubble-text > div::before{
