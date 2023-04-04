@@ -1242,6 +1242,9 @@ table tbody tr:nth-child(n + 1) {
   flex-direction: column;
   gap: 10px;
 }
+.profile img{
+  box-shadow: 0px 0px 10px black;
+}
 .profile .conten{
   width: 300px;
   display: none;
@@ -1250,6 +1253,7 @@ table tbody tr:nth-child(n + 1) {
   background-color: steelblue;
   border-radius: 10px;
   gap: 10px;
+  box-shadow: 0px 0px 10px black;
 }
 .profile:hover .conten{
   display: inline-flex;
