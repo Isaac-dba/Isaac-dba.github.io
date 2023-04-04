@@ -13,7 +13,7 @@
   --border-color: #558bff;
   --width1: 200px;
   --size1: 75px;
-  --width2: 400px;
+  --width2: 300px;
   --size2: 14px;
 }
 *,
@@ -1152,12 +1152,14 @@ table tbody tr:nth-child(n + 1) {
 }
 .bubbles-container{
   width: 300px;
+  height: 400px;
   background-color: var(--border-color);
   margin: 50px auto;
   padding: 10px;
   display: flex;
   flex-direction: column;
   gap: 10px;
+  justify-content: end;
 }
 .bubbles-container .bubble-container.right{
   width: 50%;
@@ -1488,10 +1490,63 @@ table tbody tr:nth-child(n + 1) {
   }
 }
 /*section slider*/
-
-
-
-
+.section-slider{
+  background-color: black;
+}
+.slider-container{
+  width: 100%;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.slider-container .slider-viewport{
+  width: var(--width2);
+  display: flex;
+  overflow-x: hidden;
+  scroll-snap-type:x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+.slider-container .slider-viewport .slider{
+  width: var(--width2);
+  height: var(--width2);
+  min-width: var(--width2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  scroll-snap-align: start;
+  border-radius: 10px;
+}
+#slider1{
+  background:url(img-svg/slider1.svg), radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%) ;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+#slider2{
+  background: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+}
+#slider3{
+  background: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
+}
+#slider4{
+  background: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+}
+#slider5{
+  background: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
+}
+.slider-container .links-container{
+  display: flex;
+  gap: 10px;
+}
+.slider-container .links-container a{
+  padding: 10px;
+  background-color: white;
+  border-radius: 50%;
+  text-decoration: none;
+  box-shadow: 0px 0px 8px #44107A;
+}
 /*Querrys layout*/
 /*WIDTH 390px*/
 @media (min-width: 390px) {
@@ -1583,6 +1638,14 @@ table tbody tr:nth-child(n + 1) {
 }
 .widget-container .actuallity .info-time .temperature-info .temperature-container .temp-min{
   font-size: 40px;
+}
+/*slider*/
+.slider-container .slider-viewport{
+  width: 400px;
+}
+.slider-container .slider-viewport .slider{
+  width: 400px;
+  min-width: 400px;
 }
 }
 /*WIDTH 844*/
