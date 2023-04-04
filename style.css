@@ -1404,13 +1404,90 @@ table tbody tr:nth-child(n + 1) {
 .widget-container .days-container .day .temperature .tem-min{
   color: blue;
 }
-
-
-
-
-
-
-
+/*section instagran*/
+.section-instagran{
+  background: linear-gradient(to left, #ae23bc 0%, #498cad 50%, #bfca32 100%);
+}
+.profile-container{
+  display: flex;
+  width: 300px;
+  margin: 50px auto;
+  gap: 2px;
+}
+.profile-container .story{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.profile-container .story .outer-box{
+  width:60px;
+  height:60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:radial-gradient(circle farthest-corner at 32% 100%,
+  rgb(255,225,125) 0%,
+  rgb(255,225,105) 10%,
+  rgb(255,145,55) 20%,
+  rgb(235,65,65) 42%,
+  transparent 82%),
+  linear-gradient(135deg, 
+  rgb(35,75,215) 12%,
+  rgb(195,60,190) 58%);
+  box-shadow: 0px 0px 5px black;
+}
+.profile-container .story .outer-box a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile-container .story .text p{
+  width: 60px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: rgb 10s infinite ease-in-out;
+}
+@keyframes rgb {
+  0%{
+    color: rgb(255,225,125);
+  }
+  10%{
+    color: rgb(255,225,105);
+  }
+  20%{
+    color: rgb(255,145,55);
+  }
+  30%{
+    color: rgb(235,65,65);
+  }
+  40%{
+    color:rgb(35,75,215);
+  }
+  50%{
+    color:rgb(195,60,190);
+  }
+  55%{
+    color:rgb(195,60,190);
+  }
+  60%{
+    color:rgb(35,75,215);
+  }
+  70%{
+    color: rgb(235,65,65);
+  }
+  80%{
+    color: rgb(255,145,55);
+  }
+  90%{
+    color: rgb(255,225,105);
+  }
+  100%{
+    color: rgb(255,225,125);
+  }
+}
+/*section slider*/
 
 
 
@@ -1471,7 +1548,7 @@ table tbody tr:nth-child(n + 1) {
 }
 /*upload file*/
 .upload-container{
-  width: 450px;
+  width: 400px;
 }
 /*card price*/
 .service-container{
