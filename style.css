@@ -347,7 +347,7 @@ table tr th {
 }
 table thead {
   position: sticky;
-  top: 5%;
+  top: 4%;
 }
 table tbody tr:nth-child(even) {
   background-color: chartreuse;
