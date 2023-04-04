@@ -1547,6 +1547,118 @@ table tbody tr:nth-child(n + 1) {
   text-decoration: none;
   box-shadow: 0px 0px 8px #44107A;
 }
+/*section login*/
+.section-login{
+  background-color: #00f2fe;
+}
+.welcome-container{
+  display: none;
+}
+.from-container{
+  display: flex;
+  width: 90%;
+  background:linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  margin: 50px auto;
+  border-radius: 10px;
+}
+.from-container .login-container{
+  width: 85%;
+  margin: 0 auto;
+}
+.from-container .login-container h1{
+  font-size: 40px;
+  text-align: center;
+  padding: 50px 0 20px;
+}
+.from-container .login-container > p{
+  text-align: center;
+  color: #444;
+  margin-bottom: 10px;
+}
+.from-container .login-container label{
+  display: block;
+  padding-bottom: 10px;
+  text-transform: capitalize;
+}
+.from-container .login-container input[class="input"]{
+  padding: 10px;
+  width: 100%;
+  border: none;
+  margin-bottom: 10px;
+  outline: none;
+  transition: box-shadow 1s ease-in-out;
+  border-radius: 5px;
+}
+.from-container .login-container input[class="input"]:focus-within{
+  outline:solid 1px var(--border-color);
+  box-shadow: 0px 0px 7px white;
+}
+.from-container .login-container form .optional{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 5px;
+}
+.from-container .login-container form .optional p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+}
+.from-container .login-container form .optional a{
+  text-decoration: none;
+  color:rgb(253, 2, 211);
+}
+.from-container .login-container form input[type="submit"]{
+  margin: 5px 0px ;
+} 
+.btn{
+  display: block;
+  width: 100%;
+  padding: 8px;
+  border: none;
+  text-transform: capitalize;
+  font-weight: bolder;
+  font-family: var(--font-letter2);
+  box-shadow: 0px 0px 5px black;
+  text-shadow: 0px 0px 5px white;
+  border-radius: 4px;
+}
+.from-container .login-container form .provider{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 5px 0px 30px;
+}
+.from-container .login-container form .provider span{
+  color: #444;
+}
+.btn.btn-login{
+  background-color:black;
+}
+.btn.btn-login:hover{
+  background-color:rgba(0, 0, 0, 0.708);
+}
+.btn.btn-google{
+  color: #ae23bc;
+}
+.btn.btn-google:hover{
+  background-color: #444;
+}
+.btn.btn-facebook{
+  background-color: #3471f4;
+}
+.btn.btn-facebook:hover{
+  background-color: #2e519e;
+}
+.btn.btn-twitter{
+  background-color: #16d9e3;
+}
+.btn.btn-twitter:hover{
+  background-color: #0f7878;
+}
+/*section welcome*/
+
 /*Querrys layout*/
 /*WIDTH 390px*/
 @media (min-width: 390px) {
@@ -1647,6 +1759,16 @@ table tbody tr:nth-child(n + 1) {
   width: 400px;
   min-width: 400px;
 }
+/*login*/
+.from-container{
+  width: 80%;
+}
+.from-container .login-container{
+  width:90% ;
+}
+.from-container .login-container form .optional{
+  text-transform: capitalize;
+}
 }
 /*WIDTH 844*/
 @media (min-width: 844px) {
@@ -1693,6 +1815,21 @@ table tbody tr:nth-child(n + 1) {
 .widget-container{
   width: 450px;
 }
+/*login*/
+.from-container{
+  width: 90%;
+}
+.from-container .login-container{
+  width:50% ;
+}
+.from-container .login-container form{
+  width: 95%;
+  margin: 0px auto;
+}
+.from-container .welcome-container{
+  display: flex;
+  width: 50%;
+}
 }
 /*WIDTH 1024*/
 @media (min-width: 1024px) {
@@ -1712,5 +1849,19 @@ table tbody tr:nth-child(n + 1) {
   .cards-container {
     width: 600px;
   }
-   /**/
+  /*login*/
+.from-container{
+  width: 80%;
+}
+.from-container .login-container{
+  width:50% ;
+}
+.from-container .login-container form{
+  width: 85%;
+  margin: 0px auto;
+}
+.from-container .welcome-container{
+  display: flex;
+  width: 50%;
+}
 }
