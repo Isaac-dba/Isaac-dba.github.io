@@ -1817,6 +1817,25 @@ table tbody tr:nth-child(n + 1) {
   text-transform: capitalize;
 }
 }
+/*WIDTH 650*/
+@media (min-width: 650px) {
+  /*login*/
+  .from-container{
+    width: 95%;
+  }
+  .from-container .login-container{
+    width:50% ;
+  }
+  .from-container .login-container form{
+    width: 90%;
+    margin: 0px auto;
+  }
+  .from-container .welcome-container{
+    display: flex;
+    width: 50%;
+  }
+}
+/**/
 /*WIDTH 844*/
 @media (min-width: 844px) {
   body {
