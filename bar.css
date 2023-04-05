@@ -30,51 +30,51 @@ img {
 }
 body {
   width: 390px;
-  height:844px;
+  height: 844px;
   background: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
 }
 header {
   width: 100%;
 }
 main {
   width: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   gap: 1px;
   margin-top: 10px;
 }
-footer{
-    background-image: url(img-svg/footer.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 10px;
-    text-align: center;
-    font-family: var(--font-letter2);
-
+footer {
+  background-image: url(img-svg/footer.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 10px;
+  text-align: center;
+  font-family: var(--font-letter2);
 }
-nav{
+nav {
   display: flex;
   background: linear-gradient(to top, red 0%, blue 50%, yellow 100%);
   align-items: center;
   padding: 5px;
 }
-nav h1{
+nav h1 {
   text-align: center;
 }
-nav ul{
+nav ul {
   list-style: none;
   display: flex;
   gap: 3px;
 }
-nav ul li a{
+nav ul li a {
   text-decoration: none;
   color: black;
   font-family: var(--font-secondary);
   padding: 10px;
 }
-.hero{
+.hero {
   background: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
   text-align: center;
   background-image: url(imagen/imagen-bar/empanadas_colombianas-e544489a-ea05-41d7-872d-668ee0820cd0.jpg);
@@ -89,3 +89,42 @@ nav ul li a{
   justify-content: center;
   padding: 0px 10px;
 }
+
+/*Querrys layout*/
+/*WIDTH 390px*/
+@media (min-width: 390px) {
+  body {
+    width: 100%;
+  }
+  main {
+    width: 100%;
+  }
+}
+/*WIDTH 500px*/
+@media (min-width: 500px) {
+  body {
+    width: 100%;
+  }
+  main {
+    width: 100%;
+  }
+}
+/*WIDTH 650px*/
+@media (min-width: 650px) {
+    body {
+      width: 100%;
+    }
+    main {
+      width: 100%;
+    }
+  }
+/*WIDTH 844px*/
+@media (min-width: 844px) {
+    body {
+      width: 100%;
+    }
+    main {
+      width: 100%;
+    }
+  }
+  
