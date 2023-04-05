@@ -1583,9 +1583,9 @@ table tbody tr:nth-child(n + 1) {
   padding: 50px 0 20px;
 }
 .from-container .login-container > p{
-  
   color: #444;
   margin-bottom: 10px;
+
 }
 .from-container .login-container label{
   display: block;
@@ -1612,7 +1612,6 @@ table tbody tr:nth-child(n + 1) {
   padding-bottom: 5px;
 }
 .from-container .login-container form .optional p{
-  display: flex;
   gap: 3px;
 }
 .from-container .login-container form .optional a{
@@ -1639,6 +1638,7 @@ table tbody tr:nth-child(n + 1) {
   flex-direction: column;
   gap: 10px;
   margin: 5px 0px 30px;
+  align-items: center;
 }
 .from-container .login-container form .provider span{
   color: #444;
