@@ -1583,7 +1583,7 @@ table tbody tr:nth-child(n + 1) {
   padding: 50px 0 20px;
 }
 .from-container .login-container > p{
-  text-align: center;
+  
   color: #444;
   margin-bottom: 10px;
 }
