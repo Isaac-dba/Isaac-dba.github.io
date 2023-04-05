@@ -1987,3 +1987,89 @@ table tbody tr:nth-child(n + 1) {
   width: 50%;
 }
 }
+
+
+
+
+/*las delicias*/
+/*bootstrap*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+/*font*/
+@import url("https://fonts.googleapis.com/css2?family=Gajraj+One&family=Mynerve&family=Outfit:wght@400;700&family=Pacifico&family=Shantell+Sans:wght@300&family=Smokum&family=Zeyada&display=swap");
+
+/*generales*/
+:root {
+  --font-primary: Outfit;
+  --font-secondary: Smokum;
+  --font-mechanical: Gajraj one;
+  --font-letter1: Pacifico;
+  --font-letter2: Shantell Sans;
+  --border-color: #558bff;
+  --width1: 200px;
+  --size1: 75px;
+  --width2: 400px;
+  --size2: 14px;
+}
+*,
+::after,
+::before {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  user-select: none;
+}
+img {
+  width: 50px;
+  height: 50px;
+}
+body {
+  width: 390px;
+  height:580px;
+  background: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+header {
+  width: 100%;
+}
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  margin-top: 10px;
+}
+footer{
+    background-image: url(img-svg/footer.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+  display: flex;
+  background: linear-gradient(to top, red 0%, blue 50%, yellow 100%);
+  align-items: center;
+  padding: 5px;
+}
+nav h1{
+  text-align: center;
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  gap: 3px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: black;
+  font-family: var(--font-secondary);
+  padding: 10px;
+}
+.hero{
+  background: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  text-align: center;
+  background-image: url(img-svg/cooking-2132874_1280.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: var(--font-letter1);
+  text-shadow: 0 0 10px white;
+  height: 250px;
+}
