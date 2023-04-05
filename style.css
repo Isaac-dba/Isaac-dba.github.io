@@ -1718,7 +1718,7 @@ table tbody tr:nth-child(n + 1) {
   background-color: white;
 }
 #container{
-  margin: 50px auto;
+  margin: 100px auto;
   width: fit-content;
   perspective: 1000px;
   perspective-origin: 100% 100%;
