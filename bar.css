@@ -64,6 +64,7 @@ color: white;
 }
 nav h1 {
 text-align: center;
+display: flex;
 }
 nav ul {
 list-style: none;
@@ -90,8 +91,50 @@ nav ul li a {
     justify-content: center;
     padding: 0px 10px;
 }
-@keyframes animation-letter {
-    
+nav h1 .letter-spacing{
+    padding-right: 10px;
+}
+nav h1 .s1{
+    animation: animation-letter1 10s infinite ease-in-out;
+}
+nav h1 .s2{
+    animation: animation-letter2 10s infinite ease-in-out;
+}
+
+@keyframes animation-letter1 {
+    0%{
+        transform: translateY(5px);
+    }
+    25%{
+        color: #a18cd1;
+    }
+    50%{
+        color: #371685;
+        transform: scale(2);
+    }
+    75%{
+        color: aqua;
+    }
+    100%{
+        transform: translateY(-5px);
+    }
+}
+@keyframes animation-letter2 {
+    0%{
+        transform: translateY(-5px);
+    }
+    25%{
+        color: #371685;
+    }
+    50%{
+        color: #fbc2eb;
+    }
+    75%{
+        color: cornflowerblue;
+    }
+    100%{
+        transform: translateY(5px);
+    }
 }
 
 
