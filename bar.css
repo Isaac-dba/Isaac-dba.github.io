@@ -5,127 +5,142 @@
 
 /*generales*/
 :root {
-  --font-primary: Outfit;
-  --font-secondary: Smokum;
-  --font-mechanical: Gajraj one;
-  --font-letter1: Pacifico;
-  --font-letter2: Shantell Sans;
-  --border-color: #558bff;
-  --width1: 200px;
-  --size1: 75px;
-  --width2: 400px;
-  --size2: 14px;
+--font-primary: Outfit;
+--font-secondary: Smokum;
+--font-mechanical: Gajraj one;
+--font-letter1: Pacifico;
+--font-letter2: Shantell Sans;
+--border-color: #558bff;
+--width1: 200px;
+--size1: 75px;
+--width2: 400px;
+--size2: 14px;
 }
 *,
 ::after,
 ::before {
-  padding: 0%;
-  margin: 0%;
-  box-sizing: border-box;
-  user-select: none;
+padding: 0%;
+margin: 0%;
+box-sizing: border-box;
+user-select: none;
 }
 img {
-  width: 50px;
-  height: 50px;
+width: 50px;
+height: 50px;
 }
 body {
-  width: 390px;
-  height: 844px;
-  background: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
-  background-repeat: no-repeat;
-  background-size: cover;
+width: 390px;
+height: 844px;
+background: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+background-repeat: no-repeat;
+background-size: cover;
 }
 header {
-  width: 100%;
+width: 100%;
 }
 main {
-  background: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 1px;
-  margin-top: 10px;
+background: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+width: 100%;
+display: flex;
+flex-direction: column;
+gap: 1px;
+margin-top: 10px;
 }
 footer {
-  background-image: url(img-svg/footer.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 10px;
-  text-align: center;
-  font-family: var(--font-letter2);
+background-image: url(img-svg/footer.svg);
+background-repeat: no-repeat;
+background-size: cover;
+margin-top: 10px;
+text-align: center;
+font-family: var(--font-letter2);
 }
 nav {
-  display: flex;
-  background: linear-gradient(to top, red 0%, blue 50%, yellow 100%);
-  align-items: center;
-  justify-content: space-between;
-  padding: 5px;
+display: flex;
+background: linear-gradient(to top, red 0%, blue 50%, yellow 100%);
+align-items: center;
+justify-content: space-between;
+padding: 5px;
+color: white;
 }
 nav h1 {
-  text-align: center;
+text-align: center;
 }
 nav ul {
-  list-style: none;
-  display: flex;
-  gap: 3px;
+list-style: none;
+display: block;
+padding: 10px 10px 0px 0px;
 }
 nav ul li a {
-  text-decoration: none;
-  color: black;
-  font-family: var(--font-secondary);
-  padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: var(--font-secondary);
 }
-.hero {
-  background: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
-  text-align: center;
-  background-image: url(imagen/imagen-bar/empanadas_colombianas-e544489a-ea05-41d7-872d-668ee0820cd0.jpg);
-  background-size: cover;
-  background-position: center;
-  font-family: var(--font-letter1);
-  text-shadow: 0 0 10px white;
-  height: 250px;
-  margin-bottom: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 0px 10px;
+.hero{
+    background: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    text-align: center;
+    background-image: url(imagen/imagen-bar/empanadas_colombianas-e544489a-ea05-41d7-872d-668ee0820cd0.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: var(--font-letter1);
+    text-shadow: 0 0 10px white;
+    height: 250px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 10px;
 }
+@keyframes animation-letter {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*Querrys layout*/
 /*WIDTH 390px*/
 @media (min-width: 390px) {
     body {
-      width: 100%;
+    width: 100%;
     }
     main {
-      width: 100%;
+    width: 100%;
     }
-  }
-  /*WIDTH 500px*/
-  @media (min-width: 500px) {
+}
+/*WIDTH 500px*/
+@media (min-width: 500px) {
     body {
-      width: 100%;
+    width: 100%;
     }
     main {
-      width: 100%;
+    width: 100%;
     }
-  }
-  /*WIDTH 650px*/
-  @media (min-width: 650px) {
-      body {
+}
+/*WIDTH 650px*/
+@media (min-width: 650px) {
+    body {
         width: 100%;
-      }
-      main {
-        width: 100%;
-      }
     }
-  /*WIDTH 844px*/
-  @media (min-width: 844px) {
-      body {
+    main {
         width: 100%;
-      }
-      main {
-        width: 100%;
-      }
     }
+}
+/*WIDTH 844px*/
+@media (min-width: 844px) {
+    body {
+        width: 100%;
+    }
+    main {
+        width: 100%;
+    }
+}
     
