@@ -15,6 +15,7 @@
   --size1: 75px;
   --width2: 300px;
   --size2: 14px;
+  --width-cube: 200px;
 }
 *,
 ::after,
@@ -1710,6 +1711,55 @@ table tbody tr:nth-child(n + 1) {
 @keyframes loading {
   100%{
     stroke-dashoffset: 0%;
+  }
+}
+/*section cube*/
+.cube-3d{
+  background-color: white;
+}
+#container{
+  margin: 50px auto;
+  width: fit-content;
+  perspective: 1000px;
+  perspective-origin: 100% 100%;
+}
+.cube{
+  height: var(--width-cube);
+  width: var(--width-cube);
+  position: relative;
+  transform-style: preserve-3d;
+  animation: rotate 4s linear infinite;
+}
+.cube > div{
+  position: absolute;
+  width:var(--width-cube);
+  height:var(--width-cube);
+  opacity: 0.9;
+  background: linear-gradient(to right, #0b1fbc, #b13cff);
+}
+.s1{
+  transform: translateZ(100px);
+}
+.s2{
+  transform: rotateY(90deg) translateZ(100px);
+}
+.s3{
+  transform: rotateY(180deg) translateZ(100px);
+}
+.s4{
+  transform: rotateX(90deg) translateZ(100px);
+}
+.s5{
+  transform: rotateY(-90deg) translateZ(100px);
+}
+.s6{
+  transform: rotateX(-90deg) translateZ(100px) rotate(180deg);
+}
+@keyframes rotate {
+  100%{
+    transform: rotateX(0deg)
+    rotateY(360deg)
+    rotateZ(360deg);
   }
 }
 /*Querrys layout*/
