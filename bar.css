@@ -52,7 +52,7 @@ footer{
     margin-top: 10px;
     text-align: center;
     font-family: var(--font-letter2);
-    
+
 }
 nav{
   display: flex;
@@ -77,11 +77,15 @@ nav ul li a{
 .hero{
   background: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
   text-align: center;
-  background-image: url(img-svg/cooking-2132874_1280.jpg);
+  background-image: url(imagen/imagen-bar/empanadas_colombianas-e544489a-ea05-41d7-872d-668ee0820cd0.jpg);
   background-size: cover;
   background-position: center;
   font-family: var(--font-letter1);
   text-shadow: 0 0 10px white;
   height: 250px;
   margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 10px;
 }
