@@ -1613,7 +1613,6 @@ table tbody tr:nth-child(n + 1) {
 }
 .from-container .login-container form .optional p{
   display: flex;
-  align-items: center;
   gap: 3px;
 }
 .from-container .login-container form .optional a{
