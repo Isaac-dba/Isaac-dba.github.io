@@ -1566,7 +1566,7 @@ table tbody tr:nth-child(n + 1) {
 }
 .from-container{
   display: flex;
-  width: 300px;
+  width: 320px;
   background:linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
   margin: 50px auto;
   border-radius: 10px;
