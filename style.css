@@ -1714,8 +1714,8 @@ table tbody tr:nth-child(n + 1) {
   }
 }
 /*section cube*/
-.cube-3d{
-  background-color: white;
+.cubo-3d{
+  background-color: rgb(14, 229, 132);
 }
 #container{
   margin: 100px auto;
