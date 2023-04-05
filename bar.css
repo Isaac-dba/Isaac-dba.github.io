@@ -30,15 +30,16 @@ img {
 }
 body {
   width: 390px;
-  height:580px;
+  height:844px;
   background: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  background-repeat: no-repeat;
+  background-size:cover;
 }
 header {
   width: 100%;
 }
 main {
   width: 100%;
-  height: 100%;
   display: flex;
   flex-direction: column;
   gap: 1px;
@@ -48,6 +49,10 @@ footer{
     background-image: url(img-svg/footer.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 10px;
+    text-align: center;
+    font-family: var(--font-letter2);
+    
 }
 nav{
   display: flex;
@@ -78,4 +83,5 @@ nav ul li a{
   font-family: var(--font-letter1);
   text-shadow: 0 0 10px white;
   height: 250px;
+  margin-bottom: 10px;
 }
