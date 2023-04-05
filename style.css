@@ -1566,7 +1566,7 @@ table tbody tr:nth-child(n + 1) {
 }
 .from-container{
   display: flex;
-  width: 90%;
+  width: 300px;
   background:linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
   margin: 50px auto;
   border-radius: 10px;
@@ -1585,7 +1585,7 @@ table tbody tr:nth-child(n + 1) {
 .from-container .login-container > p{
   color: #444;
   margin-bottom: 10px;
-
+  text-align: center;
 }
 .from-container .login-container label{
   display: block;
