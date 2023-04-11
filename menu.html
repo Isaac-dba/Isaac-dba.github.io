@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link href="estilo.css" rel="stylesheet">
+</head>
+
+<body class="body-menu">
+    <header>
+        <button id="bmenu"><i class="bi bi-list"></i></button>
+        <div id="list" class="collapse">
+            <a>pinchos</a>
+            <a>bebidas</a>
+            <a>helados</a>
+            <a>batidos</a>
+        </div>
+    </header>
+    <script>
+        const bmenu = document.querySelector("#bmenu");
+        const list = document.querySelector("#list");
+
+        bmenu.addEventListener('click', (e) => {
+            list.classList.toggle("collapse");
+        })
+    </script>
+    <main>
+        <section class="pinchos">
+            <div class="cart-pincho">
+                <h1 class="title">Empanadas de Carne</h1>
+                <img src="" alt="">
+                <h3 class="subtitle">Ingredientes</h3>
+                <p class="ingredientes">cebolla, ajo, pimiento verde y rojo,
+                    tomate, carne de ternera y patatas.</p>
+                <h5 class="price">1,50€/u</h5>
+            </div>
+            <div class="cart-pincho">
+                <h1 class="title">Empanada de Pollo</h1>
+                <img src="" alt="">
+                <h3 class="subtitle">Ingredientes</h3>
+                <p class="ingredientes">cebolla, ajo, pimiento verde y rojo,
+                    tomate, pollo y patatas.</p>
+                <h5 class="price">1,50€/u</h5>
+            </div>
+            <div class="cart-pincho">
+                <h1 class="title">Empanada de Piña y Queso</h1>
+                <img src="" alt="">
+                <h3 class="subtitle">Ingredientes</h3>
+                <p class="ingredientes">Masa de maíz, queso y piña cocinada.</p>
+                <h5 class="price">1,50€/u</h5>
+            </div>
+            <div class="cart-pincho">
+                <h1 class="title">Empanada de Queso</h1>
+                <img src="" alt="">
+                <h3 class="subtitle">Ingredientes</h3>
+                <p class="ingredientes">Masa de maíz y queso. </p>
+                <h5 class="price">1,50€/u</h5>
+            </div>
+            <div class="cart-pincho">
+                <h1 class="title">Aborrajado de Queso con Dulce de Guayaba</h1>
+                <img src="" alt="">
+                <h3 class="subtitle">Ingredientes</h3>
+                <p class="ingredientes">Rebosado de harina de trigo, sal, plátano
+                    maduro, queso y dulce de guayaba.</p>
+                <h5 class="price">2,80€/u</h5>
+            </div>
+            <div class="cart-pincho">
+                <h1 class="title">Aborrajado de Queso</h1>
+                <img src="" alt="">
+                <h3 class="subtitle">Ingredientes</h3>
+                <p class="ingredientes">Rebosado de harina de trigo, sal, plátano
+                    maduro y queso.
+                </p>
+                <h5 class="price">2,80€/u</h5>
+            </div>
+            <div class="cart-pincho">
+                <h1 class="title">Pollo con Yuca</h1>
+                <img src="" alt="">
+                <h3 class="subtitle">Ingredientes</h3>
+                <p class="ingredientes">Pollo rebosado de harina de trigo con sal,
+                    especias y huevo, yuca frita con especias.</p>
+                <h5 class="price">5€</h5>
+            </div>
+            <div class="cart-pincho">
+                <h1 class="title">Yuca</h1>
+                <img src="" alt="">
+                <h3 class="subtitle">Ingredientes</h3>
+                <p class="ingredientes">Yuca frita con especias</p>
+                <h5 class="price">3,50€/u</h5>
+            </div>
+            <div class="cart-pincho">
+                <h1 class="title">Salchipapa</h1>
+                <img src="" alt="">
+                <h3 class="subtitle">Ingredientes</h3>
+                <p class="ingredientes">Papas y salchichas fritas con kétchup, mayonesa,
+                    mostaza y miel, salsa de piña, salsa rosa y queso fresco.</p>
+                <h5 class="price">5€/u</h5>
+            </div>
+            <div class="cart-pincho">
+                <h1 class="title">Perrito Caliente</h1>
+                <img src="" alt="">
+                <h3 class="subtitle">Ingredientes</h3>
+                <p class="ingredientes">Perrito estilo Colombiano con salsa de tomate, mayonesa, mostaza y miel,
+                    bacon, papas chip, queso y salsa de piña.</p>
+                <h5 class="price">4€/u</h5>
+            </div>
+            <div class="cart-pincho">
+                <h1 class="title">Papa Rellena de Carne</h1>
+                <img src="" alt="">
+                <h3 class="subtitle">Ingredientes</h3>
+                <p class="ingredientes">Rebosado de harina de trigo con especias, cebolla, ajo, pimiento verde y rojo,
+                    tomate, carne de ternera, patatas, arroz y huevo cocido.</p>
+                <h5 class="price">2,50€/u</h5>
+            </div>
+            <div class="cart-pincho">
+                <h1 class="title">Pastel de Pollo</h1>
+                <img src="" alt="">
+                <h3 class="subtitle">Ingredientes</h3>
+                <p class="ingredientes">Harina de maíz con especias, cebolla, ajo, pimiento verde y rojo,
+                    tomate, pollo y patatas.</p>
+                <h5 class="price">2,50€/u</h5>
+            </div>
+            <div class="cart-pincho">
+                <h1 class="title">Arepa Rellena</h1>
+                <img src="" alt="">
+                <h3 class="subtitle">Ingredientes</h3>
+                <p class="ingredientes">Harina de maíz, sal, mantequilla, queso y leche.</p>
+                <h5 class="price">3,50€/u</h5>
+            </div>
+            <div class="cart-pincho">
+                <h1 class="title">Pan de Bono</h1>
+                <img src="" alt="">
+                <h3 class="subtitle">Ingredientes</h3>
+                <p class="ingredientes">Harina de pan de bono, leche, huevo y mantequilla.</p>
+                <h5 class="price">1,20€/u</h5>
+            </div>
+            <div class="cart-pincho">
+                <h1 class="title">Buñuelos</h1>
+                <img src="" alt="">
+                <h3 class="subtitle">Ingredientes</h3>
+                <p class="ingredientes">Harina de buñuelo, leche y azúcar</p>
+                <h5 class="price">1,20€/u</h5>
+            </div>
+        </section>
+
+        <section class="helados">
+            <div class="cart-helados">
+                <h1 class="title">Almendra</h1>
+                <img src="" alt="">
+                <h3 class="subtitle">Ingredientes</h3>
+                <p class="ingredientes">Leche, azúcar y almendra laminada.</p>
+                <h5 class="price">1,50€</h5>
+            </div>
+            <div class="cart-helados">
+                <h1 class="title">Choco Maní</h1>
+                <img src="" alt="">
+                <h3 class="subtitle">Ingredientes</h3>
+                <p class="ingredientes">Chocolate con leche, leche condensada, maní y azúcar.</p>
+                <h5 class="price">1,50€</h5>
+            </div>
+            <div class="cart-helados">
+                <h1 class="title">Coco</h1>
+                <img src="" alt="">
+                <h3 class="subtitle">Ingredientes</h3>
+                <p class="ingredientes">Leche, nata, azúcar y coco rallado.</p>
+                <h5 class="price">1,50€</h5>
+            </div>
+            <div class="cart-helados">
+                <h1 class="title">Dulce de Leche</h1>
+                <img src="" alt="">
+                <h3 class="subtitle">Ingredientes</h3>
+                <p class="ingredientes">Leche, leche condensada, pasas y aroma.</p>
+                <h5 class="price">1,50€</h5>
+            </div>
+            <div class="cart-helados">
+                <h1 class="title">Fresa</h1>
+                <img src="" alt="">
+                <h3 class="subtitle">Ingredientes</h3>
+                <p class="ingredientes">Leche, nata, azúcar y fresas.</p>
+                <h5 class="price">1,50€</h5>
+            </div>
+            <div class="cart-helados">
+                <h1 class="title">Fresa tres Leches</h1>
+                <img src="" alt="">
+                <h3 class="subtitle">Ingredientes</h3>
+                <p class="ingredientes">Leche, leche condensada, leche en polvo, azúcar, fresas,
+                    esencia de fresa y nata.
+                </p>
+                <h5 class="price">1,50€</h5>
+            </div>
+            <div class="cart-helados">
+                <h1 class="title">Guanábana</h1>
+                <img src="" alt="">
+                <h3 class="subtitle">Ingredientes</h3>
+                <p class="ingredientes">Leche, azúcar y pulpa de guanábana.</p>
+                <h5 class="price">1,50€</h5>
+            </div>
+            <div class="cart-helados">
+                <h1 class="title">Guayaba</h1>
+                <img src="" alt="">
+                <h3 class="subtitle">Ingredientes</h3>
+                <p class="ingredientes">Leche, azúcar y guayaba dulce.</p>
+                <h5 class="price">1,50€</h5>
+            </div>
+            <div class="cart-helados">
+                <h1 class="title">Mango</h1>
+                <img src="" alt="">
+                <h3 class="subtitle">Ingredientes</h3>
+                <p class="ingredientes">leche, azúcar y pulpa de mango.</p>
+                <h5 class="price">1,50€</h5>
+            </div>
+            <div class="cart-helados">
+                <h1 class="title">Maní</h1>
+                <img src="" alt="">
+                <h3 class="subtitle">Ingredientes</h3>
+                <p class="ingredientes">Leche, nata, azúcar y maní triturado.</p>
+                <h5 class="price">1,50€</h5>
+            </div>
+            <div class="cart-helados">
+                <h1 class="title">Maracuyá</h1>
+                <img src="" alt="">
+                <h3 class="subtitle">Ingredientes</h3>
+                <p class="ingredientes">Leche, azúcar y pulpa de maracuyá.</p>
+                <h5 class="price">1,50€</h5>
+            </div>
+            <div class="cart-helados">
+                <h1 class="title">Mora</h1>
+                <img src="" alt="">
+                <h3 class="subtitle">Ingredientes</h3>
+                <p class="ingredientes">Leche, azúcar, nata y moras.</p>
+                <h5 class="price">1,50€</h5>
+            </div>
+            <div class="cart-helados">
+                <h1 class="title">Oreo</h1>
+                <img src="" alt="">
+                <h3 class="subtitle">Ingredientes</h3>
+                <p class="ingredientes">Leche, nata, azúcar y galleta oreo.</p>
+                <h5 class="price">1,50€</h5>
+            </div>
+            <div class="cart-helados">
+                <h1 class="title">Queso</h1>
+                <img src="" alt="">
+                <h3 class="subtitle">Ingredientes</h3>
+                <p class="ingredientes">Leche, nata, azúcar, dulce de guayaba y queso fresco
+                    rallado.</p>
+                <h5 class="price">1,50€</h5>
+            </div>
+            <div class="cart-helados">
+                <h1 class="title">Ron con Pasas</h1>
+                <img src="" alt="">
+                <h3 class="subtitle">Ingredientes</h3>
+                <p class="ingredientes">Leche, nata, azúcar y reducción de pasas con Ron.</p>
+                <h5 class="price">1,50€</h5>
+            </div>
+        </section>
+
+        <section class="batidos"></section>
+
+        <section class="bebidas">
+            <ul>
+                <li>
+                    <div class="content">
+                        <img src="" alt="">
+                        <h3 class="title">Ladrón de Manzanas</h3>
+                    </div>
+                    <span>------------------------</span>
+                    <div class="price">2€</di>
+                </li>
+                <li>
+                    <div class="content">
+                        <img src="" alt="">
+                        <h3 class="title">Heiniken</h3>
+                    </div>
+                    <span>------------------------</span>
+                    <div class="price">2€</di>
+                </li>
+                <li>
+                    <div class="content">
+                        <img src="" alt="">
+                        <h3 class="title">Corona</h3>
+                    </div>
+                    <span>------------------------</span>
+                    <div class="price">2€</di>
+                </li>
+                <li>
+                    <div class="content">
+                        <img src="" alt="">
+                        <h3 class="title">Shandy</h3>
+                    </div>
+                    <span>------------------------</span>
+                    <div class="price">2€</di>
+                </li>
+                <li>
+                    <div class="content">
+                        <img src="" alt="">
+                        <h3 class="title">Sprite</h3>
+                    </div>
+                    <span>------------------------</span>
+                    <div class="price">2€</di>
+                </li>
+                <li>
+                    <div class="content">
+                        <img src="" alt="">
+                        <h3 class="title">Fanta Limón</h3>
+                    </div>
+                    <span>------------------------</span>
+                    <div class="price">2€</di>
+                </li>
+                <li>
+                    <div class="content">
+                        <img src="" alt="">
+                        <h3 class="title">Fanta Naranja</h3>
+                    </div>
+                    <span>------------------------</span>
+                    <div class="price">2€</di>
+                </li>
+                <li>
+                    <div class="content">
+                        <img src="" alt="">
+                        <h3 class="title">Aquarius Limón</h3>
+                    </div>
+                    <span>------------------------</span>
+                    <div class="price">2€</di>
+                </li>
+                <li>
+                    <div class="content">
+                        <img src="" alt="">
+                        <h3 class="title">Aquarius Naranja</h3>
+                    </div>
+                    <span>------------------------</span>
+                    <div class="price">2€</di>
+                </li>
+                <li>
+                    <div class="content">
+                        <img src="" alt="">
+                        <h3 class="title">Amstel</h3>
+                    </div>
+                    <span>------------------------</span>
+                    <div class="price">2€</di>
+                </li>
+                <li>
+                    <div class="content">
+                        <img src="" alt="">
+                        <h3 class="title">Coca Cola</h3>
+                    </div>
+                    <span>------------------------</span>
+                    <div class="price">2€</di>
+                </li>
+                <li>
+                    <div class="content">
+                        <img src="" alt="">
+                        <h3 class="title">Coca Cola Zero</h3>
+                    </div>
+                    <span>------------------------</span>
+                    <div class="price">2€</di>
+                </li>
+                <li>
+                    <div class="content">
+                        <img src="" alt="">
+                        <h3 class="title">Colombiana</h3>
+                    </div>
+                    <span>------------------------</span>
+                    <div class="price">2€</di>
+                </li>
+                <li>
+                    <div class="content">
+                        <img src="" alt="">
+                        <h3 class="title">Hit Lulo</h3>
+                    </div>
+                    <span>------------------------</span>
+                    <div class="price">2€</di>
+                </li>
+                <li>
+                    <div class="content">
+                        <img src="" alt="">
+                        <h3 class="title">Hit Mango</h3>
+                    </div>
+                    <span>------------------------</span>
+                    <div class="price">2€</di>
+                </li>
+                <li>
+                    <div class="content">
+                        <img src="" alt="">
+                        <h3 class="title">Hit Mora</h3>
+                    </div>
+                    <span>------------------------</span>
+                    <div class="price">2€</di>
+                </li>
+                <li>
+                    <div class="content">
+                        <img src="" alt="">
+                        <h3 class="title">Postobon Manzana</h3>
+                    </div>
+                    <span>------------------------</span>
+                    <div class="price">2€</di>
+                </li>
+                <li>
+                    <div class="content">
+                        <img src="" alt="">
+                        <h3 class="title">Postobon Uva</h3>
+                    </div>
+                    <span>------------------------</span>
+                    <div class="price">2€</di>
+                </li>
+                <li>
+                    <div class="content">
+                        <img src="" alt="">
+                        <h3 class="title">Pony Malta</h3>
+                    </div>
+                    <span>------------------------</span>
+                    <div class="price">2€</di>
+                </li>
+            </ul>
+        </section>
+        <footer>
+
+            <div>
+                <address>
+                    Calle: Av. Alfonso IX de León<br />
+                    código postal: 37004<br />N 31-37,
+                    Salamanca
+                </address>
+            </div>
+            <div>
+                <h3>Horario</h3>
+                <p>Abierto de lunes a domingo de<br /> 15:00 hasta las 00:00</p>
+            </div>
+
+        </footer>
+    </main>
+</body>
+
+</html>
