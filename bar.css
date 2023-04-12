@@ -5,73 +5,87 @@
 
 /*generales*/
 :root {
---font-primary: Outfit;
---font-secondary: Smokum;
---font-mechanical: Gajraj one;
---font-letter1: Pacifico;
---font-letter2: Shantell Sans;
---border-color: #558bff;
---width1: 200px;
---size1: 75px;
---width2: 400px;
---size2: 14px;
+    --font-primary: Outfit;
+    --font-secondary: Smokum;
+    --font-mechanical: Gajraj one;
+    --font-letter1: Pacifico;
+    --font-letter2: Shantell Sans;
+    --border-color: #558bff;
+    --width1: 200px;
+    --size1: 75px;
+    --width2: 400px;
+    --size2: 14px;
 }
+
 *,
 ::after,
 ::before {
-padding: 0%;
-margin: 0%;
-box-sizing: border-box;
-user-select: none;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    user-select: none;
 }
+
+.collapse {
+    display: none;
+}
+
 img {
-width: 100%;
-height:100%;
+    width: 100%;
+    height: 100%;
 }
+
 body {
-width: 390px;
-height: 844px;
-background: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
-background-repeat: no-repeat;
-background-size: cover;
+    width: 390px;
+    height: 844px;
+    background: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 header {
-width: 100%;
+    width: 100%;
 }
+
 main {
-background: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
-width: 100%;
-display: flex;
-flex-direction: column;
-gap: 1px;
-margin-top: 10px;
+    background: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    margin-top: 10px;
 }
+
 footer {
-background-image: url(img-svg/footer.svg);
-background-repeat: no-repeat;
-background-size: cover;
-margin-top: 10px;
-text-align: center;
-font-family: var(--font-letter2);
+    background-image: url(img-svg/footer.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+    text-align: center;
+    font-family: var(--font-letter2);
 }
+
 nav {
-display: flex;
-background: linear-gradient(to top, red 0%, blue 50%, yellow 100%);
-align-items: center;
-justify-content: space-between;
-color: white;
+    display: flex;
+    background: linear-gradient(to top, red 0%, blue 50%, yellow 100%);
+    align-items: center;
+    justify-content: space-between;
+    color: white;
 }
+
 nav h1 {
-text-align: center;
-display: flex;
-position: relative;
-top: 12px;
+    text-align: center;
+    display: flex;
+    position: relative;
+    top: 12px;
 }
+
 nav ul {
-list-style: none;
-display: block;
-padding: 10px 10px 0px 0px;
+    list-style: none;
+    display: block;
+    padding: 10px 10px 0px 0px;
 }
+
 nav ul li a {
     text-decoration: none;
     color: black;
@@ -79,7 +93,8 @@ nav ul li a {
     font-weight: bolder;
     text-shadow: 0px 0px 10px white;
 }
-.hero{
+
+.hero {
     background: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
     text-align: center;
     background-image: url(imagen/imagen-bar/empanadas_colombianas-e544489a-ea05-41d7-872d-668ee0820cd0.jpg);
@@ -94,40 +109,102 @@ nav ul li a {
     justify-content: center;
     padding: 0px 10px;
 }
-nav h1 .letter-spacing{
+
+nav h1 .letter-spacing {
     padding-right: 10px;
 }
-.letter-spacing{
+
+.letter-spacing {
     margin-right: 10px;
 }
-.s1, .s2 {
+
+.s1,
+.s2 {
     display: inline-block;
     transform: translateY(0px);
     animation: wave 1s ease-in-out infinite alternate;
 }
-  
-  .s1 {
+
+.s1 {
     animation-delay: 0.2s;
-  }
-  
-  .s2 {
+}
+
+.s2 {
     animation-delay: 0.5s;
-  }
-  @keyframes wave {
+}
+
+@keyframes wave {
     0% {
-      transform: translateY(0px);
+        transform: translateY(0px);
     }
-    25%{
-    text-shadow: 0px 0px 10px white;
+
+    25% {
+        text-shadow: 0px 0px 10px white;
     }
-    75%{
-    text-shadow: 0px 0px 10px black;
+
+    75% {
+        text-shadow: 0px 0px 10px black;
     }
+
     100% {
-      transform: translateY(-10px);
+        transform: translateY(-10px);
     }
-  }
-  
+}
+
+/*cart pinchos*/
+.pinchos .content{
+    display: flex;
+    flex-direction: column;
+    gap:10px ;
+    margin-top: 20px;
+}
+.cart-pincho{
+    width: 290px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    background-color:white;
+    border-radius: 7px;
+}
+.cart-pincho h1{
+    background-color: violet;
+    background:linear-gradient(45deg, red, blue, yellow) ;
+    background-size: 100%;
+    background-repeat: repeat;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+}
+.templade{
+    height: 100%;
+}
+.gradient-border{
+    background: linear-gradient(100deg, violet 25%, turquoise 50%, violet 75%);
+    background-repeat: repeat;
+    width: 310px;
+    margin: 0% auto;
+    padding: 10px ;
+    border-radius: 10px;
+    animation: gradient 60s ease-in-out infinite;
+}
+@keyframes gradient {
+    0%{
+        background-position: 0 0;
+    }
+    50%{
+        background-position: -80rem 0;
+    }
+    100%{
+        background-position: 0 0;
+    }
+}
+
+
 
 
 
@@ -144,37 +221,50 @@ nav h1 .letter-spacing{
 /*WIDTH 390px*/
 @media (min-width: 390px) {
     body {
-    width: 100%;
+        width: 100%;
     }
+
     main {
-    width: 100%;
+        width: 100%;
     }
 }
+
 /*WIDTH 500px*/
 @media (min-width: 500px) {
     body {
-    width: 100%;
+        width: 100%;
     }
+
     main {
-    width: 100%;
+        width: 100%;
     }
 }
+
 /*WIDTH 650px*/
 @media (min-width: 650px) {
     body {
         width: 100%;
     }
+
     main {
         width: 100%;
     }
+    .pinchos .content{
+        display:grid;
+        grid-template-areas: 
+                "a a";
+        
+    }
 }
+
 /*WIDTH 844px*/
 @media (min-width: 844px) {
     body {
         width: 100%;
     }
+
     main {
         width: 100%;
     }
-}
     
+}
