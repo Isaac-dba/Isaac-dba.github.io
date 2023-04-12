@@ -226,6 +226,13 @@ nav h1 .letter-spacing {
 .cart p{
     font-family: var(--font-letter1);
 }
+.cart h5{
+    font-size: 1.5rem;
+}
+.cart .subtitle{
+    font-weight: bolder;
+    text-shadow: 0px 0px 5px black;
+}
 .templade{
     height: 100%;
 }
@@ -240,11 +247,35 @@ nav h1 .letter-spacing {
         background-position: 0 0;
     }
 }
-
-
-
-
-
+/*bebidas*/
+ul{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 10px auto;
+    padding: 10px;
+    gap: 10px;
+}
+ul li{
+    list-style: none;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+ul li img{
+    width:70px;
+    height: 100px;
+    margin: 0% auto;
+}
+ul li .content{
+    width: 100px;
+    color: white;
+    text-align: center;
+}
+ul li .content h3{
+    width: 100px;
+    text-align: center;
+}
 
 
 
