@@ -16,11 +16,12 @@
     --width2: 400px;
     --size2: 14px;
     /*alérgenos*/
-    --leche:rgba(255, 192, 203, 0.5);
-    --cacahuetes:rgba(255, 255, 0, 0.5);
-    --huevo:rgba(255, 165, 0, 0.5);
-    --mostaza:rgba(238, 238, 0, 0.5);
-    --frutos-secos:rgba(165, 42, 42, 0.5);
+    --leche:rgba(255, 192, 203, 0.746);
+    --cacahuetes:rgba(255, 255, 0, 0.704);
+    --huevo:rgba(255, 166, 0, 0.711);
+    --mostaza:rgba(238, 238, 0, 0.701);
+    --frutos-secos:rgba(165, 42, 42, 0.683);
+    --gluten: rgba(0, 128, 0, 0.5);
 }
 .a-leche{
     color: var(--leche);
@@ -28,15 +29,23 @@
 }
 .a-cacahuete{
     color: var(--cacahuetes);
+    text-shadow: -2px 5px 4px black;
 }
 .a-huevo{
     color: var(--huevo);
+    text-shadow: -2px 5px 4px black;
 }
 .a-mostaza{
     color:var(--mostaza);
+    text-shadow: -2px 5px 4px black;
 }
 .a-f-s{
     color:var(--frutos-secos);
+    text-shadow: -2px 5px 4px black;
+}
+.a-gluten{
+    color: var(--gluten);
+    text-shadow: -2px 5px 4px black;
 }
 *,
 ::after,
