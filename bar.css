@@ -182,6 +182,15 @@ nav h1 .letter-spacing {
     gap:10px ;
     margin-top: 20px;
 }
+.gradient-border{
+    background: linear-gradient(100deg, violet 25%, turquoise 50%, violet 75%);
+    background-repeat: repeat;
+    width: 310px;
+    margin: 0% auto;
+    padding: 10px ;
+    border-radius: 10px;
+    animation: gradient 50s ease-in-out infinite;
+}
 .cart{
     width: 290px;
     margin: 0px auto;
@@ -210,15 +219,6 @@ nav h1 .letter-spacing {
 }
 .templade{
     height: 100%;
-}
-.gradient-border{
-    background: linear-gradient(100deg, violet 25%, turquoise 50%, violet 75%);
-    background-repeat: repeat;
-    width: 310px;
-    margin: 0% auto;
-    padding: 10px ;
-    border-radius: 10px;
-    animation: gradient 50s ease-in-out infinite;
 }
 @keyframes gradient {
     0%{
