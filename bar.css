@@ -15,8 +15,29 @@
     --size1: 75px;
     --width2: 400px;
     --size2: 14px;
+    /*alérgenos*/
+    --leche:rgba(255, 192, 203, 0.5);
+    --cacahuetes:rgba(255, 255, 0, 0.5);
+    --huevo:rgba(255, 165, 0, 0.5);
+    --mostaza:rgba(238, 238, 0, 0.5);
+    --frutos-secos:rgba(165, 42, 42, 0.5);
 }
-
+.a-leche{
+    color: var(--leche);
+    text-shadow: -2px 5px 4px black;
+}
+.a-cacahuete{
+    color: var(--cacahuetes);
+}
+.a-huevo{
+    color: var(--huevo);
+}
+.a-mostaza{
+    color:var(--mostaza);
+}
+.a-f-s{
+    color:var(--frutos-secos);
+}
 *,
 ::after,
 ::before {
@@ -31,10 +52,13 @@
 }
 
 img {
-    width: 100%;
+    width:100%;
     height: 100%;
+    margin: -25px 0px;
 }
-
+.height-img-templade{
+    margin: -10px 0px;
+}
 body {
     width: 390px;
     height: 844px;
@@ -152,24 +176,24 @@ nav h1 .letter-spacing {
 }
 
 /*cart pinchos*/
-.pinchos .content{
+.content{
     display: flex;
     flex-direction: column;
     gap:10px ;
     margin-top: 20px;
 }
-.cart-pincho{
+.cart{
     width: 290px;
     margin: 0px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     background-color:white;
     border-radius: 7px;
 }
-.cart-pincho h1{
+.cart h1{
     background-color: violet;
     background:linear-gradient(45deg, red, blue, yellow) ;
     background-size: 100%;
@@ -179,6 +203,10 @@ nav h1 .letter-spacing {
     background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color:transparent;
+    font-family: var(--font-letter2);
+}
+.cart p{
+    font-family: var(--font-letter1);
 }
 .templade{
     height: 100%;
@@ -190,7 +218,7 @@ nav h1 .letter-spacing {
     margin: 0% auto;
     padding: 10px ;
     border-radius: 10px;
-    animation: gradient 60s ease-in-out infinite;
+    animation: gradient 50s ease-in-out infinite;
 }
 @keyframes gradient {
     0%{
@@ -249,7 +277,7 @@ nav h1 .letter-spacing {
     main {
         width: 100%;
     }
-    .pinchos .content{
+    .content{
         display:grid;
         grid-template-areas: 
                 "a a";
