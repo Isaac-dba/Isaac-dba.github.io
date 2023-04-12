@@ -248,7 +248,7 @@ nav h1 .letter-spacing {
     }
 }
 /*bebidas*/
-ul{
+.bebidas ul{
     display: flex;
     flex-direction: column;
     width: 300px;
@@ -256,18 +256,18 @@ ul{
     padding: 10px;
     gap: 10px;
 }
-ul li{
+.bebidas ul li{
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-ul li img{
+.bebidas ul li img{
     width:70px;
     height: 100px;
     margin: 0% auto;
 }
-ul li .content{
+.bebidas ul li .content{
     width: 100px;
     color: white;
     text-align: center;
@@ -276,11 +276,11 @@ ul li .content{
     border-radius: 8px;
     display: flex;
 }
-ul li .content h3{
+.bebidas ul li .content h3{
     width: 100px;
     text-align: center;
 }
-ul li .price{
+.bebidas ul li .price{
     font-size: 2rem;
 }
 
@@ -312,7 +312,7 @@ ul li .price{
     main {
         width: 100%;
     }
-    ul{
+    .bebidas ul{
         width: 400px;
     }
 }
@@ -332,7 +332,7 @@ ul li .price{
                 "a a";
         
     }
-    ul{
+    .bebidas ul{
         width: 500px;
     }
 }
