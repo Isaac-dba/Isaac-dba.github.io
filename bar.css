@@ -190,7 +190,7 @@ nav h1 .letter-spacing {
     align-items: center;
     text-align: center;
     padding: 5px;
-    background-color:white;
+    background-color:white !important;
     border-radius: 7px;
 }
 .cart h1{
