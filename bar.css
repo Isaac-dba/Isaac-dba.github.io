@@ -265,9 +265,9 @@ nav h1 .letter-spacing {
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: paso 10s ease-in-out infinite;
+    animation: g360 10s ease-in-out infinite;
 }
-@keyframes paso {
+@keyframes g360 {
     0%{
         background-color: #558bff;
         box-shadow: 0px 0px 10px black;
