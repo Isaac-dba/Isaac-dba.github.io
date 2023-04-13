@@ -193,7 +193,7 @@ nav h1 .letter-spacing {
     display: flex;
     flex-direction: column;
     top: 0px;
-    gap: 30px;
+    gap: 50px;
 }
 .body-menu header button{
     width: 40px;
