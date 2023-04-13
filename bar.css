@@ -202,7 +202,7 @@ nav h1 .letter-spacing {
 .body-menu header #list{
     background-color: rgba(137, 43, 226, 0.507);
     padding: 10px;
-    width: 160px;
+    width: 110px;
     border-radius: 0px 10px 10px 0px;
 }
 .body-menu header #list a p{
@@ -219,6 +219,7 @@ nav h1 .letter-spacing {
 }
 .body-menu header #list a{
     text-decoration: none;
+    font-family: var(--font-secondary);
 }
 
 /*cart pinchos*/
