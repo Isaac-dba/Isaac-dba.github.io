@@ -249,6 +249,39 @@ nav h1 .letter-spacing {
         background-position: 0 0;
     }
 }
+.content-title{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 2rem;
+    padding: 10px;
+    gap: 4px;
+    background-color: aliceblue;
+}
+.content-title .letter{
+    border: solid 1px gold;
+    width: 35px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: paso 10s ease-in-out infinite;
+}
+@keyframes paso {
+    0%{
+        background-color: #558bff;
+        box-shadow: 0px 0px 10px black;
+    }
+    50%{
+        background-color: #a18cd1;
+        box-shadow: 0px 0px 10px white;
+        transform: rotate(360deg);
+    }
+    100%{
+        background-color: #fbc2eb;
+        box-shadow: 0px 0px 10px black;
+    }
+}
 /*bebidas*/
 .bebidas ul{
     display: flex;
