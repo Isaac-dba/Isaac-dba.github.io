@@ -186,6 +186,40 @@ nav h1 .letter-spacing {
     }
 }
 /*nav menu*/
+.body-menu header{
+    width: 50px;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 0px;
+    gap: 30px;
+}
+.body-menu header button{
+    width: 40px;
+    height: 40px;
+}
+.body-menu header #list{
+    background-color: rgba(137, 43, 226, 0.507);
+    padding: 10px;
+    width: 160px;
+    border-radius: 0px 10px 10px 0px;
+}
+.body-menu header #list a p{
+    font-size: 30px;
+    background-color: violet;
+    background:linear-gradient(45deg, red, blue, yellow) ;
+    background-size: 100%;
+    background-repeat: repeat;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+}
+.body-menu header #list a{
+    text-decoration: none;
+}
 
 /*cart pinchos*/
 .content{
