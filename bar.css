@@ -198,6 +198,8 @@ nav h1 .letter-spacing {
 .body-menu header button{
     width: 40px;
     height: 40px;
+    background-color: #a18cd1;
+    border: none;
 }
 .body-menu header #list{
     background-color: rgba(137, 43, 226, 0.507);
