@@ -93,9 +93,9 @@ footer {
     background-image: url(img-svg/footer.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 10px;
     text-align: center;
     font-family: var(--font-letter2);
+    margin-top: 42px;
 }
 
 nav {
