@@ -369,6 +369,12 @@ nav h1 .letter-spacing {
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color:transparent
 }
+/*batidos*/
+#batidos .content-file .file .icon img{
+    width: 50px;
+    height: 70px;
+    margin-right: 10px;
+}
 
 
 /*Querrys layout*/
