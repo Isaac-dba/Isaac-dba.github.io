@@ -16,7 +16,7 @@
     --width2: 400px;
     --size2: 14px;
     /*alérgenos*/
-    --leche:rgba(255, 192, 203, 0.746);
+    --leche:rgb(255, 192, 203);
     --cacahuetes:rgba(255, 255, 0, 0.704);
     --huevo:rgba(255, 166, 0, 0.711);
     --mostaza:rgba(238, 238, 0, 0.701);
@@ -323,47 +323,52 @@ nav h1 .letter-spacing {
     }
 }
 /*bebidas*/
-.bebidas ul{
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    margin: 10px auto;
-    padding: 10px;
-    gap: 10px;
+.bebidas .content-file{
+    margin-top: 20px;
 }
-.bebidas ul li{
-    list-style: none;
+.bebidas .content-file .file{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-right: 20px;
+    margin: 0 auto;
+    width: 320px;
 }
-.bebidas ul li img{
-    width:70px;
+.bebidas .content-file .file .icon img{
+    width: 70px;
     height: 100px;
-    margin: 0% auto;
+    margin: 0 auto;
 }
-.bebidas ul li .content{
-    width: 100px;
+.bebidas .content-file .file .text{
+    width: 100%;
+    margin-right: 10px;
     color: white;
+    font-family: var(--font-letter1);
+    margin-top: -20px;
+}
+.bebidas .content-file .file .text .name{
     text-align: center;
     background-color: #a18cd1;
-    box-shadow: 0px 0px 10px white;
-    border-radius: 8px;
-    display: flex;
-    
+    border-radius: 5px;
+    box-shadow: -2px -2px 10px inset rgba(255, 0, 170, 0.356);
 }
-.bebidas ul li .content h3{
-    width: 100px;
-    text-align: center;
+.bebidas .content-file .file .text::after{
+    content: "-----------------------------";
+    position: absolute;
+    color: rgba(0, 157, 255, 0.419);
 }
-.bebidas ul li .price{
+.bebidas .content-file .file .price{
     font-size: 2rem;
+    background-color: #fbc2eb;
+    background: linear-gradient(45deg, red, blue, yellow);
+    background-size: 100%;
+    background-repeat: repeat;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent
 }
-
-
-
-
-
 
 
 
@@ -402,11 +407,12 @@ nav h1 .letter-spacing {
     main {
         width: 100%;
     }
-    .content{
+    .content, .content-file{
         display:grid;
-        grid-template-areas: 
-                "a a";
-        
+        grid-template-columns:repeat(
+            auto-fill,
+            minmax(320px, 1fr)
+        );
     }
     .bebidas ul{
         width: 500px;
