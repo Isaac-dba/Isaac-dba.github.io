@@ -42,13 +42,17 @@ body {
 header {
   width: 100%;
 }
-main {
+main{
   width: 100%;
   height: 100%;
   position: absolute;
   padding-left: 50px;
   display: flex;
   flex-direction: column;
+}
+main[class="main"]{
+  padding-left: 0px;
+  margin-top: 10px;
 }
 section {
   width: 100%;
@@ -1762,6 +1766,26 @@ table tbody tr:nth-child(n + 1) {
     rotateZ(360deg);
   }
 }
+/*section hero porfolio*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Querrys layout*/
 /*WIDTH 390px*/
 @media (min-width: 390px) {
