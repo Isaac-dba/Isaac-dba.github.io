@@ -251,7 +251,7 @@ nav h1 .letter-spacing {
     align-items: center;
     text-align: center;
     padding: 5px;
-    background-color:white;
+    background-color:rgba(22, 32, 44, 0.792);
     border-radius: 7px;
 }
 .cart h1{
@@ -268,13 +268,14 @@ nav h1 .letter-spacing {
 }
 .cart p{
     font-family: var(--font-letter1);
+    color: rgb(0, 0, 0);
 }
 .cart h5{
     font-size: 1.5rem;
 }
 .cart .subtitle{
     font-weight: bolder;
-    text-shadow: 0px 0px 5px black;
+    text-shadow: 0px 0px 5px rgb(255, 255, 255);
 }
 @keyframes gradient {
     0%{
