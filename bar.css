@@ -244,6 +244,7 @@ nav h1 .letter-spacing {
 }
 .cart{
     width: 290px;
+    height: 100%;
     margin: 0px auto;
     display: flex;
     flex-direction: column;
@@ -274,9 +275,6 @@ nav h1 .letter-spacing {
 .cart .subtitle{
     font-weight: bolder;
     text-shadow: 0px 0px 5px black;
-}
-.templade{
-    height: 100%;
 }
 @keyframes gradient {
     0%{
@@ -375,8 +373,14 @@ nav h1 .letter-spacing {
     height: 70px;
     margin-right: 10px;
 }
-
-
+#batidos .content-file .file .price{
+    font-size: 1.5rem;
+}
+#batidos .content-file .file .text::after{
+    content: "---------------------------";
+    position: absolute;
+    color: rgba(0, 157, 255, 0.419);
+}
 /*Querrys layout*/
 /*WIDTH 390px*/
 @media (min-width: 390px) {
