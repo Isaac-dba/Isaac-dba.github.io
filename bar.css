@@ -201,33 +201,15 @@ nav h1 .letter-spacing {
 .s2 {
     display: inline-block;
     transform: translateY(0px);
-    animation: wave 1s ease-in-out infinite alternate;
+    animation: wave 1s ease-out infinite alternate;
 }
 
 .s1 {
-    animation-delay: 0.2s;
+    animation-delay: 0.1s;
 }
 
 .s2 {
     animation-delay: 0.5s;
-}
-
-@keyframes wave {
-    0% {
-        transform: translateY(0px);
-    }
-
-    25% {
-        text-shadow: 0px 0px 10px white;
-    }
-
-    75% {
-        text-shadow: 0px 0px 10px black;
-    }
-
-    100% {
-        transform: translateY(-10px);
-    }
 }
 /*nav menu*/
 .body-menu header{
@@ -321,17 +303,6 @@ nav h1 .letter-spacing {
     font-weight: bolder;
     text-shadow: 0px 0px 5px rgb(255, 255, 255);
 }
-@keyframes gradient {
-    0%{
-        background-position: 0 0;
-    }
-    50%{
-        background-position: -80rem 0;
-    }
-    100%{
-        background-position: 0 0;
-    }
-}
 .content-title{
     display: flex;
     justify-content: center;
@@ -348,22 +319,7 @@ nav h1 .letter-spacing {
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: g360 10s ease-in-out infinite;
-}
-@keyframes g360 {
-    0%{
-        background-color: #558bff;
-        box-shadow: 0px 0px 10px black;
-    }
-    50%{
-        background-color: #a18cd1;
-        box-shadow: 0px 0px 10px white;
-        transform: rotate(360deg);
-    }
-    100%{
-        background-color: #fbc2eb;
-        box-shadow: 0px 0px 10px black;
-    }
+    animation: g360 10s ease infinite alternate-reverse;
 }
 /*bebidas*/
 .bebidas .content-file{
@@ -426,8 +382,49 @@ nav h1 .letter-spacing {
     position: absolute;
     color: rgba(0, 157, 255, 0.419);
 }
-#batidos .content-file .file .text .name{
+/*Animaciones*/
+@keyframes wave {
+    0% {
+        transform: translateY(0px);
+    }
 
+    25% {
+        text-shadow: 0px 0px 10px white;
+    }
+
+    75% {
+        text-shadow: 0px 0px 10px black;
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+@keyframes gradient {
+    0%{
+        background-position: 0 0;
+    }
+    50%{
+        background-position: -80rem 0;
+    }
+    100%{
+        background-position: 0 0;
+    }
+}
+@keyframes g360 {
+    0%{
+        background-color: #558bff;
+        box-shadow: 0px 0px 10px black;
+    }
+    50%{
+        background-color: #a18cd1;
+        box-shadow: 0px 0px 10px white;
+        transform: rotate(360deg);
+    }
+    100%{
+        background-color: #fbc2eb;
+        box-shadow: 0px 0px 10px black;
+    }
 }
 /*Querrys layout*/
 /*WIDTH 390px*/
