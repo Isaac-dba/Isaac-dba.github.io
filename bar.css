@@ -22,6 +22,47 @@
     --mostaza:rgba(238, 238, 0, 0.701);
     --frutos-secos:rgba(165, 42, 42, 0.683);
     --gluten: rgba(0, 128, 0, 0.5);
+    /*color frutas*/
+    --guanabana:rgba(238, 150, 163, 1);
+    --tamarindo:rgba(221, 126, 76, 1);
+    --lulo:rgba(237, 201, 81, 1);
+    --papaya:rgba(255, 170, 76, 1);
+    --piña:rgba(251, 216, 114, 1);
+    --mango:rgba(251, 176, 59, 1);
+    --milo:rgba(155, 60, 46, 1);
+    --fresa:rgba(229, 87, 98, 1);
+    --maracuya:rgba(244, 162, 97, 1);
+    --guayaba:rgba(243, 156, 152, 1);
+}
+.c-guana{
+    color: var(--guanabana);
+}
+.c-guaya{
+    color: var(--guayaba);
+}
+.c-milo{
+    color: var(--milo);
+}
+.c-mango{
+    color: var(--mango);
+}
+.c-marac{
+    color: var(--maracuya);
+}
+.c-papay{
+    color: var(--papaya);
+}
+.c-piña{
+    color: var(--piña);
+}
+.c-fresa{
+    color: var(--fresa);
+}
+.c-tamar{
+    color: var(--tamarindo);
+}
+.c-lulo{
+    color: var(--lulo);
 }
 .a-leche{
     color: var(--leche);
@@ -75,7 +116,6 @@ img {
 body {
     width: 390px;
     height: 844px;
-    background: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -90,7 +130,9 @@ main {
     display: flex;
     flex-direction: column;
     gap: 1px;
-    margin-top: 10px;
+    /*background: linear-gradient(to top, var(--guanabana) 10%, var(--tamarindo) 20%, 
+    var(--lulo) 30%, var(--papaya) 40%, var(--piña) 50%, var(--mango) 60%, var(--milo) 70%,
+    var(--fresa) 80%, var(--maracuya) 90%, var(--guayaba) 100%);*/
 }
 
 footer {
@@ -383,6 +425,9 @@ nav h1 .letter-spacing {
     content: "---------------------------";
     position: absolute;
     color: rgba(0, 157, 255, 0.419);
+}
+#batidos .content-file .file .text .name{
+
 }
 /*Querrys layout*/
 /*WIDTH 390px*/
