@@ -143,7 +143,7 @@ footer {
     font-family: var(--font-letter2);
     margin-top: 42px;
 }
-
+/*fin generales*/
 nav {
     display: flex;
     background: linear-gradient(to top, red 0%, blue 50%, yellow 100%);
@@ -176,7 +176,7 @@ nav ul li a {
 .hero {
     background: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
     text-align: center;
-    background-image: url(imagen/imagen-bar/empanadas_colombianas-e544489a-ea05-41d7-872d-668ee0820cd0.jpg);
+    background-image: url(imagen-bar/empanadas_colombianas-e544489a-ea05-41d7-872d-668ee0820cd0.jpg);
     background-size: cover;
     background-position: center;
     font-family: var(--font-letter1);
