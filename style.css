@@ -1767,9 +1767,30 @@ table tbody tr:nth-child(n + 1) {
   }
 }
 /*section hero porfolio*/
-
-
-
+#index{
+    margin: 0%;
+    padding: 0%;
+}
+span[class="animation"]{
+  display: block;
+  font-family: monospace;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 132px;
+  animation: typing  3s steps(18) alternate-reverse infinite,
+  blink .5s infinite step-end alternate;
+  overflow: hidden;
+}
+@keyframes typing{
+  from{
+    width: 0;
+  }
+}
+@keyframes blink {
+  50%{
+    border-color: transparent;
+  }
+}
 
 
 
