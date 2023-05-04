@@ -11,44 +11,45 @@
 
 <body class="index"> 
 <header>
-    <nav class="index">
+    <nav>
         <div class="logo">
             <img src="img-programador/programador_animacion-f2a26857-1d48-4bab-9581-d41836c29f85.jpg" alt="logo">
-        </div>
-        <div class="link">
+        </div> 
+            <button id="bmenu"><iconify-icon icon="material-symbols:menu"></iconify-icon></button>
+        <div id="links" class="link collapse">
             <a href="ejercicios.html">Ejercicios</a>
             <a href="frondent-mentor/">Frontend-Mentor</a>
             <a href="proyectos">Proyectos</a>
         </div>
     </nav>
 </header>    
-<div class="container">
-    <div class="bubbles">
-        <span style="--i:11"></span>
-        <span style="--i:12"></span>
-        <span style="--i:24"></span>
-        <span style="--i:10"></span>
-        <span style="--i:14"></span>
-        <span style="--i:23"></span>
-        <span style="--i:18"></span>
-        <span style="--i:16"></span>
-        <span style="--i:19"></span>
-        <span style="--i:20"></span>
-        <span style="--i:22"></span>
-        <span style="--i:25"></span>
-        <span style="--i:18"></span>
-        <span style="--i:21"></span>
-        <span style="--i:15"></span>
-        <span style="--i:13"></span>
-        <span style="--i:26"></span>
-        <span style="--i:17"></span>
-        <span style="--i:13"></span>
-        <span style="--i:28"></span>
-
-
-    </div>
-</div>
 <main id="index">
+    <div class="container">
+        <div class="bubbles">
+            <span style="--i:11"></span>
+            <span style="--i:12"></span>
+            <span style="--i:24"></span>
+            <span style="--i:10"></span>
+            <span style="--i:14"></span>
+            <span style="--i:23"></span>
+            <span style="--i:18"></span>
+            <span style="--i:16"></span>
+            <span style="--i:19"></span>
+            <span style="--i:20"></span>
+            <span style="--i:22"></span>
+            <span style="--i:25"></span>
+            <span style="--i:18"></span>
+            <span style="--i:21"></span>
+            <span style="--i:15"></span>
+            <span style="--i:13"></span>
+            <span style="--i:26"></span>
+            <span style="--i:17"></span>
+            <span style="--i:13"></span>
+            <span style="--i:28"></span>
+    
+    
+        </div>
+    </div>
     <section class="hero">
         <div class="presentacion">
             <h3>Hello, It's Me</h3>
@@ -78,9 +79,6 @@
             HTML, CSS y aprendiendo JavaScript. Mi objetivo es convertirme 
             en un desarrollador web profesional y estoy comprometido 
             a dar lo mejor de mí para lograrlo.</p>
-        <div class="cv">
-            <button>Download CV</button>
-        </div>
         <img src="img-programador/persnaje dentro de la nave.jpg" alt="personaje">
         <p class="descrition">
             "¡Hola! Mi nombre es Joel Santos y soy un apasionado del 
@@ -96,6 +94,9 @@
             comprometido con su trabajo y a un precio razonable, ¡no 
             dudes en contactarme!"
         </p>
+        <div class="cv">
+            <button>Download CV</button>
+        </div>
     </section>
     <section class="service">
     </section>
@@ -106,4 +107,12 @@
 <footer></footer>    
 </body>
 <script src="https://code.iconify.design/iconify-icon/1.0.6/iconify-icon.min.js"></script>
+<script>
+    const bmenu = document.querySelector("#bmenu");
+    const links = document.querySelector("#links");
+
+    bmenu.addEventListener("click", (e) => {
+        links.classList.toggle("collapse");
+    })
+</script>
 </html>				
