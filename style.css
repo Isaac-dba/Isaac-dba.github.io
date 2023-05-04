@@ -39,6 +39,12 @@ body {
   position: relative;
   top: 33px;
 }
+body[class="index"] {
+  width: 390px;
+  height: 844px;
+  position: relative;
+  top: 33px;
+}
 header {
   width: 100%;
 }
