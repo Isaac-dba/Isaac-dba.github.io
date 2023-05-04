@@ -242,38 +242,6 @@ nav.vertical .links a p {
 .section-hero .hero h3 .p2 {
   animation: letter1 10s ease-in-out infinite;
 }
-@keyframes letter1 {
-  5% {
-    transform: translateY(15%);
-  }
-  25% {
-    transform: rotate(15deg);
-    color: #5d9fff;
-  }
-  50% {
-    transform: scale(1.5);
-    color: sienna;
-  }
-  75% {
-    transform: translateX(20%);
-  }
-}
-@keyframes letter2 {
-  5% {
-    transform: translateY(-15%);
-    color: darkblue;
-  }
-  25% {
-    transform: rotate(-15deg);
-    color: gold;
-  }
-  50% {
-    transform: scale(-1.5);
-  }
-  75% {
-    transform: translateX(-20%);
-  }
-}
 /*section card*/
 .section-card {
   background: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
@@ -391,164 +359,6 @@ table tbody tr:nth-child(n + 1) {
   position: relative;
   top: -7px;
   left: 20px;
-}
-@keyframes ring {
-  0% {
-    transform: rotate(0deg);
-  }
-  1% {
-    transform: rotate(50deg);
-  }
-  3% {
-    transform: rotate(-50deg);
-  }
-  5% {
-    transform: rotate(48deg);
-  }
-  7% {
-    transform: rotate(-48deg);
-  }
-  9% {
-    transform: rotate(46deg);
-  }
-  11% {
-    transform: rotate(-46deg);
-  }
-  13% {
-    transform: rotate(44deg);
-  }
-  15% {
-    transform: rotate(-44deg);
-  }
-  17% {
-    transform: rotate(42deg);
-  }
-  19% {
-    transform: rotate(-42deg);
-  }
-  21% {
-    transform: rotate(40deg);
-  }
-  23% {
-    transform: rotate(-40deg);
-  }
-  25% {
-    transform: rotate(38deg);
-  }
-  27% {
-    transform: rotate(-38deg);
-  }
-  29% {
-    transform: rotate(36deg);
-  }
-  31% {
-    transform: rotate(-36deg);
-  }
-  33% {
-    transform: rotate(34deg);
-  }
-  35% {
-    transform: rotate(-34deg);
-  }
-  37% {
-    transform: rotate(32deg);
-  }
-  39% {
-    transform: rotate(-32deg);
-  }
-  41% {
-    transform: rotate(30deg);
-  }
-  43% {
-    transform: rotate(-30deg);
-  }
-  45% {
-    transform: rotate(28deg);
-  }
-  47% {
-    transform: rotate(-28deg);
-  }
-  49% {
-    transform: rotate(26deg);
-  }
-  51% {
-    transform: rotate(-26deg);
-  }
-  53% {
-    transform: rotate(24deg);
-  }
-  55% {
-    transform: rotate(-24deg);
-  }
-  57% {
-    transform: rotate(22deg);
-  }
-  59% {
-    transform: rotate(-22deg);
-  }
-  61% {
-    transform: rotate(20deg);
-  }
-  63% {
-    transform: rotate(-20deg);
-  }
-  65% {
-    transform: rotate(18deg);
-  }
-  67% {
-    transform: rotate(-18deg);
-  }
-  69% {
-    transform: rotate(16deg);
-  }
-  71% {
-    transform: rotate(-16deg);
-  }
-  73% {
-    transform: rotate(14deg);
-  }
-  75% {
-    transform: rotate(-14deg);
-  }
-  77% {
-    transform: rotate(12deg);
-  }
-  79% {
-    transform: rotate(-12deg);
-  }
-  81% {
-    transform: rotate(10deg);
-  }
-  83% {
-    transform: rotate(-10deg);
-  }
-  85% {
-    transform: rotate(8deg);
-  }
-  87% {
-    transform: rotate(-8deg);
-  }
-  89% {
-    transform: rotate(6deg);
-  }
-  91% {
-    transform: rotate(-6deg);
-  }
-  93% {
-    transform: rotate(4deg);
-  }
-  95% {
-    transform: rotate(-4deg);
-  }
-  97% {
-    transform: rotate(2deg);
-  }
-  99% {
-    transform: rotate(-2deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
 }
 /*section checkbox*/
 .section-checkbox {
@@ -1092,17 +902,6 @@ table tbody tr:nth-child(n + 1) {
 .service-container .card-price:first-child{
   border-radius: 10px 0px 0px 10px;
 }
-@keyframes color {
-
-  from{
-    background: linear-gradient(120deg, #fccb9086 0%, #d57eeb99 100%);
-    
-  }
-  to{
-    background:radial-gradient(circle 250px at center, #ff11a9 0%, #dd81af 50%,
-    #fbc2eb 100%) ;
-  }
-}
 .service-container .card-price h1{
   text-align: center;
   text-transform: capitalize;
@@ -1262,14 +1061,6 @@ table tbody tr:nth-child(n + 1) {
 .profile:hover .conten{
   display: inline-flex;
   animation: show 2s ease-in-out;
-}
-@keyframes show {
-  from{
-    opacity: 0;
-  }
-  to{
-    opacity: 1;
-  }
 }
 .profile .conten .header{
   display: flex;
@@ -1458,44 +1249,6 @@ table tbody tr:nth-child(n + 1) {
   overflow: hidden;
   white-space: nowrap;
   animation: rgb 10s infinite ease-in-out;
-}
-@keyframes rgb {
-  0%{
-    color: rgb(255,225,125);
-  }
-  10%{
-    color: rgb(255,225,105);
-  }
-  20%{
-    color: rgb(255,145,55);
-  }
-  30%{
-    color: rgb(235,65,65);
-  }
-  40%{
-    color:rgb(35,75,215);
-  }
-  50%{
-    color:rgb(195,60,190);
-  }
-  55%{
-    color:rgb(195,60,190);
-  }
-  60%{
-    color:rgb(35,75,215);
-  }
-  70%{
-    color: rgb(235,65,65);
-  }
-  80%{
-    color: rgb(255,145,55);
-  }
-  90%{
-    color: rgb(255,225,105);
-  }
-  100%{
-    color: rgb(255,225,125);
-  }
 }
 /*section slider*/
 .section-slider{
@@ -1711,11 +1464,6 @@ table tbody tr:nth-child(n + 1) {
   stroke-dashoffset: 550;
   animation: loading 10s infinite ease-in-out;
 }
-@keyframes loading {
-  100%{
-    stroke-dashoffset: 0%;
-  }
-}
 /*section cube*/
 .cubo-3d{
   background-color: rgb(14, 229, 132);
@@ -1758,18 +1506,11 @@ table tbody tr:nth-child(n + 1) {
 .s6{
   transform: rotateX(-90deg) translateZ(100px) rotate(180deg);
 }
-@keyframes rotate {
-  100%{
-    transform: rotateX(0deg)
-    rotateY(360deg)
-    rotateZ(360deg);
-  }
-}
 /*fondo burbujas*/
 .container{
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   overflow: hidden;
 }
 .bubbles{
@@ -1794,14 +1535,6 @@ table tbody tr:nth-child(n + 1) {
   box-shadow: 0 0 0 10px #ff2d7544,
   0 0 50px #ff2d75,
   0 0 100px #ff2d75;
-}
-@keyframes animate {
-  0%{
-    transform: translateY(100vh) scale(0);
-  }
-  100%{
-    transform: translateY(-10vh) scale(1);
-  }
 }
 /*header nav*/
 body[class="index"] header {
@@ -1844,13 +1577,326 @@ span[class="animation"]{
   font-family: monospace;
   white-space: nowrap;
   border-right: 4px solid;
-  width: 350px;
+  width: 360px;
   animation: typing  4s steps(18) alternate-reverse infinite,
   blink .5s infinite step-end alternate;
   overflow: hidden;
   text-shadow: 0px 0px 3px #ff0000 ;
   color: rgb(250, 250, 250);
 }
+.link-perfil{
+  font-size: 2rem;
+  display: flex;
+  gap: 5px;
+  margin: 10px auto;
+}
+.link-perfil a iconify-icon{
+  color: #2d6bf0;
+}
+/*section about index*/
+#index section[class="about"] p{
+  font-family: var(--font-letter2);
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+#index section[class="about"] .cv button{
+  padding: 10px;
+  font-family: var(--font-primary);
+  border-radius: 5px;
+  border: none;
+  background-color: #6457C6;
+  box-shadow: 0 0 50px 10px rgb(11, 59, 130);
+  color: white;
+} 
+.about{
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/*Querrys layout*/
+/*section hero ejercicios*/
+@keyframes letter1 {
+  5% {
+    transform: translateY(15%);
+  }
+  25% {
+    transform: rotate(15deg);
+    color: #5d9fff;
+  }
+  50% {
+    transform: scale(1.5);
+    color: sienna;
+  }
+  75% {
+    transform: translateX(20%);
+  }
+}
+@keyframes letter2 {
+  5% {
+    transform: translateY(-15%);
+    color: darkblue;
+  }
+  25% {
+    transform: rotate(-15deg);
+    color: gold;
+  }
+  50% {
+    transform: scale(-1.5);
+  }
+  75% {
+    transform: translateX(-20%);
+  }
+}
+/*section notification ejercicios*/
+@keyframes ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  1% {
+    transform: rotate(50deg);
+  }
+  3% {
+    transform: rotate(-50deg);
+  }
+  5% {
+    transform: rotate(48deg);
+  }
+  7% {
+    transform: rotate(-48deg);
+  }
+  9% {
+    transform: rotate(46deg);
+  }
+  11% {
+    transform: rotate(-46deg);
+  }
+  13% {
+    transform: rotate(44deg);
+  }
+  15% {
+    transform: rotate(-44deg);
+  }
+  17% {
+    transform: rotate(42deg);
+  }
+  19% {
+    transform: rotate(-42deg);
+  }
+  21% {
+    transform: rotate(40deg);
+  }
+  23% {
+    transform: rotate(-40deg);
+  }
+  25% {
+    transform: rotate(38deg);
+  }
+  27% {
+    transform: rotate(-38deg);
+  }
+  29% {
+    transform: rotate(36deg);
+  }
+  31% {
+    transform: rotate(-36deg);
+  }
+  33% {
+    transform: rotate(34deg);
+  }
+  35% {
+    transform: rotate(-34deg);
+  }
+  37% {
+    transform: rotate(32deg);
+  }
+  39% {
+    transform: rotate(-32deg);
+  }
+  41% {
+    transform: rotate(30deg);
+  }
+  43% {
+    transform: rotate(-30deg);
+  }
+  45% {
+    transform: rotate(28deg);
+  }
+  47% {
+    transform: rotate(-28deg);
+  }
+  49% {
+    transform: rotate(26deg);
+  }
+  51% {
+    transform: rotate(-26deg);
+  }
+  53% {
+    transform: rotate(24deg);
+  }
+  55% {
+    transform: rotate(-24deg);
+  }
+  57% {
+    transform: rotate(22deg);
+  }
+  59% {
+    transform: rotate(-22deg);
+  }
+  61% {
+    transform: rotate(20deg);
+  }
+  63% {
+    transform: rotate(-20deg);
+  }
+  65% {
+    transform: rotate(18deg);
+  }
+  67% {
+    transform: rotate(-18deg);
+  }
+  69% {
+    transform: rotate(16deg);
+  }
+  71% {
+    transform: rotate(-16deg);
+  }
+  73% {
+    transform: rotate(14deg);
+  }
+  75% {
+    transform: rotate(-14deg);
+  }
+  77% {
+    transform: rotate(12deg);
+  }
+  79% {
+    transform: rotate(-12deg);
+  }
+  81% {
+    transform: rotate(10deg);
+  }
+  83% {
+    transform: rotate(-10deg);
+  }
+  85% {
+    transform: rotate(8deg);
+  }
+  87% {
+    transform: rotate(-8deg);
+  }
+  89% {
+    transform: rotate(6deg);
+  }
+  91% {
+    transform: rotate(-6deg);
+  }
+  93% {
+    transform: rotate(4deg);
+  }
+  95% {
+    transform: rotate(-4deg);
+  }
+  97% {
+    transform: rotate(2deg);
+  }
+  99% {
+    transform: rotate(-2deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+/*section servicios ejercicios*/
+@keyframes color {
+
+  from{
+    background: linear-gradient(120deg, #fccb9086 0%, #d57eeb99 100%);
+    
+  }
+  to{
+    background:radial-gradient(circle 250px at center, #ff11a9 0%, #dd81af 50%,
+    #fbc2eb 100%) ;
+  }
+}
+/*section profile ejer*/
+@keyframes show {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+/*section instagran*/
+@keyframes rgb {
+  0%{
+    color: rgb(255,225,125);
+  }
+  10%{
+    color: rgb(255,225,105);
+  }
+  20%{
+    color: rgb(255,145,55);
+  }
+  30%{
+    color: rgb(235,65,65);
+  }
+  40%{
+    color:rgb(35,75,215);
+  }
+  50%{
+    color:rgb(195,60,190);
+  }
+  55%{
+    color:rgb(195,60,190);
+  }
+  60%{
+    color:rgb(35,75,215);
+  }
+  70%{
+    color: rgb(235,65,65);
+  }
+  80%{
+    color: rgb(255,145,55);
+  }
+  90%{
+    color: rgb(255,225,105);
+  }
+  100%{
+    color: rgb(255,225,125);
+  }
+}
+/*section barra circular ejer*/
+@keyframes loading {
+  100%{
+    stroke-dashoffset: 0%;
+  }
+}
+/*section cube ej*/
+@keyframes rotate {
+  100%{
+    transform: rotateX(0deg)
+    rotateY(360deg)
+    rotateZ(360deg);
+  }
+}
+/*section bubbles fondo*/
+@keyframes animate {
+  0%{
+    transform: translateY(100vh) scale(0);
+  }
+  100%{
+    transform: translateY(-10vh) scale(1);
+  }
+}
+/*section hero index*/
 @keyframes typing{
   from{
     width: 0;
@@ -1863,21 +1909,6 @@ span[class="animation"]{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*Querrys layout*/
 /*WIDTH 390px*/
 @media (min-width: 390px) {
   body {
