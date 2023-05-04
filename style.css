@@ -1844,7 +1844,7 @@ span[class="animation"]{
   font-family: monospace;
   white-space: nowrap;
   border-right: 4px solid;
-  width: 338px;
+  width: 350px;
   animation: typing  4s steps(18) alternate-reverse infinite,
   blink .5s infinite step-end alternate;
   overflow: hidden;
