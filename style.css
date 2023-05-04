@@ -40,10 +40,7 @@ body {
   top: 33px;
 }
 body[class="index"] {
-  width: 390px;
-  height: 844px;
-  position: relative;
-  top: 33px;
+  background-color: rgba(221, 220, 220, 0.829);
 }
 header {
   width: 100%;
@@ -55,10 +52,6 @@ main{
   padding-left: 50px;
   display: flex;
   flex-direction: column;
-}
-main[class="main"]{
-  padding-left: 0px;
-  margin-top: 10px;
 }
 section {
   width: 100%;
@@ -1771,6 +1764,53 @@ table tbody tr:nth-child(n + 1) {
     rotateY(360deg)
     rotateZ(360deg);
   }
+}
+/*fondo burbujas*/
+.container{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 1;
+}
+.bubbles{
+  position: relative;
+  display: flex;
+} 
+.bubbles span{
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background-color: #4fc3dc;
+  margin: 0 4px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 10px #4fc3dc44,
+  0 0 50px #4fc3dc,
+  0 0 100px #4fc3dc; 
+  animation: animate 120s linear infinite;
+  animation-duration: calc(125s / var(--i));
+}
+.bubbles span:nth-child(even){
+  background-color: #ff2d75;
+  box-shadow: 0 0 0 10px #ff2d7544,
+  0 0 50px #ff2d75,
+  0 0 100px #ff2d75;
+}
+@keyframes animate {
+  0%{
+    transform: translateY(100vh) scale(0);
+  }
+  100%{
+    transform: translateY(-10vh) scale(1);
+  }
+}
+/*header nav*/
+
+body[class="index"] header nav{
+  background-color:transparent !important;
+  position: relative;
+  top: 0;
+  margin-top: -35px;
 }
 /*section hero porfolio*/
 #index{
