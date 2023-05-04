@@ -1776,10 +1776,13 @@ span[class="animation"]{
   font-family: monospace;
   white-space: nowrap;
   border-right: 4px solid;
-  width: 132px;
-  animation: typing  3s steps(18) alternate-reverse infinite,
+  width: 338px;
+  animation: typing  4s steps(18) alternate-reverse infinite,
   blink .5s infinite step-end alternate;
   overflow: hidden;
+  font-size: 2rem;
+  text-shadow: 0px 0px 3px #ff0000 ;
+  color: rgb(250, 250, 250);
 }
 @keyframes typing{
   from{
