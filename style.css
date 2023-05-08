@@ -1610,7 +1610,7 @@ span[class="animation"]{
   font-family: monospace;
   white-space: nowrap;
   border-right: 4px solid;
-  width: 360px;
+  width: 370px;
   animation: typing  4s steps(18) alternate-reverse infinite,
   blink .5s infinite step-end alternate;
   overflow: hidden;
@@ -1630,7 +1630,7 @@ span[class="animation"]{
 #index section[class="about"] p{
   font-family: var(--font-letter2);
   font-size: 1.3rem;
-  margin-bottom: 10px;
+  margin: 10px;
 }
 #index section[class="about"] .cv button{
   padding: 10px;
@@ -1640,6 +1640,7 @@ span[class="animation"]{
   background-color: #6457C6;
   box-shadow: 0 0 50px 10px rgb(11, 59, 130);
   color: white;
+  margin-bottom: 20px;
 } 
 .about{
   text-align: center;
@@ -1654,6 +1655,7 @@ span[class="animation"]{
   height: 200px;
   border-radius:10px ;
 }
+/*section service*/
 
 
 
@@ -2156,6 +2158,32 @@ span[class="animation"]{
 .from-container .welcome-container{
   display: flex;
   width: 50%;
+}
+/*nav index*/
+body[class="index"] header nav .link{
+  display: flex;
+  width: 350px;
+  top: 18px;
+  right: 40px;
+}
+body[class="index"] header nav .link a{
+  background-color: transparent;
+  padding: 5px;
+}
+body[class="index"] header nav button{
+  display: none;
+}
+/*display */
+.about-contec{
+  display: flex;
+  justify-content: space-evenly;
+}
+.about-contec p{
+  width: 40%;
+}
+.about-contec img{
+  height: 100%;
+  width: 40%;
 }
 }
 /*WIDTH 1024*/
