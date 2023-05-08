@@ -2097,6 +2097,7 @@ body[class="index"] header nav .link{
   width: 350px;
   top: 18px;
   right: 40px;
+  background-color: transparent;
 }
 body[class="index"] header nav .link a{
   background-color: transparent;
