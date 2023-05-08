@@ -1627,10 +1627,11 @@ span[class="animation"]{
   color: #2d6bf0;
 }
 /*section about index*/
-#index section[class="about"] p{
+#index section[class="about"],[class="service"] p{
   font-family: var(--font-letter2);
   font-size: 1.3rem;
   margin: 10px;
+  text-align: center;
 }
 #index section[class="about"] .cv button{
   padding: 10px;
@@ -1643,7 +1644,6 @@ span[class="animation"]{
   margin-bottom: 20px;
 } 
 .about{
-  text-align: center;
   padding: 10px;
   display: flex;
   flex-direction: column;
