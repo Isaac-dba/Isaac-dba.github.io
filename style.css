@@ -1569,20 +1569,25 @@ body[class="index"] header nav button{
   height: 45px;
   border-radius: 5px;
 }
+body[class="index"] header nav button:active{
+  scale: 1.2;
+  color: black;
+}
 body[class="index"] header nav .link{
   position: fixed;
   top:70px;
   right: 0;  
   width: 160px;
+  background-color: #6457C6;
+  border-radius: 0px 0px 0px 45px;
 }
 body[class="index"] header nav .link a{
   display: block;
   text-decoration: none;
   color: rgb(162, 41, 223);
   text-shadow: 0px 0px 10px rgb(241, 229, 229);
-  font-size: 1.3rem;
+  font-size: 1rem; 
   padding: 5px 1px;
-  background-color: #6457C6;
   text-align: center;
 }
 /*section hero porfolio*/
@@ -1630,8 +1635,8 @@ span[class="animation"]{
 #index section[class="about"],[class="service"] p{
   font-family: var(--font-letter2);
   font-size: 1.3rem;
-  margin: 10px;
   text-align: center;
+  padding: 10px;
 }
 #index section[class="about"] .cv button{
   padding: 10px;
@@ -2169,6 +2174,7 @@ body[class="index"] header nav .link{
 body[class="index"] header nav .link a{
   background-color: transparent;
   padding: 5px;
+  font-size: 1.3rem;
 }
 body[class="index"] header nav button{
   display: none;
