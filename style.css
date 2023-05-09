@@ -2091,6 +2091,9 @@ span[class="animation"]{
   padding: 0%;
 
 }
+#index p{
+  width:350px ;
+}
 /*nav index*/
 body[class="index"] header nav .link{
   display: flex;
@@ -2124,6 +2127,7 @@ body[class="index"] header nav button{
 .service .conten-wed{
   display: flex;
   align-items: center;
+  justify-content: space-around;
 }
 .service .conten-wed p{
   border-radius: 10px 0px 0px 10px;
@@ -2148,6 +2152,7 @@ body[class="index"] header nav button{
   flex-direction: row-reverse;
   align-items: cover;
   margin:10px auto ;
+  justify-content: space-around;
 }
 .service .conten-pc p{
   display: flex;
