@@ -1982,6 +1982,19 @@ span[class="animation"]{
   main {
     width: 100%;
   }
+    /*nav horizontal*/
+    nav.horizontal .mobile1 {
+      display: none;
+    }
+    nav.horizontal .mobile2{
+      display: flex;
+    }
+    nav.horizontal .mobile2 .secondary.full{
+      display: none;
+    }
+    nav.horizontal .mobile2 .secondary.mini{
+      display: block;
+    }
   /*nav vertical*/
   nav.vertical .header {
     display: none;
@@ -2187,13 +2200,13 @@ body[class="index"] header nav button{
   main {
     width: 100%;
   }
-  /*nav horizontal*/
-  nav.horizontal .mobile1 {
-    display: none;
-  }
-  nav.horizontal .mobile2 {
-    display: flex;
-  }
+    /*nav horizontal*/
+    nav.horizontal .mobile2 .secondary.full{
+      display: flex;
+    }
+    nav.horizontal .mobile2 .secondary.mini{
+      display: none;
+    }
   /*card*/
   .cards-container {
     width: 600px;
@@ -2248,12 +2261,7 @@ body[class="index"] header nav button{
   main {
     width: 100%;
   }
-  nav.horizontal .mobile2 .secondary.mini {
-    display: block;
-  }
-  nav.horizontal .mobile2 .secondary.full {
-    display: none;
-  }
+  
   /*card*/
   .cards-container {
     width: 600px;
