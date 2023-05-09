@@ -82,7 +82,7 @@ nav .links{
   top: 20px;
   background-color:#2d7da8ae ;
   padding: 10px;
-  gap: 10px;
+  line-height: 25px;
   border-radius: 0px 5px 5px 0px;
 }
 nav .links a{
