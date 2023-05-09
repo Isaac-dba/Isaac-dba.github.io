@@ -11,13 +11,21 @@
 </head>
 <body>
     <nav>
-        <span class="material-icons">menu_open
+        <span  id="bmenu" class="material-icons">menu_open
             </span>
-            <div class="links">
+            <div id="links" class="links collapse">
                 <a href="/fronted-rep/Isaac-dba.github.io/index.html">volver</a>
                 <a href="/fronted-rep/Isaac-dba.github.io/ejercicios.html">ejercicios</a>
             </div>
     </nav>
+    <script>
+        const bmenu = document.querySelector("#bmenu");
+        const links = document.querySelector("#links");
+
+        bmenu.addEventListener("click", (e) => {
+            links.classList.toggle("collapse");
+        })
+    </script>
     <main>
         <header>
             <h1>HTML AND CSS</h1>

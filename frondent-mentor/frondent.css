@@ -74,12 +74,11 @@ body nav{
 body nav .material-icons{
   color:red;
 }
-body nav .material-icons:hover + .links{
-  display: block;
+.collapse{
+  display: none;
 }
 nav .links{
   position: absolute;
-  display: none;
   top: 20px;
   background-color:#2d7da8ae ;
   padding: 10px;
