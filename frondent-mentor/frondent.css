@@ -145,3 +145,16 @@ section .content{
     width: 100%;
   }
 }
+@media (min-width: 1024px) {
+  section .content{
+    display: grid;
+    grid-template-areas: 
+      ". . . . . ."
+  
+      ;
+  
+  }
+  body{
+    width: 100%;
+  }
+}
