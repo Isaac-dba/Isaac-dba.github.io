@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@1,9..144,700&family=Montserrat:wght@500;700&family=Outfit:wght@400;700&display=swap');
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+*, ::after, ::before{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(30, 38%, 92%);
+    width: 390px;
+    height: 100%;
+}
+.container{
+    width: 350px;
+    background-color:hsl(0, 0%, 100%);
+    margin: 30px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    font-family:'Montserrat', sans-serif ;
+    font-size: 1.2rem;
+}
+.container img{
+    width: 100%;
+}
+.container img[class="desktop"]{
+    display: none;
+}
+.container p{
+    color:  hsl(228, 12%, 48%);
+}
+.container h1{
+    font-family: 'Fraunces', sans-serif;
+}
+.container .action button{
+    background-color: hsl(158, 36%, 37%);
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    justify-content: center;
+    padding: 15px;
+    color: white;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+}
+.container .action button img{
+    width: 18px;
+    height: 18px;
+}
+.info{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.price{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.price .sales{
+    font-size: 2rem;
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', sans-serif;
+}
+.price .normal{
+    text-decoration:line-through;
+}
+
+
+/*width 844 (1440)*/
+@media (min-width: 390px) {
+    body{
+        width: 100%;
+    }
+}
+@media (min-width: 500px) {
+    body{
+        width: 100%;
+    }
+    .container{
+        display: flex;
+        width: 400px;
+        font-size: 0.7rem;
+        height: 290px;
+        margin: 50px auto 35px;
+        
+    }
+    .container .info{
+        gap: 5px;
+    }
+    .price .sales{
+        font-size: 1.3rem;
+    }
+    .container img[class="mobile"]{
+        display: none;
+    }
+    .container img[class="desktop"]{
+        display: block;
+        height: 100%;
+        width: 200px;
+    }
+}
