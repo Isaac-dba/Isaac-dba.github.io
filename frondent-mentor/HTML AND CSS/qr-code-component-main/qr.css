@@ -25,7 +25,7 @@ body{
     flex-direction: column;
     gap: 20px;
     padding: 10px;
-    margin: 100px auto 170px;
+    margin: 100px auto 150px;
     border-radius: 15px;
 }
 .container img{
@@ -58,7 +58,7 @@ body{
     }
     .container{
         width: 25%;
-        margin: 34px auto;
+        margin: 14px auto;
         gap: 5px;
     }
     .container p{

@@ -20,7 +20,7 @@ body{
 .container{
     width: 350px;
     background-color:hsl(0, 0%, 100%);
-    margin: 30px auto;
+    margin: 30px auto 10px;
     border-radius: 10px;
     overflow: hidden;
     font-family:'Montserrat', sans-serif ;
@@ -90,7 +90,7 @@ body{
         width: 400px;
         font-size: 0.7rem;
         height: 290px;
-        margin: 50px auto 35px;
+        margin: 40px auto 15px;
         
     }
     .container .info{
