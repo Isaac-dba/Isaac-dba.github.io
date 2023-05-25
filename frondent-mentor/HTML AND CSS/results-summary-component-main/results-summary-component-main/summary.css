@@ -1,0 +1,236 @@
+/*fuentes static*/
+@font-face {
+  font-family: "Hanken Grotesk";
+  src: url(./assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "Hanken Bold";
+  src: url(./assets/fonts/static/HankenGrotesk-Bold.ttf);
+}
+@font-face {
+  font-family: "Hanken ExtraBold";
+  src: url(./assets/fonts/static/HankenGrotesk-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "Hanken Medium";
+  src: url(./assets/fonts/static/HankenGrotesk-Medium.ttf);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+/*generales*/
+:root{
+  --border:rgba(213, 208, 208, 0.524);
+  --size-border:2px;
+}
+*, ::after, ::before{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+body{
+  width: 390px;
+  height: 100vh;
+}
+.conten-summary{
+  width: 390px;
+  font-size: 18px;
+}
+.conten-summary .result{
+  font-family: "Hanken Bold";
+  background:linear-gradient(185deg, 
+  hsl(252, 100%, 67%) 0%,
+  hsl(241, 81%, 54%) 100%);
+  
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+  color: hsl(0, 0%, 100%);
+  border-radius: 0px 0px 30px 30px;
+}
+.conten-summary .result h3,
+.conten-summary .result .score .of{
+  color:hsl(241, 100%, 89%) ;
+}
+.conten-summary .result .score{
+  background: linear-gradient(185deg, 
+  hsla(256, 72%, 46%, 1) 0%,
+  hsla(241, 72%, 46%, 1) 100%);
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: solid 1px transparent;
+}
+.conten-summary .result .score .total{
+  font-size: 4rem;
+  font-weight: bold;
+}
+.conten-summary .result .text p{
+  width: 300px;
+  color: hsl(241, 100%, 89%);
+}
+.conten-summary .result .text h1{
+  margin-bottom: 10px;
+}
+.conten-summary .summary{
+  padding: 20px;
+}
+.conten-summary .summary h3{
+  margin-bottom: 30px;
+  font-family: "Hanken Medium";
+}
+.conten-summary .summary .conten-file{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+#reaction{
+  background-color: hsla(0, 100%, 67%, 0.109);
+}
+#memory{
+  background-color: hsla(39, 100%, 56%, 0.109);
+}
+#verbal{
+  background-color: hsl(166, 100%, 37%, 0.109);
+}
+#visual{
+  background-color: hsl(234, 85%, 45%, 0.109);
+}
+.conten-summary .summary .conten-file .file{
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.conten-summary .summary .conten-file .file .icon-text,
+.conten-summary .summary .conten-file .file .total
+{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-family: "Hanken Medium";
+}
+.conten-summary .summary .conten-file .file .total{
+  font-family: "Hanken Bold";
+}
+.conten-summary .summary .conten-file .file .total .of{
+  color:  hsla(0, 2%, 50%, 0.61);
+
+}
+.conten-summary .summary .conten-file .file .ezq{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  position: absolute;
+  left: 0;
+}
+.conten-summary .summary .conten-file .ezq .esq{
+  width: 15px;
+  height: 15px;
+}
+.conten-summary .summary .conten-file .ezq .top{
+  display: flex;
+  justify-content: space-between;
+}
+.conten-summary .summary .conten-file .ezq .top .esq.left{
+  border-radius: 10px 0 0 0;
+  border-top: solid var(--size-border) var(--border);
+  border-right: solid var(--size-border) transparent;
+  border-bottom: solid var(--size-border) transparent;
+  border-left: solid var(--size-border) var(--border);
+}
+.conten-summary .summary .conten-file .ezq .top .esq.right{
+  border-radius: 0 10px 0 0;
+  border-top: solid var(--size-border) var(--border);
+  border-right: solid var(--size-border) var(--border);
+  border-bottom: solid var(--size-border) transparent;
+  border-left: solid var(--size-border) transparent;
+}
+.conten-summary .summary .conten-file .ezq .bottom{
+  display: flex;
+  justify-content: space-between;
+}
+.conten-summary .summary .conten-file .ezq .bottom .esq.left{
+  border-radius: 0 0 0 10px;
+  border-top: solid var(--size-border) transparent;
+  border-right: solid var(--size-border) transparent;
+  border-bottom: solid var(--size-border) var(--border);
+  border-left: solid var(--size-border) var(--border);
+}
+.conten-summary .summary .conten-file .ezq .bottom .esq.right{
+  border-radius: 0 0 10px 0;
+  border-top: solid var(--size-border) transparent;
+  border-right: solid var(--size-border) var(--border);
+  border-bottom: solid var(--size-border) var(--border);
+  border-left: solid var(--size-border) transparent;
+}
+.conten-summary .summary button{
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 30px;
+  border: none;
+  background-color: hsl(224, 30%, 27%);
+  color: white;
+  font-size: 1.4rem;
+}
+
+@media (min-width: 500px) {
+  body{
+    width: 100%;
+    height: 100%;
+  }
+  .conten-summary{
+    display: flex;
+    width: 500px;
+    height: 300px;
+    margin: 100px auto;
+    box-shadow: 0 0 10px rgb(208, 205, 205);
+    border-radius: 30px;
+    overflow: hidden;
+    font-size: 0.8rem;
+  }
+  .conten-summary .result{
+    width: 50%;
+    border-radius: 30px;
+  }
+  .conten-summary .result .text p{
+    width: 180px;
+  }
+  .conten-summary .result .score{
+    width: 100px;
+  }
+  .conten-summary .result .score .total{
+    font-size: 30px;
+  }   
+  .conten-summary .conten-file{
+    width: 100%;
+    margin-top: -15px;
+  }
+  .conten-summary .conten-file .file{
+    width: 210px;
+    padding: 10px !important;
+  }
+.conten-summary .summary .conten-file .file .ezq{
+  gap: 14px;
+}
+  .conten-summary .summary button{
+    padding: 10px;
+    font-size: 0.8rem;
+    margin-top:-1px;
+  }
+}
