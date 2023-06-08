@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@1,700&family=Montserrat:wght@500;700&family=Outfit:wght@400;700&family=Rubik:ital,wght@1,400;1,500;1,700&display=swap');
+:root{
+  /*color texto*/
+  --violeta-palido:hsla(276, 100%, 81%, 0.206);
+  --violeta-moderado:hsl(276, 55%, 52%);
+  --violeta-oscuro: hsl(271, 15%, 43%);
+  --azul-grisáceo: hsl(206, 6%, 79%);
+  --violeta-muy-oscuro: hsl(271, 36%, 24%);
+  --violeta-grisáceo:hsl(270, 7%, 64%);
+  /*degradados*/
+  --magenta-claro:hsl(293, 100%, 63%);
+  --violeta-claro:hsl(264, 100%, 61%);
+  /*secondary*/
+  --while:hsl(0, 0%, 100%);
+  --app-background:hsl(270, 20%, 96%);
+  --button-background:hsl(271, 36%, 24%);
+  --radio-button:hsl(289, 100%, 72%);
+  /*font-family*/
+  --font-size:16px;
+  --family:'Rubik', sans-serif;
+  /*400, 500, 700*/
+}
+*, ::after, ::before{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  user-select: none;
+}
+.attribution {
+  font-size: 14px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
