@@ -277,6 +277,34 @@ section .info-conten{
   text-align: center;
   padding: 0px 30px;
 }
-@media screen {
-  
+@media (min-width: 500px) {
+  body{
+    width: 100vw;
+    height: 100vh;
+  }
+  section{
+    display: grid;
+    grid-template-areas: 
+    "a a "  ;
+    gap: 40px;
+
+  }
+  .app{
+    left: 35%;
+    top: 30px;
+  }
+  .info-conten{
+    width: 500px;
+    position: relative;
+    left: 15%;
+  }
+  body::before{
+    width: 500px;
+    left: -10%;
+    border-radius: 0% 0% 50% 50%;
+    height: 700px;
+  }
+  .attribution{
+    margin-top: 150px;
+  }
 }
