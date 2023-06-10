@@ -35,7 +35,7 @@
 }
 body{
   background-color: var(--app-background);
-  width: 390px;
+  width: 100%;
 }
 body::before{
   position: absolute;
