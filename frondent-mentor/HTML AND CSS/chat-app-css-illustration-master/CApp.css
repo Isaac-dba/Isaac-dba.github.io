@@ -290,8 +290,8 @@ section .info-conten{
 
   }
   .app{
-    left: 35%;
-    top: 30px;
+    /* left: 35%; */
+    /* top: 30px; */
   }
   .info-conten{
     width: 500px;
