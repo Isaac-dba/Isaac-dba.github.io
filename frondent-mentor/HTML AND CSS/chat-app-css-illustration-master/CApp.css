@@ -286,7 +286,7 @@ section .info-conten{
     display: grid;
     grid-template-areas: 
     "a a "  ;
-    gap: 40px;
+    /* gap:40px; */
 
   }
   .app{
