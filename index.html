@@ -3,118 +3,133 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>porfolio</title>
+    <title>Home</title>
+    <link rel="shortcut icon" href="Favicon/home.svg" type="image/x-icon">
+    <!--material-icon-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--fat-icons-color-->
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <!--style-->
     <link rel="stylesheet" href="style.css">
+    <!--JS-->
+    <script defer src="main.js"></script>
 </head>
 
-<body class="index" id="inicio"> 
-<header>
+<body>
     <nav>
-        <div class="logo">
-            <img src="img-programador/programador_animacion-f2a26857-1d48-4bab-9581-d41836c29f85.jpg" alt="logo">
-        </div> 
-            <button id="bmenu"><iconify-icon icon="solar:hamburger-menu-line-duotone"></iconify-icon></button>
-        <div id="links" class="link collapse">
-            <a href="ejercicios.html">Ejercicios</a>
-            <a href="frondent-mentor/frondent.html">Frontend-Mentor</a>
-            <a href="proyectos">Proyectos</a>
+        <div class="link">
+            <span class="material-icons">
+                home
+            </span>
+            <span class="material-icons">
+                person
+            </span>
+            <span class="material-icons">
+                school
+            </span>
+            <span class="material-icons">
+                business_center
+            </span>
+            <span class="material-icons">
+                construction
+            </span>
+            <span class="material-icons">
+                contact_mail
+            </span>
         </div>
     </nav>
-</header>    
-<main id="index">
-    <div class="container">
-        <div class="bubbles">
-            <span style="--i:11"></span>
-            <span style="--i:12"></span>
-            <span style="--i:24"></span>
-            <span style="--i:10"></span>
-            <span style="--i:14"></span>
-            <span style="--i:23"></span>
-            <span style="--i:18"></span>
-            <span style="--i:16"></span>
-            <span style="--i:19"></span>
-            <span style="--i:20"></span>
-            <span style="--i:22"></span>
-            <span style="--i:25"></span>
-            <span style="--i:18"></span>
-            <span style="--i:21"></span>
-            <span style="--i:15"></span>
-            <span style="--i:13"></span>
-            <span style="--i:26"></span>
-            <span style="--i:17"></span>
-            <span style="--i:13"></span>
-            <span style="--i:28"></span>
-    
-    
+    <button class="btn-menu" id="bmenuOpen">
+        <span class="material-icons open">
+            menu
+        </span>
+    </button>
+    <div class="conten">
+        <div class="absolute collapse" id="absolute">
+            <button class="btn-menu" id="bmenuClose">
+                <span class="material-icons">
+                    close
+                </span>
+            </button>    
+            <section id="home">
+                <img src="new img/index/perfil.svg" alt="perfil">
+                <div class="perfil-info">
+                    <p class="name">Don Nadie</p>
+                    <span>Desarrollo web</span>
+                </div>
+                <div class="nav">
+                    <a href="">Home</a>
+                    <a href="">Sobre mi</a>
+                    <a href="">Curriculum</a>
+                    <a href="">Ejercicios</a>
+                    <a href="">Proyectos</a>
+                    <a href="">Contactar</a>
+                </div>
+                <div class="link">
+                    <a href="">
+                        <iconify-icon icon="mdi:web"></iconify-icon>
+                    </a>
+                    <a href="">
+                        <iconify-icon icon="mdi:github"></iconify-icon>
+                    </a>
+                    <a href="">
+                        <iconify-icon icon="simple-icons:frontendmentor"></iconify-icon>
+                    </a>
+                </div>
+                <button>Descargar CV</button>
+                <div class="copy">
+                    <span>
+                        <div>c</div>2024 Don Nadie WEB
+                    </span>
+                </div>
+            </section>
+        </div>
+        <div class="relative">
+            <section id="sobreMi">
+                <h1>Sobre mi</h1>
+                <div class="info">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Dolorum ea non iure culpa quibusdam corrupti a perferendis tempore,
+                        illum saepe illo blanditiis aperiam molestias, odit unde,
+                        quisquam error asperiores ex?
+                    </p>
+                    <div class="personal">
+                        <p><span>Edad </span>32</p>
+                        <p><span>País </span>España</p>
+                        <p><span>Dirección </span>C. Gran Via. 53, 28013 Madrid</p>
+                        <p><span>Correo </span>correo@correo.com</p>
+                        <p><span>Teléfono </span>300394401</p>
+                    </div>
+                </div>
+            </section>
+            <section id="curriculum">
+                <h1>curriculum</h1>
+                <p>0 experiencia laboral</p>
+            </section>
+            <section id="ejercicios">
+                <h1>Ejercicios</h1>
+                <div class="html-css">
+                    <a href="">HTML AND CSS</a>
+                </div>
+                <div class="js">
+                    <a href="">JAVASCRIPT</a>
+                </div>
+                <div class="FM">
+                    <a href="">Fronted-Mentor</a>
+                </div>
+            </section>
+            <section id="proyectos">
+                <h1>Proyectos</h1>
+                <div class="contec-proyect">
+                    <img src="" alt="">
+                    <div class="description">
+                        <p></p>
+                    </div>
+                </div>
+            </section>
+            <section id="contactar"></section>
         </div>
     </div>
-    <section class="hero">
-        <div class="presentacion">
-            <h3>Hello, It's Me</h3>
-            <h1>Don Nadie</h1>
-            <div class="display">
-                <h3>And I'm a</h3>
-                <span class="animation">Frontend Developer</span>
-            </div>
-        </div>
-        
-        <div class="link-perfil">
-            <a href="https://www.linkedin.com/in/isaac-santos-b21554270" alt="Linkendin" target="_blank">
-                <iconify-icon icon="logos:linkedin-icon"></iconify-icon>    
-            </a>
-            <a href="https://www.frontendmentor.io/home" alt="frondent-mentor" target="_blank">
-                <iconify-icon icon="simple-icons:frontendmentor"></iconify-icon>
-            </a>
-            <a href="https://www.freecodecamp.org/fcc7c38d601-4899-4883-81cc-b756c8e643cb" target="_blank" alt="freecodecamp">
-                <iconify-icon icon="simple-icons:freecodecamp"></iconify-icon>
-            </a>
-            <a href="https://github.com/Isaac-dba" target="_blank">
-                <iconify-icon icon="mdi:github"></iconify-icon>
-            </a>
-        </div>    
-    </section>
-    <section class="about">
-        <div class="about-contec">
-            <img src="img-programador/persnaje dentro de la nave.jpg" alt="personaje">
-            <p class="descrition">
-                "¡Hola! Mi nombre es Don Nadie y soy un apasionado del 
-                desarrollo web. Aunque actualmente trabajo en hostelería, 
-                he dedicado mi tiempo libre a aprender todo lo que puedo 
-                sobre HTML y CSS, y actualmente estoy en el proceso de 
-                aprender JavaScript. He adquirido estos conocimientos de 
-                manera autodidacta y he sido capaz incluso de armar mi 
-                propio ordenador desde cero.
-            </p>
-        </div>
-        <div class="cv">
-            <button>Download CV</button>
-        </div>
-    </section>
-    <section class="service">
-        <div class="conten-wed">
-            <img src="img-programador/web-design.jpg" alt="web-design">
-            <p> 
-                Mis habilidades en HTML, CSS y JavaScript me permiten crear 
-                sitios web optimizados para la experiencia de usuario y la 
-                velocidad de carga. ¡Contáctame si necesitas ayuda en el 
-                desarrollo web personalizado para tu negocio!"</p>
-        </div>
-    </section> 
-    <section class="proyect">
-    </section>
-    <section class="contact"></section>
-</main>
-<footer></footer>    
 </body>
-<script src="https://code.iconify.design/iconify-icon/1.0.6/iconify-icon.min.js"></script>
-<script>
-    const bmenu = document.querySelector("#bmenu");
-    const links = document.querySelector("#links");
 
-    bmenu.addEventListener("click", (e) => {
-        links.classList.toggle("collapse");
-    })
-</script>
-</html>				
+</html>
