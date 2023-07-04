@@ -57,11 +57,12 @@ button[class="btn-menu"]{
   margin: 0 auto;
 }
 .conten .absolute{
-  background-color: rgb(120, 120, 225);
+  background-color: rgba(120, 120, 225, 0.95);
   width: 70%;
   height: 100%;
   position: fixed;
   right: 0 ;
+  z-index: 5;
 }
 section[id*="home"]{
   display: flex;
@@ -155,7 +156,8 @@ section[id*="ejercicios"]{
   flex-direction: column;
   gap: 20px;
   font-size: 2rem;
-  align-items: center;
+}
+section[id*="ejercicios"] .htmlCss, .js, .fm{
   text-align: center;
 }
 section[id*="ejercicios"] a{
@@ -179,6 +181,7 @@ section[id*="ejercicios"] .conten-simbol{
 }
 section[id*="ejercicios"] .conten-simbol iconify-icon{
   animation: simbol 5s ease-in-out infinite;
+
 }
 section[id*="ejercicios"] .js a{
   color: rgb(174, 174, 23);
@@ -215,6 +218,65 @@ section[id*="contactar"] .conten a{
 }
 section[id*="contactar"] .conten a:hover{
   color: violet;
+}
+
+
+
+
+
+@media (min-width:1000px) {
+  body{
+    width: 100%;
+  }
+  .conten{
+    display: flex;
+  }
+  .conten .absolute{
+    background-color: rgba(120, 120, 225, 0.95);
+    width: 70%;
+    height: 100vh;
+    position: relative;
+    left: 0 ;
+  }
+  .conten .absolute .nav{
+    display: none;
+  }
+  .collapse{
+    display: block;
+  }
+  #bmenuClose, #bmenuOpen{
+    display: none;
+  }
+  nav{
+    display: block
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  section[id*="ejercicios"] .htmlCss, .js, .fm{
+    display: flex;
+    align-items: center;
+    gap: 20%;
+  }
+  section[id*="ejercicios"] .conten-simbol iconify-icon{
+    animation: none;
+  }
+  
 }
 
 
