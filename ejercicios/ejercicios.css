@@ -1,0 +1,50 @@
+/*font*/
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Fasthand&family=Fraunces:ital,wght@1,700&family=Montserrat:wght@500;700&family=Oswald:wght@300;600&family=Outfit:wght@400;700&family=Poppins:ital,wght@0,400;0,600;1,700&family=Rubik:ital,wght@1,400;1,500;1,700&display=swap');
+/* font-family: 'Agdasima', sans-serif;
+font-family: 'Fasthand', cursive;-carta
+font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Outfit', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif; */
+:root{
+  --font-principal:'Agdasima';
+  --font-secondary:'Montserrat';
+  --font-carta:'Fasthand',cursive;
+  --font-relative: "Rubik";
+  --font-vertical:"Oswald";
+}
+
+
+/*general*/
+*,::after,::before{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  user-select: none;
+}
+body{
+    background-color: rgb(189, 224, 224);
+    width: 390px;
+}
+nav{
+    font-family: var(--font-vertical);
+    background-color: aliceblue;
+    width: 40px;
+    height: 100vh;
+    position: fixed;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.697);
+}
