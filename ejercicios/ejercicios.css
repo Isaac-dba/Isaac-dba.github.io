@@ -27,13 +27,14 @@ font-family: 'Rubik', sans-serif; */
 body{
     background-color: rgb(189, 224, 224);
     width: 390px;
+    position: relative;
 }
 nav{
     font-family: var(--font-vertical);
     background-color: aliceblue;
     width: 40px;
     height: 100vh;
-    position: absolute;
+    position:fixed;
     padding: 10px;
     display: flex;
     align-items: center;
@@ -41,7 +42,7 @@ nav{
     overflow-y: scroll;
 }
 nav::-webkit-scrollbar{
-    width: 1px;
+    width: 0px;
     background-color: transparent;
 }
 nav ul{
@@ -52,4 +53,14 @@ nav ul{
 nav ul li a{
     text-decoration: none;
     color: rgba(0, 0, 0, 0.697);
+}
+main{
+    width: calc(100% - 40px);
+    background-color:black;
+    overflow: hidden;
+    margin-left: 40px;
+    height: 100vh;
+}
+img{
+    width: 100%;
 }
