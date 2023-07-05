@@ -12,6 +12,7 @@ font-family: 'Rubik', sans-serif; */
   --font-principal:'Agdasima';
   --font-secondary:'Montserrat';
   --font-carta:'Fasthand',cursive;
+  --font-relative: "Rubik";
 }
 
 
@@ -62,7 +63,7 @@ button[class="btn-menu"]{
   height: 100%;
   position: fixed;
   right: 0 ;
-  z-index: 5;
+  z-index: 4;
 }
 section[id*="home"]{
   display: flex;
@@ -193,14 +194,8 @@ section[id*="ejercicios"] .fm a{
   font-weight: bolder;
   text-shadow: -10px -10px 4px #0000006a,
               10px 10px 4px #0000006a;
-
-}
-section[id*="ejercicios"] .fm a::before{
-  content: "";
-  position: absolute;
-  height: 2px;
-  background-color: #000;
-  width: 215px;  
+  border-top: solid 1px black;
+  padding-top: 5px;
 }
 section[id*="ejercicios"] .fm a:hover{
   text-decoration: line-through;
@@ -209,14 +204,16 @@ section[id*="ejercicios"] .fm a:hover{
 section[id*="contactar"]{
   font-size: 3rem;
 }
-section[id*="contactar"] .conten{
+section[id*="contactar"] .contac-link{
   display: flex;
   gap: 15px;
+  height: 50px;
 }
-section[id*="contactar"] .conten a{
+section[id*="contactar"] .contac-link a{
   color: rgba(0, 0, 0, 0.583);
+  text-decoration: none;
 }
-section[id*="contactar"] .conten a:hover{
+section[id*="contactar"] .contac-link a:hover{
   color: violet;
 }
 
@@ -224,22 +221,56 @@ section[id*="contactar"] .conten a:hover{
 
 
 
-@media (min-width:1000px) {
+@media (min-width:1176px) {
   body{
     width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 15% auto;
+    align-items: center;
+    background-color: #e7e7e79d;
+  }
+  iconify-icon{
+    font-size: 3.5rem;
+  }
+  nav{
+    background-color: rgba(82, 155, 223, 0.843);
+    padding: 10px;
+    border-radius: 20px;
+    margin-right: 15px;
+  }
+  nav .link{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  nav .link span{
+    padding: 10px;
+  }
+  nav .link span:hover{
+    background-color: rgb(206, 154, 254);
+    border-radius: 4px;
   }
   .conten{
     display: flex;
+    min-width: 75%;
+    height: 60vh;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.519);
   }
   .conten .absolute{
     background-color: rgba(120, 120, 225, 0.95);
-    width: 70%;
+    width: 40%;
     height: 100vh;
     position: relative;
     left: 0 ;
   }
   .conten .absolute .nav{
     display: none;
+  }
+  .conten .absolute button{
+    margin-bottom: 80px;
   }
   .collapse{
     display: block;
@@ -250,24 +281,24 @@ section[id*="contactar"] .conten a:hover{
   nav{
     display: block
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  .conten .relative{
+    width:calc(60% + 15px);
+    background-color: #b9b9b9;
+    height: 100%;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: -15px;
+    z-index: 5;
+    font-family: var(--font-relative);
+    overflow-y: scroll;
+  }
+  .conten .relative::-webkit-scrollbar{
+    width: 2px;
+    background-color: transparent;
+  }
+  section[id*="ejercicios"] .fm a{
+    border-top-color:white ;
+  }
   section[id*="ejercicios"] .htmlCss, .js, .fm{
     display: flex;
     align-items: center;
@@ -275,6 +306,9 @@ section[id*="contactar"] .conten a:hover{
   }
   section[id*="ejercicios"] .conten-simbol iconify-icon{
     animation: none;
+  }
+  section[id*="contactar"] .contac-link{
+    
   }
   
 }
@@ -295,5 +329,11 @@ section[id*="contactar"] .conten a:hover{
   }
   100%{
     transform: rotate(180deg);
+  }
+}
+
+@keyframes span {
+  to{
+    
   }
 }
