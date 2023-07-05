@@ -25,9 +25,7 @@ font-family: 'Rubik', sans-serif; */
   user-select: none;
 }
 body{
-    background-color: rgb(189, 224, 224);
-    width: 390px;
-    position: relative;
+    max-width: 390px;
 }
 nav{
     font-family: var(--font-vertical);
@@ -56,7 +54,7 @@ nav ul li a{
 }
 main{
     width: calc(100% - 40px);
-    background-color:black;
+    background-color: rgba(33, 33, 33, 0.115);
     overflow: hidden;
     margin-left: 40px;
     height: 100vh;
