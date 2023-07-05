@@ -38,6 +38,11 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow-y: scroll;
+}
+nav::-webkit-scrollbar{
+    width: 1px;
+    background-color: transparent;
 }
 nav ul{
     display: flex;
