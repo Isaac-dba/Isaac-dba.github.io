@@ -1,31 +1,3 @@
-/*font*/
-@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Fasthand&family=Fraunces:ital,wght@1,700&family=Montserrat:wght@500;700&family=Oswald:wght@300;600&family=Outfit:wght@400;700&family=Poppins:ital,wght@0,400;0,600;1,700&family=Rubik:ital,wght@1,400;1,500;1,700&display=swap');
-/* font-family: 'Agdasima', sans-serif;
-font-family: 'Fasthand', cursive;-carta
-font-family: 'Fraunces', serif;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Oswald', sans-serif;
-font-family: 'Outfit', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Rubik', sans-serif; */
-:root{
-  --font-principal:'Agdasima';
-  --font-secondary:'Montserrat';
-  --font-carta:'Fasthand',cursive;
-  --font-relative: "Rubik";
-}
-
-
-/*general*/
-*,::after,::before{
-  padding: 0%;
-  margin: 0%;
-  box-sizing: border-box;
-  user-select: none;
-}
-.collapse{
-  display: none;
-}
 img{
   width: 150px;
   height: 150px;
@@ -221,7 +193,7 @@ section[id*="contactar"] .contac-link a:hover{
 
 
 
-@media (min-width:1176px) {
+@media (min-width:1117px) {
   body{
     width: 100%;
     display: flex;

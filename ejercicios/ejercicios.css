@@ -1,64 +1,179 @@
-/*font*/
-@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Fasthand&family=Fraunces:ital,wght@1,700&family=Montserrat:wght@500;700&family=Oswald:wght@300;600&family=Outfit:wght@400;700&family=Poppins:ital,wght@0,400;0,600;1,700&family=Rubik:ital,wght@1,400;1,500;1,700&display=swap');
-/* font-family: 'Agdasima', sans-serif;
-font-family: 'Fasthand', cursive;-carta
-font-family: 'Fraunces', serif;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Oswald', sans-serif;
-font-family: 'Outfit', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Rubik', sans-serif; */
-:root{
-  --font-principal:'Agdasima';
-  --font-secondary:'Montserrat';
-  --font-carta:'Fasthand',cursive;
-  --font-relative: "Rubik";
-  --font-vertical:"Oswald";
-}
-
-
-/*general*/
-*,::after,::before{
-  padding: 0%;
-  margin: 0%;
-  box-sizing: border-box;
-  user-select: none;
-}
 body{
-    max-width: 390px;
+    width: 390px;
+}
+img{
+    width: 100%;
 }
 nav{
-    font-family: var(--font-vertical);
-    background-color: aliceblue;
+    background-color: rgba(244, 245, 245, 0.763);
     width: 40px;
     height: 100vh;
-    position:fixed;
-    padding: 10px;
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow-y: scroll;
-}
-nav::-webkit-scrollbar{
-    width: 0px;
-    background-color: transparent;
+    z-index: 10;
 }
 nav ul{
+    margin-left: -80px;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 nav ul li a{
     text-decoration: none;
-    color: rgba(0, 0, 0, 0.697);
+    color:rgb(103, 102, 102);
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 10px;
 }
-main{
-    width: calc(100% - 40px);
-    background-color: rgba(33, 33, 33, 0.115);
+nav ul li a span{
+    padding: 2px;
+    border-radius: 5px;
+}
+nav ul li a span:hover{
+    background-color: #fff;
+}
+nav ul li a .text{
+    background-color: #fff;
+    width: 71px;
+    text-overflow: ellipsis;
     overflow: hidden;
-    margin-left: 40px;
-    height: 100vh;
+    white-space: nowrap;
+    border-radius: 5px;
+    padding: 4px;
+    text-align: center;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.343);
+    transform: translateX(-100px);
+    opacity: 0;
+    transition: all 1s ease-in-out;
+    user-select: none;
+    position: relative;
 }
-img{
+nav ul li:hover .text{
+    transform: translateX(110px);
+    opacity: 1;
+}
+
+/*main*/
+main{
+    width: calc(100 - 40px);
+    margin-left: 40px;
+    background-color:#fff;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+section{
     width: 100%;
+    height: 100%;
+}
+
+/*hero*/
+#hero{
+    background-image: url(imagen/luna\ pastel.jpg);
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 5px rgba(151, 151, 151, 0.573);
+}
+
+/*card*/
+section[id*="cards"]{
+  display: flex;
+  padding: 10px;
+  background-color: rgba(151, 151, 151, 0.573);
+  border-radius: 15px;
+  z-index: 1;
+}
+#cards .container{
+    display: flex;
+    margin: 100px auto;
+    width: 400px;
+}
+#cards .card{
+    width: 100px;
+    height: 200px;
+    background-color: thistle;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px 10px rgb(131, 131, 131);
+    position: relative;
+    box-sizing: border-box;
+    transition: all 1s ease-in-out;
+    padding: 10px;
+    font-family: var(--font-carta);
+    border-radius: 10px;
+}
+#cards .card.element{
+    margin-left: -50px;
+}
+#cards .card.element-1,
+#cards .card.element-2{
+    margin-left: -70px;
+}
+#cards .card:hover{
+    transform: translateY(-15%) rotate(4deg);
+    margin-right: 50px; 
+}
+#cards .card .header .title{
+   font-size: 17px;
+   font-weight: bolder;
+}
+#cards .card .header{
+    flex: 1;
+}
+#cards .card .footer a{
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    gap: 10px;
+    text-decoration: none;
+    color: black;
+    text-shadow: 0px 0px 10px black;
+}
+#cards .card .footer a img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px 2px white;
+}
+
+/*table*/
+section[id*="table"]{
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.304);
+    border-radius: 15px;
+    padding: 10px;
+}
+table{
+    margin: 40px auto;
+    border-collapse: collapse;
+    width: 100%;
+}
+table tr th, td{
+    border: solid 1px rgb(210, 143, 143);
+}
+table tbody tr:nth-child(even){
+    background-color: rgba(177, 177, 177, 0.519);
+}
+table tr th{
+    background-color: black;
+    color: #fff;
+    text-transform: capitalize;
+}
+table tbody tr:hover{
+    background-color: #ededed;
+}
+table tbody tr td:nth-child(n){
+    text-transform: capitalize;
+    text-align: center;
+}
+table caption{
+    text-transform: capitalize ;
 }
