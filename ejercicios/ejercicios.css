@@ -154,7 +154,7 @@ section[id*="table"]{
 table{
     margin: 40px auto;
     border-collapse: collapse;
-    width: 100%;
+    width: 95%;
 }
 table tr th, td{
     border: solid 1px rgb(210, 143, 143);
@@ -176,4 +176,191 @@ table tbody tr td:nth-child(n){
 }
 table caption{
     text-transform: capitalize ;
+}
+/*notification*/
+section[id*="notification"]{
+    padding: 10px;
+    background-color: rgba(151, 151, 151, 0.573);
+    border-radius: 15px;
+}
+#notification .conten{
+    width: 50px;
+    height: 50px;
+    margin: 50px auto;
+    display: flex;
+    animation: rig 10s ease-in-out infinite;
+    transform-origin: 50% 4px;
+}
+#notification .conten .count{
+    background-color: black;
+    display: flex;
+    width: 18px;
+    height: 18px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 12px;
+    position: relative;
+    box-sizing: border-box;
+    left: -15px;
+    top: 4px;
+}
+#notification .conten span{
+    font-size: 35px;
+}
+@keyframes rig {
+    0%{
+        transform: rotate(0deg);
+    }
+    2%{
+        transform: rotate(50deg);
+    }
+    4%{
+        transform: rotate(-50deg);
+    }
+    6%{
+        transform: rotate(48deg);
+    }
+    8%{
+        transform: rotate(-48deg);
+    }
+    10%{
+        transform: rotate(46deg);
+    }
+    12%{
+        transform: rotate(-46deg);
+    }
+    14%{
+        transform: rotate(44deg);
+    }
+    16%{
+        transform: rotate(-44deg);
+    }
+    18%{
+        transform: rotate(42deg);
+    }
+    20%{
+        transform: rotate(-42deg);
+    }
+    22%{
+        transform: rotate(40deg);
+    }
+    24%{
+        transform: rotate(-40deg);
+    }
+    26%{
+        transform: rotate(38deg);
+    }
+    28%{
+        transform: rotate(-38deg);
+    }
+    30%{
+        transform: rotate(36deg);
+    }
+    32%{
+        transform: rotate(-36deg);
+    }
+    34%{
+        transform: rotate(34deg);
+    }
+    36%{
+        transform: rotate(-34deg);
+    }
+    38%{
+        transform: rotate(32deg);
+    }
+    40%{
+        transform: rotate(-32deg);
+    }
+    42%{
+        transform: rotate(30deg);
+    }
+    44%{
+        transform: rotate(-30deg);
+    }
+    46%{
+        transform: rotate(28deg);
+    }
+    48%{
+        transform: rotate(-28deg);
+    }
+    50%{
+        transform: rotate(26deg);
+    }
+    52%{
+        transform: rotate(-26deg);
+    }
+    54%{
+        transform: rotate(24deg);
+    }
+    56%{
+        transform: rotate(-24deg);
+    }
+    58%{
+        transform: rotate(22deg);
+    }
+    60%{
+        transform: rotate(-22deg);
+    }
+    62%{
+        transform: rotate(20deg);
+    }
+    64%{
+        transform: rotate(-20deg);
+    }
+    66%{
+        transform: rotate(18deg);
+    }
+    68%{
+        transform: rotate(-18deg);
+    }
+    70%{
+        transform: rotate(16deg);
+    }
+    72%{
+        transform: rotate(-16deg);
+    }
+    74%{
+        transform: rotate(14deg);
+    }
+    76%{
+        transform: rotate(-14deg);
+    }
+    78%{
+        transform: rotate(12deg);
+    }
+    80%{
+        transform: rotate(-12deg);
+    }
+    82%{
+        transform: rotate(10deg);
+    }
+    84%{
+        transform: rotate(-10deg);
+    }
+    86%{
+        transform: rotate(8deg);
+    }
+    88%{
+        transform: rotate(-8deg);
+    }
+    90%{
+        transform: rotate(6deg);
+    }
+    92%{
+        transform: rotate(-6deg);
+    }
+    94%{
+        transform: rotate(4deg);
+    }
+    96%{
+        transform: rotate(-4deg);
+    }
+    98%{
+        transform: rotate(2deg);
+    }
+    100%{
+        transform: rotate(-2deg);
+    }
 }
