@@ -184,12 +184,14 @@ section[id*="notification"]{
     border-radius: 15px;
 }
 #notification .conten{
-    width: 50px;
+    width: 60px;
     height: 50px;
     margin: 50px auto;
     display: flex;
-    animation: rig 10s ease-in-out infinite;
     transform-origin: 50% 4px;
+}
+.animation{
+    animation: rig 10s ease-in-out forwards;
 }
 #notification .conten .count{
     background-color: black;
@@ -364,3 +366,5 @@ section[id*="notification"]{
         transform: rotate(-2deg);
     }
 }
+/* voy hacer que se anime cuando le de click y que 
+cuente las veces que le doy click con JS*/
