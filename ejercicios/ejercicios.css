@@ -188,10 +188,11 @@ section[id*="notification"]{
     height: 50px;
     margin: 50px auto;
     display: flex;
-    transform-origin: 50% 4px;
+    transform-origin: 45% 4px;
 }
 .animation{
     animation: rig 10s ease-in-out forwards;
+    color: red;
 }
 #notification .conten .count{
     background-color: black;
