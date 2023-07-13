@@ -715,3 +715,108 @@ table caption{
 #modal .conten-modal .modal .action button:hover{
     box-shadow: 0px 0px 5px #fff;
 }
+/*Upload files*/
+#upload .upload-container{
+    width: 300px;
+    background-color: #3047f6b3;
+    margin: 50px auto;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: var(--font-secondary);
+}
+#upload .upload-container h1{
+    text-align: center;
+    margin:20px auto;
+}
+#upload .upload-container h6{
+    color: #aba6a6d4;
+    text-align: center;
+}
+#upload .upload-container .drag-drop{
+    border: dashed 1px floralwhite;
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    border-radius: 4px;
+    width: 100%;
+}
+#upload .upload-container .drag-drop .icon span{
+    font-size: 100px;
+    text-shadow: 0px 0px 10px #ffffff;
+}
+#upload .upload-container .drag-drop .text{
+    font-family: var(--font-carta);
+    font-size: 1.3rem;
+}
+#upload .upload-container .drag-drop .action{
+    width: 100%;
+}
+#upload .upload-container .drag-drop .action button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+#upload .upload-container .drag-drop .action button:hover{
+    background-color: var(--section-bg-color);
+    box-shadow: 0px 0px 5px 3px #000;
+    text-shadow: 0px 0px 5px #fff;
+}
+#upload .upload-container h6:nth-child(n + 3){
+    margin: 20px 0px;
+    text-align: start;
+}
+#upload .upload-container .file-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+#upload .upload-container .file-container .file{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: solid 1px #fff;
+    padding:5px 5px 5px 0px;
+    transition: box-shadow 1s ease-in-out;
+    border-radius: 5px;
+}
+#upload .upload-container .file-container .file:hover{
+    box-shadow: 0px 0px 10px 5px #ffffffb6;
+}
+#upload .upload-container .file-container .file .icon span{
+    font-size: 50px;
+}
+#upload .upload-container .file-container .file .text{
+    width: 190px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+#upload .upload-container .file-container .file .text .size{
+    width: 100%;
+    background-color: #fff;
+    height: 5px;
+    border-radius: 5px;
+}
+#upload .upload-container .file-container .file .text .size .progress{
+    width: 60%;
+    height: 5px;
+    background-color: var(--section-bg-color);
+    border-radius: 5px;
+}
+#upload .upload-container .file-container .file .action button{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 4px;
+    border: none;
+}
+#upload .upload-container .file-container .file .action button:hover{
+    box-shadow: 0px 0px 2px 2px #000;
+}
