@@ -16,3 +16,11 @@ result++;
 count.innerHTML = `${result}`;
 //tambien textConten
 };
+
+
+/**Startup Plan */
+const checked = document.getElementById("check");
+// a lo mejor con un input. el sabado 
+checked.addEventListener("click", (e) => {
+  checked.style.color = "black";
+});

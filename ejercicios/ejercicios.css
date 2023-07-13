@@ -820,3 +820,95 @@ table caption{
 #upload .upload-container .file-container .file .action button:hover{
     box-shadow: 0px 0px 2px 2px #000;
 }
+/*Price*/
+#price .price-container{
+    display: flex;
+    width: 300px;
+    margin: 50px auto;
+    border-radius: 10px;
+    align-items: center;
+}
+#price .price-container .card-price{
+    width: 100px;
+    padding: 20px 5px;
+    background-color:violet;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px black;
+}
+#price .price-container .card-price:first-child{
+    border-radius: 10px 0px 0px 10px;
+}
+#price .price-container .card-price:last-child{
+    border-radius: 0px 10px 10px 0px;
+}
+#price .price-container .card-price.recomendy{
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+    z-index: 3;
+    padding: 40px 5px;
+}
+#price .price-container .card-price h4{
+    text-align: center;
+}
+#price .price-container .card-price .price{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+#price .price-container .card-price .price .number{
+    font-size: 25px;
+}
+#price .price-container .card-price .option{
+    flex: 1;
+}
+#price .price-container .card-price .option ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+#price .price-container .card-price .option ul li{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    list-style: none;
+    text-transform: capitalize;
+}
+#price .price-container .card-price .option ul li span{
+    font-size: 15px;
+    color: #fff;
+    background-color: #e4e1e175;
+    border-radius: 50%;
+}
+#price .price-container .card-price .option ul li span:hover{
+    background-color: #2f2e2e;
+}
+#price .price-container .card-price .action{
+    width: 100%;
+}
+#price .price-container .card-price .action button{
+    width: 100%;
+    display: block;
+    border: none;
+    padding: 10px;
+    text-transform: capitalize;
+    font-size: 10px;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+}
+#price .price-container .card-price:last-child .action button{
+    margin-top: 10px;
+}
+#price .price-container .card-price:first-child .action button{
+    margin-top: 10px;
+}
+#price .price-container .card-price .action button:hover{
+    background-color: darkgray;
+    color: #ffffff;
+    box-shadow: 0px 0px 5px 3px #bfbfbf;
+}
