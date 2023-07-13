@@ -76,9 +76,14 @@ section{
     height: 100%;
     border-radius: 15px;
     padding: 10px;
-}
+    box-shadow: var(--section-shadow);
 
-/*hero*/
+}
+section:nth-child(even){
+    background-color: var(--section-bg-color);
+    box-shadow: none;
+}
+/*Hero*/
 #hero{
     background-image: url(imagen/luna\ pastel.jpg);
     background-size:cover;
@@ -90,10 +95,9 @@ section{
     box-shadow:var(--section-shadow);
 }
 
-/*card*/
+/*Card*/
 section[id*="cards"]{
   display: flex;
-  background-color: var(--section-bg-color);
   z-index: 1;
 }
 #cards .container{
@@ -149,10 +153,7 @@ section[id*="cards"]{
     box-shadow: 0px 0px 2px 2px white;
 }
 
-/*table*/
-section[id*="table"]{
-    box-shadow: var(--section-shadow);
-}
+/*Table*/
 table{
     margin: 40px auto;
     border-collapse: collapse;
@@ -179,10 +180,7 @@ table tbody tr td:nth-child(n){
 table caption{
     text-transform: capitalize ;
 }
-/*notification*/
-section[id*="notification"]{
-    background-color:var(--section-bg-color);
-}
+/*Notification*/
 #notification .conten{
     width: 60px;
     height: 50px;
@@ -367,10 +365,7 @@ section[id*="notification"]{
         transform: rotate(-2deg);
     }
 }
-
-section[id*="checkbox"]{
-    box-shadow: var(--section-shadow);
-}
+/*Checkbox*/
 #checkbox .checkbox-container{
     display: flex;
     flex-direction: column;
@@ -438,10 +433,6 @@ section[id*="checkbox"]{
     transform: scale(1);
 }
 /*Search*/
-section[id*="search"]{
-    background-color: var(--section-bg-color);
-}
-
 #search label{
     display: flex;
     margin: 50px auto;
@@ -477,9 +468,6 @@ section[id*="search"]{
     color: #216998;
 }
 /*Flip Cards*/
-section[id*="flipCards"]{
-    box-shadow: var(--section-shadow);
-}
 #flipCards .cards-container{
     display: flex;
     gap: 2px;
@@ -527,9 +515,6 @@ section[id*="flipCards"]{
     text-shadow: 0px 0px 5px #fff;
 }
 /*Comment*/
-section[id*="comment"]{
-    background-color: var(--section-bg-color);
-}
 #comment .comment-container{
     width: 300px;
     display:flex;
@@ -609,9 +594,6 @@ section[id*="comment"]{
     height: calc(100% - 50px);
 }
 /*Stap persona*/
-section[id*="stap"]{
-    box-shadow: var(--section-shadow);
-}
 #stap .conten-stap{
     display: flex;
     width: 260px;
@@ -666,8 +648,17 @@ section[id*="stap"]{
     top: 40px;
     left: calc(50% - 10px) ;
 }
-
-
+/*Modal*/
+#modal .conten-modal{
+    width: 250px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 20px;
+}
+#modal .conten-modal .modal{
+    background-color: ;
+    padding: 20px;
+}
 
 
 
