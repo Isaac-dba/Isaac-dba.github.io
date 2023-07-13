@@ -654,17 +654,64 @@ table caption{
     margin: 50px auto;
     background-color: #fff;
     border-radius: 20px;
+    padding: 30px 20px;
+
+
 }
 #modal .conten-modal .modal{
-    background-color: ;
-    padding: 20px;
+    background-color: #5c6bca;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 5px rgba(97, 97, 97, 0.779);
 }
-
-
-
-
-
-
-
-
-
+#modal .conten-modal .modal .info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+#modal .conten-modal .modal .info .icon{
+    border: solid 1px #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -1px 1px 1px 1px black;
+}
+#modal .conten-modal .modal .info .icon span{
+    color: #b2afaf;
+}
+#modal .conten-modal .modal .info .text{
+    display: flex;
+    flex-direction: column;
+    
+}
+#modal .conten-modal .modal .info .text h1{
+    font-size: 20px;
+}
+#modal .conten-modal .modal .info .text span{
+    font-size: 11px;
+    color: #aba6a6d4;
+}
+#modal .conten-modal .modal .action{
+    display:flex;
+    gap: 5px;
+    justify-content: end;
+}
+#modal .conten-modal .modal .action button{
+    font-size: 8px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.722);
+}
+#modal .conten-modal .modal .action button.btn-cancel{
+    background-color: #bf0707;
+}
+#modal .conten-modal .modal .action button.btn-crear{
+    color: black;
+}
+#modal .conten-modal .modal .action button:hover{
+    box-shadow: 0px 0px 5px #fff;
+}
