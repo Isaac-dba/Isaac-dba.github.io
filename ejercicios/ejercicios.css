@@ -990,3 +990,105 @@ table caption{
     top: 0px;
     right: -9px;
 }
+/*Show*/
+#show .container{
+    width: 50px;
+    margin: 50px auto 300px 20px;
+}
+#show .container > img{
+    position: relative;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 5px rgb(112, 108, 108);
+    margin-bottom: 10px;
+}
+#show .container:hover .conten{
+    animation: show 2s ease-in-out;
+    display: block;
+}
+#show .container .conten{
+    background-color:#f93c9a9d;
+    width: 280px;
+    padding: 10px;
+    border-radius: 10px;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    box-shadow: 0px 0px 10px black;
+}
+#show .container .conten .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#show .container .conten .header img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px black;
+}
+#show .container .conten .header button{
+    padding: 10px;
+    border: none;
+    font-weight: bolder;
+    border-radius: 4px;
+    text-transform: capitalize;
+}
+#show .container .conten .header button:hover{
+    box-shadow: 0px 0px 4px 4px rgba(188, 186, 186, 0.805);
+}
+#show .container .conten .profile{
+    margin: 10px 0px;
+}
+#show .container .conten .profile p.name{
+    text-transform: capitalize;
+}
+#show .container .conten a{
+    text-decoration: none;
+    color: #b32e2e;
+}
+#show .container .conten a:hover{
+    text-decoration: underline;
+    color: #9e158c;
+}
+#show .container .conten .conten-followers{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+#show .container .conten .conten-followers a{
+    display: flex;
+}
+#show .container .conten .conten-followers a .num{
+    color: #5d5c5c;
+}
+#show .container .conten .conten-followers a:hover  .text{
+    color: #000;
+}
+#show .container .conten .other a{
+    display: flex;
+    align-items: center;
+}
+#show .container .conten .other a .conten-img{
+    display: flex;
+}
+#show .container .conten .other a img{
+    width: 30px;
+    height: 30px;
+    margin-right: -15px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 5px rgba(119, 116, 116, 0.566);
+}
+#show .container .conten .other a .text-info{
+    padding-left: 25px;
+    color: #fff;
+}
+@keyframes show {
+    to{
+        opacity: 1;
+    }
+    from{
+        opacity: 0;
+    }
+}
+/*Widget*/
