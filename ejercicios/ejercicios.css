@@ -650,7 +650,7 @@ table caption{
 }
 /*Modal*/
 #modal .conten-modal{
-    width: 250px;
+    width: 300px;
     margin: 50px auto;
     background-color: #fff;
     border-radius: 20px;
@@ -911,4 +911,82 @@ table caption{
     background-color: darkgray;
     color: #ffffff;
     box-shadow: 0px 0px 5px 3px #bfbfbf;
+}
+/*bubble*/
+#bubble .bubble-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    height: 400px;
+    margin: 50px auto;
+    background-color: rgb(100, 148, 237);
+    padding: 10px;
+    border-radius: 4px;
+    justify-content: end;
+}
+#bubble .bubble-container .bubble-conten{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+#bubble .bubble-container .bubble-conten.right{
+    width: 50%;
+    align-items: flex-end;
+    margin-left: auto;
+}
+#bubble .bubble-container .bubble-conten.left{
+    width: 50%;
+    align-items: flex-start;
+    margin-right: auto;
+}
+#bubble .bubble-container .bubble-conten .bubble div{
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    position: relative;
+    justify-content: space-between;
+    gap: 5px;
+}
+#bubble .bubble-container .bubble-conten.right .bubble div{
+    background-color: #6878e2;     
+}
+
+#bubble .bubble-container .bubble-conten.left .bubble div{
+    background-color: #636dbb;
+}
+#bubble .bubble-container .bubble-conten .bubble div .time{
+    font-size: 8px;
+    color: #b2afaf;
+    min-width: 40px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+#bubble .bubble-container .bubble-conten .bubble div .text{
+    font-size: 16px;
+}
+#bubble .bubble-container .bubble-conten.left .bubble:first-child  div::before{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-top: solid 5px #636dbb;
+    border-left: solid 5px transparent;
+    border-bottom: solid 5px transparent;
+    border-right: solid 5px #636dbb;
+    top: 0;
+    left: -9px;
+}
+#bubble .bubble-container .bubble-conten.right .bubble:first-child div::before{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-top: solid 5px #6878e2;
+    border-left: solid 5px #6878e2;
+    border-bottom: solid 5px transparent;
+    border-right: solid 5px transparent;
+    top: 0px;
+    right: -9px;
 }
