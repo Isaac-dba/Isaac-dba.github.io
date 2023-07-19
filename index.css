@@ -13,6 +13,7 @@ body{
   font-family: var(--font-principal);
   font-size: 20px;
   cursor: pointer;
+  background-color: #9a9a9a9d;
 }
 button[class="btn-menu"]{
   display: flex;
@@ -118,7 +119,6 @@ section h1{
   display: flex;
   flex-direction: column;
   gap: 20px;
-  
 }
 #sobreMi .info{
   display: flex;
@@ -186,6 +186,20 @@ section[id*="contactar"] .contac-link a:hover{
 }
 
 
+@media (min-width: 500px) {
+  body{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+section[id*="contactar"] .contac-link{
+    justify-content: center;
+  }
+#sobreMi{
+    align-items: center;
+}
+
+}
 
 
 
