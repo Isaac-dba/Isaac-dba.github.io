@@ -152,10 +152,6 @@ section[id*="ejercicios"] .htmlCss a span:last-child:hover{
 section[id*="ejercicios"] .conten-simbol{
   font-size: 5rem;
 }
-section[id*="ejercicios"] .conten-simbol iconify-icon{
-  animation: simbol 5s ease-in-out infinite;
-
-}
 section[id*="ejercicios"] .js a{
   color: rgb(174, 174, 23);
   text-shadow: 5px -10px 3px;

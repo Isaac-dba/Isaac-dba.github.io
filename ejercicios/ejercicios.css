@@ -1321,4 +1321,231 @@ table caption{
     color: #fff;
 }
 /*login*/
+#login .login-container{
+    width: 300px;
+    background-color: #0000ff62;
+    margin: 50px auto;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 1px #000000;
+    overflow: hidden;
+}
+#login .login-container .welcome{
+    display: none;
+}
+#login .login-container .login{
+    width: calc(100% - 20px);
+    margin: 20px auto;
+}
+#login .login-container .login h1{
+    text-transform: capitalize;
+    text-align: center;
+    margin: 20px auto;
+}
+#login .login-container .login p.title{
+    text-align: center;
+    color: #3a3838;
+    text-shadow: 0px 0px 2px #9d9b9b;
+}
+#login .login-container .login label .name{
+    text-transform: capitalize;
+    margin: 10px auto;
+}
+#login .login-container .login label input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+#login .login-container .login .optional{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px auto;
+    text-transform: capitalize;
+}
+#login .login-container .login .optional div:first-child{
+    display: flex;
+    gap: 5px;
+}
+#login .login-container .login .btn{
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px 2px rgb(82, 81, 81);
+}
+#login .login-container .login .btn.btn-submit{
+    margin-bottom: 10px;
+    background-color: #000;
+    text-shadow:0px 0px 2px #fff ;
+}
+#login .login-container .login .btn.btn-submit:hover{
+    background-color: #322e2e;
+    color: #fff;
+}
+#login .login-container .login .provider{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+#login .login-container .login .provider p{
+    margin-bottom: 5px;
+}
+#login .login-container .login .provider .btn.btn-google{
+    color: rgb(174, 27, 27);
+}
+#login .login-container .login .provider .btn.btn-google:hover{
+    background-color: var(--section-bg-color);
+    color: #ffffff;
+}
+#login .login-container .login .provider .btn.btn-facebook{
+    background-color: #3047f6;
+}
+#login .login-container .login .provider .btn.btn-facebook:hover{
+    background-color: #273075;
+    color: #ffffff;
+}
+#login .login-container .login .provider .btn.btn-twitter{
+    background-color: #40e0d0;
+}
+#login .login-container .login .provider .btn.btn-twitter:hover{
+    background-color: rgb(29, 129, 119);
+    color: #ffffff;
+}
+#login .login-container .welcome .circle-container{
+    margin: 200px auto;
+    width: 100px;
+    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+}
+#login .login-container .welcome .circle-container .outer-box{
+    background-color:#ee82ee;
+    box-shadow: 0px 0px 4px 4px rgb(73, 72, 72);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+#login .login-container .welcome .circle-container .outer-box .inner-box{
+    position: absolute;
+    background-color: #fff;
+    width: 80px;
+    height: 80px;
+    max-width: 80px;
+    max-height: 80px;
+    color: #000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+#login .login-container .welcome .circle-container .outer-box svg{
+    position: relative;
+}
+#login .login-container .welcome .circle-container .outer-box svg circle{
+    fill: none;
+    stroke: url(#gradientColor);
+    stroke-width: 10px;
+    stroke-dashoffset: 250;
+    stroke-dasharray: 250;
+    animation: loading 10s ease-in-out infinite;
+}
+@keyframes loading {
+    100%{
+        stroke-dashoffset: 0%;
+    }
+}
 
+
+@media (min-width: 500px) {
+    body{
+        width: 100%;
+    }
+    #login .login-container{
+        width: 400px;
+    }
+    #login .login-container .login{
+        width: 50%;
+    }
+    #login .login-container .login .optional,
+    #login .login-container .login p.title{
+        font-size: 0.7rem;
+    }
+    #login .login-container .welcome{
+        display: flex;
+        width: 45%;
+        background-color: #0000ff;
+    }
+}
+@media (min-width: 650px) {
+    body{
+        width: 100%;
+    }
+    #login .login-container{
+        width: 550px;
+    }
+    #login .login-container .login{
+        width: 50%;
+        padding: 10px;
+    }
+    #login .login-container .login .optional,
+    #login .login-container .login p.title{
+        font-size: 0.9rem;
+    }
+    #login .login-container .welcome{
+        width: 50%;
+    }
+}
+/*hacer con js que los elementos del html cambien para hacer mas grande el loading...*/
+
+/*cube*/
+#cube #container{
+    margin: 100px auto;
+    width: fit-content;
+    perspective: 1000px;
+    perspective-origin: 100% 100%;
+}
+#cube #container .cube{
+    height: 180px;
+    width: 180px;
+    position: relative;
+    transform-style: preserve-3d;
+    animation: cube 4s linear infinite;
+}
+#cube #container .cube > div{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    background:linear-gradient(to right, #3047f6, #ee82ee);
+    opacity: 0.9;
+}
+#cube #container .cube .s1{
+    transform: translateZ(90px);
+}
+#cube #container .cube .s2{
+    transform: rotateY(90deg) translateZ(90px);
+}
+#cube #container .cube .s3{
+    transform: rotateY(180deg) translateZ(90px);
+}
+#cube #container .cube .s4{
+    transform: rotateX(90deg) translateZ(90px);
+}
+#cube #container .cube .s5{
+    transform: rotateY(-90deg) translateZ(90px);
+}
+#cube #container .cube .s6{
+    transform: rotateX(-90deg) translateZ(90px) rotate(180deg);
+}
+
+
+@keyframes cube {
+    100%{
+        transform: rotateX(0deg) rotateY(360deg) rotateZ(360deg);
+    }
+}
