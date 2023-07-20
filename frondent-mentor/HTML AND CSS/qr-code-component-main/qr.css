@@ -49,3 +49,8 @@ main .qr-conten section.span{
     color: rgb(165, 162, 162);
     font-size: 14px;
 }
+@media (min-width:390px) {
+    body{
+        width: 100%;
+    }
+}

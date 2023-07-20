@@ -12,111 +12,117 @@
     padding: 0%;
     box-sizing: border-box;
 }
+:root{
+    --font-h1:"Fraunces", sans-serif;
+    --font-general:"Montserrat", sans-serif;
+    --color-p:hsl(228, 12%, 48%);
+    --background-button:hsl(158, 36%, 37%);
+}
 body{
     background-color: hsl(30, 38%, 92%);
+    font-family: var(--font-general);
+    display: flex;
+    flex-direction: column;
     width: 390px;
-    height: 100%;
+    height: 100vh;
 }
-.container{
-    width: 350px;
-    background-color:hsl(0, 0%, 100%);
-    margin: 30px auto 20px;
+main{
+    flex: 1;
+    width: 100%;
+}
+main .cart-container{
+    width: 300px;
+    margin: 40px auto;
+    background-color: #ffff;
     border-radius: 10px;
     overflow: hidden;
-    font-family:'Montserrat', sans-serif ;
-    font-size: 1.2rem;
 }
-.container img{
+main .cart-container .photos img{
     width: 100%;
 }
-.container img[class="desktop"]{
+main .cart-container .photos img.desktop{
     display: none;
 }
-.container p{
-    color:  hsl(228, 12%, 48%);
-}
-.container h1{
-    font-family: 'Fraunces', sans-serif;
-}
-.container .action button{
-    background-color: hsl(158, 36%, 37%);
-    display: flex;
-    width: 100%;
-    gap: 10px;
-    justify-content: center;
-    padding: 15px;
-    color: white;
-    font-size: 14px;
-    border: none;
-    border-radius: 5px;
-}
-.container .action button img{
-    width: 18px;
-    height: 18px;
-}
-.info{
+main .cart-container .text-container{
     padding: 20px;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.price{
+main .cart-container .text-container p, h4{
+    color: var(--color-p);
+    font-weight: lighter;
+}
+main .cart-container .text-container h1{
+    font-family: var(--font-h1);
+}
+main .cart-container .text-container .price{
     display: flex;
+    gap: 40px;
     align-items: center;
-    gap: 30px;
 }
-.price .sales{
+main .cart-container .text-container .price .actual{
     font-size: 2rem;
-    color: hsl(158, 36%, 37%);
-    font-family: 'Fraunces', sans-serif;
+    color: var(--background-button);
+    font-weight: bold;
+    font-family: var(--font-h1);
 }
-.price .normal{
-    text-decoration:line-through;
+main .cart-container .text-container .price .des{
+    text-decoration: line-through;
+    font-size: 1.1rem;
+}
+main .cart-container .text-container .price .action{
+    width: 100%;
+}
+main .cart-container .text-container .action button{
+    background-color: var(--background-button);
+    border: none;
+    color: #ffff;
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 5px;
 }
 
-
-/*width 844 (1440)*/
-@media (min-width: 390px) {
+@media (min-width: 500px) {
     body{
         width: 100%;
-    } 
-}
-    @media (min-width: 500px) {
-body{
+    }
+    main{
         width: 100%;
     }
-    .container{
+    main .cart-container{
         display: flex;
-        width: 400px;
-        font-size: 0.7rem;
-        height: 290px;
-        margin: 40px auto 15px;
-        
+        width: 90%;
+        margin:200px auto;
+        min-height: 400px;
+        max-width: 765px;
     }
-    .container .info{
-        gap: 5px;
-    }
-    .price .sales{
-        font-size: 1.3rem;
-    }
-    .container img[class="mobile"]{
-        display: none;
-    }
-    .container img[class="desktop"]{
+    main .cart-container .photos img.desktop{
         display: block;
         height: 100%;
-        width: 200px;
     }
-}
-@media (min-width: 844px) {
-    body{
+    main .cart-container .photos img.mobile{
+        display: none;
+    }
+    main .cart-container .text-container{
         width: 100%;
     }
-    .container{
-        width: 500px;
-        font-size: 0.8rem;
+}
+@media (min-width: 669px) {
+    main .cart-container .text-container{
+        gap: 35px;
+        padding: 50px;
     }
-    .container img[class="desktop"]{
-        width: 250px;
+}
+@media (min-width: 775px) {
+    main .cart-container .text-container{
+        gap: 35px;
+        /* min-height: 470.64px; */
+        padding: 50px;
     }
 }
