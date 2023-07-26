@@ -6,16 +6,109 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chat App</title>
+    <!--material icon-->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!--favicon-->
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <!--style-->
     <link rel="stylesheet" href="CApp.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
-
-        <div class="attribution">
-            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-            Coded by <a href="#">Your Name Here</a>.
-        </div>
+    <main>
+        <section class="fondo"></section>
+        <section class="app-conten">
+            <div class="heading">
+                <div class="barra-superior"></div>
+                <div class="profile">
+                    <div class="info">
+                        <div class="flecha1"></div>
+                        <img src="images/avatar.jpg" alt="avatar">
+                        <div class="text">
+                            <p class="name">Samuel Green</p>
+                            <span>Available to Walk</span>
+                        </div>
+                    </div>
+                    <div class="icon">
+                        <span class="material-symbols-outlined">
+                            more_vert
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="conten-bubble">
+                <div class="conten-bubble left">
+                    <div class="bubble">
+                        <p>that sounds great. I'd be happy with that.</p>
+                    </div>
+                    <div class="bubble">
+                        <p>Could you send over some pictures of your dog, please?</p>
+                    </div>
+                </div>
+                <div class="conten-bubble right">
+                    <div class="conten-img">
+                        <img src="images/dog-image-1.jpg" alt="dog1">
+                        <img src="images/dog-image-2.jpg" alt="dog2">
+                        <img src="images/dog-image-3.jpg" alt="dog3">
+                    </div>
+                    <div class="bubble">
+                        <p>Here are a few pictures. She's a happy girl!</p>
+                    </div>
+                    <div class="bubble corta">
+                        <p>Can you make it?</p>
+                    </div>
+                </div>
+                <div class="conten-bubble left">
+                    <div class="bubble">
+                        <p>She looks so happy! The time we discussed works.
+                            How long shall. I take her out for?
+                        </p>
+                    </div>
+                    <div class="conten-price">
+                        <div class="price">
+                            <label>
+                                <input type="radio" name="app">
+                                <div class="circle"></div>
+                                <div class="text">
+                                    <p>30 minute walk</p>
+                                </div>
+                            </label>
+                            <div class="num">$29</div>
+                        </div>
+                        <div class="price">
+                            <label>
+                                <input type="radio" name="app">
+                                <div class="circle"></div>
+                                <div class="text">
+                                    <p>1 hour walk</p>
+                                </div>
+                            </label>
+                            <div class="num">$49</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="action">
+                    <input type="text" placeholder="Type a message...">
+                    <button type="submit">
+                        <div class="flecha2"></div>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="text">
+            <h1>Simple booking</h1>
+            <p>stay in touch with our dog walkers through the chat
+                interface. This makes it easy to discuss arrangements and
+                make bookings. Once the walk has been completed you
+                can rate your walker and book again all through the chat.
+            </p>
+        </section>
+    </main>
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Your Name Here</a>.
+    </div>
 </body>
 
 </html>
