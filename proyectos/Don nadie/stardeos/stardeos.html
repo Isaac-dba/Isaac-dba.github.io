@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -8,45 +9,52 @@
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     <link rel="stylesheet" href="stardeos.css">
 </head>
+
 <body>
     <header>
         <nav>
             <div class="logo">
-                <p><img src="star.svg" alt=""/>Star<span>deos</span></p>
+                <p><img src="star.svg" alt="" />Star<span>deos</span></p>
             </div>
-            <div class="action">
-                <div class="search">
-                    <iconify-icon icon="circum:search"></iconify-icon>
-                </div>
-                <div class="login">
-                    <iconify-icon icon="mingcute:user-2-line"></iconify-icon>
-                </div>
-            </div>
+            <label class="search">
+                <input type="text" placeholder="Search Videos...">
+                <iconify-icon icon="circum:search"></iconify-icon>
+            </label>
+            <button class="login">
+                <iconify-icon icon="mingcute:user-2-line"></iconify-icon>
+                <p>Login</p>
+            </button>
         </nav>
     </header>
     <main>
-    <div class="nav-vertical">
-        <div class="item trending">
-            <p>TRENDING VIDEOS</p>
-        </div>
-        <div class="item latest">
-            <p>LATEST VIDEOS</p>
-        </div>
-        <div class="anuncios">
-            <p>¡Anumcia LO QUE QUIERAS!<br/>A partir de 5€-10,000<br/>visitas.
-                ¡Precios locos de salida!<br/><iconify-icon icon="tabler:hand-click"></iconify-icon>CLIC AQUÍ
-                <iconify-icon icon="tabler:hand-click"></iconify-icon></p>
-                <a href="#/">http://ads.stardeos.com/</a>
-        </div>
-        <hr class="linea"/>
-        <div class="info">
-            <span>trabaja con nosotros <br/>Términos y condiciones<br/>
-            Aviso legal y DMCA<br/>Politica de cookies<br/>
-            <a href="#">© Stardeos</a>
-        </span>
-        </div>
-    </div>
-    
+        <nav class="nav-vertical">
+            <div class="item trending">
+                <p>TRENDING VIDEOS</p>
+            </div>
+            <div class="item latest">
+                <p>LATEST VIDEOS</p>
+            </div>
+            <ul class="anuncios">
+                <li>¡Anumcia LO QUE QUIERAS!</li>
+                <li>A partir de 5€-10,000</li>
+                <li>visitas.</li>
+                <li>¡Precios locos de salida!</li>
+                <li><iconify-icon icon="tabler:hand-click"></iconify-icon>CLIC AQUÍ
+                    <iconify-icon icon="tabler:hand-click"></iconify-icon>
+                </li>
+                <li><a href="#/">http://ads.stardeos.com/</a></li>
+            </ul>
+            <hr class="linea" />
+            <ul class="info">
+                <li>trabaja con nosotros </li>
+                <li>Términos y condiciones</li>
+                <li>Aviso legal y DMCA</li>
+                <li>Politica de cookies</li>
+                <li><a href="#">© Stardeos</a></li>
+            </ul>
+        </nav>
+
     </main>
 </body>
+
 </html>
