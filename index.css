@@ -186,7 +186,8 @@ section[id*="contactar"] .contac-link a:hover{
 }
 
 
-@media (min-width: 500px) {
+
+@media (min-width: 390px) {
   body{
     width: 100%;
     text-align: center;
