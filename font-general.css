@@ -9,11 +9,11 @@ font-family: 'Outfit', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Rubik', sans-serif; */
 :root{
-  --font-principal:'Agdasima';
-  --font-secondary:'Montserrat';
-  --font-carta:'Fasthand',cursive;
-  --font-relative: "Rubik";
-  --font-vertical:"Oswald";
+  --font-agdasima:'Agdasima';
+  --font-montserrat:'Montserrat';
+  --font-fasthand:'Fasthand', cursive;
+  --font-rubik: "Rubik";
+  --font-oswald:"Oswald";
 }
 /*general*/
 *,::after,::before{
