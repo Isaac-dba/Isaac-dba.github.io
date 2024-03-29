@@ -1,0 +1,151 @@
+body{
+    width: 390px;
+    height: 100vh;
+    background-color: #ececec;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    & section{
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-family: var(--font-montserrat);
+        & img{
+            width: 100px;
+            height: 100px;
+            position: relative;
+            left: 65%;
+            border:solid 1px rgb(116, 114, 114);
+            border-radius: 50%;
+        }
+        & h1{
+            font-family: var(--font-rubik);
+        }
+    }
+}
+main section#home h1{
+    width: 50%;
+    position:absolute;
+    top: 3%;
+}    
+main section#home .perfil-info{
+    position: absolute;
+    top: 8%;
+}
+#education ul{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 20px;
+    && li a{
+        color: #333;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        && iconify-icon{
+            font-size: 22px;
+        }
+    }
+    && li a .overapi{
+        background-color: #333;
+        width: 17px;
+        height: 17px;
+        border-radius: 3px;
+        padding: 1px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1px;
+        && .green{
+            width: 33%;
+            height: 100%;
+            background-color: rgb(151, 238, 151);
+        }
+        && .red{
+            width: 33%;
+            height: 100%;
+            background-color: rgb(207, 50, 50);
+        }
+        && .blue{
+            width: 33%;
+            height: 100%;
+            background-color: rgb(83, 83, 241);
+        }
+    }
+}
+#curriculum{
+    line-height: 15px;
+}
+#ejercicios{
+    align-items: center;
+    && h1{
+        margin-left: -65%;
+    }
+    && div a{
+        font-size: 22px;
+        color: #52798b;
+        text-decoration: none;
+        text-shadow: 1px 3px 4px #424242;
+    }
+    && .htmlCss{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        && .conten-simbol iconify-icon{
+                font-size: 50px;
+            }  
+        }
+    && .js{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        && .conten-simbol iconify-icon{
+            font-size: 50px;
+        }
+    }
+    && .fm{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        && .conten-simbol iconify-icon{
+            font-size: 50px;
+        }
+    }
+}
+#proyectos .content-proyect{
+    text-align: center;
+}
+#contactar .contac-link{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+}
+
+nav{
+    position: sticky;
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    && .link{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: row;
+        padding-top: 8px;
+    }
+}

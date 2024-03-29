@@ -20,8 +20,14 @@
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [Isaac Santos](https://isaac-dba.github.io/)
+- Frontend Mentor - [@yourusername]()
 
 
 **Note: Actitud + perseverancia**
+
+- 29/03/2024 
+### The challenge
+- Vamos actualizar todo la pagina.
+- El registro para actualizar empezara A-2.24...
+- Añadir curriculum
