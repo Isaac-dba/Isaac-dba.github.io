@@ -16,6 +16,8 @@ font-family: 'Rubik', sans-serif;  */
   --font-fasthand:'Fasthand', cursive;
   --font-rubik: "Rubik";
   --font-oswald:"Oswald";
+  --font-poppins: "Poppins";
+  --font-fraunces:"Fraunces";
 }
 /*general*/
 *,::after,::before{
@@ -27,9 +29,8 @@ font-family: 'Rubik', sans-serif;  */
 .collapse{
   display: none;
 }
-
 @media  (prefers-color-scheme: dark){
-  h1{
-    color: gold;
+  body{
+    background-color: rgb(105, 105, 105);
   }
 }

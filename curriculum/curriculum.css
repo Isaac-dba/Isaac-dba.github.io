@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+    width: 390px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 98%;
+    margin: 10px auto;
+    height: 100vh;
+    padding: 25px;
+    font-family: var(--font-agdasima);
+    border: solid 1px rgba(0, 0, 0, 0.575);
+    background-color: aliceblue;
+    border-radius: 15px;
+    && a{
+        text-decoration: none;
+        color: rgb(170, 34, 170);
+    }
+    && .title{
+        font-size: 25px;
+        font-weight: bolder;
+        padding-bottom: 10px;
+    }
+    && ul{
+        list-style:none;
+    }
+}
+main .header{
+    width: 100%;
+    && h1.name{
+        font-size: 40px;
+        margin-bottom: 10px;
+        font-family: var(--font-fraunces);
+    }
+    && p.info{
+        margin: 10px 0px 0px 0px;
+        font-weight: bolder;
+    }
+}
+main .edu ul{
+    padding: 10px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}

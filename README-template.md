@@ -30,4 +30,4 @@
 ### The challenge
 - Vamos actualizar todo la pagina.
 - El registro para actualizar empezara A-2.24...
-- Añadir curriculum
+- Añadir curriculum para descargar y ver online
