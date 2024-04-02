@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(233, 228, 228);
+    background-color: rgb(43, 42, 42);
     width: 390px;
     height: 100%;
 }
@@ -8,14 +8,15 @@ main{
     flex-direction: column;
     gap: 20px;
     width: 98%;
-    height: 100%;
-    margin: 10px auto;
     height: 100vh;
+    margin: 10px auto;
+    height: 100%;
     padding: 25px;
     font-family: var(--font-agdasima);
     border: solid 1px rgba(0, 0, 0, 0.575);
     background-color: aliceblue;
     border-radius: 15px;
+    overflow: hidden;
     && a{
         text-decoration: none;
         color: rgb(170, 34, 170);
