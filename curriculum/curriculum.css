@@ -1,6 +1,7 @@
 body{
-    background-color: black;
+    background-color: rgb(233, 228, 228);
     width: 390px;
+    height: 100%;
 }
 main{
     display: flex;
