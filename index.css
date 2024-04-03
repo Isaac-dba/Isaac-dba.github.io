@@ -92,7 +92,8 @@ main section#home .perfil-info{
 #ejercicios{
     align-items: center;
     && h1{
-        margin-left: -65%;
+        width: 100%;
+        text-align: start;
     }
     && div a{
         font-size: 22px;

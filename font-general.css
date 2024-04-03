@@ -30,7 +30,25 @@ font-family: 'Rubik', sans-serif;  */
   display: none;
 }
 @media  (prefers-color-scheme: dark){
-  body{
+  main{
     background-color: rgb(105, 105, 105);
+  }
+}
+@media (min-width: 390px) {
+    body{
+      width: 100%;
+    }
+    main{
+      width: 100%;
+    }
+}
+@media (min-width: 500px) {
+  body{
+    width: 100%;
+    
+  }
+  main{
+    width: 500px;
+    margin: 10px auto;
   }
 }
