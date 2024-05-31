@@ -89,7 +89,7 @@ main section#home .perfil-info{
     }
 }
 #ejercicios{
-    align-items: center;
+    text-align: center;
     && h1{
         width: 100%;
         text-align: start;
