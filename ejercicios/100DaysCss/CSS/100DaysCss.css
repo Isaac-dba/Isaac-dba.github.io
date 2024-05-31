@@ -1,0 +1,42 @@
+/*font*/
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Fasthand&family=Fraunces:ital,wght@1,700&family=Montserrat:wght@500;700&family=Oswald:wght@300;600&family=Outfit:wght@400;700&family=Poppins:ital,wght@0,400;0,600;1,700&family=Rubik:ital,wght@1,400;1,500;1,700&display=swap');
+
+/* Los nombres de las fonts importadas */
+/* font-family: 'Agdasima', sans-serif;
+font-family: 'Fasthand', cursive;-carta
+font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Outfit', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif;  */
+:root {
+    color-scheme: light dark;
+    --font-agdasima: 'Agdasima';
+    --font-montserrat: 'Montserrat';
+    --font-fasthand: 'Fasthand', cursive;
+    --font-rubik: "Rubik";
+    --font-oswald: "Oswald";
+    --font-poppins: "Poppins";
+    --font-fraunces: "Fraunces";
+}
+
+/*general*/
+*,
+::after,
+::before {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    user-select: none;
+}
+body{
+    width: 375px;
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
