@@ -1,5 +1,5 @@
 body{
-    width: 390px;
+    width: 375px;
     height: 100%;
     background-color: #ececec;
 }
@@ -82,7 +82,6 @@ main section#home .perfil-info{
     }
 }
 #curriculum{
-    line-height: 15px;
     && a{
         text-decoration: none;
         color: #2d5a6e;

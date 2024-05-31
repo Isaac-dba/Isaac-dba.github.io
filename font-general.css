@@ -34,7 +34,10 @@ font-family: 'Rubik', sans-serif;  */
     background-color: rgb(105, 105, 105);
   }
 }
-@media (min-width: 390px) {
+
+/* breakPoint */
+/*movil S - 320px*/
+@media (min-width: 320px) {
     body{
       width: 100%;
     }
@@ -42,13 +45,103 @@ font-family: 'Rubik', sans-serif;  */
       width: 100%;
     }
 }
-@media (min-width: 500px) {
+/* movil M - 375px */
+@media (min-width: 375px) {
   body{
     width: 100%;
-    
   }
   main{
-    width: 500px;
+    width: 100%;
     margin: 10px auto;
   }
 }
+/* movil L - 425px */
+@media (min-width: 425px) {
+  body{
+    width: 100%;
+  }
+  main{
+    width: 425px;
+    margin: 10px auto;
+  }
+}
+/* Tableta - 768px */
+@media (min-width: 768px) {
+  body{
+    width: 100%;
+  }
+  main{
+    width: 550px;
+    border:solid 1px black;
+    font-size: 1.2rem;
+    margin: 10px auto;
+  }
+}
+/* Portatil - 1024px */
+@media (min-width: 1024px) {
+  body{
+    width: 100%;
+  }
+  main{
+    width: 700px;
+    font-size: 1.5rem;
+    margin: 10px auto;
+  }
+  main #home img{
+    width: 200px;
+    height: 200px;
+  }
+  main #home .info{
+    margin-top: -80px;
+  }
+  iconify-icon{
+    font-size: 3.5rem;
+  }
+}
+/* Portatil L - 1440px */
+@media (min-width: 1440px) {
+  body{
+    width: 100%;
+  }
+  main{
+    width: 1000px;
+    font-size: 2rem;
+    margin: 10px auto;
+  }
+  iconify-icon{
+    font-size: 5rem;
+  }
+  main #home .info{
+    margin-top: -130px;
+  }
+  main #home img{
+    width: 300px;
+    height: 300px;
+  }
+  #education ul li a .overapi{
+    min-width: 25px;
+    min-height: 25px;
+    background-color: rgb(98, 0, 255);
+  }
+}
+/* 4K - 2560px */
+@media (min-width: 2560px) {
+  body{
+    width: 100%;
+  }
+  main{
+    width: 1800px;
+    font-size: 3rem;
+    margin: 10px auto;
+  }
+  iconify-icon{
+    font-size: 10rem;
+  }
+  main #home .info{
+    margin-top: -70px;
+  }
+  main #home .perfil-info{
+    margin-top: 15px;
+  }
+}
+
