@@ -42,48 +42,47 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-section{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
-    margin-bottom: 20px;
-
-}
-section article{
-    display: none;
-    width: 300px;
-    height: 300px;
-    background-color: aqua;
-    border-radius: 10px;
-}
-.action{
-    display: flex;
-    gap: 10px;
-    font-size: 25px;
-    align-items: center;
+    & section{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        margin-bottom: 20px;
+        & article{
+            display: none;
+            width: 300px;
+            height: 300px;
+            background-color: aqua;
+            border-radius: 10px;
+        }
+    }
+    & .action{
+        display: flex;
+        gap: 10px;
+        font-size: 25px;
+        align-items: center;
+        & button{
+            border: none;
+            width: 30px;
+            height:30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 5px;
+            background-color: white;
+            border-radius: 50%;
+            & iconify-icon{
+                font-size: 1.5rem;
+            }
+            &:hover{
+                background-color: blueviolet;
+                color: white;
+            }
+        }
+    }
 }
 #days-number{
     color: rgb(84, 19, 146);
     font-weight: bolder;
-}
-.action button{
-    border: none;
-    width: 30px;
-    height:30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 5px;
-    background-color: white;
-    border-radius: 50%;
-    & iconify-icon{
-        font-size: 1.5rem;
-    }
-    &:hover{
-        background-color: blueviolet;
-        color: white;
-    }
 }
