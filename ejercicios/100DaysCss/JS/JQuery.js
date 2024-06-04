@@ -5,7 +5,7 @@ const section = document.querySelectorAll("#section-days article");
 const spanNum = document.getElementById("days-number");
 
 //funcionalidad
-let currentId = 1;
+let currentId = 0;
 function showArticle(index){
     section.forEach((article, i) => {
         article.classList.toggle("active", i === index);
@@ -102,15 +102,39 @@ $(document).ready(function() {
     $(".content-menu").css({
         "display": "flex",
         "flex-direction": "column",
-        "gap": "10px"
+        "align-items": "center",
+        "top": "-20px",
+        "gap": "10px",
+        "padding": "10px",
+        "position": "relative"
     });
+    $("#item-1").css("top", "0px");
+    $("#item-2").css("top", "20px");
+    $("#item-3").css("top", "40px");
     $(".item").css({
         "width": "80px",
         "height": "10px",
         "background-color": "white",
         "border": "none",
         "border-radius": "3px",
-        "box-shadow": "0px 3px 4px #686767"
+        "box-shadow": "0px 3px 4px #686767",
+        "position": "absolute",
+        "transition": "all 0.3s ease"
+    });
+
+    var isOpen = false;
+    $(".content-menu").on("click", function(){
+        if(isOpen){
+            $("#item-2").animate({opacity: 1});
+            $("#item-1").animate({top: "0px"}, 500).css("transform", "rotate(0deg)");
+            $("#item-3").animate({top: "40px"}, 500).css("transform", "rotate(0deg)");
+        }else{
+            $("#item-1").animate({top: "20px"}, 500).css("transform", "rotate(-45deg)");
+            $("#item-3").animate({top: "20px"}, 500).css("transform", "rotate(45deg)");
+            $("#item-2").animate({opacity: 0}, 1);
+        }
+        isOpen = !isOpen;
     });
 });
 
+//Days 3
