@@ -95,7 +95,98 @@ main{
     background: -moz-linear-gradient(bottom left, #e4e4e4 0%, #4ec6ca 100%); */
     /* background: -o-linear-gradient(bottom left, #43389F 0%, #4ec6ca 100%); */
     /* background: linear-gradient(to top right, #43389F 0%, #4ec6ca 100%); */
-    background-color: #39b98f;
+    background-color: #e4d05ee1;
     box-shadow: 0px 3px 4px #686767;
 }
-
+/*Day 3 animation*/
+@keyframes hidden {
+    0%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.hidden{
+    animation: hidden 3.5s linear infinite;
+}
+.shadow{
+    animation: shadow 3.5s linear infinite;
+}
+@keyframes shadow {
+    0%{
+        clip-path: polygon(15% 0, 100% 20%, 85% 0);
+    }
+    20%{
+        clip-path: polygon(15% 0, 97% 43%, 85% 0);
+    }
+    40%{
+        clip-path: polygon(15% 0, 86% 38%, 85% 0);
+    }
+    60%{
+        clip-path: polygon(15% 0, 24% 27%, 85% 0);
+    }
+    80%{
+        clip-path: polygon(15% 0, 0 50%, 85% 0);
+    }
+    100%{
+        clip-path: polygon(15% 0, 0 6%, 85% 0);
+    }
+}
+.side1{
+    animation: side1 3.5s linear infinite;
+}
+@keyframes side1{
+    0%{
+        background-color: #c3c1c3;
+    }
+    30%{
+        background-color: #dadada;
+    }
+    70%{
+        background-color: #dadada;
+    }
+    100%{
+        background-color: #919191;
+    }
+}
+.side2{
+    animation: side2 3.5s linear infinite;
+}
+@keyframes side2{
+    0%{
+        background-color: #919191;
+    }
+    30%{
+        background-color: #c3c1c3;
+    }
+    70%{
+        background-color: #c3c1c3;
+    }
+    100%{
+        background-color: #e0e0e0;
+    }
+}
+.eco{
+    animation: eco 3.5s linear infinite;
+}
+@keyframes eco {
+    0%{
+        transform: rotateZ(0deg);
+    }
+    36%{
+        transform: rotateZ(30deg);
+    }
+    45%{
+        transform: rotateZ(30deg);
+    }
+    100%{
+        transform: rotate(90deg);
+    }
+}

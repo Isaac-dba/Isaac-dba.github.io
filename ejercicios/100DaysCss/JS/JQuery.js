@@ -5,7 +5,7 @@ const section = document.querySelectorAll("#section-days article");
 const spanNum = document.getElementById("days-number");
 
 //funcionalidad
-let currentId = 1;
+let currentId = 2;
 function showArticle(index){
     section.forEach((article, i) => {
         article.classList.toggle("active", i === index);
@@ -139,6 +139,74 @@ $(document).ready(function() {
         }
         isOpen = !isOpen;
     });
-});
 
 //Days 3
+    $(".days-3").css({
+        backgroundColor: "#272c34",
+    });
+    $("#dessert").css({
+        width: "190px",
+        height: "190px",
+        borderRadius: "50%",
+        position: "relative",
+        backgroundColor: "#75cfeb",
+        overflow: "hidden",
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+    }).addClass("hidden");
+    
+    $("#eart").css({
+        position: "absolute",
+        height: "50%",
+        width: "100%",
+        backgroundColor: "#dece6f",
+        top: "64.4%",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center"
+    });
+    $("#shadow").css({
+        width: "150%",
+        height: "100%",
+        backgroundColor: "rgba(0, 0, 0, 0.25)",
+        clipPath: "polygon(15% 0, 100% 20%, 85% 0)"
+    }).addClass("shadow");
+    $("#pyramid").css({
+        position: "absolute",
+        height: "30%",
+        width: "70%",
+        display: "flex"
+    });
+    $(".side-1").css({
+        width: "70%",
+        height: "100%",
+        backgroundColor: "#f0f0f0",
+        clipPath: "polygon(79% 0%, 0 100%, 100% 100%)",
+        position: "absolute",
+        zIndex: "1"
+    }).addClass("side1");
+    $(".side-2").css({
+        width: "70%",
+        height: "100%",
+        backgroundColor: "#c3c1c3",
+        clipPath: "polygon(36% 0%, 0% 100%, 100% 100%)",
+        position: "absolute",
+        left: "30%"
+    }).addClass("side2");
+    $(".eco").css({
+        position: "absolute",
+        height: "170%",  
+        width: "170%",
+        top: "40%",
+        transform: "rotate(0deg)",
+    });
+    $("#sun").css({
+        position: "absolute",
+        width: "13%",
+        height: "13%",
+        borderRadius: "50%",
+        backgroundColor: "yellow"
+    })
+});
