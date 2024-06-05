@@ -5,7 +5,7 @@ const section = document.querySelectorAll("#section-days article");
 const spanNum = document.getElementById("days-number");
 
 //funcionalidad
-let currentId = 0;
+let currentId = 1;
 function showArticle(index){
     section.forEach((article, i) => {
         article.classList.toggle("active", i === index);
@@ -119,7 +119,7 @@ $(document).ready(function() {
         "border-radius": "3px",
         "box-shadow": "0px 3px 4px #686767",
         "position": "absolute",
-        "transition": "all 0.3s ease"
+        "transition": "all 0.5s ease"
     });
 
     var isOpen = false;
@@ -129,8 +129,12 @@ $(document).ready(function() {
             $("#item-1").animate({top: "0px"}, 500).css("transform", "rotate(0deg)");
             $("#item-3").animate({top: "40px"}, 500).css("transform", "rotate(0deg)");
         }else{
-            $("#item-1").animate({top: "20px"}, 500).css("transform", "rotate(-45deg)");
-            $("#item-3").animate({top: "20px"}, 500).css("transform", "rotate(45deg)");
+            $("#item-1").animate({top: "20px"}, 500);
+            $("#item-3").animate({top: "20px"}, 500);
+            setTimeout(() => {
+                $("#item-1").css("transform", "rotate(45deg)");
+                $("#item-3").css("transform", "rotate(-45deg)");
+            }, 650);
             $("#item-2").animate({opacity: 0}, 1);
         }
         isOpen = !isOpen;
