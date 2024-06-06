@@ -87,17 +87,8 @@ main{
     color: rgb(84, 19, 146);
     font-weight: bolder;
 }
-.div{
-    width: 100px;
-    height: 100px;
-    /* background: #43389F; */
-    /* background: -webkit-linear-gradient(bottom left, #43389F 0%, #4ec6ca 100%);
-    background: -moz-linear-gradient(bottom left, #e4e4e4 0%, #4ec6ca 100%); */
-    /* background: -o-linear-gradient(bottom left, #43389F 0%, #4ec6ca 100%); */
-    /* background: linear-gradient(to top right, #43389F 0%, #4ec6ca 100%); */
-    background-color: #e4d05ee1;
-    box-shadow: 0px 3px 4px #686767;
-}
+/* fin generales */
+
 /*Day 3 animation*/
 @keyframes hidden {
     0%{
@@ -189,4 +180,92 @@ main{
     100%{
         transform: rotate(90deg);
     }
+}
+/* fn animation day 3 */
+
+/* Day 4 animation */
+
+@keyframes firstCircle{
+    0%{
+        transform: scale(0);
+    }
+    20%{
+        transform: scale(1);
+    }
+    40%{
+        transform: scale(1);
+    }
+    60%{transform: scale(1);
+    }
+    80%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0);
+    }
+    
+}
+@keyframes secondCircle{
+    0%{
+        transform: scale(0);
+    }
+    15%{
+        transform: scale(0);
+    }
+    30%{
+        transform: scale(1);
+    }
+    60%{
+        transform: scale(1);
+    }
+    85%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(0);
+    }
+}
+@keyframes treeCircle {
+    0%{
+        transform: scale(0);
+    }
+    30%{
+        transform: scale(0);
+    }
+    40%{
+        transform: scale(1);
+    }
+    55%{
+        transform: scale(1);
+    }
+    70%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(0);
+    }
+}
+.first-circle{
+    animation: firstCircle 4s ease infinite;
+}
+.second-circle{
+    animation: secondCircle 4s ease infinite;
+}
+.tree-circle{
+    animation: treeCircle 4s ease infinite;
+}
+/* fin animation day 4 */
+
+
+/* Day 5 */
+.div{
+    width: 100px;
+    height: 100px;
+    /* background: #43389F; */
+    /* background: -webkit-linear-gradient(bottom left, #43389F 0%, #4ec6ca 100%);
+    background: -moz-linear-gradient(bottom left, #e4e4e4 0%, #4ec6ca 100%); */
+    /* background: -o-linear-gradient(bottom left, #43389F 0%, #4ec6ca 100%); */
+    /* background: linear-gradient(to top right, #43389F 0%, #4ec6ca 100%); */
+    background-color: #ec5b5be1;
+    box-shadow: 0px 3px 4px #50474781;
 }

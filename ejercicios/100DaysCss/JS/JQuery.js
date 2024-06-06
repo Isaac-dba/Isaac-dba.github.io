@@ -5,7 +5,7 @@ const section = document.querySelectorAll("#section-days article");
 const spanNum = document.getElementById("days-number");
 
 //funcionalidad
-let currentId = 2;
+let currentId = 3;
 function showArticle(index){
     section.forEach((article, i) => {
         article.classList.toggle("active", i === index);
@@ -200,7 +200,7 @@ $(document).ready(function() {
         height: "170%",  
         width: "170%",
         top: "40%",
-        transform: "rotate(0deg)",
+        transform: "rotate(0deg)"
     });
     $("#sun").css({
         position: "absolute",
@@ -209,4 +209,33 @@ $(document).ready(function() {
         borderRadius: "50%",
         backgroundColor: "yellow"
     })
+
+//Day 4
+    $(".days-4").css("background-color", "#ec5b5be1");
+    $(".circle").css({
+        borderRadius: "50%",
+        backgroundColor: "#f0f0f0",
+        position: "absolute",
+        boxShadow: "3px 2px 2px 2px #50474781"
+    });
+    $("#circle-container").css({
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        position: "relative"
+    })
+    $("#inner-first").css({
+        width: "120px",
+        height: "120px"
+    }).addClass("first-circle");
+    $("#inner-second").css({
+        width: "80px",
+        height: "80px"
+    }).addClass("second-circle");
+    $("#inner-tree").css({
+        width: "40px",
+        height: "40px"
+    }).addClass("tree-circle");
+    
 });
+
