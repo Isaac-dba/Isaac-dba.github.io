@@ -5,7 +5,7 @@ const section = document.querySelectorAll("#section-days article");
 const spanNum = document.getElementById("days-number");
 
 //funcionalidad
-let currentId = 4;
+let currentId = 0;
 function showArticle(index){
     section.forEach((article, i) => {
         article.classList.toggle("active", i === index);
@@ -319,7 +319,8 @@ $(document).ready(function() {
         width: "6px",
         height: "6px",
         borderRadius: "50%",
-        cursor: "pointer"
+        cursor: "pointer",
+        position: "relative"
     });
     $(".graph-purchase .punto").css({
         backgroundColor: bgcPuntoRaya1
@@ -408,7 +409,6 @@ $(document).ready(function() {
                 fontSize: "11px",
                 fontWeight: "bold",
             }).animate({},() => {
-                
                 $(".hover").css({
                     transform: "translateY(-5px)",
                 });
@@ -423,8 +423,7 @@ $(document).ready(function() {
             });
         }, () => {
             $(this).find("div").last().remove();
-            $(this).find(".item").last().remove();
-        })
+        });
     });
     // azul
     $(".graph-purchase").children(".punto").eq(0).css({
@@ -537,6 +536,182 @@ $(document).ready(function() {
         fontSize: "10px",
         padding: "5px 7px",
         color: "#7a7a7a"
+    });
+
+//Day 6
+    $(".days-6").css({
+        backgroundColor: "#ca7c4e",
+        background: "linear-gradient(to top right, #eebe6c 0%, #ca7c4e 100%)",
+        boxShadow: "1px 2px 10px 0px rgba(0, 0, 0, 0.3)",
+        color: "#786450"
+    });
+    $("img").css({
+        width: "60px",
+        height: "60px",
+        borderRadius: "50%",
+        position: "absolute",
+        cursor: "pointer"
+    });
+    $(".days-6  .form").css({
+        display: "flex",
+        backgroundColor: "white",
+        boxShadow: "1px 2px 10px 0px rgba(0, 0, 0, 0.3)",
+        padding: "10px",
+        height: "80%",
+        width: "80%",
+        borderRadius: "4px",
+        position: "relative"
+    });
+    $(".form .left").css({
+        display: "flex",
+        flexDirection: "column",
+        gap: "10px",
+        alignItems: "center",
+        justifyContent: "center",
+        padding: "20px",
+        position: "absolute",
+        width: "60%",
+        height: "100%"
+    });
+    $(".border-img").css({
+        width: "80px",
+        height: "80px",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        borderWidth: "50%",
+        marginTop: "-30px",
+        position: "relative",
+    });
+    $(".inner-border").css({
+        width: "70px",
+        height: "70px",
+        border: "solid 1px #786450",
+        borderRadius: "50%",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        borderLeftColor: "transparent",
+        position: "absolute",
+        transition: "all 1s ease-in-out"
+    });
+    $(".inner-inner").css({
+        width: "80px",
+        height: "80px",
+        border: "solid 1px #786450",
+        borderRadius: "50%",
+        borderRightColor: "transparent",
+        position: "absolute",
+        transition: "all 1s ease-in-out"
+    });
+    //hover
+    $(".border-img").hover(() => {
+        $(".inner-border").css("transform", "rotate(360deg)");
+        $(".inner-inner").css("transform", "rotate(-360deg)");
+    }, () => {
+        $(".inner-border").css("transform", "rotate(0deg)");
+        $(".inner-inner").css("transform", "rotate(0deg)");
+    });
+    //fin hover
+    $(".form .left .info-perfil").css({
+        display: "flex",
+        flexDirection: "column",
+        textAlign: "center",
+        cursor: "text"
+    });
+    $(".form .left .info-perfil .name").css({
+        fontWeight: "bolder"
+    });
+    $(".form .left .info-perfil .title").css({
+        fontSize: "14px"
+    });
+    $(".form .left .action").css({
+        display: "flex",
+        flexDirection: "column",
+        fontSize: "18px",
+        gap: "5px",
+        position: "relative",
+        bottom: "-15px"
+    });
+    $(".form .left .action .btn").css({
+        border: "solid 1px #786450",
+        width: "100px",
+        textAlign: "center",
+        borderRadius: "15px",
+        fontSize: "14px",
+        padding: "5px",
+        fontWeight: "bold",
+        transition: "all .5s ease"
+    });
+    //hover btn follow
+    $("#btnFollow").hover(() => {
+        $("#btnFollow").css({
+            backgroundColor: "#786450",
+            color: "white"
+        })
+    }, () => {
+        $("#btnFollow").css({
+            backgroundColor: "white",
+            color: "#786450"
+        });
+    });
+    //hover btn msg
+    $("#btnMsg").hover(() => {
+        $("#btnMsg").css({
+            backgroundColor: "#786450",
+            color: "white"
+        });
+    }, () => {
+        $("#btnMsg").css({
+            backgroundColor: "white",
+            color: "#786450"
+        })
+    })
+    $(".form .right").css({
+        height: "100%",
+        width: "40%",
+        position: "absolute",
+        right: "0",
+        top: "0",
+        display: "flex",
+        flexDirection: "column",
+        gap: "2px"
+    });
+    $(".form .right div").css({
+        backgroundColor: "#f5e8df",
+        width: "100%",
+        height: "100%",
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+        cursor: "pointer"
+    })
+    //hover right
+    //post
+    $("#post").hover(() => {
+        $("#post").css("background-color", "#E1CFC2" );
+    }, () => {
+        $("#post").css("background-color", "#f5e9df" );
+    });
+    //likes
+    $("#likes").hover(() => {
+        $("#likes").css("background-color", "#E1CFC2" );
+    }, () => {
+        $("#likes").css("background-color", "#f5e9df" );
+    });
+    //follower
+    $("#follower").hover(() => {
+        $("#follower").css("background-color", "#e1cfc2");
+    }, () => {
+        $("#follower").css("background-color", "#f5e9df")
+    });
+    $(".form .right div .num").css({
+        fontSize: "20px",
+        fontWeight: "bolder"
+    });
+    $(".form .right div .text").css({
+        fontSize: "10px"
     });
 });
 
