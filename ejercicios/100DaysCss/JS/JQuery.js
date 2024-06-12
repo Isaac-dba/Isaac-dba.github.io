@@ -719,7 +719,8 @@ $(document).ready(function() {
     //Day 7
     $(".days-7").css({
         backgroundColor: "#264056",
-        position: "relative"
+        position: "relative",
+        overflow: "hidden"
     });
     $("#nav-day7").css({
         zIndex: "2",
@@ -729,7 +730,8 @@ $(document).ready(function() {
         width: "140px",
         height: "70%",
         padding: "10px",
-        boxShadow: "0px 3px 10px 0px rgba(0, 0, 0, 0.3)"
+        boxShadow: "0px 3px 10px 0px rgba(0, 0, 0, 0.3)",
+        transition: "all 0.4s ease-in-out"
     });
     $("#nav-day7 ul").css({
         listStyle: "none",
@@ -759,17 +761,22 @@ $(document).ready(function() {
         zIndex: "3",
         boxShadow: "0px 3px 10px 0px rgba(0, 0, 0, 0.3)",
         height: "80%",
-        width: "87%"
+        width: "87%",
+        transition: "all 0.4s ease-in-out"
     });
     $(".head-notif").css({
         backgroundColor: "#5f98cd",
         padding: "10px",
         display: "flex",
         justifyContent: "space-between",
-        alignItems: "center"
+        alignItems: "center",
+        height: "44px",
+        position: "relative"
     });
     //hover color fondo menu
-    $(".head-notif .icon-menu").hover(() => {
+    $(".head-notif .icon-menu").css({
+        position: "absolute"
+    }).hover(() => {
         $(".head-notif .icon-menu .raya1, .raya2, .circle-menu").css({
             backgroundColor: "#fff"
         });
@@ -801,14 +808,18 @@ $(document).ready(function() {
     });
     $(".head-notif .noti-text").css({
         fontWeight: "bold",
-        color: "#fff"
-    })//.hide();
+        color: "#fff",
+        position: "absolute",
+        left: "90px"
+    });
     $(".head-notif .search").css({
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
         flexDirection: "row-reverse",
-        gap: "6px"
+        gap: "6px",
+        position: "absolute",
+        right: 10
     });
     $(".head-notif .search .icon").css({
         display: "flex"
@@ -817,12 +828,21 @@ $(document).ready(function() {
         color: "#b2daff",
         fontSize: "1.5rem"
     });
+    //hover 
+    $(".head-notif .search .icon").hover(() => {
+        $(".head-notif .search .icon iconify-icon").css({
+            color: "#fff"
+        });
+    }, () => {
+        $(".head-notif .search .icon iconify-icon").css("color", "#b2daff")
+    });
     $(".head-notif .search #input-search").css({
-        padding: "8px",
+        padding: "6px",
         border: "none",
         borderRadius: "30px",
         outline: "none",
-        width: "220px"
+        width: "212px",
+        boxShadow: "0px 3px 10px 0px rgba(0, 0, 0, 0.3)"
     }).hide();
     $(".body-notif").css({
         display: "flex",
@@ -906,6 +926,30 @@ $(document).ready(function() {
             });
         }
     });
-
+    // event click search 
+    $("#iconSearch").on("click", function(){
+        $("#input-search").toggle(500);
+    });
+    // event click menu
+    let moved = false;
+    $("#iconMenu").on("click", () => {
+        if(moved){
+            $(".content-notifications").css({
+                "transform": "translateX(0px)"
+            });
+            $("#nav-day7").css({
+                transform: "translateX(0px)"
+            });
+        }
+        else{
+            $(".content-notifications").css({
+                "transform": "translateX(120px)"
+            });
+            $("#nav-day7").css({
+                transform: "translateX(-70px)"
+            });
+        }
+        moved = !moved;   
+    });
 });
 
