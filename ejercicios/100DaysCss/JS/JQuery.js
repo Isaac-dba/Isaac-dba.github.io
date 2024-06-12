@@ -5,7 +5,7 @@ const section = document.querySelectorAll("#section-days article");
 const spanNum = document.getElementById("days-number");
 
 //funcionalidad
-let currentId = 0;
+let currentId = 6;
 function showArticle(index){
     section.forEach((article, i) => {
         article.classList.toggle("active", i === index);
@@ -557,7 +557,7 @@ $(document).ready(function() {
         backgroundColor: "white",
         boxShadow: "1px 2px 10px 0px rgba(0, 0, 0, 0.3)",
         padding: "10px",
-        height: "80%",
+        height: "85%",
         width: "80%",
         borderRadius: "4px",
         position: "relative"
@@ -620,7 +620,8 @@ $(document).ready(function() {
         cursor: "text"
     });
     $(".form .left .info-perfil .name").css({
-        fontWeight: "bolder"
+        fontWeight: "bolder",
+        minWidth: "130px"
     });
     $(".form .left .info-perfil .title").css({
         fontSize: "14px"
@@ -666,7 +667,7 @@ $(document).ready(function() {
             backgroundColor: "white",
             color: "#786450"
         })
-    })
+    });
     $(".form .right").css({
         height: "100%",
         width: "40%",
@@ -706,6 +707,7 @@ $(document).ready(function() {
     }, () => {
         $("#follower").css("background-color", "#f5e9df")
     });
+    //fin hovers
     $(".form .right div .num").css({
         fontSize: "20px",
         fontWeight: "bolder"
@@ -713,5 +715,197 @@ $(document).ready(function() {
     $(".form .right div .text").css({
         fontSize: "10px"
     });
+
+    //Day 7
+    $(".days-7").css({
+        backgroundColor: "#264056",
+        position: "relative"
+    });
+    $("#nav-day7").css({
+        zIndex: "2",
+        color: "#93b2cd",
+        backgroundColor: "#43627d",
+        position: "absolute",
+        width: "140px",
+        height: "70%",
+        padding: "10px",
+        boxShadow: "0px 3px 10px 0px rgba(0, 0, 0, 0.3)"
+    });
+    $("#nav-day7 ul").css({
+        listStyle: "none",
+        display: "flex",
+        flexDirection: "column",
+    });
+    $("#nav-day7 ul li").css({
+        display: "flex",
+        gap: "5px",
+        padding: "10px",
+        position: "relative",
+        width: "140px",
+        left: "-10px"
+    });
+    //hover
+    $("#nav-day7 ul li").on({
+        mouseenter: function(){
+            $(this).addClass("hover-bg");
+        },
+        mouseleave: function(){
+            $(this).removeClass("hover-bg");
+        }
+    });
+    $(".content-notifications").css({
+        backgroundColor: "#fff",
+        position: "absolute",
+        zIndex: "3",
+        boxShadow: "0px 3px 10px 0px rgba(0, 0, 0, 0.3)",
+        height: "80%",
+        width: "87%"
+    });
+    $(".head-notif").css({
+        backgroundColor: "#5f98cd",
+        padding: "10px",
+        display: "flex",
+        justifyContent: "space-between",
+        alignItems: "center"
+    });
+    //hover color fondo menu
+    $(".head-notif .icon-menu").hover(() => {
+        $(".head-notif .icon-menu .raya1, .raya2, .circle-menu").css({
+            backgroundColor: "#fff"
+        });
+    }, () => {
+        $(".head-notif .icon-menu .raya1, .raya2, .circle-menu").css({
+            backgroundColor: "#b2daff"
+        });
+    });
+    $(".head-notif .icon-menu .raya1").css({
+        backgroundColor: "#b2daff",
+        width: "17px",
+        height: "4px",
+        borderRadius: "2px"
+    });
+    $(".head-notif .icon-menu .circle-menu").css({
+        backgroundColor: "#b2daff",
+        width: "6px",
+        height: "6px",
+        borderRadius: "50%",
+        position: "relative",
+        top: "-5px",
+        left: "19px"
+    });
+    $(".head-notif .icon-menu .raya2").css({
+        backgroundColor: "#b2daff",
+        width: "25px",
+        height: "4px",
+        borderRadius: "2px"
+    });
+    $(".head-notif .noti-text").css({
+        fontWeight: "bold",
+        color: "#fff"
+    })//.hide();
+    $(".head-notif .search").css({
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        flexDirection: "row-reverse",
+        gap: "6px"
+    });
+    $(".head-notif .search .icon").css({
+        display: "flex"
+    })
+    $(".head-notif .search iconify-icon").css({
+        color: "#b2daff",
+        fontSize: "1.5rem"
+    });
+    $(".head-notif .search #input-search").css({
+        padding: "8px",
+        border: "none",
+        borderRadius: "30px",
+        outline: "none",
+        width: "220px"
+    }).hide();
+    $(".body-notif").css({
+        display: "flex",
+        flexDirection: "column",
+        gap: "20px",
+        padding: "10px"
+    });
+    $(".body-notif .circle-noti").css({
+        width: "11px",
+        height: "11px",
+        border: "solid 2px #5f98cd",
+        borderRadius: "50%"
+    });
+    //hover circle con herencia
+    $(".body-notif .circle-noti").hover(() => {
+        $(".body-notif .circle-noti > .itemNotif").css("color", "#5f98cd")
+    });
+    $(".body-notif .item-1 .circle-noti").after("<div class='line1'></div>");
+    $(".line1").css({
+        width: "7px",
+        height: "2px",
+        backgroundColor: "#afafafc2",
+        position: "absolute",
+        transform: "rotate(90deg)",
+        top: "-7px",
+        left: "1px",
+    });
+    $(".body-notif .item-1 .circle-noti").before("<div class='line2'></div>");
+    $(".line2").css({
+        width: "56px",
+        height: "2px",
+        backgroundColor: "#afafafc2",
+        position: "absolute",
+        transform: "rotate(90deg)",
+        bottom: "9px",
+        left: "-23px",
+    });
+    $(".body-notif .item-3 .circle-noti").after("<div class='line3'></div>");
+    $(".line3").css({
+        width: "56px",
+        height: "2px",
+        backgroundColor: "#afafafc2",
+        position: "absolute",
+        transform: "rotate(90deg)",
+        top: "-31px",
+        left: "-23px",
+    });
+    $(".body-notif .item-3 .circle-noti").before("<div class='line4'></div>");
+    $(".line4").css({
+        width: "31px",
+        height: "2px",
+        backgroundColor: "#afafafc2",
+        position: "absolute",
+        transform: "rotate(90deg)",
+        bottom: "3px",
+        left: "-10px",
+    });
+    $(".body-notif .itemNotif").css({
+        display: "flex",
+        alignItems: "start",
+        gap: "10px",
+        color: "#7a7977c2",
+        position: "relative"
+    });
+    $(".body-notif .itemNotif .name").css({
+        fontWeight: "bold"
+    })
+    $(".body-notif .itemNotif .date").css({
+        fontSize: "12px",
+    });
+    //hover text body
+    $(".body-notif .itemNotif").on({
+        mouseenter: function(){
+            $(this).css({
+                color: "#5f98cd"
+            });
+        },
+        mouseleave: function(){
+            $(this).css({
+                color: "#7a7977c2"
+            });
+        }
+    });
+
 });
 

@@ -257,7 +257,11 @@ main{
 /* fin animation day 4 */
 
 
-/* Day 5 */
+/* Day 7 */
+.hover-bg{
+    background-color: #264056;
+    color: #fff;
+}
 .div{
     width: 100px;
     height: 100px;
@@ -266,11 +270,11 @@ main{
     background: -moz-linear-gradient(bottom left, #e4e4e4 0%, #4ec6ca 100%); */
     /* background: -o-linear-gradient(bottom left, #43389F 0%, #4ec6ca 100%); */
     /* background: linear-gradient(to top right, #43389F 0%, #4ec6ca 100%); */
-    background-color: #f5e8df;
+    background-color: #5f98cd;
     box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
     /* backgroundColor: "#f1ba64", */
     /* background-image: linear-gradient(to top right, #eebe6c 0%, #ca7c4e 100%); */
-    color: #786450;
+    color: #afafafc2;
     border-radius: 50%;
     border: solid 1px black ;
     border-left-color:transparent ;
@@ -280,14 +284,17 @@ main{
     position: relative;
     }
     .inner{
-        background: linear-gradient(to top left, white, black) ;
+        background: #264056;
         width: 50px;
         height: 50px;
         border-radius: 50%;
         position: absolute;
         cursor: text;
+        display: flex;
+        flex-direction: row-reverse;
     }
     .div:hover{
         transform: rotate(45deg);
-        background-color: #ffffff5d;
+        background-color: #b2daff;
+      
     }
