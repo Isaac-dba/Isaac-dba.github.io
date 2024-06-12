@@ -5,7 +5,7 @@ const section = document.querySelectorAll("#section-days article");
 const spanNum = document.getElementById("days-number");
 
 //funcionalidad
-let currentId = 6;
+let currentId = 7;
 function showArticle(index){
     section.forEach((article, i) => {
         article.classList.toggle("active", i === index);
@@ -951,5 +951,15 @@ $(document).ready(function() {
         }
         moved = !moved;   
     });
+    //fin eventos
+
+    //Day 8
+    $(".days-8").css({
+        backgroundColor: "#000"
+    });
+    
+
+
+
 });
 
