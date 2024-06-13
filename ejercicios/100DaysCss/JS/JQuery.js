@@ -955,11 +955,206 @@ $(document).ready(function() {
 
     //Day 8
     $(".days-8").css({
-        backgroundColor: "#000"
+        overflow: "hidden"
     });
-    
+    $("#container-balls").css({
+        backgroundColor: "#000",
+        width: "300px",
+        height: "300px",
+        position: "relative",
+        filter: "contrast(25)",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center"
+    });
+    $("#ball-center").css({
+        width: "100px",
+        height: "100px",
+        backgroundColor: "#fff",
+        borderRadius: "50%",
+        position: "relative",
+        filter: "blur(15px)"
+    });
+    $("#container-balls .inner-1").css({
+        width: "50px",
+        height: "50px",
+        position: "absolute",
+        borderRadius: "50%",
+        transform: "rotate(123deg)",
+    }).after("<div class='inner-1-1'></div>")
+    $("#container-balls .inner-1-1").css({
+        content: "",
+        position: "absolute",
+        width: "50px",
+        height: "50px",
+        borderRadius: "50%",
+        backgroundColor: "#fff",
+        filter: "blur(5px)",
+        transformOrigin: "7px 37px",
+        animationDuration: "2.4s"
+    }).addClass("rotate360");
+    //animation en css mas comodo
+    $(".inner-2").css({
+        width: "50px",
+        height: "50px",
+        position: "absolute",
+        borderRadius: "50%",
+        transform: "rotate(-40deg)"
+    }).after("<div class='inner-2-1'></div>");
+    $(".inner-2-1").css({
+        content: "",
+        position: "absolute",
+        width: "70px",
+        height: "70px",
+        backgroundColor: "#fff",
+        borderRadius: "50%",
+        filter: "blur(5px)",
+        transformOrigin: "27px 47px",
+        animationDuration: "2.8s"
+    }).addClass("rotate360");
+    $("#container-balls .inner-3").css({
+        width: "60px",
+        height: "60px",
+        position: "absolute",
+        borderRadius: "50%",
+        transform: "rotate(40deg)"
+    }).after("<div class='inner-3-1'></div>");
+    $(".inner-3-1").css({
+        content: "",
+        position: "absolute",
+        width: "60px",
+        height: "60px",
+        backgroundColor: "#fff",
+        borderRadius: "50%",
+        filter: "blur(7px)",
+        transformOrigin: "25px 15px",
+        animationDuration: "2.3s"
 
-
-
+    }).addClass("rotate360");
+    $("#container-balls .inner-4").css({
+        width: "10px",
+        height: "10px",
+        position: "absolute",
+        borderRadius: "50%",
+        transform: "rotate(350deg)"
+    }).after("<div class='inner-4-1'></div>");
+    $(".inner-4-1").css({
+        content: "",
+        position: "absolute",
+        width: "10px",
+        height: "10px",
+        backgroundColor: "#fff",
+        borderRadius: "50%",
+        filter: "blur(3px)",
+        transformOrigin: "70px 40px",
+        animationDuration: "3.5s"
+    }).addClass("rotate360");
+    $("#container-balls .inner-5").css({
+        width: "5px",
+        height: "5px",
+        position: "absolute",
+        borderRadius: "50%",
+        transform: "rotate(190deg)",
+    }).after("<div class='inner-5-1'></div>");
+    $(".inner-5-1").css({
+        content: "",
+        position: "absolute",
+        width: "6px",
+        height: "6px",
+        backgroundColor: "#fff",
+        borderRadius: "50%", 
+        transformOrigin: "10px -50px", 
+        animationDuration: "3.2s",
+        filter: "blur(2px)"
+    }).addClass("rotate360");
+    $("#container-balls .inner-6").css({
+        width: "20px",
+        height: "20px",
+        position: "absolute",
+        borderRadius: "50%",
+        transform: "rotate(30deg)",
+    }).after("<div class='inner-6-1'></div>");
+    $(".inner-6-1").css({
+        content: "",
+        position: "absolute",
+        width: "20px",
+        height: "20px",
+        backgroundColor: "#fff",
+        filter: "blur(5px)",
+        transformOrigin: "50px 50px",
+        animationDuration: "3.5s"
+    }).addClass("rotate360");
+    $("#container-balls .inner-7").css({
+        width: "25px",
+        height: "25px",
+        position: "absolute",
+        borderRadius: "50%",
+        transform: "rotate(120deg)"
+    }).after("<div class='inner-7-1'></div>");
+    $(".inner-7-1").css({
+        content: "",
+        position: "absolute",
+        width: "25px",
+        height: "25px",
+        backgroundColor: "#fff",
+        borderRadius: "50%",
+        transformOrigin: "-30px -30px",
+        filter: "blur(5px)",
+        animationDuration: "4.7s"
+    }).addClass("rotate360");
+    $("#container-balls .inner-8").css({
+        width: "18px",
+        height: "18px",
+        position: "absolute",
+        borderRadius: "50%",
+        transform: "rotate(180deg)"
+    }).after("<div class='inner-8-1'></div>");
+    $(".inner-8-1").css({
+        content: "",
+        position: "absolute",
+        width: "18px",
+        height: "18px",
+        backgroundColor: "#fff",
+        borderRadius: "50%",
+        transformOrigin: "-45px 60px",
+        animationDuration: "3.7s",
+        filter: "blur(5px)"
+    }).addClass("rotate360");
+    $("#container-balls .inner-9").css({
+        width: "15px",
+        height: "15px",
+        position: "absolute",
+        borderRadius: "50%",
+        transform: "rotate(-45deg)"
+    }).after("<div class='inner-9-1'></div>");
+    $(".inner-9-1").css({
+        content: "",
+        position: "absolute",
+        width: "15px",
+        height: "15px",
+        backgroundColor: "#fff",
+        borderRadius: "50%",
+        transformOrigin: "-20px 40px",
+        animationDuration: "2.5s",
+        filter: "blur(5px)"
+    }).addClass("rotate360");
+    $("#container-balls .inner-10").css({
+        width: "22px",
+        height: "22px",
+        position: "absolute",
+        borderRadius: "50%",
+        transform: "rotate(80deg)"
+    }).after("<div class='inner-10-1'></div>");
+    $(".inner-10-1").css({
+        content: "",
+        position: "absolute",
+        width: "22px",
+        height: "22px",
+        backgroundColor: "#fff",
+        borderRadius: "50%",
+        transformOrigin: "60px -30px",
+        animationDuration: "3.8s",
+        filter: "blur(5px)"
+    }).addClass("rotate360");
 });
 
