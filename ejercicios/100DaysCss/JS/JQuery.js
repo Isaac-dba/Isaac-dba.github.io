@@ -5,7 +5,7 @@ const section = document.querySelectorAll("#section-days article");
 const spanNum = document.getElementById("days-number");
 
 //funcionalidad
-let currentId = 7;
+let currentId = 0;
 function showArticle(index){
     section.forEach((article, i) => {
         article.classList.toggle("active", i === index);
@@ -1156,5 +1156,1073 @@ $(document).ready(function() {
         animationDuration: "3.8s",
         filter: "blur(5px)"
     }).addClass("rotate360");
-});
 
+    // Day 9
+    $(".days-9").css({
+        backgroundColor: "#1a2238",
+        position: "relative",
+        overflow: "hidden"
+    });
+    $(".floor").css({
+        position: "relative",
+        width: "100%",
+        height: "50%",
+        top: "97px"
+    });
+    $(".floorG").css({
+        backgroundColor: "#26314f",
+        position: "absolute",
+        boxShadow: "1px 0px 10px 0px rgba(0, 0, 0, 0.1)",
+        borderRadius: "50%",
+        zIndex: "2" 
+    })
+    $(".floor1").css({
+        width: "200px",
+        height: "100%",
+        left: "-20px"
+    });
+    $(".floor2").css({
+        width: "200px",
+        height: "100%",
+        right: "-60px",
+    });
+    $(".floor3").css({
+        width: "200px",
+        height: "100%",
+        backgroundColor: "#303c5d",
+        boxShadow: "none",
+        left: "50px",
+        top: "30px"
+    });
+    $(".floor4").css({
+        width: "60%",
+        height: "100%",
+        top: "40px",
+        left: "-50px",
+        backgroundColor: "#303c5d",
+        boxShadow: "none"
+    });
+    $(".floor5").css({
+        width: "50%",
+        height: "100%",
+        backgroundColor: "#303c5d",
+        top: "50px",
+        right: "-70px",
+        boxShadow: "none"
+    });
+    //the moon
+    $(".moon").css({
+        width: "67px",
+        height: "67px",
+        backgroundColor: "#f6edbd",
+        boxShadow: "0px 0px 10px 0px #f6edbd",
+        position: "absolute",
+        top: "30px",
+        left: "50px",
+        borderRadius: "50%",
+        overflow: "hidden"
+    });
+    $(".krater1").css({
+        width: "6px",
+        height: "6px",
+        position: "absolute",
+        left: "27px",
+        top: "25px",
+        borderRadius: "50%",
+        backgroundColor: "#ece1a8"
+    });
+    $(".krater2").css({
+        width: "4px",
+        height: "4px",
+        backgroundColor: "#ece1a8",
+        borderRadius: "50%",
+        position: "absolute",
+        top: "22px",
+        left: "18px"
+    });
+    $(".krater3").css({
+        width: "11px",
+        height: "11px",
+        backgroundColor: "#ece1a8",
+        borderRadius: "50%",
+        position: "absolute",
+        top: "9px",
+        left: "2px"
+    });
+    $(".krater4").css({
+        width: "11px",
+        height: "11px",
+        backgroundColor: "#ece1a8",
+        borderRadius: "50%",
+        position: "absolute",
+        top: "7px",
+        left: "28px"
+    });
+    $(".krater5").css({
+        width: "6px",
+        height: "6px",
+        backgroundColor: "#ece1a8",
+        borderRadius: "50%",
+        position: "absolute",
+        top: "37px",
+        left: "48px"
+    });
+    $(".krater6").css({
+        width: "6px",
+        height: "6px",
+        backgroundColor: "#ece1a8",
+        borderRadius: "50%",
+        position: "absolute",
+        top: "17px",
+        left: "48px"
+    });
+    $(".krater7").css({
+        width: "4px",
+        height: "4px",
+        backgroundColor: "#ece1a8",
+        borderRadius: "50%",
+        position: "absolute",
+        top: "35px",
+        left: "38px"
+    });
+    $(".krater8").css({
+        width: "6px",
+        height: "6px",
+        backgroundColor: "#ece1a8",
+        borderRadius: "50%",
+        position: "absolute",
+        top: "54px",
+        left: "35px"
+    });
+    $(".krater9").css({
+        width: "6px",
+        height: "6px",
+        backgroundColor: "#ece1a8",
+        borderRadius: "50%",
+        position: "absolute",
+        top: "25px",
+        left: "62px"
+    });
+    $(".krater10").css({
+        width: "6px",
+        height: "6px",
+        backgroundColor: "#ece1a8",
+        borderRadius: "50%",
+        position: "absolute",
+        top: "38px",
+        left: "19px"
+    });
+    $(".krater11").css({
+        width: "11px",
+        height: "11px",
+        backgroundColor: "#ece1a8",
+        borderRadius: "50%",
+        position: "absolute",
+        top: "55px",
+        left: "10px"
+    });
+    //rain
+    $(".rain").css({
+        backgroundColor: "transparent",
+        width: "100%",
+        height: "300px",
+        position: "absolute",
+        zIndex: "3",
+        // filter: "contrast(25)"
+    });
+    $(".big-drop").css({
+        position: "absolute",
+        zIndex: "20",
+        left: "18px",
+        bottom: "0px",
+        borderRadius: "50%",
+        width: "8px",
+        height: "8px",
+        backgroundColor: "#7fc1f9",
+    });
+    $(".big-drop").eq(0).css({
+        animationDuration: "1s"
+    }).before("<div class='bigdrop1'></div>");
+    $(".bigdrop1").css({
+        content: "",
+        position: "absolute",
+        bottom: "0px",
+        left: "18px",
+        width: "6px",
+        height: "6px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "3px",
+        animationDuration: "1s"
+    }).addClass("dropAnimation");
+    $(".big-drop").eq(0).after("<div class='bigdrop1-2'></div>");
+    $(".bigdrop1-2").css({
+        content: "",
+        position: "absolute",
+        bottom: "0px",
+        left: "19px",
+        width: "4px",
+        height: "10px",
+        borderRadius: "50%",
+        backgroundColor: "#7fc1f9",
+        animationDuration: "1s"
+    });
+    $(".bigdrop1-2").addClass("dropAnimation")
+    $(".big-drop").addClass("dropAnimation");
+    // segunda gota
+    $(".big-drop").eq(1).css({
+        left: "40px",
+        animationDuration: "1.3s"
+    }).before("<div class='bigdrop2'></div>");
+    $(".bigdrop2").css({
+        content: "",
+        position: "absolute",
+        left: "41px",
+        bottom: "0px",
+        width: "6px",
+        height: "6px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "3px",
+        animationDuration: "1.3s"
+    }).addClass("dropAnimation");
+    $(".big-drop").eq(1).after("<div class='bigdrop2-1'></div>");
+    $(".bigdrop2-1").css({
+        content: "",
+        position: "absolute",
+        bottom: "1px",
+        left: "42px",
+        width: "4px",
+        height: "10px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "50%",
+        animationDuration: "1.3s"
+    }).addClass("dropAnimation");
+    // 3 gota
+    $(".big-drop").eq(2).css({
+        left: "65px",
+        animationDuration: "1.2s"
+    }).before("<div class='eq2'></div>");
+    $(".eq2").css({
+        content: "",
+        position: "absolute",
+        width: "6px",
+        height: "6px",
+        bottom: "0px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "50%",
+        left: "65px",
+        animationDuration: "1.2s"
+    }).addClass("dropAnimation");
+    $(".big-drop").eq(2).after("<div class='eq2-1'></div>");
+    $(".eq2-1").css({
+        content: "",
+        position: "absolute",
+        bottom: "1px",
+        left: "66px",
+        width: "4px",
+        height: "10px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "50%",
+        animationDuration: "1.2s",
+        transform: "rotate(35deg)"
+    }).addClass("dropAnimation");
+    // 4gota
+    $(".big-drop").eq(3).css({
+        left: "95px",
+        animationDuration: "1.3s",
+        animationDelay: "0.3s"
+    }).before("<div class='eq3'></div>");
+    $(".eq3").css({
+        content: "",
+        position: "absolute",
+        width: "6px",
+        height: "6px",
+        bottom: "0px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "50%",
+        left: "95px",
+        animationDuration: "1.3s",
+        animationDelay: "0.3s"
+    }).addClass("dropAnimation");
+    $(".big-drop").eq(3).after("<div class='eq3-1'></div>");
+    $(".eq3-1").css({
+        content: "",
+        position: "absolute",
+        bottom: "1px",
+        left: "96px",
+        width: "4px",
+        height: "10px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "50%",
+        animationDuration: "1.3s",
+        animationDelay: "0.3s",
+        transform: "rotate(35deg)"
+    }).addClass("dropAnimation");
+    // 5 dig drop
+    $(".big-drop").eq(4).css({
+        left: "125px",
+        animationDuration: "1.1s",
+        animationDelay: "0.3s"
+    }).before("<div class='eq4'></div>");
+    $(".eq4").css({
+        content: "",
+        position: "absolute",
+        width: "6px",
+        height: "6px",
+        bottom: "0px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "50%",
+        left: "125px",
+        animationDuration: "1.1s",
+        animationDelay: "0.3s"
+    }).addClass("dropAnimation");
+    $(".big-drop").eq(4).after("<div class='eq4-1'></div>");
+    $(".eq4-1").css({
+        content: "",
+        position: "absolute",
+        bottom: "1px",
+        left: "126px",
+        width: "4px",
+        height: "10px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "50%",
+        animationDuration: "1.1s",
+        animationDelay: "0.3s",
+        transform: "rotate(35deg)"
+    }).addClass("dropAnimation");
+    // 6 bid drop
+    $(".big-drop").eq(5).css({
+        left: "155px",
+        animationDuration: "1.3s",
+        animationDelay: "0.2s"
+    }).before("<div class='eq5'></div>");
+    $(".eq5").css({
+        content: "",
+        position: "absolute",
+        width: "6px",
+        height: "6px",
+        bottom: "0px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "50%",
+        left: "155px",
+        animationDuration: "1.3s",
+        animationDelay: "0.2s"
+    }).addClass("dropAnimation");
+    $(".big-drop").eq(5).after("<div class='eq5-1'></div>");
+    $(".eq5-1").css({
+        content: "",
+        position: "absolute",
+        bottom: "1px",
+        left: "157px",
+        width: "4px",
+        height: "10px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "50%",
+        animationDuration: "1.3s",
+        animationDelay: "0.2s",
+        transform: "rotate(35deg)"
+    }).addClass("dropAnimation");
+    // 7 big drop
+    $(".big-drop").eq(6).css({
+        left: "175px",
+        animationDuration: "1.1s",
+        animationDelay: "0.2s"
+    }).before("<div class='eq6'></div>");
+    $(".eq6").css({
+        content: "",
+        position: "absolute",
+        width: "6px",
+        height: "6px",
+        bottom: "0px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "50%",
+        left: "175px",
+        animationDuration: "1.1s",
+        animationDelay: "0.2s"
+    }).addClass("dropAnimation");
+    $(".big-drop").eq(6).after("<div class='eq6-1'></div>");
+    $(".eq6-1").css({
+        content: "",
+        position: "absolute",
+        bottom: "1px",
+        left: "177px",
+        width: "4px",
+        height: "10px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "50%",
+        animationDuration: "1.1s",
+        animationDelay: "0.2s",
+        transform: "rotate(35deg)"
+    }).addClass("dropAnimation");
+    // 8 big drop
+    $(".big-drop").eq(7).css({
+        left: "195px",
+        animationDuration: "1s",
+        animationDelay: "0.2s"
+    }).before("<div class='eq7'></div>");
+    $(".eq7").css({
+        content: "",
+        position: "absolute",
+        width: "6px",
+        height: "6px",
+        bottom: "0px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "50%",
+        left: "195px",
+        animationDuration: "1s",
+        animationDelay: "0.2s"
+    }).addClass("dropAnimation");
+    $(".big-drop").eq(7).after("<div class='eq7-1'></div>");
+    $(".eq7-1").css({
+        content: "",
+        position: "absolute",
+        bottom: "1px",
+        left: "197px",
+        width: "4px",
+        height: "10px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "50%",
+        animationDuration: "1s",
+        animationDelay: "0.2s",
+        transform: "rotate(35deg)"
+    }).addClass("dropAnimation");
+    // 9 dig drop
+    $(".big-drop").eq(8).css({
+        left: "225px",
+        animationDuration: "1.1s",
+        animationDelay: "0.2s"
+    }).before("<div class='eq8'></div>");
+    $(".eq8").css({
+        content: "",
+        position: "absolute",
+        width: "6px",
+        height: "6px",
+        bottom: "0px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "50%",
+        left: "225px",
+        animationDuration: "1.1s",
+        animationDelay: "0.2s"
+    }).addClass("dropAnimation");
+    $(".big-drop").eq(8).after("<div class='eq8-1'></div>");
+    $(".eq8-1").css({
+        content: "",
+        position: "absolute",
+        bottom: "1px",
+        left: "227px",
+        width: "4px",
+        height: "10px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "50%",
+        animationDuration: "1.1s",
+        animationDelay: "0.2s",
+        transform: "rotate(35deg)"
+    }).addClass("dropAnimation");
+    // 10 bid drop
+    $(".big-drop").eq(9).css({
+        left: "260px",
+        animationDuration: "1.1s",
+        animationDelay: "0.4s"
+    }).before("<div class='eq9'></div>");
+    $(".eq9").css({
+        content: "",
+        position: "absolute",
+        width: "6px",
+        height: "6px",
+        bottom: "0px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "50%",
+        left: "260px",
+        animationDuration: "1.1s",
+        animationDelay: "0.4s"
+    }).addClass("dropAnimation");
+    $(".big-drop").eq(9).after("<div class='eq9-1'></div>");
+    $(".eq9-1").css({
+        content: "",
+        position: "absolute",
+        bottom: "1px",
+        left: "262px",
+        width: "4px",
+        height: "10px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "50%",
+        animationDuration: "1.1s",
+        animationDelay: "0.4s",
+        transform: "rotate(35deg)"
+    }).addClass("dropAnimation");
+
+    //Mediun drop
+    $(".medium-drop").css({
+        position: "absolute",
+        zIndex: "20",
+        left: "18px",
+        bottom: "0px",
+        borderRadius: "50%",
+        width: "6px",
+        height: "6px",
+        backgroundColor: "#3f82c2",
+    }).addClass("dropAnimation");
+    // 1 mediun drop
+    $(".medium-drop1").css({
+        animationDuration: "1.5s"
+    }).before("<div class='med0'></div>");
+    $(".med0").css({
+        content: "",
+        position: "absolute",
+        bottom: "0px",
+        left: "18px",
+        width: "4px",
+        height: "4px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "3px",
+        animationDuration: "1.5s"
+    }).addClass("dropAnimation");
+    $(".medium-drop1").after("<div class='med0-1'></div>");
+    $(".med0-1").css({
+        content: "",
+        position: "absolute",
+        bottom: "0px",
+        left: "18px",
+        width: "4px",
+        height: "8px",
+        borderRadius: "50%",
+        backgroundColor: "#7fc1f9",
+        animationDuration: "1.5s"
+    }).addClass("dropAnimation");
+    // segunda gota
+    $(".medium-drop2").css({
+        left: "48px",
+        animationDuration: "1.8s"
+    }).before("<div class='med2'></div>");
+    $(".med2").css({
+        content: "",
+        position: "absolute",
+        left: "48px",
+        bottom: "0px",
+        width: "4px",
+        height: "4px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "3px",
+        animationDuration: "1.8s"
+    }).addClass("dropAnimation");
+    $(".medium-drop2").after("<div class='med2-1'></div>");
+    $(".med2-1").css({
+        content: "",
+        position: "absolute",
+        bottom: "1px",
+        left: "48px",
+        width: "4px",
+        height: "8px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "50%",
+        animationDuration: "1.8s"
+    }).addClass("dropAnimation");
+    // 3 gota
+    $(".medium-drop3").css({
+        left: "85px",
+        animationDuration: "1.6s"
+    }).before("<div class='med3'></div>");
+    $(".med3").css({
+        content: "",
+        position: "absolute",
+        width: "4px",
+        height: "4px",
+        bottom: "0px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "50%",
+        left: "85px",
+        animationDuration: "1.6s"
+    }).addClass("dropAnimation");
+    $(".medium-drop3").after("<div class='med3-1'></div>");
+    $(".med3-1").css({
+        content: "",
+        position: "absolute",
+        bottom: "1px",
+        left: "85px",
+        width: "4px",
+        height: "8px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "50%",
+        animationDuration: "1.6s",
+        transform: "rotate(35deg)"
+    }).addClass("dropAnimation");
+    // 4gota
+    $(".medium-drop4").css({
+        left: "95px",
+        animationDuration: "1.9s",
+        animationDelay: "0.3s"
+    }).before("<div class='med4'></div>");
+    $(".med4").css({
+        content: "",
+        position: "absolute",
+        width: "4px",
+        height: "4px",
+        bottom: "0px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "50%",
+        left: "95px",
+        animationDuration: "1.9s",
+        animationDelay: "0.3s"
+    }).addClass("dropAnimation");
+    $(".medium-drop4").after("<div class='med4-1'></div>");
+    $(".med4-1").css({
+        content: "",
+        position: "absolute",
+        bottom: "1px",
+        left: "96px",
+        width: "4px",
+        height: "8px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "50%",
+        animationDuration: "1.9s",
+        animationDelay: "0.3s",
+        transform: "rotate(35deg)"
+    }).addClass("dropAnimation");
+    // 5  drop
+    $(".medium-drop5").css({
+        left: "130px",
+        animationDuration: "1.4s",
+        animationDelay: "0.3s"
+    }).before("<div class='med5'></div>");
+    $(".med5").css({
+        content: "",
+        position: "absolute",
+        width: "4px",
+        height: "4px",
+        bottom: "0px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "50%",
+        left: "130px",
+        animationDuration: "1.4s",
+        animationDelay: "0.3s"
+    }).addClass("dropAnimation");
+    $(".medium-drop").after("<div class='med5-1'></div>");
+    $(".med5-1").css({
+        content: "",
+        position: "absolute",
+        bottom: "1px",
+        left: "131px",
+        width: "4px",
+        height: "8px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "50%",
+        animationDuration: "1.4s",
+        animationDelay: "0.3s",
+        transform: "rotate(35deg)"
+    }).addClass("dropAnimation");
+    // 6 drop
+    $(".medium-drop6").css({
+        left: "150px",
+        animationDuration: "1.9s",
+        animationDelay: "0.8s"
+    }).before("<div class='med6'></div>");
+    $(".med6").css({
+        content: "",
+        position: "absolute",
+        width: "4px",
+        height: "4px",
+        bottom: "0px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "50%",
+        left: "150px",
+        animationDuration: "1.9s",
+        animationDelay: "0.8s"
+    }).addClass("dropAnimation");
+    $(".medium-drop6").after("<div class='med6-1'></div>");
+    $(".med6-1").css({
+        content: "",
+        position: "absolute",
+        bottom: "1px",
+        left: "151px",
+        width: "4px",
+        height: "8px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "50%",
+        animationDuration: "1.9s",
+        animationDelay: "0.8s",
+        transform: "rotate(25deg)"
+    }).addClass("dropAnimation");
+    // 7 drop
+    $(".medium-drop7").css({
+        left: "180px",
+        animationDuration: "1.6s",
+        animationDelay: "0.2s"
+    }).before("<div class='med7'></div>");
+    $(".med7").css({
+        content: "",
+        position: "absolute",
+        width: "4px",
+        height: "4px",
+        bottom: "0px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "50%",
+        left: "180px",
+        animationDuration: "1.6s",
+        animationDelay: "0.2s"
+    }).addClass("dropAnimation");
+    $(".medium-drop7").after("<div class='med7-1'></div>");
+    $(".med7-1").css({
+        content: "",
+        position: "absolute",
+        bottom: "1px",
+        left: "180px",
+        width: "4px",
+        height: "8px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "50%",
+        animationDuration: "1.6s",
+        animationDelay: "0.2s",
+        transform: "rotate(35deg)"
+    }).addClass("dropAnimation");
+    // 8 drop
+    $(".medium-drop8").css({
+        left: "215px",
+        animationDuration: "2s",
+        animationDelay: "0.2s"
+    }).before("<div class='med8'></div>");
+    $(".med8").css({
+        content: "",
+        position: "absolute",
+        width: "4px",
+        height: "4px",
+        bottom: "0px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "50%",
+        left: "215px",
+        animationDuration: "2s",
+        animationDelay: "0.2s"
+    }).addClass("dropAnimation");
+    $(".medium-drop8").after("<div class='med8-1'></div>");
+    $(".med8-1").css({
+        content: "",
+        position: "absolute",
+        bottom: "1px",
+        left: "215px",
+        width: "4px",
+        height: "8px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "50%",
+        animationDuration: "2s",
+        animationDelay: "0.2s",
+        transform: "rotate(35deg)"
+    }).addClass("dropAnimation");
+    // 9 drop
+    $(".medium-drop9").css({
+        left: "245px",
+        animationDuration: "2s",
+        animationDelay: "0.3s"
+    }).before("<div class='med9'></div>");
+    $(".med9").css({
+        content: "",
+        position: "absolute",
+        width: "4px",
+        height: "4px",
+        bottom: "0px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "50%",
+        left: "245px",
+        animationDuration: "2s",
+        animationDelay: "0.3s"
+    }).addClass("dropAnimation");
+    $(".medium-drop9").after("<div class='med9-1'></div>");
+    $(".med9-1").css({
+        content: "",
+        position: "absolute",
+        bottom: "0px",
+        left: "245px",
+        width: "4px",
+        height: "8px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "50%",
+        animationDuration: "2s",
+        animationDelay: "0.3s",
+        transform: "rotate(15deg)"
+    }).addClass("dropAnimation");
+    
+    //small drop
+    $(".small-drop").css({
+        position: "absolute",
+        zIndex: "20",
+        left: "10px",
+        bottom: "0px",
+        borderRadius: "50%",
+        width: "3px",
+        height: "3px",
+        backgroundColor: "#265a8a",
+    }).addClass("dropAnimation");
+    // 1  drop
+    $(".sd1").css({
+        animationDuration: "2s"
+    }).before("<div class='sm1'></div>");
+    $(".sm1").css({
+        content: "",
+        position: "absolute",
+        bottom: "0px",
+        left: "9px",
+        width: "2px",
+        height: "2px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "3px",
+        animationDuration: "2s"
+    }).addClass("dropAnimation");
+    $(".sd1").after("<div class='sm1-1'></div>");
+    $(".sm1-1").css({
+        content: "",
+        position: "absolute",
+        bottom: "0px",
+        left: "10px",
+        width: "1px",
+        height: "4px",
+        borderRadius: "50%",
+        backgroundColor: "#7fc1f9",
+        animationDuration: "2s"
+    }).addClass("dropAnimation");
+    // 2 drop
+    $(".sd2").css({
+        left: "40px",
+        animationDuration: "2.5s"
+    }).before("<div class='sm2'></div>");
+    $(".sm2").css({
+        content: "",
+        position: "absolute",
+        left: "40px",
+        bottom: "0px",
+        width: "2px",
+        height: "2px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "3px",
+        animationDuration: "2.5s"
+    }).addClass("dropAnimation");
+    $(".sd2").after("<div class='sm2-1'></div>");
+    $(".sm2-1").css({
+        content: "",
+        position: "absolute",
+        bottom: "0px",
+        left: "40px",
+        width: "1px",
+        height: "4px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "50%",
+        animationDuration: "2.5s"
+    }).addClass("dropAnimation");
+    // 3 gota
+    $(".sd3").css({
+        left: "65px",
+        animationDuration: "2.4s"
+    }).before("<div class='sm3'></div>");
+    $(".sm3").css({
+        content: "",
+        position: "absolute",
+        width: "2px",
+        height: "2px",
+        bottom: "0px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "50%",
+        left: "65px",
+        animationDuration: "2.4s"
+    }).addClass("dropAnimation");
+    $(".sd3").after("<div class='sm3-1'></div>");
+    $(".sm3-1").css({
+        content: "",
+        position: "absolute",
+        bottom: "1px",
+        left: "65px",
+        width: "1px",
+        height: "4px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "50%",
+        animationDuration: "2.4s",
+        transform: "rotate(35deg)"
+    }).addClass("dropAnimation");
+    // 4gota
+    $(".sd4").css({
+        left: "88px",
+        animationDuration: "2.1s",
+        animationDelay: "0.3s"
+    }).before("<div class='sm4'></div>");
+    $(".sm4").css({
+        content: "",
+        position: "absolute",
+        width: "2px",
+        height: "2px",
+        bottom: "0px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "50%",
+        left: "88px",
+        animationDuration: "2.1s",
+        animationDelay: "0.3s"
+    }).addClass("dropAnimation");
+    $(".sd4").after("<div class='sm4-1'></div>");
+    $(".sm4-1").css({
+        content: "",
+        position: "absolute",
+        bottom: "1px",
+        left: "88px",
+        width: "1px",
+        height: "4px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "50%",
+        animationDuration: "2.1s",
+        animationDelay: "0.3s",
+        transform: "rotate(35deg)"
+    }).addClass("dropAnimation");
+    // 5 dig drop
+    $(".sd5").css({
+        left: "120px",
+        animationDuration: "2.4s",
+        animationDelay: "0.1s"
+    }).before("<div class='sm5'></div>");
+    $(".sm5").css({
+        content: "",
+        position: "absolute",
+        width: "2px",
+        height: "2px",
+        bottom: "0px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "50%",
+        left: "120px",
+        animationDuration: "2.4s",
+        animationDelay: "0.1s"
+    }).addClass("dropAnimation");
+    $(".sd5").after("<div class='sm5-1'></div>");
+    $(".sm5-1").css({
+        content: "",
+        position: "absolute",
+        bottom: "1px",
+        left: "120px",
+        width: "1px",
+        height: "4px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "50%",
+        animationDuration: "2.4s",
+        animationDelay: "0.1s",
+        transform: "rotate(35deg)"
+    }).addClass("dropAnimation");
+    // 6 bid drop
+    $(".sd6").css({
+        left: "150px",
+        animationDuration: "2.9s",
+        animationDelay: "0.3s"
+    }).before("<div class='sm6'></div>");
+    $(".sm6").css({
+        content: "",
+        position: "absolute",
+        width: "2px",
+        height: "2px",
+        bottom: "0px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "50%",
+        left: "150px",
+        animationDuration: "2.9s",
+        animationDelay: "0.3s"
+    }).addClass("dropAnimation");
+    $(".sd6").after("<div class='sm6-1'></div>");
+    $(".sm6-1").css({
+        content: "",
+        position: "absolute",
+        bottom: "1px",
+        left: "151px",
+        width: "1px",
+        height: "4px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "50%",
+        animationDuration: "2.9s",
+        animationDelay: "0.3s",
+        transform: "rotate(25deg)"
+    }).addClass("dropAnimation");
+    // 7 big drop
+    $(".sd7").css({
+        left: "175px",
+        animationDuration: "2.6s",
+        animationDelay: "0.2s"
+    }).before("<div class='sm7'></div>");
+    $(".sm7").css({
+        content: "",
+        position: "absolute",
+        width: "2px",
+        height: "2px",
+        bottom: "0px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "50%",
+        left: "175px",
+        animationDuration: "2.6s",
+        animationDelay: "0.2s"
+    }).addClass("dropAnimation");
+    $(".sd7").after("<div class='sm7-1'></div>");
+    $(".sm7-1").css({
+        content: "",
+        position: "absolute",
+        bottom: "1px",
+        left: "175px",
+        width: "1px",
+        height: "4px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "50%",
+        animationDuration: "2.6s",
+        animationDelay: "0.2s",
+        transform: "rotate(35deg)"
+    }).addClass("dropAnimation");
+    // 8 big drop
+    $(".sd8").css({
+        left: "205px",
+        animationDuration: "2s",
+        animationDelay: "0.4s"
+    }).before("<div class='sm8'></div>");
+    $(".sm8").css({
+        content: "",
+        position: "absolute",
+        width: "2px",
+        height: "2px",
+        bottom: "0px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "50%",
+        left: "205px",
+        animationDuration: "2s",
+        animationDelay: "0.4s"
+    }).addClass("dropAnimation");
+    $(".sd8").after("<div class='sm8-1'></div>");
+    $(".sm8-1").css({
+        content: "",
+        position: "absolute",
+        bottom: "1px",
+        left: "205px",
+        width: "1px",
+        height: "4px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "50%",
+        animationDuration: "2s",
+        animationDelay: "0.4s",
+        transform: "rotate(35deg)"
+    }).addClass("dropAnimation");
+    // 9 dig drop
+    $(".sd9").css({
+        left: "235px",
+        animationDuration: "2.3s",
+        animationDelay: "0.1s"
+    }).before("<div class='sm9'></div>");
+    $(".sm9").css({
+        content: "",
+        position: "absolute",
+        width: "2px",
+        height: "2px",
+        bottom: "0px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "50%",
+        left: "235px",
+        animationDuration: "2.3s",
+        animationDelay: "0.1s"
+    }).addClass("dropAnimation");
+    $(".sd9").after("<div class='sm9-1'></div>");
+    $(".sm9-1").css({
+        content: "",
+        position: "absolute",
+        bottom: "0px",
+        left: "235px",
+        width: "1px",
+        height: "6px",
+        backgroundColor: "#7fc1f9",
+        borderRadius: "50%",
+        animationDuration: "2.3s",
+        animationDelay: "0.1s",
+        transform: "rotate(15deg)"
+    }).addClass("dropAnimation");
+});

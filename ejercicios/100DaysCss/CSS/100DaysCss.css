@@ -278,13 +278,29 @@ main{
 }
 
 
+/* Day 9 */
+
+.dropAnimation{
+    -webkit-animation: drop2  linear infinite;
+    animation: drop2  linear  infinite;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    transform-origin: 50% 100%;
+}
 
 
 
-
-
-
-
+@keyframes drop2 {
+	0% {
+		transform: translate3d(40px,-320px,0) scaleX(1) scaleY(1) rotate(17deg);
+	}
+	85% {
+		transform: translate3d(0,0,0) scaleX(1) scaleY(1) rotate(17deg);
+	}
+	100% {
+		transform: translate3d(0,0,0) scaleX(3) scaleY(0) rotate(0deg);
+	}
+}
 
 
 
@@ -297,7 +313,7 @@ main{
     background: -moz-linear-gradient(bottom left, #e4e4e4 0%, #4ec6ca 100%); */
     /* background: -o-linear-gradient(bottom left, #43389F 0%, #4ec6ca 100%); */
     /* background: linear-gradient(to top right, #43389F 0%, #4ec6ca 100%); */
-    background-color: #5f98cd;
+    background-color: #265a8a;
     box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
     /* backgroundColor: "#f1ba64", */
     /* background-image: linear-gradient(to top right, #eebe6c 0%, #ca7c4e 100%); */
