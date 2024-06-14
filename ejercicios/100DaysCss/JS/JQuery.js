@@ -2225,4 +2225,67 @@ $(document).ready(function() {
         animationDelay: "0.1s",
         transform: "rotate(15deg)"
     }).addClass("dropAnimation");
+
+    //Day 10
+    $(".days-10").css({
+        backgroundColor: "#4c4c4c"
+    });
+    $(".content-reloj").css({
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+    });
+    $(".inner-reloj").css({
+        position: "absolute",
+        width: "200px",
+        height: "200px",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        backgroundColor: "#242424",
+        borderRadius: "50%",
+        border: "7px solid #3a3a3a",
+        color: "#ffffff"
+    });
+    $(".inner-reloj .inner-text .date-reloj").css({
+        fontSize: "12px"
+    });
+    $(".inner-reloj .inner-text .time-reloj").css({
+        fontSize: "45px"
+    });
+    $(".inner-reloj .inner-text .state").css({
+        display: "flex",
+        justifyContent: "space-between",
+        fontSize: "12px",
+        alignItems: "center"
+    });
+    $(".inner-reloj .inner-text .state .like iconify-icon").css({
+        transform: "scale(1.2)"
+    }).addClass("likeReloj")
+    $(".inner-reloj .inner-text .state .like").css({
+        display: "flex",
+        gap: "3px"
+    });
+    $(".inner-reloj .inner-text .state .kcal").css({
+        display: "flex",
+        gap:"3px"
+    })
+    $(".content-reloj svg").css({
+        position: "absolute",
+    });
+    $(".inner-reloj .borderReloj").css({
+        width: "85%",
+        height: "85%",
+        // backgroundColor: "red",
+        position: "absolute",
+        borderRadius: "50%",
+        border: "dotted 3px #ffffff"
+    })
+    $(".content-reloj circle").css({
+        fill: "none",
+        stroke: "url(#backgroundColor)",
+        strokeWidth: "3px",
+        strokeDasharray: "550",
+        strokeDashoffset: "550"
+    }).addClass("relojAnimation");
 });

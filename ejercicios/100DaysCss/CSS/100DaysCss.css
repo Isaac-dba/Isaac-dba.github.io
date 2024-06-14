@@ -302,9 +302,23 @@ main{
 	}
 }
 
-
-
-
+/* Day 10 */
+@keyframes reloj {
+    100%{
+        stroke-dashoffset: 0%;
+    }
+}
+.relojAnimation{
+    animation: reloj 2s linear infinite;
+}
+@keyframes likeReloj {
+    100%{
+        transform: scale(0.8);
+    }
+}
+.likeReloj{
+    animation: likeReloj 1s ease-in-out infinite;
+}
 .div{
     width: 100px;
     height: 100px;
@@ -319,12 +333,14 @@ main{
     /* background-image: linear-gradient(to top right, #eebe6c 0%, #ca7c4e 100%); */
     color: #afafafc2;
     border-radius: 50%;
-    border: solid 1px black ;
+    border:solid 7px black;
     border-left-color:transparent ;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
+    border: dotted;
+    border-spacing: 0px 10px;
     }
     .inner{
         background: #264056;
@@ -338,7 +354,7 @@ main{
     }
     .div:hover{
         transform: rotate(45deg);
-        background-color: #b2daff;
+        background-color: #c53d3d;
       
     }
 
