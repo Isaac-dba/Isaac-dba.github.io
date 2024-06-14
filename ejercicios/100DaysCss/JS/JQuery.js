@@ -5,7 +5,7 @@ const section = document.querySelectorAll("#section-days article");
 const spanNum = document.getElementById("days-number");
 
 //funcionalidad
-let currentId = 0;
+let currentId = 10;
 function showArticle(index){
     section.forEach((article, i) => {
         article.classList.toggle("active", i === index);
@@ -2288,4 +2288,10 @@ $(document).ready(function() {
         strokeDasharray: "550",
         strokeDashoffset: "550"
     }).addClass("relojAnimation");
+
+    //Day 11
+    $(".days-11").css({
+        background: "radial-gradient(ellipse at center,  rgba(246,232,215,1) 0%,rgba(218,190,155,1) 100%)", 
+        position: "relative"
+    });
 });
