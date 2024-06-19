@@ -5,7 +5,7 @@ const section = document.querySelectorAll("#section-days article");
 const spanNum = document.getElementById("days-number");
 
 //funcionalidad
-let currentId = 10;
+let currentId = 0;
 function showArticle(index){
     section.forEach((article, i) => {
         article.classList.toggle("active", i === index);
@@ -562,7 +562,7 @@ $(document).ready(function() {
         borderRadius: "4px",
         position: "relative"
     });
-    $(".form .left").css({
+    $(".form .form-left").css({
         display: "flex",
         flexDirection: "column",
         gap: "10px",
@@ -613,20 +613,20 @@ $(document).ready(function() {
         $(".inner-inner").css("transform", "rotate(0deg)");
     });
     //fin hover
-    $(".form .left .info-perfil").css({
+    $(".form .form-left .info-perfil").css({
         display: "flex",
         flexDirection: "column",
         textAlign: "center",
         cursor: "text"
     });
-    $(".form .left .info-perfil .name").css({
+    $(".form .form-left .info-perfil .name").css({
         fontWeight: "bolder",
         minWidth: "130px"
     });
-    $(".form .left .info-perfil .title").css({
+    $(".form .form-left .info-perfil .title").css({
         fontSize: "14px"
     });
-    $(".form .left .action").css({
+    $(".form .form-left .action").css({
         display: "flex",
         flexDirection: "column",
         fontSize: "18px",
@@ -634,7 +634,7 @@ $(document).ready(function() {
         position: "relative",
         bottom: "-15px"
     });
-    $(".form .left .action .btn").css({
+    $(".form .form-left .action .btn").css({
         border: "solid 1px #786450",
         width: "100px",
         textAlign: "center",
@@ -668,7 +668,7 @@ $(document).ready(function() {
             color: "#786450"
         })
     });
-    $(".form .right").css({
+    $(".form .form-right").css({
         height: "100%",
         width: "40%",
         position: "absolute",
@@ -678,7 +678,7 @@ $(document).ready(function() {
         flexDirection: "column",
         gap: "2px"
     });
-    $(".form .right div").css({
+    $(".form .form-right div").css({
         backgroundColor: "#f5e8df",
         width: "100%",
         height: "100%",
@@ -2272,7 +2272,8 @@ $(document).ready(function() {
     })
     $(".content-reloj svg").css({
         position: "absolute",
-    });
+        transform: "rotate(270deg)"
+    })
     $(".inner-reloj .borderReloj").css({
         width: "85%",
         height: "85%",
@@ -2295,3 +2296,28 @@ $(document).ready(function() {
         position: "relative"
     });
 });
+
+// A partir de este ejercicios utilizaremos jQuery de otra manera
+// lo usaremos para añadir funcionalidades.
+    //Day 12
+$(document).ready(function(){
+    // hover ventana flotante
+    $(".obsession").hover(()=>{
+        $("#floatingW").css({
+            position: "absolute",
+            transform: "translateY(-140px)",
+            opacity: "1",
+        });
+    },()=>{
+        $("#floatingW").css({
+            transform: "translateY(-180px)",
+            opacity: "0"
+        });
+    });
+    // mantener el hover 
+    $("#floatingW").hover(() => {
+        $("#floatingW").css("transform", "translateY(-140px)");
+    });
+})
+
+

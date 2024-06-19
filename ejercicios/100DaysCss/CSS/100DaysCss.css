@@ -386,47 +386,74 @@ main{
 	}
 }
 
-
-
-
-.div{
-    width: 100px;
-    height: 100px;
-    /* background: #43389F; */
-    /* background: -webkit-linear-gradient(bottom left, #43389F 0%, #4ec6ca 100%);
-    background: -moz-linear-gradient(bottom left, #e4e4e4 0%, #4ec6ca 100%); */
-    /* background: -o-linear-gradient(bottom left, #43389F 0%, #4ec6ca 100%); */
-    /* background: linear-gradient(to top right, #43389F 0%, #4ec6ca 100%); */
-    background-color: #265a8a;
+/* Day 12 */
+.days-12{
+    background-color: #4cb6d3;
     box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
-    /* backgroundColor: "#f1ba64", */
-    /* background-image: linear-gradient(to top right, #eebe6c 0%, #ca7c4e 100%); */
-    color: #afafafc2;
-    border-radius: 50%;
-    border:solid 7px black;
-    border-left-color:transparent ;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    border: dotted;
-    border-spacing: 0px 10px;
-    background: url("https://100dayscss.com/codepen/doc-martens.svg");
-    }
-    .inner{
-        background: #264056;
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        position: absolute;
-        cursor: text;
+    overflow: hidden;
+    && .content-text{
+        color: #fff;
+        position: relative;
         display: flex;
-        flex-direction: row-reverse;
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
+        height: 90%;
+        && .paragraph{
+            font-size: 18px;
+            padding: 9px;
+            line-height: 25px;
+            && .obsession{
+                background-color: #264056;
+                padding: 4px;
+                height: 24px;
+            }
+        }
+        && .author{
+            font-style: italic;
+            margin-top: 5px;
+        }
+        && .icon{
+            position: absolute;
+            top: 10px;
+            color: #ffffff4d;
+            font-size: 4rem;
+            left: -8px;
+        }
     }
-    .div:hover{
-        transform: rotate(45deg);
-        background-color: #c53d3d;
-      
+}
+#floatingW{
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    position: absolute;
+    transform: translateY(-180px);
+    opacity: 0;
+    transition: all 0.8s ease-in-out;
+    && .floating-head{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        background-color: #fff;
+        color: #264056;
+        padding: 2px;
+        && p{
+            transform: rotate(180deg);
+        }
     }
-
-
+    && .floating-body{
+        background-color: #264056;
+        padding: 5px 10px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+#floatingW::before{
+    content: "";
+    position: absolute;
+    border: solid;
+    border-width: 10px;
+    border-color: #264056 transparent transparent transparent;
+    bottom: -20px;
+    left: calc(50% - 20px);
+}
