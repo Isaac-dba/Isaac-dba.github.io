@@ -5,7 +5,7 @@ const section = document.querySelectorAll("#section-days article");
 const spanNum = document.getElementById("days-number");
 
 //funcionalidad
-let currentId = 0;
+let currentId = 12;
 function showArticle(index){
     section.forEach((article, i) => {
         article.classList.toggle("active", i === index);
@@ -2300,24 +2300,230 @@ $(document).ready(function() {
 // A partir de este ejercicios utilizaremos jQuery de otra manera
 // lo usaremos para añadir funcionalidades.
     //Day 12
-$(document).ready(function(){
-    // hover ventana flotante
-    $(".obsession").hover(()=>{
-        $("#floatingW").css({
-            position: "absolute",
-            transform: "translateY(-140px)",
-            opacity: "1",
+    $(document).ready(function(){
+        // hover ventana flotante
+        $(".obsession").hover(()=>{
+            $("#floatingW").css({
+                position: "absolute",
+                transform: "translateY(-141px)",
+                opacity: "1",
+            });
+        },()=>{
+            $("#floatingW").css({
+                transform: "translateY(-180px)",
+                opacity: "0"
+            });
         });
-    },()=>{
-        $("#floatingW").css({
-            transform: "translateY(-180px)",
-            opacity: "0"
+        // mantener el hover 
+        $("#floatingW").hover(() => {
+            $("#floatingW").css("transform", "translateY(-140px)");
         });
     });
-    // mantener el hover 
-    $("#floatingW").hover(() => {
-        $("#floatingW").css("transform", "translateY(-140px)");
+
+    $(document).ready(function(){
+    //Day 13
+    $(".profile-container div").each((index, element) => {
+        $(element).hover(() => {
+            $(element).css({
+                filter: "contrast(0.8)",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center"
+            }).append("<button type='submit' class='btn-submit'>+</button>")
+            $(".btn-submit").css({
+                width: "50px",
+                height: "50px",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                borderRadius: "50%",
+                border: "none",
+                fontSize: "25px",
+                position: "absolute",
+                backgroundColor: "#e96565",
+                color: "#fff",
+                scale: "1.5",
+                transition: "scale 0.3s ease-out"
+            }).animate({
+                scale: "1"
+            }, 100);
+            //evento click
+            $(".btn-submit").on("click", (e) => {
+                e.preventDefault();
+                $(`<div id='profileAll'>
+                        <span class="name-profile">
+                            ${index === 1 ? "Juan Pedro" : "Julia Toth " + (index + 1)}
+                        </span>
+                        <div class="icon-container">
+                            <div class="icon telephone">
+                                <iconify-icon icon="mdi:telephone" width="24" height="24"></iconify-icon>
+                            </div>
+                            <div class="icon message">
+                                <iconify-icon icon="iconoir:message-solid" width="24" height="24"></iconify-icon>
+                            </div>
+                            <div class="icon eart">
+                                <iconify-icon icon="bi:suit-heart-fill" width="24" height="24"></iconify-icon>
+                            </div>
+                        </div>
+                    </div>`).insertAfter(".profile-container");
+                $("#profileAll").css({
+                    width: "100%",
+                    height: "50%",
+                    backgroundColor: "#e96565",
+                    position: "absolute",
+                    transform: "translateY(230px)",
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    color: "#fff",
+                    gap:"15px",
+                    transition: "transform 1s ease"
+                });
+                setTimeout(() => {
+                    $("#profileAll").css({
+                        transform: "translateY(75px)"
+                    });
+                }, 200)
+                $(".name-profile").css({
+                    fontSize: "1.1rem",
+                    fontWeight: "bold"
+                });
+                $(".icon-container").css({
+                    display: "flex",
+                    gap: "30px",
+                    marginBottom: "-25px"
+                });
+                $(".icon-container .icon").css({
+                    border: "solid 1px #fff",
+                    borderRadius: "50%",
+                    width: "40px",
+                    height: "40px",
+                    display: "flex",
+                    alignItems:  "center",
+                    justifyContent: "center",
+                    boxShadow: "1px 2px 10px 0px rgba(0, 0, 0, 0.1)"
+                });
+                // hover iconify-icon
+                $(".icon-container .icon").each((indexIcon, elementIcon) => {
+                    $(elementIcon).hover(() => {
+                        $(elementIcon).css({
+                            backgroundColor: "#fff",
+                            color: "#e96565",
+                        });
+                    }, () => {
+                        $(elementIcon).css({
+                            backgroundColor: "#e96565",
+                            color: "#fff"
+                        });
+                    });
+                });
+                //fin hover
+                // head del evento click
+                $("<div id='head-profile'></div>").insertAfter(".profile-container");
+                $("#head-profile").css({
+                    width: "100%",
+                    height: "50%",
+                    transform: "translateY(-230px)",
+                    position: "absolute",
+                    transition: "transform 1s ease"
+                });
+                setTimeout(() => {
+                    $("#head-profile").css({
+                        transform: "translateY(-75px)"
+                    });
+                }, 200);
+                $("<div class='circle-profile'></div>").insertBefore("#head-profile");
+                $(".circle-profile").css({
+                    width: "100px",
+                    height: "100px",
+                    backgroundImage: `url("https://100dayscss.com/codepen/13-${(index + 1)}.jpg")`,
+                    backgroundSize: "cover",
+                    backgroundRepeat: "not-repeat",
+                    position: "absolute",
+                    borderRadius: "50%",
+                    transform: "translateX(0%) translateY(-200%)",
+                    zIndex: "1",
+                    border: "solid 1px #fff",
+                    transition: "transform 1s ease"
+                });
+                setTimeout(() => {
+                    $(".circle-profile").css({
+                        transform: "translateX(0%) translateY(0%)"
+                    })
+                }, 400);
+                $("#head-profile").append("<button id='btn-x'>X</button>");
+                $("#btn-x").css({
+                    width: "50px",
+                    height: "50px",
+                    backgroundColor: "#e96565",
+                    position: "absolute",
+                    color: "#fff",
+                    border: "none",
+                    borderRadius: "50%",
+                    right: "10px",
+                    top: "-60px",
+                    transition: "top 1s ease"
+                });
+                setTimeout(() => {
+                    $("#btn-x").css({
+                        top: "10px"
+                    })
+                }, 1000);
+                //hover btn-x
+                $("#btn-x").hover(() => {
+                    $("#btn-x").css({
+                        backgroundColor: "#fff",
+                        color: "#e96565"
+                    });
+                }, () => {
+                    $("#btn-x").css({
+                        backgroundColor: "#e96565",
+                        color: "#fff"
+                    });
+                });
+                //event btn-x
+                $("#btn-x").on("click", (e) => {
+                    e.preventDefault();
+                    setTimeout(() => {
+                        $("#head-profile").css({
+                            transform: "translateY(-230px)"
+                        });
+                        $("#profileAll").css({
+                            transform: "translateY(230px)"
+                        });
+                    }, 1000);
+                    setTimeout(() => {
+                        $(".circle-profile").css({
+                            transform: "translateX(0%) translateY(-200%)"
+                        })
+                    }, 500);
+                    setTimeout(() => {
+                        $("#btn-x").css({
+                            top: "-60px"
+                        });
+                    }, 200);
+                });
+                
+            });// fin evento click +
+        }, () => {
+            $(element).css({
+                filter: "contrast(1)",
+            });
+            $(".btn-submit").animate({
+                scale: "3",
+                opacity: "0"
+            }, 250);
+        
+        });
+
+
+
+
     });
 })
+
+
+
 
 

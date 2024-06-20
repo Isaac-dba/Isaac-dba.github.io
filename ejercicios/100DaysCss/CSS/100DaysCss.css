@@ -457,3 +457,46 @@ main{
     bottom: -20px;
     left: calc(50% - 20px);
 }
+
+/* Day 13 */
+.days-13{
+    background-color: #ffff;
+    overflow: hidden;
+    box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+    position: relative;
+    && .profile-container{
+        width: 100%;
+        height: 100%;
+        display:grid;
+        grid-template-columns: 1fr 150px;
+        gap: 2px;
+        && div.profile-1{
+            background-image: url("https://100dayscss.com/codepen/13-1.jpg");
+            background-position: center;
+            background-size: cover;
+        }
+        && div.profile-2{
+            background-image: url("https://100dayscss.com/codepen/13-2.jpg");
+            background-position: center;
+            background-size: cover;
+        }
+        && div.profile-3{
+            background-image: url("https://100dayscss.com/codepen/13-3.jpg");
+            background-position: center;
+            background-size: cover;
+        }
+        && div.profile-4{
+            background-image: url("https://100dayscss.com/codepen/13-4.jpg");
+            background-position: center;
+            background-size: cover;
+        }
+    }
+}
+#head-profile{
+    background-image: url("https://100dayscss.com/codepen/13-1-header.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.circle-profile{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
