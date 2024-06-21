@@ -108,9 +108,9 @@ $(document).ready(function() {
         "padding": "10px",
         "position": "relative"
     });
-    $("#item-1").css("top", "0px");
-    $("#item-2").css("top", "20px");
-    $("#item-3").css("top", "40px");
+    $("#itemMenu-1").css("top", "0px");
+    $("#itemMenu-2").css("top", "20px");
+    $("#itemMenu-3").css("top", "40px");
     $(".item").css({
         "width": "80px",
         "height": "10px",
@@ -125,17 +125,17 @@ $(document).ready(function() {
     var isOpen = false;
     $(".content-menu").on("click", function(){
         if(isOpen){
-            $("#item-2").animate({opacity: 1});
-            $("#item-1").animate({top: "0px"}, 500).css("transform", "rotate(0deg)");
-            $("#item-3").animate({top: "40px"}, 500).css("transform", "rotate(0deg)");
+            $("#itemMenu-2").animate({opacity: 1});
+            $("#itemMenu-1").animate({top: "0px"}, 500).css("transform", "rotate(0deg)");
+            $("#itemMenu-3").animate({top: "40px"}, 500).css("transform", "rotate(0deg)");
         }else{
-            $("#item-1").animate({top: "20px"}, 500);
-            $("#item-3").animate({top: "20px"}, 500);
+            $("#itemMenu-1").animate({top: "20px"}, 500);
+            $("#itemMenu-3").animate({top: "20px"}, 500);
             setTimeout(() => {
-                $("#item-1").css("transform", "rotate(45deg)");
-                $("#item-3").css("transform", "rotate(-45deg)");
+                $("#itemMenu-1").css("transform", "rotate(45deg)");
+                $("#itemMenu-3").css("transform", "rotate(-45deg)");
             }, 650);
-            $("#item-2").animate({opacity: 0}, 1);
+            $("#itemMenu-2").animate({opacity: 0}, 1);
         }
         isOpen = !isOpen;
     });
