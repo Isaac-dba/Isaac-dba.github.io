@@ -500,3 +500,106 @@ main{
 .circle-profile{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
+
+/* Day 14 */
+.days-14{
+    background-color: #4b4841;
+    perspective: 1000px;
+    && .content-animation{
+        background-color: #ffce43;
+        width: 90%;
+        height: 50%;
+        box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        transform-style: preserve-3d;
+        transition: transform 1s ease-in-out;
+        && .bicycle-helicopter{
+            width: 100%;
+            height: 100%;
+            position: relative;
+            transform: translateX(25%);
+            transform-style: preserve-3d;
+            && .bicycle, .helicopter{
+                position: absolute;
+                font-size: 8rem;
+                width: 100%;
+                height: 100%;
+                color: #4b4841;
+                backface-visibility: hidden;
+                && iconify-icon{
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                }
+            }
+            && .helicopter{
+                transform: rotateX(180deg);
+            }
+        }
+    }
+}
+.days-14 .content-animation:hover{
+    transform: rotateX(-180deg);
+}
+.appendBC{
+    animation: bicycleMove linear infinite ;
+}
+.bicycle{
+    animation: bicycleScale 2s linear infinite;
+}
+/* bicycle */
+@keyframes bicycleMove {
+    0%{
+        transform: translateX(0px) translateY(0px);
+    }
+    100%{
+        transform: translateX(0px) translateY(170px);
+    }
+}
+@keyframes bicycleScale {
+    0%{
+        transform: scaleY(1);
+    }
+    25%{
+        transform: scaleY(1.1);
+    }
+    50%{
+        transform: scaleY(1);
+    }
+    75%{
+        transform: scaleY(1.1);
+    }
+    100%{
+        transform: scaleY(1);
+    }
+}
+/* helicopter */
+.appendAir{
+    animation: airMove linear infinite;
+}
+.helicopter iconify-icon{
+    animation: helicopterMove 2s linear infinite;
+}
+@keyframes airMove {
+    0%{
+        transform: translateX(220px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+@keyframes helicopterMove{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}

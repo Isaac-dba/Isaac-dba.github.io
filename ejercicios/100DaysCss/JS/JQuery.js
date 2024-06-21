@@ -5,7 +5,7 @@ const section = document.querySelectorAll("#section-days article");
 const spanNum = document.getElementById("days-number");
 
 //funcionalidad
-let currentId = 12;
+let currentId = 0;
 function showArticle(index){
     section.forEach((article, i) => {
         article.classList.toggle("active", i === index);
@@ -2300,27 +2300,28 @@ $(document).ready(function() {
 // A partir de este ejercicios utilizaremos jQuery de otra manera
 // lo usaremos para añadir funcionalidades.
     //Day 12
-    $(document).ready(function(){
-        // hover ventana flotante
-        $(".obsession").hover(()=>{
+$(document).ready(function(){
+    // hover ventana flotante
+    $(".obsession").hover(()=>{
+        $("#floatingW").css({
+            position: "absolute",
+            transform: "translateY(-141px)",
+            opacity: "1",
+        });
+        //mantener hover
+        $("#floatingW").hover(() => {
             $("#floatingW").css({
-                position: "absolute",
-                transform: "translateY(-141px)",
-                opacity: "1",
-            });
-        },()=>{
-            $("#floatingW").css({
-                transform: "translateY(-180px)",
-                opacity: "0"
+                "transform": "translateY(-141px)",
             });
         });
-        // mantener el hover 
-        $("#floatingW").hover(() => {
-            $("#floatingW").css("transform", "translateY(-140px)");
+    },()=>{
+        $("#floatingW").css({
+            transform: "translateY(-280px)"
         });
     });
+});
 
-    $(document).ready(function(){
+$(document).ready(function(){
     //Day 13
     $(".profile-container div").each((index, element) => {
         $(element).hover(() => {
@@ -2514,14 +2515,61 @@ $(document).ready(function() {
                 scale: "3",
                 opacity: "0"
             }, 250);
-        
         });
-
-
-
-
     });
-})
+    //Day 14
+    $(".days-14 .content-animation .bicycle-helicopter .bicycle").append("<div class='eartBC'></div>");
+    $(".eartBC").css({
+        width: "3px",
+        height: "110%",
+        position: "absolute",
+        bottom: "-38px",
+        left: "60px",
+        transform: "rotate(90deg)",
+        overflow: "hidden",
+    });
+    $(".days-14 .content-animation .bicycle-helicopter .helicopter").append("<div class='airHelicopter'></div>");
+    $(".airHelicopter").css({
+        width: "80%",
+        height: "80%",
+        left: "-40px",
+        position: "relative",
+        display: "flex",
+        flexDirection: "column",
+        gap: "8px",
+        top: "15px",
+    });
+    let count = 0;
+    function renderHtml(){        
+        while(count < 10){
+            const renderElement =  `<div class="appendBC" id="item-${count}"></div>`;
+            $(".eartBC").append(renderElement);
+            $(`#item-${count}`).css({
+                width: "2px",
+                height: `${count}px`,
+                backgroundColor: "#4b4841",
+                position: "relative",
+                transform: "translateY(-10px) translateX(0px)",
+                transition: "transform ease",
+                animationDuration: `.${count}s`,
+                animationDelay: `.${count}s`
+            });
+            const renderElement1 =  `<div class="appendAir" id="itemAir-${count}"></div>`;
+            $(".airHelicopter").append(renderElement1);
+            $(`#itemAir-${count}`).css({
+                width: `${count}px`,
+                height: "3px",
+                backgroundColor: "#4b4841",
+                position: "relative",
+                transition: "transform ease",
+                animationDuration: `${Math.random()* 2}s`,
+                animationDelay: `.${count}s`,
+            });
+                count++;
+        }
+    }
+    renderHtml();
+});
 
 
 
