@@ -5,7 +5,7 @@ const section = document.querySelectorAll("#section-days article");
 const spanNum = document.getElementById("days-number");
 
 //funcionalidad
-let currentId = 0;
+let currentId = 14;
 function showArticle(index){
     section.forEach((article, i) => {
         article.classList.toggle("active", i === index);
@@ -2569,8 +2569,110 @@ $(document).ready(function(){
         }
     }
     renderHtml();
-});
 
+    // Day 15
+    $(".days-15 .form .body-form .action-form").hover(() => {
+        $(".action-form").css({
+            boxShadow: "0px 2px 0px 0px #498c25,0px 2px 10px 0px #6ece3b",
+        });
+    }, () => {
+        $(".action-form").css({
+            boxShadow: "0px 2px 0px 0px #498c25"
+        });
+    });
+    // input
+    $("#inputFile").change((e) => {
+        let file = e.target.files[0];
+        function fileTrueAndFalse(file){
+            return file && file.name !== "";
+        };
+        $("#drop-icon").on("hover");
+        $("#drop-icon").on("mousemove");
+        console.log(fileTrueAndFalse(file))
+        //condicion  
+        if(fileTrueAndFalse(file)){
+            $("#drop-icon iconify-icon").hide();
+            //hover
+            $("#drop-icon").append(file.name).hover(() => {
+            $("#contentFile").append(`<div id='textFile'>${file.name}</div>`);
+            
+                
+            }, () => {
+                $("#drop-icon").find("#textFile").last().remove();
+            });
+            //evento mouse
+            $("#drop-icon").on("mousemove", (e) => {
+                let pageX = e.pageX;
+                let pageY = e.pageY;
+                $("#textFile").css({
+                    position: "absolute",
+                    transform: `translateX(${pageX - 100}px) translateY(${pageY - 215}px)`,
+                    padding: "2px 4px",
+                    border: "solid 1px black",
+                    backgroundColor: "#fff"
+                });
+            });
+            //event button
+            $("#btnFile").on("click", () => {
+                $(".content-iconify iconify-icon").each((index, element) => {
+                    $("#btnFile").text("loading...");
+                    $(".content-iconify").css("display", "flex");
+                    $("#drop-icon").hide();
+                    $(element).eq(index === 0).css({
+                        display: "flex",
+                        color: "#a3a2a0",
+                        backgroundColor: "#fff",
+                    });
+                    setTimeout(() => {
+                        $(element).eq(index === 0).css({
+                            display: "none"
+                        });
+                    }, 3000);
+                    setTimeout(() => {
+                        $(element).eq(index === 1).css({
+                            display: "flex",
+                            color: "#a3a2a0"
+                        });
+                        $("#btnFile").text("Done");
+                    }, 3001);
+                });
+                $(".days-15 .form .head-form").after("<div id='loadingFile'></div>");
+                $("#loadingFile").css({
+                    width: "0%",
+                    height: "4px",
+                    backgroundColor: "#498c25",
+                    position: "relative",
+                    transform: "translateX(-120px)"
+                })
+                $("#loadingFile").animate({
+                    width: "200%"
+                }, 3000);
+                
+            })
+        }else {
+            //hover
+            $("#drop-icon").hover(() => {
+                $("#contentFile").append("<div id='alert'>No ha seleccionado ningún archivo</div>");    
+            }, () => {
+                $("#drop-icon").find("#alert").last().remove();
+            });
+            //evento mouse
+            $("#drop-icon").on("mousemove", (e) => {
+                let pageX = e.pageX;
+                let pageY = e.pageY;
+                $("#alert").css({
+                    position: "absolute",
+                    transform: `translateX(${pageX - 125}px) translateY(${pageY - 215}px)`,
+                    padding: "4px",
+                    border: "solid 1px black",
+                    backgroundColor: "#fff",
+                    width: "160px",
+                    fontSize: "10px",
+                });
+            });
+        };
+    });
+});
 
 
 

@@ -58,7 +58,7 @@ main{
             border-radius: 10px;
         }
     }
-    & .action{
+    & .actionHtml{
         display: flex;
         gap: 10px;
         font-size: 25px;
@@ -602,4 +602,120 @@ main{
     100%{
         transform: translateY(0px);
     }
+}
+
+/* Day 15 */
+.days-15{
+    background: linear-gradient(to top right, #3a92af 0%, #5ca05a 100%);
+    && .form{
+        width: 80%;
+        height: 70%;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        overflow: hidden;
+        && .head-form{
+            padding: 10px;
+            color: #919191;
+            font-size: 20px;
+            border-bottom: solid 1px #e4e3e3;
+            width: 100%;
+            text-align: center;
+        }
+        && .body-form{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            && .icon{
+                border: dashed 1px #a3a2a0;
+                width: 110px;
+                border-radius: 3px;
+                text-align: center;
+                height: 68px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                color: #a3a2a0;
+                && iconify-icon{
+                    font-size: 40px;
+                    padding: 10px;
+                    color: #b1adad;
+                }
+                && input[type="file"]{
+                    display: none;
+                }
+                && #contentFile{
+                    color: #a3a2a0;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    position: relative;
+                }
+                
+            }
+            && .content-iconify{
+                display: none;
+                flex-direction: column;
+                position: relative;
+                background-color: white;
+                align-items: center;
+                justify-content: center;
+                animation: rotateFile 3s ease-in-out forwards;
+                border-radius: 50%;
+                && iconify-icon{
+                    font-size: 3rem;
+                    display: none;
+                }
+            }
+            && .action-form{
+                background-color: #63ce38;
+                width: 130px;
+                margin-top: 10px;
+                display: flex;
+                justify-content: center;
+                border-radius: 4px;
+                box-shadow: 0px 2px 0px 0px #498c25;
+                transition: box-shadow 0.2s ease-in-out;
+                && button[type="button"]{
+                    width: 100%;
+                    padding: 10px;
+                    background-color: transparent;
+                    color: white;
+                    border: none;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+   
+
+@keyframes rotateFile{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.div{
+    width: 100px;
+    height: 100px;
+    background-color: #3a92af;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div:hover .div-left{
+    width: 50px;
+    height: 10px;
+    background-color: #5ca05a;
 }
