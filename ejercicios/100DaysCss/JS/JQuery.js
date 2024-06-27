@@ -5,7 +5,7 @@ const section = document.querySelectorAll("#section-days article");
 const spanNum = document.getElementById("days-number");
 
 //funcionalidad
-let currentId = 0;
+let currentId = 18;
 function showArticle(index){
     section.forEach((article, i) => {
         article.classList.toggle("active", i === index);
@@ -2672,6 +2672,142 @@ $(document).ready(function(){
             });
         };
     });
+
+    // Day 16 y 17 cons css.
+
+    // Day 18
+    $(".days-18").css({
+        position: "relative",
+        boxShadow: "1px 2px 10px 0px rgba(0,0,0,0.3)",
+        overflow: "hidden"
+    });
+    $(".days-18 .top").css({
+        width: "100%",
+        height: "50%",
+        backgroundColor: "#363636",
+        position: "absolute",
+        top: "0"
+    });
+    $(".days-18 .bottom").css({
+        width: "100%",
+        height: "50%",
+        backgroundColor: "#2ec9a2",
+        position: "absolute",
+        bottom: "0px"
+    });
+    $(".days-18 .elastic").css({
+        position: "absolute",
+        width: "320px",
+        height: "300px",
+        borderRadius: "50%",
+        transformStyle: "preserve-3d",
+        zIndex: "2",
+        animation: "elastic 5s ease-in-out infinite"
+    });
+    $(".elastic .grey").css({
+        position: "absolute",
+        width: "100%",
+        height: "100%",
+        "backface-visibility": "hidden",
+        backgroundColor: "#363636",
+        borderRadius: "50%",
+        zIndex: "2",
+        transform: "rotateX(0deg)"
+    });
+    $(".elastic .green").css({
+        position: "absolute",
+        width: "100%",
+        height: "100%",
+        "backface-visibility": "hidden",
+        backgroundColor: "#2ec9a2",
+        borderRadius: "50%",
+        zIndex: "1",
+        transform: "rotateX(180deg)"
+    });
+
+    // Day 19
+    $(".days-19").css({
+        boxShadow: "1px 2px 10px 0px rgba(0, 0, 0, 0.3)",
+        position: "relative",
+        overflow: "hidden"
+    });
+    $(".days-19 .slider-container").css({
+        width: "200vw",
+        height: "100%",
+        position: "absolute",
+        display: "flex",
+        transform: "translate(330px)",
+        // transition: "transform 0.8s ease-in-out"
+    });
+    $("#slider-1").css({
+        backgroundColor: "#a95bf1",
+        width: "100%",
+        height: "100%"
+    });
+    $("#slider-2").css({
+        width: "100%",
+        height: "100%",
+        backgroundColor: "#4a9eff",
+    });
+    $("#slider-3").css({
+        width: "100%",
+        height: "100%",
+        backgroundColor: "#08dbbf",
+    });
+    $(".days-19 .content-radioBtn").css({
+        width: "200px",
+        height: "100px",
+        position: "absolute",
+        display: "flex",
+        padding: "10px",
+        gap: "10px",
+        alignItems: "center",
+        justifyContent: "center"
+    }).after("<div id='radioMove'></div>");
+    $("#radioMove").css({
+        width: "40px",
+        height: "40px",
+        backgroundColor: "#fff",
+        position: "absolute",
+        borderRadius: "50%",
+        transform: "translateX(-60px)",
+        transition: "transform 0.5s ease-in-out"
+    });
+    $(".days-19 .content-radioBtn .btnRadio").css({
+        width: "50px",
+        height: "50px",
+        border: "solid 2px #fff",
+        borderRadius: "50%"
+    });
+    $(".days-19 .content-radioBtn .btnRadio").each((index, element) => {
+        $(element).on("click", (e) => {
+            if(e.target.id === "slider1"){
+                $(".days-19 .slider-container").css({
+                    transform: "translateX(330px)",
+                    transition: "transform 0.8s ease-in-out"
+                });
+                $("#radioMove").css({
+                    transform: "translateX(-60px)"
+                });
+            }else if(e.target.id === "slider2"){
+                $(".days-19 .slider-container").css({
+                    transform: "translateX(0px)",
+                    transition: "transform 0.8s ease-in-out"
+                });
+                $("#radioMove").css({
+                    transform: "translateX(0px)"
+                });
+            }else if(e.target.id === "slider3"){
+                $(".days-19 .slider-container").css({
+                    transform: "translateX(-330px)",
+                    transition: "transform 0.8s ease-in-out"
+                });
+                $("#radioMove").css({
+                    transform: "translate(60px)"
+                });
+            }
+        })
+    })
 });
 
 

@@ -998,3 +998,67 @@ main{
         }
 
 }
+
+/* Day  18 */
+@keyframes elastic {
+    0%{
+        transform: rotateX(90deg);
+    }
+    15%{
+        transform: rotateX(150deg);
+    }
+    20%{
+        transform: rotateX(50deg);
+    }
+    25%{
+        transform: rotateX(120deg);
+    }
+    30%{
+        transform: rotateX(70deg);
+    }
+    35%{
+        transform: rotateX(100deg);
+    }
+    40%{
+        transform: rotateX(83deg);
+    }
+    45%{
+        transform: rotateX(93deg);
+    }
+    50%{
+        transform: rotateX(90deg);
+    }
+    65%{
+        transform: rotateX(30deg);
+    }
+    70%{
+        transform: rotateX(130deg);
+    }
+    75%{
+        transform: rotateX(60deg);
+    }
+    80%{
+        transform: rotateX(110deg);
+    }
+    85%{
+        transform: rotateX(80deg);
+    }
+    90%{
+        transform: rotateX(97deg);
+    }
+    95%{
+        transform: rotateX(87deg);
+    }
+    100%{
+        transform: rotateX(90deg);
+    }
+}
+
+
+
+/* Day 19 */
+.div{
+    width: 100px;
+    height: 100px;
+    background-color: #08dbbf;
+}
