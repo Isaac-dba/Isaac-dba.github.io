@@ -5,7 +5,7 @@ const section = document.querySelectorAll("#section-days article");
 const spanNum = document.getElementById("days-number");
 
 //funcionalidad
-let currentId = 18;
+let currentId = 19;
 function showArticle(index){
     section.forEach((article, i) => {
         article.classList.toggle("active", i === index);
@@ -2634,6 +2634,7 @@ $(document).ready(function(){
                             color: "#a3a2a0"
                         });
                         $("#btnFile").text("Done");
+                        $("#btnFile").off("click")
                     }, 3001);
                 });
                 $(".days-15 .form .head-form").after("<div id='loadingFile'></div>");
@@ -2732,12 +2733,11 @@ $(document).ready(function(){
         overflow: "hidden"
     });
     $(".days-19 .slider-container").css({
-        width: "200vw",
+        width: "1000px",
         height: "100%",
         position: "absolute",
         display: "flex",
-        transform: "translate(330px)",
-        // transition: "transform 0.8s ease-in-out"
+        transform: "translateX(330px)",
     });
     $("#slider-1").css({
         backgroundColor: "#a95bf1",
@@ -2806,10 +2806,45 @@ $(document).ready(function(){
                     transform: "translate(60px)"
                 });
             }
-        })
+        });
+    });
+
+    // Day 20 
+    $(".days-20 .frame .button").on("click", () => {
+        let label = $("input:checked").length;
+        if(label === 0){
+            setTimeout(() => {
+                $(".days-20 .frame .circle-day20").css({
+                    animation: "circleDay20 2s ease-in-out forwards"
+                });
+                $(".days-20 .frame .circle-outer20").css({
+                    animation: "outer20 2s ease-in-out forwards"
+                })
+            }, 100);
+            setTimeout(() => {
+                $(".days-20 .frame .mail").css({
+                    animation: "mail 1.5s ease-in-out forwards"
+                });
+                $(".days-20 .frame .plane").css({
+                    animation: "plane 1.5s ease-in-out 1s forwards"
+                })
+            }, 1000);
+            setTimeout(() => {
+                $(".days-20 .frame .button").css({
+                    animation: "button20 3s ease-in-out forwards"
+                });
+                $(".days-20 .frame .reset").css({
+                    animation: "buttonReset 3.5s ease-in-out forwards"
+                })
+            },3500);
+        }
+        if(label === 1){
+            $(".days-20 .frame .circle-day20, .circle-outer20, .mail, .plane, .button").css({
+                animation: "none"
+            });
+        }
+
     })
 });
-
-
 
 

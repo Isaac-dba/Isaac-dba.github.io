@@ -8,3 +8,5 @@
 
 # usaremos js para mostrar los dias 1 a 1.
 # y para poco mas, aqui nos centraremos en css y sus extensiones.
+
+- JQuery 

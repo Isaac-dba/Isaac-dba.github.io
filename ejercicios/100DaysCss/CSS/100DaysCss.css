@@ -1056,9 +1056,192 @@ main{
 
 
 
-/* Day 19 */
-.div{
-    width: 100px;
-    height: 100px;
-    background-color: #08dbbf;
+/* Day 20 */
+.days-20{
+    position: relative;
+    overflow: hidden;
+    box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+    background-color: #2c3e50;
+    .frame{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .circle-day20{
+        position: absolute;
+        width: 180px;
+        height: 180px;
+        background-color: #354a5f;
+        border-radius: 50%;
+        top: 45px;
+        /* animation: circleDay20 2s ease-in-out infinite; */
+    }
+    .circle-outer20{
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        background-color:none;
+        border-radius: 50%;
+        border: 4px solid #354a5f;
+        box-sizing: border-box;
+        top: 60px;
+        /* animation: outer20 2s ease-in-out forwards; */
+    }
+    .icon{
+        position: absolute;
+        z-index: 20;
+        top: 105px;
+        left: 90px;
+        transform: translate3d(0, 0, 0);
+        fill: none;
+        stroke-width: 2px;
+        stroke: #ecf0f1;
+        stroke-linecap: square;
+        stroke-dasharray: 325 325;
+        &.mail{
+            width: 120px;
+            height: 70px;
+            stroke-dashoffset: 0;
+            /* animation: mail 2s ease-in-out forwards; */
+        }
+        &.plane{
+            width: 120px;
+            height: 110px;
+            stroke-dashoffset: 325;
+            /* animation: plane 2s ease-in-out forwards; */
+        }
+    }
+    #cb{
+        display: none;
+    }
+    .button{
+        position: absolute;
+        z-index: 10;
+        width: 200px;
+        height: 40px;
+        background-color: #fff;
+        border-radius: 50px;
+        bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+        font-weight: 600;
+        cursor: pointer;
+        color: #2c3e50;
+        /* animation: button20 3s ease-in-out forwards; */
+        &.reset{
+            opacity: 1;
+            z-index: 5;
+            /* animation: buttonReset 4s ease-in-out forwards; */
+        }
+        &:hover{
+            background-color: #1abc9c;
+            color: #fff;
+        }
+    }
+    
+}
+
+@keyframes plane {
+    0%{
+        stroke-dashoffset: 325;
+    }
+    50%{
+        stroke-dashoffset: 0;
+    }
+    55%{
+        transform: translateX(0px) translateY(0px) scale(1);
+        opacity: 1;
+    }
+    100%{
+        transform: translateX(220px) translateY(-200px) scale(0.2); 
+        stroke-dashoffset: 0;
+        opacity: 0;
+    }
+}
+@keyframes mail {
+    0%{
+        stroke-dashoffset: 0;
+    }
+    100%{
+        stroke-dashoffset: 325;
+    }
+}
+@keyframes circleDay20 {
+    0%{
+        transform: scale(1);
+    }
+    10%{
+        transform: scale(1.2);
+    }
+    20%{
+        transform: scale(0.6);
+    }
+    100%{
+        transform: scale(0);
+    }
+}
+@keyframes outer20 {
+    0%{
+        transform: scale(1);
+    }
+    10%{
+        transform: scale(1.2);
+    }
+    20%{
+        transform: scale(0.9);
+    }
+    100%{
+        transform: scale(0);
+    }
+}
+@keyframes button20 {
+    0%{
+        background-color: #1abc9c;
+        color: #1abc9c;
+        transform: scaleX(1);
+
+    }
+    55%{
+        background-color: #1abc9c;
+        color: #1abc9c;
+        transform: scaleX(0.2) scaleY(1) scaleZ(1);
+        border-radius: 50%;
+    }
+    60%{
+        background-color: #1abc9c;
+        color: #1abc9c;
+        transform: scaleX(0.2) scaleY(1) scaleZ(1);
+        border-radius: 50%;
+    }
+    100%{
+        background-color: #1abc9c;
+        color: #1abc9c;
+        transform: scaleX(0) scaleY(0) scaleZ(1);
+        border-radius: 50%;
+    }
+}
+@keyframes buttonReset {
+    0%{
+        opacity: 0;
+        z-index: 5;
+        width: 200px;
+        height: 40px;
+    }
+    95%{
+        opacity: 0;
+        z-index: 5;
+        width: 200px;
+        height: 40px;
+    }
+    100%{
+        width: 200px;
+        height: 40px;
+        opacity: 1;
+        z-index: 10;
+    }
 }
