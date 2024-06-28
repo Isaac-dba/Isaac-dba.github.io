@@ -2846,5 +2846,7 @@ $(document).ready(function(){
 
     })
 });
-
+// Ahora pasamos con los de sass
+// JQuery es bueno reduciendo el codigo js para añadir funcionalidad me gusta 
+// falta mas practica para poder dominar todo su poder
 

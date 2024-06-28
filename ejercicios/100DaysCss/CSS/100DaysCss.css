@@ -1243,5 +1243,10 @@ main{
         height: 40px;
         opacity: 1;
         z-index: 10;
+        
     }
 }
+/* Aqui terminamos con JQuery y pasamos a sass
+
+*  esta práctica estuvo interesante añadiendo conocimiento
+*  con contrast, blur, translate, scale y preserve-3d  */
