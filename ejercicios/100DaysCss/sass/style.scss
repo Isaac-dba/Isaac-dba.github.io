@@ -1,0 +1,32 @@
+.days-21{
+    background-color: #b91bb1;
+    overflow: hidden;
+        .pacmam{
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            top: 150px;
+            left: 150px;
+            fill: none;
+            // stroke: #f4d146;
+            stroke-linecap: butt;
+            // stroke-width: 50px;
+            stroke-dasharray: (50 * 3.14);
+            animation: asakd 2s ease-in-out infinite;
+        }
+}
+@keyframes asakd {
+    0%{
+        stroke-dashoffset: 0;
+        transform: rotate(0deg) translate3d(0, 0, 0);
+    }
+    50%{
+        stroke-dashoffset: (50 * 3.14 / 4);
+        transform: rotate(45deg);
+    }
+    100%{
+        stroke-dashoffset: 0;
+        transform: rotate(0deg) translate3d(0, 0, 0);
+    }
+}
+
