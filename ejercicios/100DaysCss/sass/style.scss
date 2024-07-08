@@ -1,32 +1,226 @@
+// Day 21
 .days-21{
-    background-color: #b91bb1;
+    background-color: #2c2e2e;
     overflow: hidden;
-        .pacmam{
+    position: relative;
+        .pacman{
             position: absolute;
             width: 100px;
             height: 100px;
-            top: 150px;
-            left: 150px;
+            top: 100px;
+            left: 100px;
             fill: none;
-            // stroke: #f4d146;
+            stroke: #f4d146;
             stroke-linecap: butt;
-            // stroke-width: 50px;
-            stroke-dasharray: (50 * 3.14);
-            animation: asakd 2s ease-in-out infinite;
+            stroke-width: 50px;
+            stroke-dasharray: 157;
+            animation: pacman 0.7s ease-in-out infinite;
+        }
+        .eye-pacman{
+            position: absolute;
+            width: 12px;
+            height: 12px;
+            transform: translate3d(10px, -25px, 0);
+            fill: none;
+            stroke: #2c2e2e;
+            stroke-width: 4;
+            border-radius: 50%;
+            stroke-linecap: round;
+            animation: eyePacman 0.7s ease-in-out infinite;
+        }
+        .line-pacman{
+            position: absolute;
+            fill: none;
+            width: 240px;
+            height: 15px;
+            stroke: #f4d146;
+            stroke-width: 14;
+            stroke-linecap: round;
+            transform: translate3d(100px, 0px, 0px);
+            stroke-dasharray: 0 50;
+            animation: linePacman 2.8s linear infinite;
         }
 }
-@keyframes asakd {
+@keyframes pacman {
     0%{
         stroke-dashoffset: 0;
-        transform: rotate(0deg) translate3d(0, 0, 0);
+        transform: rotate(0deg);
     }
     50%{
-        stroke-dashoffset: (50 * 3.14 / 4);
+        stroke-dashoffset: 39.25;
         transform: rotate(45deg);
     }
     100%{
         stroke-dashoffset: 0;
-        transform: rotate(0deg) translate3d(0, 0, 0);
+        transform: rotate(0deg);
     }
 }
+@keyframes eyePacman {
+    0%{
+        transform: translate3d(10px, -25px, 0);
+    }
+    50%{
+        transform: translate3d(0px, -30px, 0);
+    }
+    100%{
+        transform: translate3d(10px, -25px, 0);
+    }
+}
+@keyframes linePacman {
+    0%{
+        stroke-dashoffset: 0;
+    }
+    100%{
+        stroke-dashoffset: 200;
+    }
+}
+// obtuve ayuda con los svg hay que estudiar mas sobre svg.
+//Day 22
+.days-22{
+    background-color: #123641;
+    flex-direction: column;
+    color: #fff;
+    h1{
+        font-weight: lighter;
+        font-size: 15px;
+    }
+    span.title{
+        font-size: 1.5rem;
+        font-weight: bolder;
+    }
+    .content-svg{
+        width: 100%;
+        height: 70%;
+        position: relative;
+        bottom:-20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .kcal{
+            position: absolute;
+            width: 110px;
+            height: 110px;
+            left: 100px;
+            top: -10px;
+            transform: rotate(268deg);
+            background-color: #1b2a33;
+            border-radius: 50%;
+            svg{
+                circle{
+                    fill: none;
+                    stroke: #23e4aa;
+                    stroke-width: 10px;
+                    stroke-linecap: round;
+                    animation: days22-kcal 2s ease-in-out forwards;
+                }
+            }
+            .inner-days22{
+                position: absolute;
+                display: flex;
+                flex-direction: column;
+                width: 90px;
+                height: 90px;
+                border-radius: 50%;
+                align-items: center;
+                justify-content: center;
+                left: 10px;
+                top: 10px;
+                transform: rotate(-268deg);
+                background-color: #123641;
+                .num{
+                    font-size: 1.5rem;
+                    font-weight: bolder;
+                }
+                .title{
+                    color: #6d7272;
+                    font-size: 15px;
+                }
+            }
+        }
+        .steps{
+            position: absolute;
+            width: 85px;
+            height: 85px;
+            top: 100px;
+            left: 30px;
+            background-color: #1b2a33;
+            border-radius: 50%;
+            transform: rotate(270deg);
+            svg{
+                circle{
+                    fill: none;
+                    stroke: #23e4aa;
+                    stroke-width: 5px;
+                    stroke-linecap: round;
+                    animation: days22-steps 2s ease-in-out forwards;
+                }
+            }
+            .inner-days22{
+                position: absolute;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                background-color: #123641;
+                width: 75px;
+                height: 75px;
+                border-radius: 50%;
+                top: 5px;
+                left: 5px;
+                transform: rotate(-270deg);
+                .num{
+                    font-weight: bolder;
+                    font-size: 1.5rem;
+                }
+                .title{
+                    color: #6d7272;
+                    font-size: 15px;
+                }
+            }
+        }
+        .km{
+            @extend .steps;
+            left: 190px;
+            svg{
+                circle{
+                    animation: days22-km 2s ease-in-out forwards;
+                }
+            }
+        }
+    }
+}
+@keyframes days22-km {
+    0%{
+        stroke-dashoffset: 360;
+        stroke-dasharray: 350;
+    }
+    100%{
+        stroke-dashoffset: 250;
+        stroke-dasharray: 350;
+    }
+}
+@keyframes days22-steps {
+    0%{
+        stroke-dashoffset: 250;
+        stroke-dasharray: 250;
+    }
+    100%{
+        stroke-dashoffset: 250;
+        stroke-dasharray: 410;
+    }
+}
+@keyframes days22-kcal {
+    0%{
+        stroke-dashoffset: 360;
+        stroke-dasharray: 360;
+    }
+    100%{
+        stroke-dashoffset: 360;
+        stroke-dasharray: 620;
+    }
+}
+// aprendiendo mas sobre los svg
+
+// Day 23
 
