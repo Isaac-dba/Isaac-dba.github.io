@@ -229,28 +229,44 @@
         svg{
             background-color: #e16d6c;
             .textSvg1{
-                fill:#fff;
+                fill: #fff;
                 font-size: 25px;
-                animation: textsvg1 0.5s ease-in-out forwards;
+                opacity: 0;
+                animation: textsvg1 0.5s ease-in-out 2.5s forwards;
             }  
             .textSvg2{
                 fill: #fff;
+                transform: scale(0);
                 font-size: 40px;
+                transform-origin: 150px;
+                animation: textsvg2 0.6s ease-in-out 2.1s forwards;
             }
             .textSvg3{
                 fill: #fff;
                 font-size: 25px;
+                opacity: 0;
+                animation: textsvg3 0.5s ease-in-out 2.5s forwards;
             }  
-            polyline{
+            .polyline{
                 stroke-dashoffset: 100;
                 stroke-dasharray: 100;
-                animation: polyline1 2s ease-in-out infinite;
+                animation: polyline 1s ease-in-out 1.6s forwards;
+            }
+            .line{
+                animation: linesvg 1s ease-in-out 1s forwards;
+                stroke-dashoffset: 250;
+                stroke-dasharray: 250;
+
+            }
+            .circlesvg{
+                transform-origin: 150px;
+                animation: circlesvg 1s ease-in-out forwards;
             }
         }
 }
 @keyframes textsvg1 {
     0%{
-        transform: translateX(-50px);
+        transform: translateX(-80px);
         opacity: 0;
     }
     100%{
@@ -258,7 +274,25 @@
         opacity: 1;
     }
 }
-@keyframes polyline1 {
+@keyframes textsvg2 {
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+@keyframes textsvg3 {
+    0%{
+        transform: translateX(80px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+@keyframes polyline {
     0%{
         stroke-dashoffset: 100;
     }
@@ -266,6 +300,38 @@
         stroke-dashoffset: 200;
     }
 }
+@keyframes linesvg {
+    0%{
+        stroke-dashoffset: 250;
+        stroke-dasharray: 250;
+    }
+    50%{
+        stroke-dashoffset: 500;
+        stroke-dasharray: 250;
+    }
+    100%{
+        stroke-dashoffset: 750;
+        stroke-dasharray: 250;
+    }
+
+}
+@keyframes circlesvg {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(0);
+    }
+}
+
+
+
+
+
+
 .div{
     background-color: #23e4aa;
 }
