@@ -212,5 +212,51 @@
     stroke-dasharray: 620;
   }
 }
+.days-23 {
+  overflow: hidden;
+}
+.days-23 svg {
+  background-color: #e16d6c;
+}
+.days-23 svg .textSvg1 {
+  fill: #fff;
+  font-size: 25px;
+  animation: textsvg1 0.5s ease-in-out forwards;
+}
+.days-23 svg .textSvg2 {
+  fill: #fff;
+  font-size: 40px;
+}
+.days-23 svg .textSvg3 {
+  fill: #fff;
+  font-size: 25px;
+}
+.days-23 svg polyline {
+  stroke-dashoffset: 100;
+  stroke-dasharray: 100;
+  animation: polyline1 2s ease-in-out infinite;
+}
 
-/*# sourceMappingURL=css.map */
+@keyframes textsvg1 {
+  0% {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes polyline1 {
+  0% {
+    stroke-dashoffset: 100;
+  }
+  100% {
+    stroke-dashoffset: 200;
+  }
+}
+.div {
+  background-color: #23e4aa;
+}
+
+/*# sourceMappingURL=scss.css.map */

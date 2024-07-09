@@ -6,7 +6,7 @@
     <title>100 Days Css</title>
     <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
     <link rel="stylesheet" href="CSS/100DaysCss.css">
-    <link rel="stylesheet" href="sass/css">
+    <link rel="stylesheet" href="sass/scss.css">
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
     <script src="JS/JQuery.js" defer></script>
 </head>
@@ -504,7 +504,14 @@
                     </div>
                 </div>
             </article>
-            <article class="days-23"></article>
+            <article class="days-23">
+                <svg width="300" height="300" version="1.1">
+                    <text x="93.75" y="120" class="textSvg1">COLLECT</text>
+                    <text x="50.015" y="160" class="textSvg2">MOMENTS</text>
+                    <text x="75.305" y="190" class="textSvg3">NOT THINGS</text>
+                    <polyline points="20,120 40,120 20,120 20,150" stroke="white" stroke-width="4px"></polyline>
+                </svg>
+            </article>
             <article class="days-24"></article>
             <article class="days-25"></article>
             <article class="days-26"></article>
@@ -595,12 +602,18 @@
         </div>
     </main>
     <div class="div">
-        <div class="content-boots-fail">
-            <p>texto</p>
-            <div class="div-left">
-                
-            </div>
-        </div>
+        <svg width="200" height="200">
+            <circle cx="100" cy="100" r="50"></circle>
+            <line class="linear-rp" x1="0" y1="100" x2="200" y2="100" stroke="red"></line>
+            <line x1="100" y1="0" x2="100" y2="200" stroke="red"></line>
+            <text class="textAmi" x="0" y="50">top left</text>
+            <text x="100" y="50">top right</text>
+            <text x="0" y="165">bottom left</text>
+            <text x="100" y="165">bottom right</text>
+            <polyline class="polyline" points="0,10 10,10 0,20 20,20 0,30 30,30" stroke="green" fill="white" stroke-width="2"></polyline>
+            <path class="path" d="M 25 25 Q 50 -50 150 180" stroke-width="5" stroke="green"
+            fill="none" stroke-linecap="round"></path>
+        </svg>
     </div>
 
 
