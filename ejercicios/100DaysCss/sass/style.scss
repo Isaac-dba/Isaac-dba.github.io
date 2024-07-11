@@ -326,12 +326,118 @@
         transform: scale(0);
     }
 }
+// aprendiendo mas sobre svg y sus etiquetas html
 
 
-
-
-
-
+// Day 24
+.days-24{
+    background-color: #57d895;
+    box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+    input{
+        position: absolute;
+        display: none;
+    }
+    .buttonD24{
+        position: absolute;
+        border: solid 2px #fff;
+        width: 200px;
+        height: 50px;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        color:#fff;
+        letter-spacing: 5px;
+        z-index: 10;
+        iconify-icon{
+            opacity: 0;
+            display: flex;
+            color: #57d895;
+            position: absolute;
+            background-color: white;
+            width: 48px;
+            height: 48px;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+        }
+    }
+    .circleD24{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        fill: none;
+        stroke: #fff;
+        stroke-width: 2px;
+        stroke-dasharray: 183;
+        stroke-dashoffset: 183;
+        transform: rotate(-90deg);
+    }
+    input[type="checkbox"]:checked{
+        & ~ .buttonD24{
+            animation: buttond24 2s ease-in-out both;
+            iconify-icon{
+            animation: imgd24 2s ease-in-out 1.3s both;
+            }
+        }
+        & ~ .circleD24{
+            animation: circled24 2s ease-in-out 2s both;
+        }
+    }
+}
+@keyframes buttond24 {
+    0%{
+        width: 200px;
+        height: 50px;
+    }
+    50%{
+        color:transparent;
+    }
+    100%{
+        width: 50px;
+        height: 50px;
+        border-color:#45B078 ;
+        color:transparent;
+        background-color: transparent;
+    }
+}
+@keyframes circled24 {
+    0%{
+        stroke-dashoffset: 183;
+        z-index: 11;
+        transform: rotate(-90deg);
+    }
+    50%{
+        stroke-dashoffset: 0;
+        stroke-dasharray: 183;
+        transform: scale(1) rotate(-90deg);
+        opacity: 1;
+    }
+    90%{
+        stroke-dasharray: 400;
+        transform: scale(2);
+        opacity: 0;
+    }
+    100%{
+        stroke-dasharray: 400;
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+@keyframes imgd24 {
+    0%{
+        opacity: 0;
+    }
+    90%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
 .div{
-    background-color: #23e4aa;
+    background-color: transparent;
+    border-radius: 50%;
+    border: solid 1px red;
 }
