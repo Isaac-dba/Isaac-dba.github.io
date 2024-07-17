@@ -436,8 +436,35 @@
         opacity: 1;
     }
 }
-.div{
-    background-color: transparent;
-    border-radius: 50%;
-    border: solid 1px red;
+
+// Day 25
+// el svg es una herramienta muy interesante para dibujar y animar 
+.days-25{
+    
+}
+
+// <path class="path" d="M 25 25 Q 50 -50 150 180 M 50 50 Q 50 -50 190 200" stroke-width="15" stroke="green"
+//             fill="red" stroke-linecap="round"></path>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//practicando svg
+.svg-practica{
+    width: 500px;
+    height: 1000px;
+    background-color: #7bc5af;
+    svg{
+
+    }
 }

@@ -528,8 +528,37 @@
                     <circle cx="25" cy="25" r="24"></circle>
                 </svg>
             </article>
-            <article class="days-25"></article>
-            <article class="days-26"></article>
+            <article class="days-25">
+                <svg width="300px" height="300px" viewBox="0 0 400 400">
+                    <path class="pathD25" d="M161,400 
+                    M161,400 
+                    C161,400 191,391 205,365
+                    C219,340 200,334 215,309 
+                    C229,285 250,268 263,267 
+                    C276,266 268,296 276,305 
+                    C283,315 276,326 303,318 
+                    C330,310 337,309 355,282
+                    C372,255 353,227 363,215 
+                    C373,203 400,172 400,172
+                    L400,399 L161,399 Z M8.33144441e-07,274 
+                    C8.33144441e-07,275 39,253 70,223
+                    C100,193 111,179 120,154
+                    C129,130 109,115 115,98
+                    C121,81 137,75 149,74
+                    C164,73 154,104 181,95
+                    C207,86 209,56 227,48 
+                    C245,39 253,69 279,63 
+                    C304,57 305,36 317,32 
+                    C329,28 335,19 367,26
+                    C399.89,32.54 400,49 400,49
+                    L400,-5.5 L2.4383295e-05,-2 L8.33144441e-07,275 Z
+                    "></path>
+                    <path d="M24,0 C11.406,0 0,10.209 0,22.806 C0,35.4 10.407,50.436 24,72 C37.593,50.436 48,35.4 48,22.806 C48,10.209 36.597,0 24,0 L24,0 Z M24,33 C19.029,33 15,28.971 15,24 C15,19.029 19.029,15 24,15 C28.971,15 33,19.029 33,24 C33,28.971 28.971,33 24,33 L24,33 Z"></path>
+
+                </svg>
+            </article>
+            <article class="days-26">
+            </article>
             <article class="days-27"></article>
             <article class="days-28"></article>
             <article class="days-29"></article>
@@ -617,21 +646,85 @@
         </div>
     </main>
     <div class="div">
-        <svg width="200" height="200">
-            <circle cx="100" cy="100" r="50"></circle>
-            <line class="linear-rp" x1="0" y1="100" x2="200" y2="100" stroke="red"></line>
-            <line x1="100" y1="0" x2="100" y2="200" stroke="red"></line>
-            <text class="textAmi" x="0" y="50">top left</text>
-            <text x="100" y="50">top right</text>
-            <text x="0" y="165">bottom left</text>
-            <text x="100" y="165">bottom right</text>
-            <polyline class="polyline" points="0,10 10,10 0,20 20,20 0,30 30,30" stroke="green" fill="white" stroke-width="2"></polyline>
-            <path class="path" d="M 25 25 Q 50 -50 150 180 M 50 50 Q 50 -50 190 200" stroke-width="5" stroke="green"
-            fill="none" stroke-linecap="round"></path>
-        </svg>
     </div>
 
 
+    <div class="svg-practica">
+        <svg version="1.1" viewBox="0 0 500 1000">
+            <!-- triangulo -->
+            <text x="20" y="120">triángulo</text>
+            <line x1="0" y1="100" x2="50" y2="0" stroke="black"></line>
+            <line x1="50" y1="0" x2="100" y2="100" stroke="black"></line>
+            <line x1="100" y1="100" x2="0" y2="100" stroke="black"></line>
+            <!-- trapecio -->
+            <text x="160" y="120">trapecio</text>
+            <path stroke="white" d="M150,100 
+            L160,0 210,0 220,100 Z"></path>
+            <!-- paralelogra... -->
+            <text x="260" y="120">paralelogra...</text>
+            <polyline points="270,100 285,0 335,0 320,100 270,100 Z" stroke="red"></polyline>
+            <!-- rombo -->
+            <text x="400" y="120">rombo</text>
+            <path stroke="yellow" d="M370,50 L420,0 470,50 420,100 370,50 Z"></path>
+            <!-- rect -->
+            <!--    position           size                   border-radius -->
+                <text x="40" y="280">rect</text>
+            <rect x="30" y="150" width="50" height="100" rx="10" ry="50" fill="none" stroke="white"></rect>
+            <!-- ellipse -->
+            <text x="150" y="280">ellipse</text> 
+            <ellipse cx="170" cy="200" rx="25" ry="50" fill="green" stroke="black"></ellipse>
+            <!-- pentagono -->
+            <text x="265" y="280">pentágono</text>
+            <polyline stroke="white" points="250,180 300,150 350,180 330,250 270,250 250,180 Z"></polyline>
+            <!-- hexagono 2M heptágono 3M octágono-->
+            <text x="390" y="280">hexágono</text> 
+            <path stroke="#301258" d="M370,200 L395,150 445,150 470,200 445,250 395,250 370,200 Z
+                                    M0,360 L10,320 50,300 90,320 100,360 75,400 25,400 0,360 Z
+                                    M130,370 L130,330 160,300 200,300 230,330 230,370 200,400 160,400 130,370Z"></path>
+            <text x="20" y="430">heptágono</text>
+            <text x="150" y="430">octágono</text>
+            <!-- nonágono M2 decágono -->
+            <path stroke="white" d="M260,343 L277,312 310,300 343,312 360,343 354,378 328,400 292,400 266,378 260,340Z
+                M380,370 L380,335 400,310 430,300 460,310 480,335 480,370 460,390 430,400 400,390 380,370 Z"></path>
+            <text x="275" y="430">nonágono</text>
+            <text x="395" y="430">decágono</text>
+            <!-- bisel  M2 ranura M3 flecha izq M4 flecha der-->
+            <path stroke="red" d="M0,470 L15,450 85,450 100,470 100,530 85,550 15,550 0,530 0,470 Z
+                    M130,470 L145,470 146,450 215,450 215,470 230,470 230,535 
+                        215,535 215,550 145,550 145,535 130,535 130,470 Z
+                    M260,500 L305,450 305,475 360,475 360,525 305,525 305,550 260,500 Z
+                    M390,475 L445,475 445,450 490,500 445,550 445,525 390,525 390,475 Z"></path>
+            <text x="35" y="580">bisel</text>
+            <text x="160" y="580">ranura</text>
+            <text x="300" y="580">left</text>
+            <text x="405" y="580">right</text>
+            <!--punto left M2 punto right M3 chevron left M4 chevron right -->
+            <path stroke="yellow" d="M0,650 L25,600 100,600 100,700 25,700 0,650 Z
+                M130,600 L205,600 230,650 205,700 130,700 130,600 Z
+                M260,650 L280,600 360,600 340,650 360,700 280,700 260,650 Z
+                M390,600 L470,600 490,650 470,700 390,700 410,650 390,600 Z"></path>
+                <text x="25" y="730">punto left</text>
+                <text x="135" y="730">punto right</text>
+                <text x="275" y="730">chevron left</text>
+                <text x="385" y="730">chevron right</text>
+                <!-- estrella M2 cruz M3 mensaje M4 cerca-->
+            <path stroke="purple" d="M50,750 L65,785 100,785 75,805 85,845 50,820 15,845 25,805 5,785 35,785 50,750 Z
+                M140,775 L165,775 165,750 195,750 195,775 220,775 220,800 195,800 195,850 165,850 165,800 140,800 140,775 Z
+                M260,750 L360,750 360,830 340,830 340,850 320,830 260,830 260,750 Z
+                M390,770 L410,750 440,780 470,750 490,770 460,800 490,830 470,850 440,820 410,850 390,830 420,800 390,770"></path>
+
+            <text x="25" y="870">estrella</text>
+            <text x="165" y="870">cruz</text>
+            <text x="280" y="870">mensaje</text>
+            <text x="425" y="870">cerca</text>
+            <!-- marco -->
+            <path stroke="none" d="M0,880 L0,980 25,980 25,905 75,905 75,955 25,955 25,980 100,980 100,880 0,880 Z"></path> 
+            <text x="25" y="995">marco</text>
+            <!-- circle -->
+            <circle cx="180" cy="930" r="50"></circle>
+            <text x="160" y="995">circle</text>
+        </svg>
+    </div>
 
 </body>
 </html>

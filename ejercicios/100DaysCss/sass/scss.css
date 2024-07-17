@@ -418,10 +418,10 @@
     opacity: 1;
   }
 }
-.div {
-  background-color: transparent;
-  border-radius: 50%;
-  border: solid 1px red;
+.svg-practica {
+  width: 500px;
+  height: 1000px;
+  background-color: #7bc5af;
 }
 
 /*# sourceMappingURL=scss.css.map */
