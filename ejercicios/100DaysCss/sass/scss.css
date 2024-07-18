@@ -418,10 +418,207 @@
     opacity: 1;
   }
 }
+.d25 {
+  background-color: red;
+}
+
+.days-25 {
+  background-color: #2196f3;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  perspective: 1000px;
+}
+.days-25 .inputD25 {
+  position: absolute;
+  opacity: 0;
+  transform: rotateY(0deg);
+  transition: transform ease-in-out;
+}
+.days-25 .inputD25[type=checkbox]:checked ~ .ubi svg {
+  animation: rotateSvgD25 2s ease-in-out forwards;
+}
+.days-25 .inputD25[type=checkbox]:checked ~ .ubi .contentD25 {
+  animation: rotateContentD25 2s ease-in-out forwards;
+}
+.days-25 .backgroundD25 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.days-25 .backgroundD25 svg {
+  width: 300px;
+  height: 300px;
+  fill: #1f8de4;
+}
+.days-25 .ubi {
+  transform-style: preserve-3d;
+  width: 48px;
+  height: 72px;
+  position: absolute;
+  z-index: 10;
+}
+.days-25 .ubi svg {
+  position: absolute;
+  width: 48px;
+  height: 72px;
+  fill: #f4d146;
+  z-index: 20;
+  animation: svgUbiD25 2s ease-in-out infinite;
+}
+.days-25 .ubi .contentD25 {
+  transform-style: preserve-3d;
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  left: -75px;
+  top: -40px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  opacity: 0;
+}
+.days-25 .ubi .contentD25 .headD25 {
+  width: 100%;
+  height: 50px;
+  background-color: #2196f3;
+}
+.days-25 .ubi .contentD25 .bodyD25 {
+  width: 100%;
+  margin: 15px auto;
+  text-align: center;
+  transform: rotateY(180deg);
+}
+.days-25 .ubi .contentD25 .bodyD25 span {
+  color: #505050;
+  font-weight: bolder;
+}
+.days-25 .ubi .contentD25 .bodyD25 p {
+  font-size: 14px;
+  color: #6d7272;
+}
+.days-25 .ubi .contentD25 .actionD25 {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.days-25 .ubi .contentD25 .actionD25 button {
+  background-color: transparent;
+  border: none;
+  width: 50%;
+  color: #2196f3;
+  font-size: 12px;
+  transform: rotateY(180deg);
+}
+.days-25 .ubi .contentD25 .actionD25::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 18px;
+  bottom: 5px;
+  left: 50%;
+  background-color: #45B078;
+}
+.days-25 .ubi .sombra-ubi {
+  position: absolute;
+  width: 15px;
+  height: 4px;
+  background-color: rgba(46, 48, 49, 0.231372549);
+  border-radius: 50%;
+  top: 195px;
+  z-index: 20;
+  animation: svgSombraD25 2s ease-in-out infinite;
+}
+
+@keyframes svgUbiD25 {
+  0% {
+    transform: translateY(5px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(5px);
+  }
+}
+@keyframes svgSombraD25 {
+  0% {
+    width: 15px;
+    height: 4px;
+  }
+  50% {
+    width: 20px;
+    height: 5px;
+  }
+  100% {
+    width: 15px;
+    height: 4px;
+  }
+}
+@keyframes rotateSvgD25 {
+  0% {
+    opacity: 1;
+    transform: rotateY(0deg);
+  }
+  80% {
+    transform: rotateY(-180deg);
+  }
+  100% {
+    opacity: 0;
+    transform: rotateY(0deg);
+  }
+}
+@keyframes rotateContentD25 {
+  0% {
+    opacity: 0;
+    transform: rotateY(0deg);
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: rotateY(-180deg);
+  }
+}
 .svg-practica {
   width: 500px;
   height: 1000px;
   background-color: #7bc5af;
+}
+.svg-practica svg {
+  stroke-width: 5px;
+  stroke-dashoffset: 0;
+  stroke-dasharray: 400;
+}
+
+@keyframes strokeSvg {
+  0% {
+    stroke-dashoffset: 800;
+    stroke-dasharray: 200;
+    fill: white;
+  }
+  10% {
+    transform: rotateY(0deg);
+  }
+  20% {
+    fill: none;
+  }
+  50% {
+    stroke-dashoffset: 0;
+    fill: deepskyblue;
+  }
+  90% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    stroke-dashoffset: -800;
+    stroke-dasharray: 200;
+    fill: yellow;
+  }
 }
 
 /*# sourceMappingURL=scss.css.map */

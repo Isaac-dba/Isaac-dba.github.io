@@ -5,7 +5,7 @@ const section = document.querySelectorAll("#section-days article");
 const spanNum = document.getElementById("days-number");
 
 //funcionalidad
-let currentId = 24;
+let currentId = 25;
 function showArticle(index){
     section.forEach((article, i) => {
         article.classList.toggle("active", i === index);
@@ -2850,3 +2850,4 @@ $(document).ready(function(){
 // JQuery es bueno reduciendo el codigo js para añadir funcionalidad me gusta 
 // falta mas practica para poder dominar todo su poder
 
+// Day 25
