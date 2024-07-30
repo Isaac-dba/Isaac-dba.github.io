@@ -2851,3 +2851,18 @@ $(document).ready(function(){
 // falta mas practica para poder dominar todo su poder
 
 // Day 25
+
+
+//Day 26
+$(document).ready(function(){
+    let active = 1;
+    $(".days-26 .carD26 .action-btn button").on("click", function(){
+        $(`.days-26 .carD26:nth-child(` + active + `)`).removeClass("active").addClass("inactive");
+        if(active === 3){
+            active = 0;
+        }
+        active++;
+        $(`.days-26 .carD26:nth-child(` + active + `)`).removeClass("inactive").addClass("active");
+    })
+});
+// copiado esta parte del day 26 solucionar problema para empezar de cero(practicar logica)
