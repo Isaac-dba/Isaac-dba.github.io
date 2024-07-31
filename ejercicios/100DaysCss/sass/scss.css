@@ -688,6 +688,104 @@
     transform: scale(1);
   }
 }
+.days-27 {
+  background: linear-gradient(to left bottom, #f5be48 0%, #ffb107 100%);
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+}
+.days-27 .form {
+  width: 200px;
+  padding: 15px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  border-radius: 4px;
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+}
+.days-27 .form .dateD27 {
+  text-align: center;
+  color: #616e7d;
+}
+.days-27 .form .lineD27 {
+  width: 90%;
+  height: 1px;
+  background-color: #bcbfc2;
+}
+.days-27 .form ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 90%;
+  position: relative;
+}
+.days-27 .form ul li {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: #616e7d;
+}
+.days-27 .form ul li label {
+  width: 100%;
+  font-size: 14px;
+  font-weight: bolder;
+}
+.days-27 .form ul li input[type=checkbox] {
+  display: none;
+}
+.days-27 .form ul li input[type=checkbox]:checked ~ .radioBtnD27 {
+  transform: scale(1.4);
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+.days-27 .form ul li input[type=checkbox]:checked ~ svg polyline {
+  stroke-dashoffset: 0;
+  transition: all 0.5s ease-in-out 0.5s;
+}
+.days-27 .form ul li input[type=checkbox]:checked ~ .textD27 {
+  color: rgba(188, 190, 192, 0.6431372549);
+}
+.days-27 .form ul li .radioBtnD27 {
+  width: 15px;
+  height: 15px;
+  border: solid 1px #616e7d;
+  border-radius: 50%;
+  z-index: 1;
+  transform: scale(1);
+  transition: all 0.5s ease-in-out 0.5s;
+}
+.days-27 .form ul li svg {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  right: 0;
+}
+.days-27 .form ul li svg polyline {
+  fill: none;
+  stroke: rgba(188, 190, 192, 0.6431372549);
+  stroke-width: 2px;
+  stroke-dasharray: 20 20;
+  stroke-dashoffset: 20;
+  transition: all 0.5s ease-in-out;
+}
+
+@keyframes svgD27FadeOut {
+  0% {
+    stroke-dashoffset: 20;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes svgD27FadeIn {
+  0% {
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dashoffset: 20;
+  }
+}
 .svg-practica {
   width: 500px;
   height: 1000px;

@@ -5,7 +5,7 @@ const section = document.querySelectorAll("#section-days article");
 const spanNum = document.getElementById("days-number");
 
 //funcionalidad
-let currentId = 25;
+let currentId = 26;
 function showArticle(index){
     section.forEach((article, i) => {
         article.classList.toggle("active", i === index);
@@ -2866,3 +2866,9 @@ $(document).ready(function(){
     })
 });
 // copiado esta parte del day 26 solucionar problema para empezar de cero(practicar logica)
+
+//Day 27
+$(document).ready(function(){
+        $(".days-27 .form ul li").on("click", (e) => {
+        })
+})
