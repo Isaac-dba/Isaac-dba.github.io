@@ -770,20 +770,138 @@
   transition: all 0.5s ease-in-out;
 }
 
-@keyframes svgD27FadeOut {
+.days-28 {
+  background-color: #ee5f66;
+}
+.days-28 .notiD28 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  transform-origin: 50% 5px;
+  animation: rotateD28 2s ease infinite;
+}
+.days-28 .linesD28-1, .days-28 .linesD28-3, .days-28 .linesD28-2 {
+  position: absolute;
+  animation: lineD28Left 2s ease-in-out infinite;
+}
+.days-28 .linesD28-2 {
+  animation-delay: 0.4s;
+}
+.days-28 .linesD28-3 {
+  animation-delay: 0.8s;
+}
+.days-28 .linesD28-4, .days-28 .linesD28-6, .days-28 .linesD28-5 {
+  position: absolute;
+  animation: lineD28Right 2s ease-in-out infinite;
+}
+.days-28 .linesD28-5 {
+  animation-delay: 0.4s;
+}
+.days-28 .linesD28-6 {
+  animation-delay: 0.8s;
+}
+
+@keyframes rotateD28 {
   0% {
-    stroke-dashoffset: 20;
+    transform: rotate(0deg) translateX(0px);
+  }
+  5% {
+    transform: rotate(20deg) translateX(2px);
+  }
+  10% {
+    transform: rotate(-20deg) translateX(-2px);
+  }
+  15% {
+    transform: rotate(20deg) translateX(2px);
+  }
+  20% {
+    transform: rotate(-20deg) translateX(-2px);
+  }
+  25% {
+    transform: rotate(20deg) translateX(2px);
+  }
+  30% {
+    transform: rotate(-20deg) translateX(-2px);
+  }
+  35% {
+    transform: rotate(20deg) translateX(2px);
+  }
+  40% {
+    transform: rotate(-20deg) translateX(-2px);
+  }
+  45% {
+    transform: rotate(20deg) translateX(2px);
+  }
+  50% {
+    transform: rotate(0deg) translateX(0px);
+  }
+  60% {
+    transform: rotate(0deg);
   }
   100% {
-    stroke-dashoffset: 0;
+    transform: rotate(0deg);
   }
 }
-@keyframes svgD27FadeIn {
+@keyframes lineD28Left {
   0% {
-    stroke-dashoffset: 0;
+    opacity: 0;
+    transform: translateX(0px);
+  }
+  9% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+    height: 20%;
+  }
+  30% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0.2;
+    transform: translateX(-40px);
+  }
+  52% {
+    opacity: 0;
+  }
+  90% {
+    height: 50%;
+    opacity: 0;
+    transform: translateX(0px);
   }
   100% {
-    stroke-dashoffset: 20;
+    opacity: 0;
+  }
+}
+@keyframes lineD28Right {
+  0% {
+    opacity: 0;
+    transform: translateX(0px);
+  }
+  9% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+    height: 20%;
+  }
+  30% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0.2;
+    transform: translateX(40px);
+  }
+  52% {
+    opacity: 0;
+  }
+  90% {
+    height: 50%;
+    opacity: 0;
+    transform: translateX(0px);
+  }
+  100% {
+    opacity: 0;
   }
 }
 .svg-practica {
