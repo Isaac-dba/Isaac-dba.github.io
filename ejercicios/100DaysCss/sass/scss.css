@@ -904,6 +904,59 @@
     opacity: 0;
   }
 }
+.days-29 {
+  background-color: #40a2f1;
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+}
+.days-29 .inputContainerD29 {
+  background-color: #fff;
+  width: 230px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.3);
+}
+.days-29 .inputContainerD29 input[type=text] {
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  color: #40a2f1;
+}
+.days-29 .inputContainerD29 input[type=text]::placeholder {
+  color: #a0bed6;
+  font-weight: bolder;
+}
+.days-29 .inputContainerD29 iconify-icon {
+  color: #2196f3;
+}
+.days-29 .listD29 {
+  height: 110px;
+  width: 230px;
+  background-color: #fff;
+  position: absolute;
+  top: 270px;
+  padding: 10px 15px;
+  border-top: solid 1px #40a2f1;
+  display: none;
+  flex-direction: column;
+  gap: 15px;
+  list-style: none;
+  color: #818486;
+  box-shadow: 1px 7px 10px 0px rgba(0, 0, 0, 0.123);
+}
+.days-29 .listD29 .liD29 {
+  cursor: pointer;
+}
+.days-29 .listD29 .liD29:hover {
+  color: #4babfa;
+}
+.days-29 .showListD29 {
+  display: flex;
+}
+
 .svg-practica {
   width: 500px;
   height: 1000px;

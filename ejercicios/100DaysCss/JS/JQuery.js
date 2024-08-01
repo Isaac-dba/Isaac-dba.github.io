@@ -5,7 +5,7 @@ const section = document.querySelectorAll("#section-days article");
 const spanNum = document.getElementById("days-number");
 
 //funcionalidad
-let currentId = 27;
+let currentId = 0;
 function showArticle(index){
     section.forEach((article, i) => {
         article.classList.toggle("active", i === index);
@@ -2867,8 +2867,23 @@ $(document).ready(function(){
 });
 // copiado esta parte del day 26 solucionar problema para empezar de cero(practicar logica)
 
-//Day 27
+//Day 29
 $(document).ready(function(){
-        $(".days-27 .form ul li").on("click", (e) => {
-        })
+    $(".days-29 .inputContainerD29 input[type='text']").keyup(function(){
+        let text = $(this).val();
+        if(text.length){
+            $(".days-29 .listD29").css({
+                display: "flex"
+            });
+            $(".days-29 .listD29").html(`
+                    <li class="liD29">${text}</li>
+                    <li class="liD29">Veritatis et ${text}</li>
+                    <li class="liD29">ut aliquid ex ${text} vero eos</li>
+                `);
+        }else{
+            $(".days-29 .listD29").css({
+                display: "none"
+            });
+        }
+    })
 })
