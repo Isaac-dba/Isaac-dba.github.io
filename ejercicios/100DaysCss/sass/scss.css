@@ -957,6 +957,55 @@
   display: flex;
 }
 
+.days-30 {
+  background-color: #0baa95;
+}
+.days-30 svg .lineD30 {
+  stroke: #fff;
+  animation: lineD30 4s ease-in-out infinite;
+}
+.days-30 svg .circleD30 {
+  stroke: #fff;
+  stroke-width: 1px;
+  transform: scale(0.5);
+  transform-origin: 150px;
+  animation: circleD30 4s ease-in-out infinite;
+}
+
+@keyframes lineD30 {
+  0% {
+    stroke-dashoffset: 780;
+    stroke-dasharray: 50 660;
+  }
+  100% {
+    stroke-dashoffset: 70;
+    stroke-dasharray: 50 660;
+  }
+}
+@keyframes circleD30 {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  40% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  56% {
+    transform: scale(1.1);
+    opacity: 0.5;
+  }
+  60% {
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1.1);
+    opacity: 0;
+  }
+}
 .svg-practica {
   width: 500px;
   height: 1000px;
