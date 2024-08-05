@@ -1006,6 +1006,116 @@
     opacity: 0;
   }
 }
+.days-31 {
+  background-color: rgb(91, 75, 161);
+}
+
+#content-bollD31 {
+  width: 100px;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: end;
+}
+#content-bollD31 .bollD31 {
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+#content-bollD31 .boll-1 {
+  animation: bollD31 1016.9491525424ms ease-in-out infinite;
+}
+
+#content-bollD31 .boll-2 {
+  animation: bollD31 1034.4827586207ms ease-in-out infinite;
+}
+
+#content-bollD31 .boll-3 {
+  animation: bollD31 1052.6315789474ms ease-in-out infinite;
+}
+
+#content-bollD31 .boll-4 {
+  animation: bollD31 1071.4285714286ms ease-in-out infinite;
+}
+
+#content-bollD31 .boll-5 {
+  animation: bollD31 1090.9090909091ms ease-in-out infinite;
+}
+
+#content-bollD31 .boll-6 {
+  animation: bollD31 1111.1111111111ms ease-in-out infinite;
+}
+
+#content-bollD31 .boll-7 {
+  animation: bollD31 1132.0754716981ms ease-in-out infinite;
+}
+
+#content-bollD31 .boll-8 {
+  animation: bollD31 1153.8461538462ms ease-in-out infinite;
+}
+
+#content-bollD31 .boll-9 {
+  animation: bollD31 1176.4705882353ms ease-in-out infinite;
+}
+
+#content-bollD31 .boll-10 {
+  animation: bollD31 1200ms ease-in-out infinite;
+}
+
+#content-bollD31 .boll-11 {
+  animation: bollD31 1224.4897959184ms ease-in-out infinite;
+}
+
+#content-bollD31 .boll-12 {
+  animation: bollD31 1250ms ease-in-out infinite;
+}
+
+#content-bollD31 .boll-13 {
+  animation: bollD31 1276.5957446809ms ease-in-out infinite;
+}
+
+#content-bollD31 .boll-14 {
+  animation: bollD31 1304.347826087ms ease-in-out infinite;
+}
+
+#content-bollD31 .boll-15 {
+  animation: bollD31 1333.3333333333ms ease-in-out infinite;
+}
+
+#content-bollD31 .boll-16 {
+  animation: bollD31 1363.6363636364ms ease-in-out infinite;
+}
+
+#content-bollD31 .boll-17 {
+  animation: bollD31 1395.3488372093ms ease-in-out infinite;
+}
+
+#content-bollD31 .boll-18 {
+  animation: bollD31 1428.5714285714ms ease-in-out infinite;
+}
+
+#content-bollD31 .boll-19 {
+  animation: bollD31 1463.4146341463ms ease-in-out infinite;
+}
+
+#content-bollD31 .boll-20 {
+  animation: bollD31 1500ms ease-in-out infinite;
+}
+
+@keyframes bollD31 {
+  0% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+  50% {
+    transform: translate3d(-90px, 0px, 0px);
+  }
+  100% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+}
 .svg-practica {
   width: 500px;
   height: 1000px;

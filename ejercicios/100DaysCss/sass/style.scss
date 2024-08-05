@@ -1051,7 +1051,43 @@
     }
 }
 
-
+// Day 31
+.days-31{
+    background-color: rgb(91, 75, 161);
+}
+#content-bollD31{
+    width: 100px;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: end;
+    .bollD31{
+        width: 10px;
+        height: 10px;
+        background-color: #fff;
+        border-radius: 50%;
+    }
+}
+$durationD31 : 60;
+$allBoll: 20;
+$move: 40;
+@for $i from 1 through 20{
+    $time : $durationD31 / ($allBoll + $move - $i);//formula copiado pero entendida 
+    //mantenemos la velocidad de cada boll por debajo del 1s 
+    #content-bollD31 .boll-#{$i}{animation: bollD31 ($time * 1000ms) ease-in-out infinite;}
+}
+@keyframes bollD31 {
+    0%{
+        transform: translate3d(0px, 0px, 0px);
+    }
+    50%{
+        transform: translate3d(-90px, 0px, 0px);
+    }
+    100%{
+        transform: translate3d(0px, 0px, 0px);
+    }
+}
 
 
 
@@ -1113,3 +1149,5 @@
         fill: yellow;
     }
 }
+
+// 
