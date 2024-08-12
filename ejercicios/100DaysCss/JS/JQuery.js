@@ -2885,5 +2885,32 @@ $(document).ready(function(){
                 display: "none"
             });
         }
-    })
+    });
+
+
+    //Day 32
+    let countD32 = 0;
+    $(".days-32 .actionD32 #numD32").append(`<div class="divD32">${countD32}</div>`);
+    $(".days-32 .actionD32 button").on("click", (e) => {
+        
+        if(e.target.id === "minusD32"){
+            countD32--;
+            $(".days-32 .actionD32 .content-num .divD32").text(countD32);
+            $(".days-32 .actionD32 #numD32").addClass("animateD32");
+            setTimeout(() => {
+                $(".days-32 .actionD32 #numD32").removeClass("animateD32");
+            }, 501);
+        }
+        if(e.target.id === "plusD32"){
+            countD32++
+            $(".days-32 .actionD32 .content-num .divD32").text(countD32);
+            $(".days-32 .actionD32 #numD32").addClass("animateD32");
+            setTimeout(() => {
+                $(".days-32 .actionD32 #numD32").removeClass("animateD32");
+            }, 501);
+        }
+
+        return countD32;
+    });
+
 })

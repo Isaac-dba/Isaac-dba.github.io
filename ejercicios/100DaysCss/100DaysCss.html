@@ -720,7 +720,7 @@
             <article class="days-30">
                 <svg viewBox="0 0 300 300">
                     <!-- line animation -->
-                    <!-- mas practica para hacer curvas mas suaves -->
+                    <!-- mas practica para hacer curvas mas suabes -->
                     <path class="lineD30" stroke="black" stroke-width="2" fill="none"
                     d="M0,120 C40,140 68,130 120,123 
                     C125,125 179,110 178.598,150
@@ -759,12 +759,53 @@
             </article>
             <article class="days-32">
                 <div class="actionD32">
-                    <button>-</button>
+                    <button id="numD32-minus">
+                        <svg viewBox="0 0 40 40" id="minusD32">
+                            <line x1="10" y1="20" x2="30" y2="20"></line>
+                        </svg>
+                    </button>
                     <div class="content-num" id="numD32"></div>
-                    <button>+</button>
+                    <button id="numD32-plus">
+                        <svg viewBox="0 0 40 40" id="plusD32">
+                            <path d="M20,10 L20,30Z M10,20 L30,20"></path>
+                        </svg>
+                    </button>
                 </div>
             </article>
-            <article class="days-33"></article>
+            <article class="days-33">
+                <svg viewBox="0 0 400 400" class="svgD33" stroke-width="1px">
+                    <!-- sun -->
+                    <circle cx="100" cy="100" r="40" fill="#f3c52c"></circle>
+                    <!-- cloud 1-->
+                    <path fill="#fff" stroke="#fff" class="cloud-1"
+                    d="M205,150 L260,150 Z
+                    C185,150 190,130 205,135
+                    C205,135 205,120 220,125
+                    C220,125 230,105 245,125
+                    C245,120 260,123 260,135
+                    C260,135 275,142.5 260,150">
+                    </path>
+                    <!-- cloud 2 -->
+                    <path class="cloud-2" fill="#fff" stroke="#fff"
+                    d="M50,200 L200,200 Z
+                    C25,200 25,160 60,165
+                    C55,161 60,140 85,145
+                    C85,145 105,105 145,135
+                    C145,135 168,126 175,155
+                    C175,155 195,149 200,175
+                    C200,165 225,190 200,200">
+                    </path>
+                    <!-- cloud 3 -->
+                    <path class="cloud-3" fill="#fff" stroke="#fff"
+                    d="M50,300 L250,300 Z
+                    C30,300 30,265 60,270
+                    C60,270 70,245 100,250
+                    C100,250 110,220 150,230
+                    C150,190 230,175 250,230
+                    C285,230 300,285 250,300">
+                    </path>
+                </svg>
+            </article>
             <article class="days-34"></article>
             <article class="days-35"></article>
             <article class="days-36"></article>
