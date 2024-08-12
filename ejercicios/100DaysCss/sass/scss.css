@@ -1186,50 +1186,50 @@
 }
 .days-33 svg .cloud-1 {
   animation: cloud1 60s ease-in-out infinite;
-  animation-delay: 5s;
-  transform: translateX(150px);
+  animation-delay: 1.4s;
+  transform: translateX(100px);
 }
 .days-33 svg .cloud-2 {
   animation: cloud2 60s ease-in-out infinite;
-  transform: translateX(150px);
+  transform: translateX(0px);
 }
 .days-33 svg .cloud-3 {
   animation: cloud3 60s ease-in-out infinite;
-  animation-delay: 6s;
-  transform: translateX(150px);
+  animation-delay: 1s;
+  transform: translateX(200px);
 }
 
 @keyframes cloud1 {
   0% {
-    transform: translateX(150px);
+    transform: translateX(100px);
   }
   50% {
     transform: translateX(-300px);
   }
   100% {
-    transform: translateX(150px);
+    transform: translateX(100px);
   }
 }
 @keyframes cloud2 {
   0% {
-    transform: translateX(150px);
+    transform: translateX(0px);
   }
   50% {
     transform: translateX(-300px);
   }
   100% {
-    transform: translateX(150px);
+    transform: translateX(0px);
   }
 }
 @keyframes cloud3 {
   0% {
-    transform: translateX(150px);
+    transform: translateX(200px);
   }
   50% {
     transform: translateX(-300px);
   }
   100% {
-    transform: translateX(150px);
+    transform: translateX(200px);
   }
 }
 .svg-practica {
