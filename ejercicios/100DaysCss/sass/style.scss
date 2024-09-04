@@ -1210,6 +1210,164 @@
     }
 }
 
+// Day  34
+.days-34{
+    background-color: #e058a8;
+    svg{
+        border: none;
+        .lineTopD34{
+            animation: lineD34 1s ease infinite;
+            stroke-width: 4px;
+        }
+        .lineBottomD34{
+            @extend .lineTopD34;
+        }
+        #hD34{
+            fill:none;
+            stroke-width: 10px;
+            animation: hD34 2s ease-in-out infinite;
+        }
+        #ED341{
+            fill: none;
+            animation: ld341 2s ease-in-out infinite;
+        }
+        #ED342{
+            fill: none;
+            animation: ld342 2s ease-in-out infinite;     
+        }
+        #LD341{
+            @extend #ED341;
+        }
+        #LD342{
+            @extend #ED342;
+        }
+        #LD343{
+            @extend #ED341;
+        }
+        #LD344{
+            @extend #ED342;
+        }
+    }
+}
+
+@keyframes hD34 {
+    0%{
+        stroke-dashoffset: 20;
+        stroke-dasharray:0 350; 
+    }
+    100%{
+        stroke-dashoffset: 0;
+        stroke-dasharray:350 0;
+    }
+}
+// letra E y L
+@keyframes ld341{
+    0%{
+        stroke-dashoffset: 0;
+        stroke-dasharray: 0 550;
+    }
+    100%{
+        stroke-dashoffset: 250;
+        stroke-dasharray: 550 0;
+    }
+}
+@keyframes ld342 {
+    0%{
+        stroke-dashoffset: 100;
+        stroke-dasharray:0 250; 
+    }
+    100%{
+        stroke-dashoffset: 0;
+        stroke-dasharray:150 0;
+    }
+}
+// line
+@keyframes lineD34 {
+    0%{
+        stroke-dashoffset: 50;
+        stroke-dasharray:0 350; 
+    }
+    100%{
+        stroke-dashoffset: 225;
+        stroke-dasharray:350 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

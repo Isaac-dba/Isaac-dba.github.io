@@ -1232,6 +1232,69 @@
     transform: translateX(200px);
   }
 }
+.days-34 {
+  background-color: #e058a8;
+}
+.days-34 svg {
+  border: none;
+}
+.days-34 svg .lineTopD34, .days-34 svg .lineBottomD34 {
+  animation: lineD34 1s ease infinite;
+  stroke-width: 4px;
+}
+.days-34 svg #hD34 {
+  fill: none;
+  stroke-width: 10px;
+  animation: hD34 2s ease-in-out infinite;
+}
+.days-34 svg #ED341, .days-34 svg #LD343, .days-34 svg #LD341 {
+  fill: none;
+  animation: ld341 2s ease-in-out infinite;
+}
+.days-34 svg #ED342, .days-34 svg #LD344, .days-34 svg #LD342 {
+  fill: none;
+  animation: ld342 2s ease-in-out infinite;
+}
+@keyframes hD34 {
+  0% {
+    stroke-dashoffset: 20;
+    stroke-dasharray: 0 350;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 350 0;
+  }
+}
+@keyframes ld341 {
+  0% {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 0 550;
+  }
+  100% {
+    stroke-dashoffset: 250;
+    stroke-dasharray: 550 0;
+  }
+}
+@keyframes ld342 {
+  0% {
+    stroke-dashoffset: 100;
+    stroke-dasharray: 0 250;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 150 0;
+  }
+}
+@keyframes lineD34 {
+  0% {
+    stroke-dashoffset: 50;
+    stroke-dasharray: 0 350;
+  }
+  100% {
+    stroke-dashoffset: 225;
+    stroke-dasharray: 350 0;
+  }
+}
 .svg-practica {
   width: 500px;
   height: 1000px;
