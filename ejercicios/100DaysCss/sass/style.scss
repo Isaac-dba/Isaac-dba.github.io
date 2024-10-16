@@ -1299,7 +1299,20 @@
 
 
 
-
+.days-35{
+    background-color: #0baa95;
+    .content35{
+        width: 100px;
+        height: 100px;
+        background-color: #23e4aa;
+        border-radius: 50%;
+    }
+    svg{
+        border-radius: 50%;
+        stroke-dashoffset: 110;
+        stroke-dasharray: 160;
+    }
+}
 
 
 
