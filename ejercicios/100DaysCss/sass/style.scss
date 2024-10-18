@@ -1306,11 +1306,26 @@
         height: 100px;
         background-color: #23e4aa;
         border-radius: 50%;
+        position: absolute;
     }
     svg{
-        border-radius: 50%;
-        stroke-dashoffset: 110;
-        stroke-dasharray: 160;
+        animation: d35 4s ease-in-out infinite;
+        fill: transparent;
+        stroke-width: 5px;
+        stroke: white;
+    }
+}
+
+@keyframes d35 {
+    0%{
+        stroke-dashoffset: 1180;
+        stroke-dasharray: 295;
+        transform: rotate(-85deg);
+    }
+    100%{
+        stroke-dashoffset: 590;
+        stroke-dasharray: 295;
+        transform: rotate(288deg);
     }
 }
 
