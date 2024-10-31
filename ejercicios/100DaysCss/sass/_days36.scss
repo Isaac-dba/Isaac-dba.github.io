@@ -1,0 +1,89 @@
+
+.days-36{
+    background-color: #1d303f;
+    .contentD36-noti{
+        width: 80%;
+        height: 60%;
+        box-shadow: 1px 2px 10px 0px;
+        .navd36{
+            width: 100%;
+            background-color: rgb(36, 66, 90);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            iconify-icon{
+                color:rgb(170, 170, 170);
+                font-size: 16px;
+                padding: 10px;                
+                &:hover{
+                    color: white;
+                }
+            }
+            .icons{
+                width: 60%;
+                display: flex;
+                justify-content: space-between;
+            }
+            .search{
+                display: flex;
+            }
+        }
+        //evento click en JQuery.js line 2917
+        overflow: hidden;
+        .bodyD36{
+            background-color: white;
+            width: 100%;
+            height: 100%;
+            padding-top: 10px;
+            .info{
+                width: 100%;
+                height: 100%;
+                padding: 5px 15px;
+                display: none;
+                flex-direction: column;
+                gap: 10px;
+                h1{
+                    color:rgb(63, 63, 63)
+                }
+                .content-lines{
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    div{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 5px;
+                        width: 100%;
+                        .line{
+                            height: 3px;
+                            width: 100%;
+                            background-color: #bbbbbb;
+                        }
+                    }
+                }
+                
+            }
+            #text-dashboard{
+                display: flex;
+            }
+        }
+    }
+}
+@keyframes d36-body {
+    0%{
+        opacity: 0;
+    }
+    25%{
+        transform: translateY(15px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.animate-d36{
+    animation: d36-body 1.2s ease-in-out forwards;
+}

@@ -5,7 +5,7 @@ const section = document.querySelectorAll("#section-days article");
 const spanNum = document.getElementById("days-number");
 
 //funcionalidad
-let currentId = 34;
+let currentId = 36;
 function showArticle(index){
     section.forEach((article, i) => {
         article.classList.toggle("active", i === index);
@@ -2912,5 +2912,30 @@ $(document).ready(function(){
 
         return countD32;
     });
+    
 
+    // Day 36
+    
+    $(".days-36 .contentD36-noti .icons iconify-icon").on("click", (e) => {
+        let str = e.target.id;
+        $(`.days-36 .contentD36-noti .icons iconify-icon`).css({
+            backgroundColor: "rgb(36, 66, 90)"
+        });//background-color default dentro del event click antes del each
+        $(".days-36 .contentD36-noti .bodyD36 .info").each((index, element) => {
+            if(element.id === `text-${str}`){
+                $(element).css({
+                    display: "flex",
+                }).addClass("animate-d36");
+                $(`.days-36 .contentD36-noti .icons #${str}`).css({
+                    backgroundColor: "#4074c2",
+                });
+            }
+            else{
+                $(element).css({
+                    display: "none",
+                });
+                
+            }
+        });
+    });
 })

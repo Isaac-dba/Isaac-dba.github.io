@@ -1,4 +1,7 @@
 // Day 21
+@use 'days36';
+@use "./modulosD37-40/days37";
+
 .days-21{
     background-color: #2c2e2e;
     overflow: hidden;
@@ -1070,7 +1073,7 @@
     }
 }
 @for $i from 1 through 20{
-    $time : 60 / (60 - $i);//formula copiado pero entendida 
+    $time : calc(60 / (60 - $i));//formula copiado pero entendida 
     //mantenemos la velocidad de cada boll por debajo del 1s 
     #content-bollD31 .boll-#{$i}{animation: bollD31 ($time * 1000ms) ease-in-out infinite;}
 }
@@ -1085,7 +1088,6 @@
         transform: translate3d(0px, 0px, 0px);
     }
 }
-
 
 
 // Day 32
@@ -1295,7 +1297,7 @@
 
 
 
-
+//Day 35
 
 
 
@@ -1330,6 +1332,9 @@
 }
 
 
+//Day 36
+//usando un parcial para este caso
+//colocar los parciales al principio
 
 
 
