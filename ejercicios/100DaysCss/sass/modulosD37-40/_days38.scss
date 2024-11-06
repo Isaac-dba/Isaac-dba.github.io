@@ -1,0 +1,24 @@
+.days-38{
+    background-color: #9f56e2;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 10px 0 #00000080;
+    .contentD38{
+        width: 400px;
+        height: 400px;
+        position: absolute;
+        #path38-1{
+            fill: #fff;
+            stroke: #fff;
+            transform: scale(1);
+            position: absolute;
+            transition: transform 1s ease-in-out;
+        }
+        #path38-2{
+            fill: #9f56e2;
+            stroke: #9f56e2;
+            transform: scale(0);
+            transition: transform 1s ease-in-out;
+        }
+    }
+}

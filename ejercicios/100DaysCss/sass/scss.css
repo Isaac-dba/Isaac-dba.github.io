@@ -233,6 +233,31 @@
     z-index: 5;
   }
 }
+.days-38 {
+  background-color: #9f56e2;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5019607843);
+}
+.days-38 .contentD38 {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+}
+.days-38 .contentD38 #path38-1 {
+  fill: #fff;
+  stroke: #fff;
+  transform: scale(1);
+  position: absolute;
+  transition: transform 1s ease-in-out;
+}
+.days-38 .contentD38 #path38-2 {
+  fill: #9f56e2;
+  stroke: #9f56e2;
+  transform: scale(0);
+  transition: transform 1s ease-in-out;
+}
+
 .days-21 {
   background-color: #2c2e2e;
   overflow: hidden;

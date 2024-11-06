@@ -2968,6 +2968,24 @@ $(document).ready(function(){
                 <div class="lineD37-5"></div>
                 `);
 
-    // 
+    // day 38
+    //evento click primario (+ zoom)
+    $(".days-38 .contentD38 #path38-1").on("click", (e) => {
+        $("#path38-1").css({
+            transform: "scale(5)"
+        });
+        $("#path38-2").css({
+            transform: "scale(1)"
+        });
+    });
+    //evento click secundario (- zoom)
+    $("#path38-2").on("click", (e) => {
+        $("#path38-2").css({
+            transform: "scale(0)"
+        });
+        $("#path38-1").css({
+            transform: "scale(1)"
+        })
+    });
 });
 
