@@ -5,7 +5,7 @@ const section = document.querySelectorAll("#section-days article");
 const spanNum = document.getElementById("days-number");
 
 //funcionalidad
-let currentId = 36;
+let currentId = 37;
 function showArticle(index){
     section.forEach((article, i) => {
         article.classList.toggle("active", i === index);
@@ -2938,4 +2938,36 @@ $(document).ready(function(){
             }
         });
     });
-})
+    
+    //Day 37
+    $(".days-37 .contentD37 .card .bodyD37").css({
+        padding: "10px",
+        display: "flex",
+        flexDirection: "column",
+        gap: "5px"
+    })
+    $(".days-37 .contentD37 #itemD37-1 .bodyD37").append(`
+        <div class="lineD37-1"></div>
+        <div class="lineD37-2"></div>
+        <div class="lineD37-3"></div>
+        <div class="lineD37-4"></div>
+        <div class="lineD37-5"></div>
+        `);
+        $(".days-37 .contentD37 #itemD37-2 .bodyD37").append(`
+            <div class="lineD37-1"></div>
+            <div class="lineD37-2"></div>
+            <div class="lineD37-3"></div>
+            <div class="lineD37-4"></div>
+            <div class="lineD37-5"></div>
+            `);
+            $(".days-37 .contentD37 #itemD37-3 .bodyD37").append(`
+                <div class="lineD37-1"></div>
+                <div class="lineD37-2"></div>
+                <div class="lineD37-3"></div>
+                <div class="lineD37-4"></div>
+                <div class="lineD37-5"></div>
+                `);
+
+    // 
+});
+

@@ -1,3 +1,157 @@
 .days-37{
-    background-color: aqua;
+    background-color: #607988;
+    .contentD37{
+        width: 80%;
+        height: 60%;
+        .card{
+            position: relative;
+            background-color: #ffffff;
+            width: 50%;
+            height: 50%;
+            box-shadow: 0px 0px 10px 0px rgba($color: #000000, $alpha: 1.0);
+            border-radius: 5px;
+            &#itemD37-1{
+                animation: cardD37 6s ease-in-out infinite;
+            }
+            &#itemD37-2{
+                animation: cardD37-2 6s ease-in-out infinite;
+            }
+            &#itemD37-3{
+                transform: translateX(-10%) translateY(-150%) scale(0.6);
+                animation: cardD37-3 6s ease-in-out infinite;
+            }
+            .headerD37{
+                width: 100%;
+                height: 25%;
+                background-color: #ff9a03;
+            }
+            //bodyD37 en jQuery line 2943
+        }
+    }
+}
+//styles lines de JQuery 2946 - 2950
+//card 1
+#itemD37-1 .lineD37-1{
+    background-color: #c5c5c5;
+    width: 100%;
+    height: 4px;
+}
+#itemD37-1 .lineD37-2{
+    @extend .lineD37-1;
+    width: 90%;
+}
+#itemD37-1 .lineD37-3{
+    @extend .lineD37-1;
+    width: 40%;
+}
+#itemD37-1 .lineD37-4{
+    @extend .lineD37-1;
+    width: 60%;
+}
+#itemD37-1 .lineD37-5{
+    @extend .lineD37-1;
+    width: 80%;
+}
+//card 2
+#itemD37-2 .lineD37-1{
+    background-color: #c5c5c5;
+    width: 70%;
+    height: 4px;
+}
+#itemD37-2 .lineD37-2{
+    @extend .lineD37-1;
+    width: 80%;
+}
+#itemD37-2 .lineD37-3{
+    @extend .lineD37-1;
+    width: 92%;
+}
+#itemD37-2 .lineD37-4{
+    @extend .lineD37-1;
+    width: 80%;
+}
+#itemD37-2 .lineD37-5{
+    @extend .lineD37-1;
+}
+//card 3
+#itemD37-3 .lineD37-1{
+    background-color: #c5c5c5;
+    width: 70%;
+    height: 4px;
+}
+#itemD37-3 .lineD37-2{
+    @extend .lineD37-1;
+    width: 40%;
+}
+#itemD37-3 .lineD37-3{
+    @extend .lineD37-1;
+    width: 62%;
+}
+#itemD37-3 .lineD37-4{
+    @extend .lineD37-1;
+    width: 10%;
+}
+#itemD37-3 .lineD37-5{
+    @extend .lineD37-1;
+    width: 30%;
+}
+$scale:0.6;
+$Xright:110%;
+$Xleft:-10%;
+@keyframes cardD37 {
+    0%{
+        transform: translateX(50%) translateY(50%) scale(1);
+        z-index: 10;
+    }
+    33%{
+        transform: translateX($Xright) translateY(50%) scale($scale);
+        z-index: 5;
+    }
+    66%{
+        transform: translateX($Xleft) translateY(50%) scale($scale);
+        z-index: 5;
+    }
+    100%{
+        transform: translateX(50%) translateY(50%) scale(1);
+        z-index: 10;
+    }
+    
+}
+@keyframes cardD37-2 {
+    0%{
+        transform: translateX($Xright) translateY(-50%) scale($scale);
+        z-index: 5;
+    }
+    33%{
+        transform: translateX($Xleft) translateY(-50%) scale($scale);
+        z-index: 5;
+    }
+    66%{
+        transform: translateX(50%) translateY(-50%) scale(1);
+        z-index: 10;
+    }
+    100%{
+        transform: translateX($Xright) translateY(-50%) scale($scale);
+        z-index: 5; 
+    }
+    
+}
+@keyframes cardD37-3 {
+    0%{
+        transform: translateX($Xleft) translateY(-150%) scale($scale);
+        z-index: 5;
+    }
+    33%{
+        transform: translateX(50%) translateY(-150%) scale(1);
+        z-index: 10;
+    }
+    66%{
+        transform: translateX($Xright) translateY(-150%) scale($scale);
+        z-index: 5;
+    }
+    100%{
+        transform: translateX($Xleft) translateY(-150%) scale($scale);
+        z-index: 5;
+    }
+    
 }
