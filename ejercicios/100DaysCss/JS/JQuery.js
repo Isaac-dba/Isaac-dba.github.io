@@ -5,7 +5,7 @@ const section = document.querySelectorAll("#section-days article");
 const spanNum = document.getElementById("days-number");
 
 //funcionalidad
-let currentId = 37;
+let currentId = 38;
 function showArticle(index){
     section.forEach((article, i) => {
         article.classList.toggle("active", i === index);
@@ -2986,6 +2986,48 @@ $(document).ready(function(){
         $("#path38-1").css({
             transform: "scale(1)"
         })
+    });
+
+   
+});
+
+//Day 39
+$(document).ready(function(){
+    //event click linea
+    $(".days-39 .svg39-line").on("click", (e) => {
+        $(e.target).css({
+            animation: "lnZPlus 2s ease-in-out forwards"
+        });
+        //line 1
+        $(".days-39 .svg39-line .lineD39-1").css({
+            animation: "ln39Trans1 2s ease-in-out forwards"
+        });
+        //line 2
+        $(".days-39 .svg39-line .lineD39-2").css({
+            animation: "ln39Trans2 2s ease-in-out forwards"
+        });
+        //text opacity
+        $(".days-39 .svg39-text").css({
+            animation: "textOpacity 2s ease-in-out forwards"
+        });
+    });
+
+    //event click text
+    $(".days-39 .svg39-text text").on("click", (e) => {
+        // text opacity
+        $(".days-39 .svg39-text").css({
+            animation: "textOpacity2 2s ease-in-out forwards"
+        });
+        // minus - linea
+        $(".days-39 .svg39-line").css({
+            animation: "lnZMinus 2s ease-in-out forwards"
+        });
+        $(".days-39 .svg39-line .lineD39-1").css({
+            animation: "ln39Trans1minus1 2s ease-in-out forwards"
+        });
+        $(".days-39 .svg39-line .lineD39-2").css({
+            animation: "ln39Trans1minus2 2s ease-in-out forwards"
+        });
     });
 });
 

@@ -258,6 +258,125 @@
   transition: transform 1s ease-in-out;
 }
 
+.days-39 {
+  background-color: rgba(2, 32, 66, 0.7607843137);
+}
+.days-39 svg {
+  position: absolute;
+  stroke: #fff;
+}
+.days-39 svg.svg39-text {
+  stroke-width: 1px;
+  font-size: 14px;
+  opacity: 0;
+}
+.days-39 svg.svg39-text text:hover {
+  stroke: #cfcfcf;
+  transition: all 0.5s ease-in-out;
+}
+.days-39 svg.svg39-line {
+  stroke-width: 4px;
+  stroke-dashoffset: 130;
+  stroke-dasharray: 155;
+}
+
+@keyframes lnZPlus {
+  0%, 30% {
+    stroke-dashoffset: 130;
+    stroke-dasharray: 155;
+  }
+  100% {
+    stroke-dashoffset: 30;
+    stroke-dasharray: 155;
+    z-index: 1;
+  }
+}
+@keyframes lnZMinus {
+  0%, 30% {
+    stroke-dashoffset: 30;
+    stroke-dasharray: 155;
+  }
+  90%, 100% {
+    stroke-dashoffset: 130;
+    stroke-dasharray: 155;
+    z-index: 10;
+  }
+}
+@keyframes ln39Trans1 {
+  0%, 5% {
+    transform: translateY(5px);
+  }
+  30% {
+    transform: translateY(-10px);
+    stroke-width: 4px;
+  }
+  100% {
+    transform: translateY(-10px);
+    stroke-width: 2px;
+  }
+}
+@keyframes ln39Trans2 {
+  0%, 5% {
+    transform: translateY(-5px);
+  }
+  30% {
+    transform: translateY(10px);
+    stroke-width: 4px;
+  }
+  100% {
+    transform: translateY(10px);
+    stroke-width: 2px;
+  }
+}
+@keyframes ln39Trans1minus1 {
+  0%, 30% {
+    transform: translateY(-10px);
+    stroke-width: 2px;
+  }
+  90% {
+    transform: translateY(-10px);
+    stroke-width: 2px;
+  }
+  100% {
+    transform: translateY(0px);
+    stroke-width: 4px;
+  }
+}
+@keyframes ln39Trans1minus2 {
+  0%, 30% {
+    transform: translateY(10px);
+    stroke-width: 2px;
+  }
+  90% {
+    transform: translateY(10px);
+    stroke-width: 2px;
+  }
+  100% {
+    transform: translateY(0px);
+    stroke-width: 4px;
+  }
+}
+@keyframes textOpacity {
+  0%, 50% {
+    opacity: 0;
+  }
+  65% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    z-index: 10;
+  }
+}
+@keyframes textOpacity2 {
+  0% {
+    opacity: 1;
+  }
+  50%, 100% {
+    opacity: 0;
+    z-index: 1;
+  }
+}
 .days-21 {
   background-color: #2c2e2e;
   overflow: hidden;

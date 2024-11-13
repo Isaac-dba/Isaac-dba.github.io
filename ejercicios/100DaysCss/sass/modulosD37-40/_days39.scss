@@ -1,0 +1,126 @@
+.days-39{
+    background-color: #022042c2;
+    svg{
+        position: absolute;
+        stroke: #fff;
+        &.svg39-text{
+            stroke-width: 1px;
+            font-size: 14px;
+            opacity: 0;
+            text:hover{
+                stroke: #cfcfcf;
+                transition: all 0.5s ease-in-out;
+            }
+        }
+        &.svg39-line{
+            stroke-width: 4px;
+            stroke-dashoffset: 130;
+            stroke-dasharray: 155;
+        }
+    }
+}
+//animation linea +
+@keyframes lnZPlus {
+    0%,30%{
+        stroke-dashoffset: 130;
+        stroke-dasharray: 155;
+    }
+    100%{
+        stroke-dashoffset: 30;
+        stroke-dasharray: 155;
+        z-index: 1;
+    }
+}
+//animation linea -
+@keyframes lnZMinus {
+    0%,30%{
+        stroke-dashoffset: 30;
+        stroke-dasharray: 155;
+    }
+    90%,100%{
+        stroke-dashoffset: 130;
+        stroke-dasharray: 155;
+        z-index: 10;
+    }
+}
+//animation linea translate 1 +
+@keyframes ln39Trans1 {
+    0%,5%{
+        transform: translateY(5px);
+    }
+    30%{
+        transform: translateY(-10px);
+        stroke-width: 4px;
+    }
+    100%{
+        transform: translateY(-10px);
+        stroke-width: 2px;
+    }
+}
+//line translate 2 +
+@keyframes ln39Trans2 {
+    0%,5%{
+        transform: translateY(-5px);
+    }
+    30%{
+        transform: translateY(10px);
+        stroke-width: 4px;
+    }
+    100%{
+        transform: translateY(10px);
+        stroke-width: 2px;
+    }
+}
+//line translate 1 -
+@keyframes ln39Trans1minus1 {
+    0%,30%{
+        transform: translateY(-10px);
+        stroke-width: 2px;
+    }
+    90%{
+        transform: translateY(-10px);
+        stroke-width: 2px;
+    }
+    100%{
+        transform: translateY(0px);
+        stroke-width: 4px;
+    }
+}
+//line translate 2 -
+@keyframes ln39Trans1minus2 {
+    0%,30%{
+        transform: translateY(10px);
+        stroke-width: 2px;
+    }
+    90%{
+        transform: translateY(10px);
+        stroke-width: 2px;
+    }
+    100%{
+        transform: translateY(0px);
+        stroke-width: 4px;
+    }
+}
+//text opacity +
+@keyframes textOpacity {
+    0%,50%{
+        opacity: 0;
+    }
+    65%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+        z-index: 10;
+    }
+}
+//text opacity -
+@keyframes textOpacity2 {
+    0%{
+        opacity: 1;
+    }
+    50%,100%{
+        opacity: 0;
+        z-index: 1;
+    }
+}
