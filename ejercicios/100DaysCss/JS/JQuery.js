@@ -5,7 +5,7 @@ const section = document.querySelectorAll("#section-days article");
 const spanNum = document.getElementById("days-number");
 
 //funcionalidad
-let currentId = 38;
+let currentId = 39;
 function showArticle(index){
     section.forEach((article, i) => {
         article.classList.toggle("active", i === index);
@@ -3029,5 +3029,20 @@ $(document).ready(function(){
             animation: "ln39Trans1minus2 2s ease-in-out forwards"
         });
     });
+
+
+
+
+    // Day 40
+    $(".days-40 .contentD40 .itemd40").on("click", (e) => {
+        let target = $(e.target);
+        if($(target).hasClass("activeD40-big")){
+            $(target).removeClass("activeD40-big").addClass("activeD40-small");
+        }else{
+            $(target).removeClass("activeD40-small").addClass("activeD40-big");
+        }
+    });
+
 });
+
 

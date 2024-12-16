@@ -1,0 +1,107 @@
+@use "sass:math";
+.days-40{
+    box-shadow: 0px 0px 10px 0px rgb(0,0,0,0.3);
+    overflow: hidden;
+    .contentD40{
+        width: 300px;
+        height: 300px;
+        gap: 1px;
+        position: absolute;
+        .itemd40{
+            width: 100px;
+            height: 100px;
+            position: relative;
+            float: left;
+            border: solid 1.5px white;
+        }
+    }
+}
+
+//
+@for $i from 1 through 9{
+    @if $i == 1{                       //X  Y
+        .itemD40-#{$i}{transform-origin: 0% 0%;}
+    }
+    @if $i == 2{
+        .itemD40-#{$i}{transform-origin: 50% 0%;}
+    }
+    @if $i == 3{
+        .itemD40-#{$i}{transform-origin: 100% 0%;}
+    }
+    @if $i == 4{
+        .itemD40-#{$i}{transform-origin: 0% 50%;}
+    }
+    @if $i == 6{
+        .itemD40-#{$i}{transform-origin: 100% 50%;}
+    }
+    @if $i == 7{
+        .itemD40-#{$i}{transform-origin: 0% 100%;}
+    }
+    @if $i == 8{
+        .itemD40-#{$i}{transform-origin: 50% 100%;}
+    }
+    @if $i == 9{
+        .itemD40-#{$i}{transform-origin: 100% 100%;}
+    }
+   
+        // no encuentro como funcione a lo mejor mas adelante
+    // $X: ((($i - 1) % 3) * 50) + "%";
+    // $Y: (math.div(($i - 1), 3) * 50) + "%";
+    // .itemd40-#{$i}{
+    //     transform-origin: $X $Y;
+    // }
+}
+//class animadas
+.activeD40-big{
+    animation: D40-1 1s ease-in-out both;
+}
+.activeD40-small{
+    animation: D40-2 1s ease-in-out both;
+}
+//class opacity
+.opacityD40A{
+    animation: opacityD40A 1s ease-in-out forwards;
+}
+.opacityD40B{
+    animation: opacityD40B 1s ease-in-out forwards;
+}
+//tendriamos que ajustar para las imagenes 
+@keyframes D40-1 {
+    0%{
+        transform: scale(1);
+        z-index: 12;
+    }
+    100%{
+        transform: scale(3);
+        z-index: 12;
+        border: none;
+    }
+}
+@keyframes D40-2 {
+    0%{
+        transform: scale(3);
+        z-index: 12;
+        border: none;
+    }
+    100%{
+        transform: scale(1);
+        z-index: 8;
+    }
+}
+// opacity
+@keyframes opacityD40A {
+    0%,10%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0.3;
+    }
+}
+@keyframes opacityD40B {
+    0%,10%{
+        opacity: 0.3;
+    }
+    100%{
+        opacity: 1;
+    }
+}
