@@ -12,12 +12,19 @@ img{
 nav{
     background-color: rgba(244, 245, 245, 0.763);
     width: 40px;
-    height: 100vh;
+    height: 100%;
     position: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
     z-index: 10;
+    top: 0%;
+    left: -25px;
+    &&:hover{
+        left: 0px;
+        transition: left 1s ease-in;
+    }
+
 }
 nav ul{
     margin-left: -80px;
@@ -433,9 +440,14 @@ table caption{
     transform: scale(1);
 }
 /*Search*/
-#search label{
+#search{
+    height: 100px;
+    display: block;
+    width: 100%;
+    align-content: center;
+}
+#search label.label{
     display: flex;
-    margin: 50px auto;
     border: solid 1px #b2afaf;
     padding: 6px;
     border-radius: 30px;
@@ -446,13 +458,13 @@ table caption{
 #search label:focus-within{
     box-shadow: 10px 8px 7px 7px rgba(134, 134, 134, 0.78);
 }
-#search label input{
+#search label input.input{
     padding: 5px;
     flex: 1;
     border: none;
     outline: none;
 }
-#search label input::placeholder{
+#search label input.input::placeholder{
     font-family: var(--font-principal);
     font-weight: bolder;
 }
@@ -513,6 +525,7 @@ table caption{
     color: #ff69b4;
     font-weight: bold;
     text-shadow: 0px 0px 5px #fff;
+    font-size: 15px;
 }
 /*Comment*/
 #comment .comment-container{

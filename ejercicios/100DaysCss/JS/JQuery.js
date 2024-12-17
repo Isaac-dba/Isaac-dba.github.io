@@ -5,7 +5,7 @@ const section = document.querySelectorAll("#section-days article");
 const spanNum = document.getElementById("days-number");
 
 //funcionalidad
-let currentId = 39;
+let currentId = 40;
 function showArticle(index){
     section.forEach((article, i) => {
         article.classList.toggle("active", i === index);
@@ -3042,6 +3042,11 @@ $(document).ready(function(){
             $(target).removeClass("activeD40-small").addClass("activeD40-big");
         }
     });
+
+
+
+
+    //Day 41
 
 });
 
