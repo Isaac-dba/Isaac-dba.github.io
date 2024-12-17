@@ -20,9 +20,9 @@ nav{
     z-index: 10;
     top: 0%;
     left: -25px;
+    transition: left 1s ease-in;
     &&:hover{
         left: 0px;
-        transition: left 1s ease-in;
     }
 
 }
