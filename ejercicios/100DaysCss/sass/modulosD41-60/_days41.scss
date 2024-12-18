@@ -1,0 +1,63 @@
+//variables globales
+$colorSpan : #3a3a3a;
+$colorP: #929292;
+
+
+.days-41{
+    background-color: rgb(59, 59, 59);
+    .contentD41{
+        width: 250px;
+        height: 200px;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        transform: scale(0);//position initial
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: 0px 2px 10px 0px #222222;
+        padding-top: 20px;
+        .spanD41{
+            font-size: 22px;
+            color: $colorSpan;
+        }
+        .pD41{
+            width: 70%;
+            color: $colorP;
+            text-align: center;
+            margin-top: -15px;
+        }
+        #buttonD41{
+            width: 100%;
+            padding: 10px;
+            background-color: #e65353;
+            border: none;
+            color: white;
+        }
+    }
+}
+//animation hacia 0
+.snapD41A{
+    animation: snapD41A 1s ease-in-out forwards;
+}
+@keyframes snapD41A {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0);
+    }
+}
+//animation hacia 1
+.snapD41B{
+    animation: snapD41B 1s ease-in-out forwards;
+}
+@keyframes snapD41B {
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}

@@ -3042,12 +3042,53 @@ $(document).ready(function(){
             $(target).removeClass("activeD40-small").addClass("activeD40-big");
         }
     });
-
-
-
-
-    //Day 41
-
 });
 
 
+//Day 41 practicar js y JQuery
+$(document).ready(function(){
+    
+    //Day 41
+    //position initial con 2s de espera
+    setTimeout(() => {
+        $(".days-41 .contentD41").addClass("snapD41B")
+    }, 2000)
+    //crear un constante funcional 
+    const snap = () => {
+        const src = "https://100dayscss.com/codepen/alert.png";
+        const srcWidth = "44px";
+        const srcheight = "38px";
+        const span = "Oh snap!";
+        const paragraph1 = "An error has occured while";
+        const paragraph2 = "creating an error report.";
+        const textButton = "Dismiss";
+
+        function renderHtml(){
+            $(".days-41 .contentD41").append(`
+                <img class="imgD41" src=${src} width=${srcWidth} height=${srcheight}></img>
+                <span class="spanD41">${span}</span>
+                <p class="pD41">${paragraph1}\n${paragraph2}</p>
+                <button id="buttonD41">${textButton}</button>
+                `)
+        }
+        renderHtml();
+        function scaleD41(){
+            $(".days-41 .contentD41 #buttonD41").on("click", (e) => {
+                let target = $(e.target);
+                
+                if($(target)){
+                    $(".days-41 .contentD41").toggleClass("snapD41A").removeClass("snapD41B");
+                    //hay que remover para que funcione la clase a intercambiar
+                }
+            })
+        }
+        scaleD41();
+    }
+    snap();
+
+
+
+    //Day 42
+    
+    
+})
