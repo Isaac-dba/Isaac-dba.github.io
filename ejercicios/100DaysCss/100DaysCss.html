@@ -1013,7 +1013,45 @@
             
                 </div>
             </article>
-            <article class="days-42"></article>
+            <article class="days-42">
+                
+                <svg class="contentSvgD42" id="svgD42">
+                    <path d="M50,100 C255,165 110,125 50,100Z" class="lineD42"
+                    fill="white"  ></path>
+                    
+                    <path d="M50,150 C255,215 110,175 50,150Z" class="lineD421"
+                    fill="white"  ></path>
+                    <path d="M50,100 C255,165 110,125 50,100Z" class="lineD422"
+                    fill="white"  ></path>
+
+                    <defs>
+                    <!--colocar transparencia para reducir el ancho de line  -->
+                        <linearGradient id="gradientColor">
+                            <stop offset="0%" stop-color="transparent"></stop> <!--3.1-->
+                            <stop offset="25%" stop-color="transparent"></stop> <!--3-->
+                            <stop offset="50%" stop-color="#ffffff"></stop> <!--2-->
+                            <stop offset="75%" stop-color="#ffffff"></stop>  <!--1.1-->
+                            <stop offset="90%" stop-color="#ffffff"></stop>  <!--1.1-->
+                            <stop offset="100%" stop-color="#ffffff"></stop> <!--1-->
+                        </linearGradient>
+                        
+                    <!--crear brillo y desenfoque  -->
+                    <filter id="glow" x="-50%" y="-50%" width="110%" height="200%">
+                        <!-- Aplicar color brillante -->
+                        <feFlood flood-color="#ffffff" result="color" />
+                        <feComposite in="color" in2="SourceAlpha" operator="in" />
+                        <!-- Desenfoque para expandir el brillo -->
+                        <feGaussianBlur stdDeviation="5" result="blurred" />
+                        <!-- Combinar el brillo con el gráfico original -->
+                        <feMerge>
+                        <feMergeNode in="blurred" />
+                        <feMergeNode in="SourceGraphic" />
+                        </feMerge>
+                    </filter> <!--aprender mas sobre este filter-->
+                    </defs>
+                </svg>
+                
+            </article>
             <article class="days-43"></article>
             <article class="days-44"></article>
             <article class="days-45"></article>
@@ -1102,7 +1140,7 @@
             L160,0 210,0 220,100 Z"></path>
             <!-- paralelogra... -->
             <text x="260" y="120">paralelogra...</text>
-            <polyline points="270,100 285,0 335,0 320,100 270,100 Z" stroke="red"></polyline>
+            <polyline points="270,100 285,0 335,0 320,100 270,100" stroke="red"></polyline>
             <!-- rombo -->
             <text x="400" y="120">rombo</text>
             <path stroke="yellow" d="M370,50 L420,0 470,50 420,100 370,50 Z"></path>
@@ -1115,7 +1153,7 @@
             <ellipse cx="170" cy="200" rx="25" ry="50" fill="green" stroke="black"></ellipse>
             <!-- pentagono -->
             <text x="265" y="280">pentágono</text>
-            <polyline stroke="white" points="250,180 300,150 350,180 330,250 270,250 250,180 Z"></polyline>
+            <polyline stroke="white" points="250,180 300,150 350,180 330,250 270,250 250,180"></polyline>
             <!-- hexagono 2M heptágono 3M octágono-->
             <text x="390" y="280">hexágono</text> 
             <path stroke="#301258" d="M370,200 L395,150 445,150 470,200 445,250 395,250 370,200 Z

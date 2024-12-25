@@ -1,0 +1,128 @@
+//variables globales
+$circleW : 250px;
+$circleH : 250px;
+// $pX : 
+.days-42{
+    box-shadow: 5px 5px 10px 0px #646464;
+    #svgD42{
+        width: $circleW;
+        height: $circleH;
+        background: 
+        linear-gradient(to bottom, rgb(17, 76, 104) 0%, rgba(56, 150, 194, 0.623) 100%);
+        border-radius: 50%;
+        transform-style: preserve-3d;
+        .lineD42{
+            stroke-width: 2px;
+            stroke: #ffffff ;
+            filter:url(#glow) drop-shadow(0px 0px 10px #a8a8a8);
+            // usar url y drop-shadow para dar mas brillo
+            //por separado no funciona
+            animation: shootingStar 10s ease-in-out infinite;
+        }
+        .lineD421{
+            @extend .lineD42;
+            animation: shootingStar1 12.5s ease-in-out infinite;
+            
+        }
+        .lineD422{
+            @extend .lineD42;
+            animation: shootingStar2 15s ease-in-out infinite;
+            
+        }
+        svg{
+            fill: white;
+    
+        }
+    }
+}
+
+@for $i from 1 through 250{
+    $s : $i + s;
+    .circleD42-#{$i}{
+        @if $i >= 1 and $i <= 50 {
+            animation: opD42 1s ease-in-out infinite;
+        }@else if ($i >= 51) and ($i <= 100) {
+            animation: opD42 5s ease-in-out infinite;
+        }@else if ($i >= 101) and ($i <= 150){
+            animation: opD42 10s ease-in-out infinite;
+        }@else if ($i >= 151) and ($i <= 200){
+            animation: opD42 15s ease-in-out infinite;
+        }@else if ($i >= 201) and ($i <= 250){
+            animation: opD42 20s ease-in-out infinite;
+        }
+    }
+}
+
+// animation star
+@keyframes opD42{
+    0%{
+        opacity: 0.4;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0.4;
+    }
+}
+// animation shooting star
+@keyframes shootingStar {
+    0%{
+        transform: translateX(-550px) translateY(-200px);
+        opacity: 1;
+    }
+    49%{
+        opacity: 1;
+    }
+    50%{
+        transform: translateX(550px) translateY(100px);
+        opacity: 0;
+    }
+    99%{
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(-550px) translateY(-100px);
+        opacity: 1;
+    }
+}
+@keyframes shootingStar1 {
+    0%{
+        transform: translateX(-550px) translateY(-200px);
+        opacity: 1;
+    }
+    49%{
+        opacity: 1;
+    }
+    50%{
+        transform: translateX(550px) translateY(100px);
+        opacity: 0;
+    }
+    99%{
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(-550px);
+        opacity: 1;
+    }
+}
+@keyframes shootingStar2 {
+    0%{
+        transform: translateX(-550px) translateY(-50px);
+        opacity: 1;
+    }
+    49%{
+        opacity: 1;
+    }
+    50%{
+        transform: translateX(550px) translateY(200px);
+        opacity: 0;
+    }
+    99%{
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(-550px);
+        opacity: 1;
+    }
+}

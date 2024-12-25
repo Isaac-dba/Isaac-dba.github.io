@@ -5,7 +5,7 @@ const section = document.querySelectorAll("#section-days article");
 const spanNum = document.getElementById("days-number");
 
 //funcionalidad
-let currentId = 40;
+let currentId = 41;
 function showArticle(index){
     section.forEach((article, i) => {
         article.classList.toggle("active", i === index);
@@ -3089,6 +3089,30 @@ $(document).ready(function(){
 
 
     //Day 42
-    
-    
+
+    //idea crear svg para esto 
+    function renderStarD42(){
+        const countStar = 250;
+        //contenedor star
+        for(let i = 1; i <= countStar; i++){
+             //variables de position
+            const pX =  Math.random() * countStar;
+            const pY =  Math.random() * countStar;
+            const starR = Math.random();
+            //ajuste de radius aleatorio y posicion
+            if(i % 2 === 0){
+                $(".days-42 .contentSvgD42").append(`
+                    <svg><circle class="circleD42-${i}" cx="${pX}" cy="${pY}" r="0.4"></circle></svg>
+                `);
+            }else{
+                $(".days-42 .contentSvgD42").append(`
+                    <svg><circle class="circleD42-${i}" cx="${pX}" cy="${pY}" r="${starR}"></circle></svg>
+                `);
+            }    
+        }
+    }
+    renderStarD42();
 })
+
+
+
