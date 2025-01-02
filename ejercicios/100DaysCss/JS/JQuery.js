@@ -5,7 +5,7 @@ const section = document.querySelectorAll("#section-days article");
 const spanNum = document.getElementById("days-number");
 
 //funcionalidad
-let currentId = 41;
+let currentId = 43;
 function showArticle(index){
     section.forEach((article, i) => {
         article.classList.toggle("active", i === index);
@@ -3112,7 +3112,61 @@ $(document).ready(function(){
         }
     }
     renderStarD42();
+
+
+    //Day 43
+    // no hace falta js o jquery
+
+
+
+    //Day 44 
+    //variables     restas y sumas
+    let MLX = 195; // - 5 
+    let MLY = 195; // - 5
+    let LX1 = MLX; // - 5 
+    let LY1 = MLY; // - 5 
+    let LX2 = 205; // + 5
+    let LY2 = MLY; // - 5 
+    let LX3 = LX2; // + 5 
+    let LY3 = LX2; // + 5 
+    let LX4 = MLX; // - 5 
+    let LY4 = LX2; // + 5 
+    let LX5 = MLX; // - 5  
+    let LY5 = MLY; // - 5   
+    //numero para el espacios entre cuadros
+    const subtractNum = 6;
+    //usaremos un for bucle
+    for(let i = 1; i <= 20; i++){
+        $(".days-44 .svgD44").append(`
+            <svg fill="transparent">
+            <path id="rectD44-${i}"
+                d="M${MLX},${MLY} L${LX1},${LY1} ${LX2},${LY2} 
+                ${LX3},${LY3} ${LX4},${LY4} ${LX5},${LY5} Z"></path>
+            </svg>
+        `);
+        // variables de cordenadas x, y
+        MLX -= subtractNum;         
+        MLY -= subtractNum;
+        LX1 = MLX;
+        LY1 = MLY; 
+        LX2 += subtractNum;
+        LY2 -= subtractNum;
+        LX3 += subtractNum;
+        LY3 += subtractNum; 
+        LX4 -= subtractNum;
+        LY4 += subtractNum; 
+        LX5 -= subtractNum;
+        LY5 -= subtractNum;
+        //hover
+        $(".days-44 .svgD44").hover(() => {
+            $(`#rectD44-${i}`).css({
+                animationPlayState: "paused"
+            });
+        }, () => {
+            $(`#rectD44-${i}`).css({
+                animationPlayState: "running"
+            });
+        })
+        //fin hover
+    }
 })
-
-
-

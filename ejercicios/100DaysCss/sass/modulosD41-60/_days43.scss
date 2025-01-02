@@ -1,0 +1,23 @@
+.days-43{
+    background-color: #4d576e;
+    .lightbulb{
+        width: 300px;
+        height: 300px;
+        .whiteline{
+            stroke: #e7e7e7;
+            stroke-width: 5px;
+            stroke-linecap: round;
+        }
+        .boxShadown43{
+            cursor: pointer;
+            filter: drop-shadow(0px -10px 30px #ffff0a);
+            fill: #ffff0a;
+            transition: all 0.7s ease-in-out;
+            &:hover{
+                fill: rgb(131, 131, 131);
+                filter: drop-shadow(0px -10px 30px #4d576e);
+            }
+        }
+        
+    }
+}

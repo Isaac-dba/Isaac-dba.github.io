@@ -1,0 +1,26 @@
+.days-44{
+    background-color: rgba(0, 0, 0, 0.836);
+}
+// selection de los cuadros
+@for $i from 1 through 20{
+    #rectD44-#{$i}{
+        transform-origin: 50%;
+        animation: rotateD44 4.5s ease-in-out infinite;
+        animation-delay: $i * 0.04s;
+        stroke-width: 1px;
+        stroke: #8b8b8b;
+        animation-play-state: running;
+    }
+}
+//animation rotate
+@keyframes rotateD44 {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
