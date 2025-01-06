@@ -1,0 +1,37 @@
+.days-45{
+    background-color: #6fb4f5;
+    color: #fff;
+    .textD45{
+        z-index: 1;
+    }
+    .svgD45{
+        position: absolute;
+        width: 180px;
+        height: 60px;
+        background-color: transparent;
+        fill: none;
+        .bg-line {
+            fill: #5CA4EA;
+            stroke: #91C9FF;
+            transition: all .8s ease-in-out;
+        }
+        
+        .hl-line {
+            stroke: #fff;
+            stroke-dasharray: 40 480;
+            stroke-dashoffset: 40;
+            transition: all .8s ease-in-out;
+        }
+        
+        &:hover {
+            
+            .bg-line {
+                fill: #4F95DA;
+            }
+            
+            .hl-line {
+                stroke-dashoffset: -480;	
+            }
+        }    
+    }
+}

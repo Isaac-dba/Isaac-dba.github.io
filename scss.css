@@ -1856,35 +1856,12 @@
   }
 }
 .days-45 {
-  background-color: #6fb4f5;
-  color: #fff;
-}
-.days-45 .textD45 {
-  z-index: 1;
+  background-color: #348ed8;
 }
 .days-45 .svgD45 {
-  position: absolute;
-  width: 180px;
-  height: 60px;
-  background-color: transparent;
-  fill: none;
-}
-.days-45 .svgD45 .bg-line {
-  fill: #5CA4EA;
-  stroke: #91C9FF;
-  transition: all 0.8s ease-in-out;
-}
-.days-45 .svgD45 .hl-line {
-  stroke: #fff;
-  stroke-dasharray: 40 480;
-  stroke-dashoffset: 40;
-  transition: all 0.8s ease-in-out;
-}
-.days-45 .svgD45:hover .bg-line {
-  fill: #4F95DA;
-}
-.days-45 .svgD45:hover .hl-line {
-  stroke-dashoffset: -480;
+  width: 200px;
+  height: 100px;
+  stroke-width: 1px;
 }
 
 .days-21 {
