@@ -5,7 +5,7 @@ const section = document.querySelectorAll("#section-days article");
 const spanNum = document.getElementById("days-number");
 
 //funcionalidad
-let currentId = 44;
+let currentId = 45;
 function showArticle(index){
     section.forEach((article, i) => {
         article.classList.toggle("active", i === index);
@@ -3172,20 +3172,6 @@ $(document).ready(function(){
 
 
     //Day 45
-
-
-
-
-
-
-
-
-
-
-
-
-
-    })
         // mousedown     ratón abajo
         // mouseenter    entran con el mouse
         // mouseleave   dejar el ratón
@@ -3193,3 +3179,14 @@ $(document).ready(function(){
         // mouseout     ratón fuera
         // mouseover   pasar el ratón por encima
         // mouseup    ratón arriba
+
+    //D46
+
+
+
+
+
+
+
+
+})

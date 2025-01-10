@@ -1,0 +1,73 @@
+//variables
+$numberOfRings: 6; //
+$numberOfDots: 12; //
+$radius: 100;
+$dotsPerCircle: 12;
+$angle: 360 / $dotsPerCircle;
+
+.days-46{
+    box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.3);
+    background-color: #125e31;
+    .contentD46 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        top: 7.5%;
+        left: 0%;
+        border-radius: 2px;
+        .circleD46 {
+        	position: absolute;
+        	width: ($radius * 2) + px;
+        	height: ($radius * 2) + px;
+        	top: ( (400 - ($radius * 2) ) / 2 ) + px;
+        	left: ( (400 - ($radius * 2) ) / 2 ) + px;
+            .circle {
+                width: 10px;
+                height: 10px;
+                top: ($radius) + px;
+                left: ($radius) + px;
+                border-radius: 50px;
+            }
+        }
+    }
+}
+
+
+
+
+//animations
+@for $i from 1 through $numberOfRings {
+	.circleD46-#{$i} {
+		$nullBase: $i - 1;
+		animation: inOut-#{$i} 6s ease-in-out alternate infinite;
+		
+		.circle {
+			opacity: (1 - ($nullBase / 10) );
+		}
+	}	
+}
+//position de bots
+@for $i from 1 through $numberOfDots {
+	.circle-#{$i} {
+		$nullBase: $i - 1;
+		$deg: ($nullBase * $angle) + deg;
+		transform: translate3d(0, ($radius * -1) + px, 0) rotate($deg);
+		transform-origin: 0 ($radius) + px;
+	}
+}
+
+//animations
+@for $i from 1 through $numberOfRings {
+	@keyframes inOut-#{$i} {
+		$nullBase: $i - 1;
+		0% {
+			transform: scale(1 - ($nullBase / 7)) rotate( ($nullBase*5) + deg );
+		}
+		100% {
+			transform: scale(1 - ($nullBase / 22)) rotate( ( ($nullBase*10) + 360) + deg);
+		}
+	}
+}
+
+// al final lo copie de la wed he intente entenderlo
+//cambie el color de fondo por un efecto no deseado no detectado
