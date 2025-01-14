@@ -5,7 +5,7 @@ const section = document.querySelectorAll("#section-days article");
 const spanNum = document.getElementById("days-number");
 
 //funcionalidad
-let currentId = 45;
+let currentId = 46;
 function showArticle(index){
     section.forEach((article, i) => {
         article.classList.toggle("active", i === index);
@@ -3181,11 +3181,41 @@ $(document).ready(function(){
         // mouseup    ratón arriba
 
     //D46
+    //aprender mas sobre sass y sus for y la utilidad
+    // que nos dan estas herramientas
+    //utilize un color de fondo mas oscuro para
+    // eliminar una sombra no deseada y que no 
+    // pude retirar, buscare otra solucion mas adelante.
+    //Nota para aprender en ejercicios siguientes
 
 
-
-
-
+    //Day 47
+    //inyectar 200 cuadros.
+    for(let i = 1; i <= 400; i++){
+        // añadiendo los 400 cuadros
+        $(".days-47 .contentD47").append(`
+                <div id="squad-${i}" class="squadD47"></div>
+        `);
+        //seleccionar cuadros blancos
+        if(i >=130 && i <= 131 || i >= 149 && i <= 152 || i >= 168 && i <= 173
+            || i >= 187 && i <= 188 || i >= 190 && i <= 191 || i >= 193 && i <= 194
+            || i >= 207 && i <= 214 || i == 229 || i == 232 || i == 248 || i >= 250 && i <= 251
+            || i == 253 || i == 267 || i == 269 || i == 272 || i == 274
+        ){
+            $(`#squad-${i}`).addClass("bgD47-white"); 
+        }else{//seleccionar cuadros rojos
+            $(`#squad-${i}`).addClass("bgD47-red");
+        }  
+    }
+    //evento click
+    $(".days-47 .contentD47 .squadD47").on("click", (e) => {
+        let elementHtml = e.target;
+        if($(elementHtml).hasClass("bgD47-white")){
+            $(elementHtml).removeClass("bgD47-white").addClass("bgD47-red");
+        }else{
+            $(elementHtml).addClass("bgD47-white").removeClass("bgD47-red");
+        }
+    })
 
 
 

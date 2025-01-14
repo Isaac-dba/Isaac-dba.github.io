@@ -1890,21 +1890,20 @@
 .days-46 {
   box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
   background-color: #125e31;
+  overflow: hidden;
 }
 .days-46 .contentD46 {
-  position: absolute;
+  position: relative;
   width: 300px;
   height: 300px;
-  top: 7.5%;
-  left: 0%;
   border-radius: 2px;
 }
 .days-46 .contentD46 .circleD46 {
   position: absolute;
   width: 200px;
   height: 200px;
-  top: 100px;
-  left: 100px;
+  top: 50px;
+  left: 50px;
 }
 .days-46 .contentD46 .circleD46 .circle {
   width: 10px;
@@ -2064,6 +2063,37 @@
     transform: scale(0.7727272727) rotate(410deg);
   }
 }
+.bgD47-white {
+  background-color: #fff;
+  outline: solid 1px #fff;
+}
+.bgD47-white:hover {
+  background-color: #fff;
+}
+
+.bgD47-red {
+  background-color: #e6553b;
+}
+.bgD47-red:hover {
+  background-color: #f17b67;
+}
+
+.days-47 {
+  box-shadow: 0 0 10px 0 #5c5b5b;
+  overflow: hidden;
+  background-color: white;
+}
+.days-47 .contentD47 {
+  background-color: #f17b67;
+  width: 300px;
+  height: 300px;
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  grid-template-rows: repeat(20, 1fr);
+  gap: 1px;
+  cursor: pointer;
+}
+
 .days-21 {
   background-color: #2c2e2e;
   overflow: hidden;

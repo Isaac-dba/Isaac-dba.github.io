@@ -1,0 +1,111 @@
+$backgroundsD47: (
+    "white": #fff,
+    "red": #e6553b,
+    "bg-hover": #f17b67
+);
+@mixin set-bg($key){
+    background-color: map-get($backgroundsD47, $key);
+}
+.bgD47-white{
+    background-color: #fff;
+    outline: solid 1px #fff;
+    &:hover{
+        background-color: #fff;
+    }
+}
+.bgD47-red{
+    background-color: #e6553b;
+    &:hover{
+        background-color: #f17b67;
+    }
+}
+.days-47{
+    box-shadow: 0 0 10px 0 #5c5b5b;
+    overflow: hidden;
+    background-color: white;
+    .contentD47{
+        background-color: #f17b67;
+        width: 300px;
+        height: 300px;
+        display: grid;
+        grid-template-columns: repeat(20, 1fr);
+        grid-template-rows: repeat(20, 1fr);
+        gap: 1px;
+        cursor: pointer;
+        // .squadD47:hover{
+            // background-color: #c7c5c500;
+            //mejor en la clase añadidas asi se mantiene el hover
+            // segun el color
+        // }
+        //un for de practica
+        // @for $i from 1 through 400{
+        //     @if $i >= 130 and $i <= 131{
+        //         #squad-#{$i}{
+        //             background-color: white;
+        //         }
+        //     }@else if $i >= 149 and $i <= 152{
+        //         #squad-#{$i}{
+        //             background-color: white;
+        //         }
+        //     }@else if $i >= 168 and $i <= 173{
+        //         #squad-#{$i}{
+        //             background-color: white;
+        //         }
+                
+        //     }@else if $i >= 187 and $i <= 188{
+        //         #squad-#{$i}{
+        //             background-color: white;
+        //         }
+        //     }@else if $i >= 190 and $i <= 191{
+        //         #squad-#{$i}{
+        //             background-color: white;
+        //         }
+        //     }@else if $i >= 193 and $i <= 194{
+        //         #squad-#{$i}{
+        //             background-color: white;
+        //         }
+        //     }@else if $i >= 207 and $i <= 214{
+        //         #squad-#{$i}{
+        //             background-color: white;
+        //         }
+        //     }@else if $i == 229{
+        //         #squad-#{$i}{
+        //             background-color: white;
+        //         }
+        //     }@else if $i == 232{
+        //         #squad-#{$i}{
+        //             background-color: white;
+        //         }
+        //     }@else if $i == 248{
+        //         #squad-#{$i}{
+        //             background-color: white;
+        //         }
+        //     }@else if $i >= 250 and $i <= 251{
+        //         #squad-#{$i}{
+        //             background-color: white;
+        //         }
+        //     }@else if $i == 253{
+        //         #squad-#{$i}{
+        //             background-color: white;
+        //         }
+        //     }@else if $i == 267{
+        //         #squad-#{$i}{
+        //             background-color: white;
+        //         }
+        //     }@else if $i == 269{
+        //         #squad-#{$i}{
+        //             background-color: white;
+        //         }
+        //     }@else if $i == 272{
+        //         #squad-#{$i}{
+        //             background-color: white;
+        //         }
+        //     }@else if $i == 274{
+        //         #squad-#{$i}{
+        //             background-color: white;
+        //         }
+        //     }
+        // }
+    }
+}
+
