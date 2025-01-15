@@ -5,7 +5,7 @@ const section = document.querySelectorAll("#section-days article");
 const spanNum = document.getElementById("days-number");
 
 //funcionalidad
-let currentId = 47;
+let currentId = 48;
 function showArticle(index){
     section.forEach((article, i) => {
         article.classList.toggle("active", i === index);
@@ -3175,7 +3175,7 @@ $(document).ready(function(){
         // mousedown     ratón abajo
         // mouseenter    entran con el mouse
         // mouseleave   dejar el ratón
-        // mousemove    movimiento del mouse 
+        // mousemove    movimiento del mouse (e.clienteX, e.clienteY)
         // mouseout     ratón fuera
         // mouseover   pasar el ratón por encima
         // mouseup    ratón arriba
@@ -3216,7 +3216,22 @@ $(document).ready(function(){
             $(elementHtml).addClass("bgD47-white").removeClass("bgD47-red");
         }
     })
+    
 
-
+    //Day 49
+    $(".days-49").on("mousemove", (e) => {
+        $(".days-49 .outerPuntoD49").css({
+            top: `${e.clientY}px`,
+            left: `${e.clientX}px`,
+            transition: "all 0.1s ease-in"
+        })
+        // cuando salgo del content vuelvo a position center
+        $(".days-49").on("mouseout", (e) => {
+            $(".days-49 .outerPuntoD49").css({
+                top: "18.5%",
+                left: "37.5%"
+            })
+        })
+    })
 
 })

@@ -2136,6 +2136,47 @@
   transform: rotateX(0deg) rotateY(360deg) rotateZ(360deg);
 }
 
+.days-49 {
+  background-color: #35465c;
+  cursor: pointer;
+  user-select: none;
+}
+.days-49 .outerPuntoD49 {
+  width: 25px;
+  height: 25px;
+  background-color: #78d375;
+  border-radius: 50%;
+  position: absolute;
+}
+.days-49 .outerPuntoD49 .puntoD49 {
+  width: 25px;
+  height: 25px;
+  animation: strokeD49 1.5s ease-in-out infinite;
+  border-radius: 50%;
+  border: solid 1px #78d375;
+}
+
+@keyframes strokeD49 {
+  0% {
+    transform: scale(0.1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(2.5);
+    border-width: 3px;
+  }
+  51% {
+    opacity: 0;
+  }
+  99% {
+    transform: scale(0);
+    border-width: 1px;
+    opacity: 0;
+  }
+  100% {
+    transform: scale(0.1);
+  }
+}
 .days-21 {
   background-color: #2c2e2e;
   overflow: hidden;
