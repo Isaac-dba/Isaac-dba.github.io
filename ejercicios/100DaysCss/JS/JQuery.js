@@ -3220,16 +3220,18 @@ $(document).ready(function(){
 
     //Day 49
     $(".days-49").on("mousemove", (e) => {
+        let translX = e.clientX - 195;
+        let translY = e.clientY - 255;
         $(".days-49 .outerPuntoD49").css({
-            top: `${e.clientY}px`,
-            left: `${e.clientX}px`,
-            transition: "all 0.1s ease-in"
+            transition: "all 0.1s ease",
+            // mejor que top y left
+            transform: `translate3d(${translX}px, ${translY}px, 0px)`
         })
         // cuando salgo del content vuelvo a position center
         $(".days-49").on("mouseout", (e) => {
             $(".days-49 .outerPuntoD49").css({
-                top: "18.5%",
-                left: "37.5%"
+                transform: `translate3d(0px, 0px, 0px)`,
+                transition: "all 0.1s ease"
             })
         })
     })
