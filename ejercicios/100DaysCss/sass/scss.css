@@ -2233,6 +2233,124 @@
     transform: translate3d(0px, 300px, 0px) scale(0.9, 1.1);
   }
 }
+.days-51 {
+  background-color: #363e49;
+}
+.days-51 form {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 80px;
+  gap: 10px;
+  align-items: center;
+  position: relative;
+}
+.days-51 form #inputCheck {
+  position: absolute;
+  top: 55px;
+  z-index: 30;
+  width: 50px;
+  height: 50px;
+  opacity: 0;
+}
+.days-51 form #inputCheck:checked ~ .button svg .pauseD51 {
+  transform: scale(0);
+}
+.days-51 form #inputCheck:checked ~ .button svg #playD51 {
+  transform: scale(1);
+}
+.days-51 form #inputCheck:checked + #inputD51 .numD51 {
+  animation-play-state: paused;
+}
+.days-51 form #inputD51 {
+  width: 100px;
+  height: 40px;
+  font-size: 28px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  color: #0099ff;
+  background-color: #dddddd;
+  display: flex;
+  text-align: center;
+  overflow: hidden;
+}
+.days-51 form #inputD51 .numD51 {
+  display: flex;
+  flex-direction: column;
+  line-height: 40px;
+}
+.days-51 form #inputD51 .numD51A {
+  animation: numD51A 10000s steps(1) infinite;
+}
+.days-51 form #inputD51 .numD51B {
+  animation: numD51A 1000s steps(1) infinite;
+}
+.days-51 form #inputD51 .numD51C {
+  animation: numD51A 100s steps(1) infinite;
+}
+.days-51 form #inputD51 .numD51D {
+  animation: numD51A 10s steps(1) infinite;
+}
+.days-51 form .button {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  z-index: 20;
+}
+.days-51 form .button #playD51 {
+  transform-origin: 50% 50%;
+  transform: scale(0);
+  fill: #fff;
+  transition: all 1s ease;
+  position: absolute;
+}
+.days-51 form .button .pauseD51 {
+  position: absolute;
+  transform-origin: 50% 50%;
+  transform: scale(1);
+  stroke-width: 5px;
+  stroke-linecap: round;
+  stroke: #fff;
+  transition: all 1s ease;
+}
+
+@keyframes numD51A {
+  00% {
+    transform: translateY(0px);
+  }
+  10% {
+    transform: translateY(-40px);
+  }
+  20% {
+    transform: translateY(-80px);
+  }
+  30% {
+    transform: translateY(-120px);
+  }
+  40% {
+    transform: translateY(-160px);
+  }
+  50% {
+    transform: translateY(-200px);
+  }
+  60% {
+    transform: translateY(-240px);
+  }
+  70% {
+    transform: translateY(-280px);
+  }
+  80% {
+    transform: translateY(-320px);
+  }
+  90% {
+    transform: translateY(-360px);
+  }
+}
 .days-21 {
   background-color: #2c2e2e;
   overflow: hidden;

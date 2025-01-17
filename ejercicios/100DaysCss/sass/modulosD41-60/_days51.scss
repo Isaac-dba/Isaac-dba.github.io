@@ -1,0 +1,96 @@
+.days-51{
+    background-color: #363e49;
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+        height: 80px;
+        gap: 10px;
+        align-items: center;
+        position: relative;
+        #inputCheck{
+            position: absolute;
+            top: 55px;
+            z-index: 30;
+            width: 50px;
+            height: 50px;
+            opacity: 0;
+        }
+        #inputCheck:checked ~ .button svg{
+            .pauseD51{
+                transform: scale(0);
+            }
+            #playD51{
+                transform: scale(1);
+            }
+        }
+        #inputCheck:checked + #inputD51 .numD51{
+            animation-play-state: paused;
+        }
+        #inputD51{
+            width: 100px;
+            height: 40px;
+            font-size: 28px;
+            border-radius: 5px;
+            border: none;
+            box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+            color: #0099ff;
+            background-color: #dddddd;
+            display: flex;
+            text-align: center;
+            overflow: hidden;
+            .numD51{
+                display: flex;
+                flex-direction: column;
+                line-height: 40px;
+            }
+            .numD51A{//steps(1) lo hace como segundo
+                animation: numD51A 10000s steps(1) infinite;
+            }
+            .numD51B{
+                animation: numD51A 1000s steps(1) infinite;
+            }
+            .numD51C{
+                animation: numD51A 100s steps(1) infinite;
+            }
+            .numD51D{
+                animation: numD51A 10s steps(1) infinite;
+            }
+        }
+        .button{
+        width: 25px;
+        height: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+        border: none;
+        z-index: 20;
+            #playD51{
+                transform-origin: 50% 50%;
+                transform: scale(0);
+                fill: #fff;
+                transition: all 1s ease;
+                position: absolute;
+            }
+            .pauseD51{
+                position: absolute;
+                transform-origin: 50% 50%;
+                transform: scale(1);
+                stroke-width: 5px;
+                stroke-linecap: round;
+                stroke: #fff;
+                transition: all 1s ease;
+            }
+        } 
+    }
+}
+@keyframes numD51A{
+    @for $i from 0 through 9{
+        #{$i}0%{
+            transform: translateY(($i * -40) + px);
+        }
+    }
+}
+
+//usaremos mas el input para hacer esto mismo o similar

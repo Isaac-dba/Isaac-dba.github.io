@@ -5,7 +5,7 @@ const section = document.querySelectorAll("#section-days article");
 const spanNum = document.getElementById("days-number");
 
 //funcionalidad
-let currentId = 49;
+let currentId = 50;
 function showArticle(index){
     section.forEach((article, i) => {
         article.classList.toggle("active", i === index);
@@ -3236,4 +3236,8 @@ $(document).ready(function(){
         })
     })
 
+    //Day 51
+    $(".days-51 form").on("submit", (e) => {
+        e.preventDefault();
+    })
 })
