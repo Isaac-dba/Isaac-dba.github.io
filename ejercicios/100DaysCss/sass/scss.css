@@ -2351,6 +2351,5291 @@
     transform: translateY(-360px);
   }
 }
+.days-52 {
+  background-color: #1ab86e;
+}
+.days-52 .contentD52 {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.days-52 .contentD52 .ringD521 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.days-52 .contentD52 .ringD521 .bolt-1 {
+  transform-origin: 25px 25px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(0deg);
+  animation: widthHeightD52 4.5s 0.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD521 .bolt-2 {
+  transform-origin: 25px 25px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(18deg);
+  animation: widthHeightD52 4.5s 0.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD521 .bolt-3 {
+  transform-origin: 25px 25px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(36deg);
+  animation: widthHeightD52 4.5s 0.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD521 .bolt-4 {
+  transform-origin: 25px 25px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(54deg);
+  animation: widthHeightD52 4.5s 0.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD521 .bolt-5 {
+  transform-origin: 25px 25px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(72deg);
+  animation: widthHeightD52 4.5s 0.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD521 .bolt-6 {
+  transform-origin: 25px 25px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(90deg);
+  animation: widthHeightD52 4.5s 0.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD521 .bolt-7 {
+  transform-origin: 25px 25px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(108deg);
+  animation: widthHeightD52 4.5s 0.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD521 .bolt-8 {
+  transform-origin: 25px 25px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(126deg);
+  animation: widthHeightD52 4.5s 0.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD521 .bolt-9 {
+  transform-origin: 25px 25px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(144deg);
+  animation: widthHeightD52 4.5s 0.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD521 .bolt-10 {
+  transform-origin: 25px 25px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(162deg);
+  animation: widthHeightD52 4.5s 0.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD521 .bolt-11 {
+  transform-origin: 25px 25px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(180deg);
+  animation: widthHeightD52 4.5s 0.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD521 .bolt-12 {
+  transform-origin: 25px 25px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(198deg);
+  animation: widthHeightD52 4.5s 0.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD521 .bolt-13 {
+  transform-origin: 25px 25px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(216deg);
+  animation: widthHeightD52 4.5s 0.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD521 .bolt-14 {
+  transform-origin: 25px 25px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(234deg);
+  animation: widthHeightD52 4.5s 0.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD521 .bolt-15 {
+  transform-origin: 25px 25px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(252deg);
+  animation: widthHeightD52 4.5s 0.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD521 .bolt-16 {
+  transform-origin: 25px 25px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(270deg);
+  animation: widthHeightD52 4.5s 0.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD521 .bolt-17 {
+  transform-origin: 25px 25px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(288deg);
+  animation: widthHeightD52 4.5s 0.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD521 .bolt-18 {
+  transform-origin: 25px 25px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(306deg);
+  animation: widthHeightD52 4.5s 0.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD521 .bolt-19 {
+  transform-origin: 25px 25px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(324deg);
+  animation: widthHeightD52 4.5s 0.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD521 .bolt-20 {
+  transform-origin: 25px 25px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(342deg);
+  animation: widthHeightD52 4.5s 0.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD522 {
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+}
+.days-52 .contentD52 .ringD522 .bolt-1 {
+  transform-origin: 32.5px 32.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(0deg);
+  animation: widthHeightD52 4.5s 0.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD522 .bolt-2 {
+  transform-origin: 32.5px 32.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(12deg);
+  animation: widthHeightD52 4.5s 0.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD522 .bolt-3 {
+  transform-origin: 32.5px 32.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(24deg);
+  animation: widthHeightD52 4.5s 0.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD522 .bolt-4 {
+  transform-origin: 32.5px 32.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(36deg);
+  animation: widthHeightD52 4.5s 0.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD522 .bolt-5 {
+  transform-origin: 32.5px 32.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(48deg);
+  animation: widthHeightD52 4.5s 0.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD522 .bolt-6 {
+  transform-origin: 32.5px 32.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(60deg);
+  animation: widthHeightD52 4.5s 0.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD522 .bolt-7 {
+  transform-origin: 32.5px 32.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(72deg);
+  animation: widthHeightD52 4.5s 0.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD522 .bolt-8 {
+  transform-origin: 32.5px 32.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(84deg);
+  animation: widthHeightD52 4.5s 0.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD522 .bolt-9 {
+  transform-origin: 32.5px 32.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(96deg);
+  animation: widthHeightD52 4.5s 0.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD522 .bolt-10 {
+  transform-origin: 32.5px 32.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(108deg);
+  animation: widthHeightD52 4.5s 0.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD522 .bolt-11 {
+  transform-origin: 32.5px 32.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(120deg);
+  animation: widthHeightD52 4.5s 0.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD522 .bolt-12 {
+  transform-origin: 32.5px 32.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(132deg);
+  animation: widthHeightD52 4.5s 0.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD522 .bolt-13 {
+  transform-origin: 32.5px 32.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(144deg);
+  animation: widthHeightD52 4.5s 0.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD522 .bolt-14 {
+  transform-origin: 32.5px 32.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(156deg);
+  animation: widthHeightD52 4.5s 0.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD522 .bolt-15 {
+  transform-origin: 32.5px 32.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(168deg);
+  animation: widthHeightD52 4.5s 0.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD522 .bolt-16 {
+  transform-origin: 32.5px 32.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(180deg);
+  animation: widthHeightD52 4.5s 0.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD522 .bolt-17 {
+  transform-origin: 32.5px 32.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(192deg);
+  animation: widthHeightD52 4.5s 0.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD522 .bolt-18 {
+  transform-origin: 32.5px 32.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(204deg);
+  animation: widthHeightD52 4.5s 0.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD522 .bolt-19 {
+  transform-origin: 32.5px 32.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(216deg);
+  animation: widthHeightD52 4.5s 0.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD522 .bolt-20 {
+  transform-origin: 32.5px 32.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(228deg);
+  animation: widthHeightD52 4.5s 0.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD522 .bolt-21 {
+  transform-origin: 32.5px 32.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(240deg);
+  animation: widthHeightD52 4.5s 0.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD522 .bolt-22 {
+  transform-origin: 32.5px 32.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(252deg);
+  animation: widthHeightD52 4.5s 0.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD522 .bolt-23 {
+  transform-origin: 32.5px 32.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(264deg);
+  animation: widthHeightD52 4.5s 0.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD522 .bolt-24 {
+  transform-origin: 32.5px 32.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(276deg);
+  animation: widthHeightD52 4.5s 0.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD522 .bolt-25 {
+  transform-origin: 32.5px 32.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(288deg);
+  animation: widthHeightD52 4.5s 0.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD522 .bolt-26 {
+  transform-origin: 32.5px 32.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(300deg);
+  animation: widthHeightD52 4.5s 0.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD522 .bolt-27 {
+  transform-origin: 32.5px 32.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(312deg);
+  animation: widthHeightD52 4.5s 0.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD522 .bolt-28 {
+  transform-origin: 32.5px 32.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(324deg);
+  animation: widthHeightD52 4.5s 0.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD522 .bolt-29 {
+  transform-origin: 32.5px 32.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(336deg);
+  animation: widthHeightD52 4.5s 0.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD522 .bolt-30 {
+  transform-origin: 32.5px 32.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(348deg);
+  animation: widthHeightD52 4.5s 0.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD523 {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.days-52 .contentD52 .ringD523 .bolt-1 {
+  transform-origin: 40px 40px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(0deg);
+  animation: widthHeightD52 4.5s 1.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD523 .bolt-2 {
+  transform-origin: 40px 40px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(9deg);
+  animation: widthHeightD52 4.5s 1.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD523 .bolt-3 {
+  transform-origin: 40px 40px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(18deg);
+  animation: widthHeightD52 4.5s 1.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD523 .bolt-4 {
+  transform-origin: 40px 40px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(27deg);
+  animation: widthHeightD52 4.5s 1.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD523 .bolt-5 {
+  transform-origin: 40px 40px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(36deg);
+  animation: widthHeightD52 4.5s 1.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD523 .bolt-6 {
+  transform-origin: 40px 40px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(45deg);
+  animation: widthHeightD52 4.5s 1.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD523 .bolt-7 {
+  transform-origin: 40px 40px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(54deg);
+  animation: widthHeightD52 4.5s 1.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD523 .bolt-8 {
+  transform-origin: 40px 40px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(63deg);
+  animation: widthHeightD52 4.5s 1.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD523 .bolt-9 {
+  transform-origin: 40px 40px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(72deg);
+  animation: widthHeightD52 4.5s 1.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD523 .bolt-10 {
+  transform-origin: 40px 40px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(81deg);
+  animation: widthHeightD52 4.5s 1.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD523 .bolt-11 {
+  transform-origin: 40px 40px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(90deg);
+  animation: widthHeightD52 4.5s 1.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD523 .bolt-12 {
+  transform-origin: 40px 40px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(99deg);
+  animation: widthHeightD52 4.5s 1.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD523 .bolt-13 {
+  transform-origin: 40px 40px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(108deg);
+  animation: widthHeightD52 4.5s 1.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD523 .bolt-14 {
+  transform-origin: 40px 40px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(117deg);
+  animation: widthHeightD52 4.5s 1.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD523 .bolt-15 {
+  transform-origin: 40px 40px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(126deg);
+  animation: widthHeightD52 4.5s 1.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD523 .bolt-16 {
+  transform-origin: 40px 40px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(135deg);
+  animation: widthHeightD52 4.5s 1.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD523 .bolt-17 {
+  transform-origin: 40px 40px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(144deg);
+  animation: widthHeightD52 4.5s 1.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD523 .bolt-18 {
+  transform-origin: 40px 40px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(153deg);
+  animation: widthHeightD52 4.5s 1.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD523 .bolt-19 {
+  transform-origin: 40px 40px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(162deg);
+  animation: widthHeightD52 4.5s 1.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD523 .bolt-20 {
+  transform-origin: 40px 40px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(171deg);
+  animation: widthHeightD52 4.5s 1.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD523 .bolt-21 {
+  transform-origin: 40px 40px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(180deg);
+  animation: widthHeightD52 4.5s 1.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD523 .bolt-22 {
+  transform-origin: 40px 40px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(189deg);
+  animation: widthHeightD52 4.5s 1.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD523 .bolt-23 {
+  transform-origin: 40px 40px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(198deg);
+  animation: widthHeightD52 4.5s 1.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD523 .bolt-24 {
+  transform-origin: 40px 40px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(207deg);
+  animation: widthHeightD52 4.5s 1.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD523 .bolt-25 {
+  transform-origin: 40px 40px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(216deg);
+  animation: widthHeightD52 4.5s 1.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD523 .bolt-26 {
+  transform-origin: 40px 40px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(225deg);
+  animation: widthHeightD52 4.5s 1.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD523 .bolt-27 {
+  transform-origin: 40px 40px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(234deg);
+  animation: widthHeightD52 4.5s 1.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD523 .bolt-28 {
+  transform-origin: 40px 40px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(243deg);
+  animation: widthHeightD52 4.5s 1.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD523 .bolt-29 {
+  transform-origin: 40px 40px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(252deg);
+  animation: widthHeightD52 4.5s 1.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD523 .bolt-30 {
+  transform-origin: 40px 40px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(261deg);
+  animation: widthHeightD52 4.5s 1.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD523 .bolt-31 {
+  transform-origin: 40px 40px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(270deg);
+  animation: widthHeightD52 4.5s 1.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD523 .bolt-32 {
+  transform-origin: 40px 40px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(279deg);
+  animation: widthHeightD52 4.5s 1.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD523 .bolt-33 {
+  transform-origin: 40px 40px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(288deg);
+  animation: widthHeightD52 4.5s 1.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD523 .bolt-34 {
+  transform-origin: 40px 40px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(297deg);
+  animation: widthHeightD52 4.5s 1.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD523 .bolt-35 {
+  transform-origin: 40px 40px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(306deg);
+  animation: widthHeightD52 4.5s 1.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD523 .bolt-36 {
+  transform-origin: 40px 40px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(315deg);
+  animation: widthHeightD52 4.5s 1.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD523 .bolt-37 {
+  transform-origin: 40px 40px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(324deg);
+  animation: widthHeightD52 4.5s 1.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD523 .bolt-38 {
+  transform-origin: 40px 40px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(333deg);
+  animation: widthHeightD52 4.5s 1.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD523 .bolt-39 {
+  transform-origin: 40px 40px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(342deg);
+  animation: widthHeightD52 4.5s 1.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD523 .bolt-40 {
+  transform-origin: 40px 40px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(351deg);
+  animation: widthHeightD52 4.5s 1.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD524 {
+  position: absolute;
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+}
+.days-52 .contentD52 .ringD524 .bolt-1 {
+  transform-origin: 47.5px 47.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(0deg);
+  animation: widthHeightD52 4.5s 1.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD524 .bolt-2 {
+  transform-origin: 47.5px 47.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(7.2deg);
+  animation: widthHeightD52 4.5s 1.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD524 .bolt-3 {
+  transform-origin: 47.5px 47.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(14.4deg);
+  animation: widthHeightD52 4.5s 1.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD524 .bolt-4 {
+  transform-origin: 47.5px 47.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(21.6deg);
+  animation: widthHeightD52 4.5s 1.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD524 .bolt-5 {
+  transform-origin: 47.5px 47.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(28.8deg);
+  animation: widthHeightD52 4.5s 1.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD524 .bolt-6 {
+  transform-origin: 47.5px 47.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(36deg);
+  animation: widthHeightD52 4.5s 1.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD524 .bolt-7 {
+  transform-origin: 47.5px 47.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(43.2deg);
+  animation: widthHeightD52 4.5s 1.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD524 .bolt-8 {
+  transform-origin: 47.5px 47.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(50.4deg);
+  animation: widthHeightD52 4.5s 1.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD524 .bolt-9 {
+  transform-origin: 47.5px 47.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(57.6deg);
+  animation: widthHeightD52 4.5s 1.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD524 .bolt-10 {
+  transform-origin: 47.5px 47.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(64.8deg);
+  animation: widthHeightD52 4.5s 1.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD524 .bolt-11 {
+  transform-origin: 47.5px 47.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(72deg);
+  animation: widthHeightD52 4.5s 1.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD524 .bolt-12 {
+  transform-origin: 47.5px 47.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(79.2deg);
+  animation: widthHeightD52 4.5s 1.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD524 .bolt-13 {
+  transform-origin: 47.5px 47.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(86.4deg);
+  animation: widthHeightD52 4.5s 1.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD524 .bolt-14 {
+  transform-origin: 47.5px 47.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(93.6deg);
+  animation: widthHeightD52 4.5s 1.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD524 .bolt-15 {
+  transform-origin: 47.5px 47.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(100.8deg);
+  animation: widthHeightD52 4.5s 1.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD524 .bolt-16 {
+  transform-origin: 47.5px 47.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(108deg);
+  animation: widthHeightD52 4.5s 1.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD524 .bolt-17 {
+  transform-origin: 47.5px 47.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(115.2deg);
+  animation: widthHeightD52 4.5s 1.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD524 .bolt-18 {
+  transform-origin: 47.5px 47.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(122.4deg);
+  animation: widthHeightD52 4.5s 1.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD524 .bolt-19 {
+  transform-origin: 47.5px 47.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(129.6deg);
+  animation: widthHeightD52 4.5s 1.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD524 .bolt-20 {
+  transform-origin: 47.5px 47.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(136.8deg);
+  animation: widthHeightD52 4.5s 1.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD524 .bolt-21 {
+  transform-origin: 47.5px 47.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(144deg);
+  animation: widthHeightD52 4.5s 1.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD524 .bolt-22 {
+  transform-origin: 47.5px 47.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(151.2deg);
+  animation: widthHeightD52 4.5s 1.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD524 .bolt-23 {
+  transform-origin: 47.5px 47.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(158.4deg);
+  animation: widthHeightD52 4.5s 1.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD524 .bolt-24 {
+  transform-origin: 47.5px 47.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(165.6deg);
+  animation: widthHeightD52 4.5s 1.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD524 .bolt-25 {
+  transform-origin: 47.5px 47.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(172.8deg);
+  animation: widthHeightD52 4.5s 1.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD524 .bolt-26 {
+  transform-origin: 47.5px 47.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(180deg);
+  animation: widthHeightD52 4.5s 1.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD524 .bolt-27 {
+  transform-origin: 47.5px 47.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(187.2deg);
+  animation: widthHeightD52 4.5s 1.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD524 .bolt-28 {
+  transform-origin: 47.5px 47.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(194.4deg);
+  animation: widthHeightD52 4.5s 1.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD524 .bolt-29 {
+  transform-origin: 47.5px 47.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(201.6deg);
+  animation: widthHeightD52 4.5s 1.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD524 .bolt-30 {
+  transform-origin: 47.5px 47.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(208.8deg);
+  animation: widthHeightD52 4.5s 1.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD524 .bolt-31 {
+  transform-origin: 47.5px 47.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(216deg);
+  animation: widthHeightD52 4.5s 1.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD524 .bolt-32 {
+  transform-origin: 47.5px 47.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(223.2deg);
+  animation: widthHeightD52 4.5s 1.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD524 .bolt-33 {
+  transform-origin: 47.5px 47.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(230.4deg);
+  animation: widthHeightD52 4.5s 1.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD524 .bolt-34 {
+  transform-origin: 47.5px 47.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(237.6deg);
+  animation: widthHeightD52 4.5s 1.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD524 .bolt-35 {
+  transform-origin: 47.5px 47.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(244.8deg);
+  animation: widthHeightD52 4.5s 1.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD524 .bolt-36 {
+  transform-origin: 47.5px 47.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(252deg);
+  animation: widthHeightD52 4.5s 1.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD524 .bolt-37 {
+  transform-origin: 47.5px 47.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(259.2deg);
+  animation: widthHeightD52 4.5s 1.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD524 .bolt-38 {
+  transform-origin: 47.5px 47.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(266.4deg);
+  animation: widthHeightD52 4.5s 1.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD524 .bolt-39 {
+  transform-origin: 47.5px 47.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(273.6deg);
+  animation: widthHeightD52 4.5s 1.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD524 .bolt-40 {
+  transform-origin: 47.5px 47.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(280.8deg);
+  animation: widthHeightD52 4.5s 1.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD524 .bolt-41 {
+  transform-origin: 47.5px 47.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(288deg);
+  animation: widthHeightD52 4.5s 1.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD524 .bolt-42 {
+  transform-origin: 47.5px 47.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(295.2deg);
+  animation: widthHeightD52 4.5s 1.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD524 .bolt-43 {
+  transform-origin: 47.5px 47.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(302.4deg);
+  animation: widthHeightD52 4.5s 1.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD524 .bolt-44 {
+  transform-origin: 47.5px 47.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(309.6deg);
+  animation: widthHeightD52 4.5s 1.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD524 .bolt-45 {
+  transform-origin: 47.5px 47.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(316.8deg);
+  animation: widthHeightD52 4.5s 1.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD524 .bolt-46 {
+  transform-origin: 47.5px 47.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(324deg);
+  animation: widthHeightD52 4.5s 1.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD524 .bolt-47 {
+  transform-origin: 47.5px 47.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(331.2deg);
+  animation: widthHeightD52 4.5s 1.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD524 .bolt-48 {
+  transform-origin: 47.5px 47.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(338.4deg);
+  animation: widthHeightD52 4.5s 1.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD524 .bolt-49 {
+  transform-origin: 47.5px 47.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(345.6deg);
+  animation: widthHeightD52 4.5s 1.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD524 .bolt-50 {
+  transform-origin: 47.5px 47.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(352.8deg);
+  animation: widthHeightD52 4.5s 1.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 {
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+}
+.days-52 .contentD52 .ringD525 .bolt-1 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(0deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-2 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(6deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-3 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(12deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-4 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(18deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-5 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(24deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-6 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(30deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-7 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(36deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-8 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(42deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-9 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(48deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-10 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(54deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-11 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(60deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-12 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(66deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-13 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(72deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-14 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(78deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-15 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(84deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-16 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(90deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-17 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(96deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-18 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(102deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-19 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(108deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-20 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(114deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-21 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(120deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-22 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(126deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-23 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(132deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-24 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(138deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-25 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(144deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-26 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(150deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-27 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(156deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-28 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(162deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-29 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(168deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-30 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(174deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-31 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(180deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-32 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(186deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-33 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(192deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-34 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(198deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-35 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(204deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-36 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(210deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-37 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(216deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-38 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(222deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-39 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(228deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-40 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(234deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-41 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(240deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-42 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(246deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-43 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(252deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-44 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(258deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-45 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(264deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-46 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(270deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-47 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(276deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-48 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(282deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-49 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(288deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-50 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(294deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-51 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(300deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-52 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(306deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-53 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(312deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-54 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(318deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-55 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(324deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-56 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(330deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-57 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(336deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-58 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(342deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-59 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(348deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD525 .bolt-60 {
+  transform-origin: 55px 55px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(354deg);
+  animation: widthHeightD52 4.5s 2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 {
+  position: absolute;
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+}
+.days-52 .contentD52 .ringD526 .bolt-1 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(0deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-2 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(5.1428571429deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-3 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(10.2857142857deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-4 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(15.4285714286deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-5 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(20.5714285714deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-6 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(25.7142857143deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-7 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(30.8571428571deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-8 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(36deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-9 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(41.1428571429deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-10 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(46.2857142857deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-11 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(51.4285714286deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-12 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(56.5714285714deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-13 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(61.7142857143deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-14 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(66.8571428571deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-15 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(72deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-16 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(77.1428571429deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-17 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(82.2857142857deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-18 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(87.4285714286deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-19 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(92.5714285714deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-20 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(97.7142857143deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-21 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(102.8571428571deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-22 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(108deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-23 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(113.1428571429deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-24 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(118.2857142857deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-25 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(123.4285714286deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-26 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(128.5714285714deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-27 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(133.7142857143deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-28 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(138.8571428571deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-29 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(144deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-30 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(149.1428571429deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-31 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(154.2857142857deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-32 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(159.4285714286deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-33 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(164.5714285714deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-34 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(169.7142857143deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-35 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(174.8571428571deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-36 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(180deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-37 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(185.1428571429deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-38 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(190.2857142857deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-39 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(195.4285714286deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-40 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(200.5714285714deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-41 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(205.7142857143deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-42 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(210.8571428571deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-43 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(216deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-44 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(221.1428571429deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-45 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(226.2857142857deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-46 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(231.4285714286deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-47 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(236.5714285714deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-48 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(241.7142857143deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-49 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(246.8571428571deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-50 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(252deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-51 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(257.1428571429deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-52 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(262.2857142857deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-53 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(267.4285714286deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-54 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(272.5714285714deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-55 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(277.7142857143deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-56 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(282.8571428571deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-57 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(288deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-58 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(293.1428571429deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-59 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(298.2857142857deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-60 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(303.4285714286deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-61 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(308.5714285714deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-62 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(313.7142857143deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-63 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(318.8571428571deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-64 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(324deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-65 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(329.1428571429deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-66 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(334.2857142857deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-67 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(339.4285714286deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-68 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(344.5714285714deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-69 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(349.7142857143deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD526 .bolt-70 {
+  transform-origin: 62.5px 62.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(354.8571428571deg);
+  animation: widthHeightD52 4.5s 2.4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+}
+.days-52 .contentD52 .ringD527 .bolt-1 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(0deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-2 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(4.5deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-3 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(9deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-4 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(13.5deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-5 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(18deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-6 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(22.5deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-7 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(27deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-8 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(31.5deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-9 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(36deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-10 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(40.5deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-11 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(45deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-12 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(49.5deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-13 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(54deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-14 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(58.5deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-15 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(63deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-16 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(67.5deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-17 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(72deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-18 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(76.5deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-19 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(81deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-20 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(85.5deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-21 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(90deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-22 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(94.5deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-23 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(99deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-24 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(103.5deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-25 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(108deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-26 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(112.5deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-27 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(117deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-28 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(121.5deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-29 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(126deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-30 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(130.5deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-31 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(135deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-32 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(139.5deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-33 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(144deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-34 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(148.5deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-35 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(153deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-36 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(157.5deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-37 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(162deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-38 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(166.5deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-39 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(171deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-40 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(175.5deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-41 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(180deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-42 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(184.5deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-43 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(189deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-44 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(193.5deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-45 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(198deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-46 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(202.5deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-47 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(207deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-48 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(211.5deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-49 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(216deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-50 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(220.5deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-51 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(225deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-52 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(229.5deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-53 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(234deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-54 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(238.5deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-55 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(243deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-56 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(247.5deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-57 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(252deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-58 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(256.5deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-59 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(261deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-60 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(265.5deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-61 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(270deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-62 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(274.5deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-63 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(279deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-64 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(283.5deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-65 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(288deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-66 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(292.5deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-67 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(297deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-68 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(301.5deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-69 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(306deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-70 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(310.5deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-71 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(315deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-72 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(319.5deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-73 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(324deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-74 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(328.5deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-75 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(333deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-76 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(337.5deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-77 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(342deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-78 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(346.5deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-79 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(351deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD527 .bolt-80 {
+  transform-origin: 70px 70px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(355.5deg);
+  animation: widthHeightD52 4.5s 2.8s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 {
+  position: absolute;
+  width: 155px;
+  height: 155px;
+  border-radius: 50%;
+}
+.days-52 .contentD52 .ringD528 .bolt-1 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(0deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-2 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(4deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-3 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(8deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-4 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(12deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-5 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(16deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-6 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(20deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-7 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(24deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-8 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(28deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-9 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(32deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-10 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(36deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-11 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(40deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-12 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(44deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-13 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(48deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-14 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(52deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-15 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(56deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-16 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(60deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-17 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(64deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-18 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(68deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-19 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(72deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-20 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(76deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-21 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(80deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-22 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(84deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-23 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(88deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-24 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(92deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-25 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(96deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-26 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(100deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-27 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(104deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-28 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(108deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-29 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(112deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-30 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(116deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-31 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(120deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-32 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(124deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-33 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(128deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-34 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(132deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-35 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(136deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-36 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(140deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-37 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(144deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-38 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(148deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-39 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(152deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-40 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(156deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-41 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(160deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-42 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(164deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-43 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(168deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-44 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(172deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-45 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(176deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-46 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(180deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-47 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(184deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-48 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(188deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-49 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(192deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-50 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(196deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-51 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(200deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-52 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(204deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-53 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(208deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-54 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(212deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-55 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(216deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-56 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(220deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-57 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(224deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-58 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(228deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-59 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(232deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-60 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(236deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-61 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(240deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-62 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(244deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-63 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(248deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-64 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(252deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-65 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(256deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-66 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(260deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-67 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(264deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-68 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(268deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-69 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(272deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-70 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(276deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-71 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(280deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-72 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(284deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-73 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(288deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-74 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(292deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-75 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(296deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-76 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(300deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-77 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(304deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-78 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(308deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-79 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(312deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-80 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(316deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-81 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(320deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-82 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(324deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-83 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(328deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-84 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(332deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-85 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(336deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-86 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(340deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-87 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(344deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-88 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(348deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-89 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(352deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD528 .bolt-90 {
+  transform-origin: 77.5px 77.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(356deg);
+  animation: widthHeightD52 4.5s 3.2s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 {
+  position: absolute;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+}
+.days-52 .contentD52 .ringD529 .bolt-1 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(0deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-2 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(3.6deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-3 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(7.2deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-4 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(10.8deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-5 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(14.4deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-6 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(18deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-7 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(21.6deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-8 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(25.2deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-9 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(28.8deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-10 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(32.4deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-11 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(36deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-12 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(39.6deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-13 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(43.2deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-14 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(46.8deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-15 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(50.4deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-16 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(54deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-17 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(57.6deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-18 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(61.2deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-19 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(64.8deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-20 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(68.4deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-21 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(72deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-22 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(75.6deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-23 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(79.2deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-24 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(82.8deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-25 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(86.4deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-26 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(90deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-27 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(93.6deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-28 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(97.2deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-29 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(100.8deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-30 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(104.4deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-31 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(108deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-32 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(111.6deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-33 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(115.2deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-34 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(118.8deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-35 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(122.4deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-36 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(126deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-37 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(129.6deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-38 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(133.2deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-39 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(136.8deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-40 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(140.4deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-41 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(144deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-42 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(147.6deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-43 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(151.2deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-44 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(154.8deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-45 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(158.4deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-46 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(162deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-47 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(165.6deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-48 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(169.2deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-49 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(172.8deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-50 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(176.4deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-51 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(180deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-52 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(183.6deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-53 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(187.2deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-54 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(190.8deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-55 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(194.4deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-56 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(198deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-57 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(201.6deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-58 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(205.2deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-59 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(208.8deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-60 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(212.4deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-61 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(216deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-62 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(219.6deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-63 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(223.2deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-64 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(226.8deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-65 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(230.4deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-66 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(234deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-67 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(237.6deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-68 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(241.2deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-69 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(244.8deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-70 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(248.4deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-71 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(252deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-72 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(255.6deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-73 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(259.2deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-74 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(262.8deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-75 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(266.4deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-76 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(270deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-77 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(273.6deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-78 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(277.2deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-79 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(280.8deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-80 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(284.4deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-81 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(288deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-82 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(291.6deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-83 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(295.2deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-84 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(298.8deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-85 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(302.4deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-86 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(306deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-87 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(309.6deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-88 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(313.2deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-89 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(316.8deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-90 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(320.4deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-91 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(324deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-92 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(327.6deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-93 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(331.2deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-94 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(334.8deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-95 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(338.4deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-96 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(342deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-97 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(345.6deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-98 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(349.2deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-99 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(352.8deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD529 .bolt-100 {
+  transform-origin: 85px 85px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(356.4deg);
+  animation: widthHeightD52 4.5s 3.6s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 {
+  position: absolute;
+  width: 185px;
+  height: 185px;
+  border-radius: 50%;
+}
+.days-52 .contentD52 .ringD5210 .bolt-1 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(0deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-2 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(3.2727272727deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-3 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(6.5454545455deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-4 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(9.8181818182deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-5 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(13.0909090909deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-6 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(16.3636363636deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-7 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(19.6363636364deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-8 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(22.9090909091deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-9 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(26.1818181818deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-10 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(29.4545454545deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-11 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(32.7272727273deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-12 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(36deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-13 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(39.2727272727deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-14 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(42.5454545455deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-15 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(45.8181818182deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-16 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(49.0909090909deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-17 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(52.3636363636deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-18 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(55.6363636364deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-19 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(58.9090909091deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-20 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(62.1818181818deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-21 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(65.4545454545deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-22 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(68.7272727273deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-23 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(72deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-24 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(75.2727272727deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-25 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(78.5454545455deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-26 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(81.8181818182deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-27 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(85.0909090909deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-28 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(88.3636363636deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-29 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(91.6363636364deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-30 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(94.9090909091deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-31 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(98.1818181818deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-32 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(101.4545454545deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-33 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(104.7272727273deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-34 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(108deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-35 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(111.2727272727deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-36 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(114.5454545455deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-37 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(117.8181818182deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-38 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(121.0909090909deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-39 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(124.3636363636deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-40 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(127.6363636364deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-41 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(130.9090909091deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-42 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(134.1818181818deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-43 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(137.4545454545deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-44 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(140.7272727273deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-45 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(144deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-46 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(147.2727272727deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-47 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(150.5454545455deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-48 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(153.8181818182deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-49 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(157.0909090909deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-50 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(160.3636363636deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-51 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(163.6363636364deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-52 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(166.9090909091deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-53 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(170.1818181818deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-54 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(173.4545454545deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-55 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(176.7272727273deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-56 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(180deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-57 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(183.2727272727deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-58 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(186.5454545455deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-59 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(189.8181818182deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-60 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(193.0909090909deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-61 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(196.3636363636deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-62 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(199.6363636364deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-63 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(202.9090909091deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-64 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(206.1818181818deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-65 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(209.4545454545deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-66 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(212.7272727273deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-67 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(216deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-68 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(219.2727272727deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-69 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(222.5454545455deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-70 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(225.8181818182deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-71 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(229.0909090909deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-72 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(232.3636363636deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-73 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(235.6363636364deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-74 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(238.9090909091deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-75 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(242.1818181818deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-76 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(245.4545454545deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-77 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(248.7272727273deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-78 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(252deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-79 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(255.2727272727deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-80 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(258.5454545455deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-81 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(261.8181818182deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-82 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(265.0909090909deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-83 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(268.3636363636deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-84 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(271.6363636364deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-85 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(274.9090909091deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-86 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(278.1818181818deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-87 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(281.4545454545deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-88 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(284.7272727273deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-89 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(288deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-90 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(291.2727272727deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-91 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(294.5454545455deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-92 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(297.8181818182deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-93 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(301.0909090909deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-94 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(304.3636363636deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-95 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(307.6363636364deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-96 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(310.9090909091deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-97 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(314.1818181818deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-98 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(317.4545454545deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-99 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(320.7272727273deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-100 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(324deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-101 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(327.2727272727deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-102 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(330.5454545455deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-103 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(333.8181818182deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-104 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(337.0909090909deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-105 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(340.3636363636deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-106 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(343.6363636364deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-107 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(346.9090909091deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-108 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(350.1818181818deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-109 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(353.4545454545deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+.days-52 .contentD52 .ringD5210 .bolt-110 {
+  transform-origin: 92.5px 92.5px;
+  position: absolute;
+  background-color: #ececec;
+  border-radius: 50%;
+  transform: translate3d(0px, 0px, 0) rotate(356.7272727273deg);
+  animation: widthHeightD52 4.5s 4s ease-in-out infinite;
+}
+
+@keyframes widthHeightD52 {
+  0% {
+    width: 0px;
+    height: 0px;
+  }
+  50% {
+    width: 5px;
+    height: 5px;
+  }
+  100% {
+    width: 0px;
+    height: 0px;
+  }
+}
 .days-21 {
   background-color: #2c2e2e;
   overflow: hidden;

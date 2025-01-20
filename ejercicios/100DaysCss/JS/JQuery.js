@@ -5,7 +5,7 @@ const section = document.querySelectorAll("#section-days article");
 const spanNum = document.getElementById("days-number");
 
 //funcionalidad
-let currentId = 50;
+let currentId = 51;
 function showArticle(index){
     section.forEach((article, i) => {
         article.classList.toggle("active", i === index);
@@ -3239,5 +3239,21 @@ $(document).ready(function(){
     //Day 51
     $(".days-51 form").on("submit", (e) => {
         e.preventDefault();
-    })
-})
+    });
+
+    //Days 52
+    //inyectar html
+    for(let i = 1; i <= 10; i++){
+        $(".days-52 .contentD52").append(`
+            <div class="ringD52${i}"></div>
+        `);
+        // prueba (bien)
+        let numBoltD52 = (i * 10) + 10;
+        // console.log(numBoltD52);
+        for(let j = 1; j <= numBoltD52; j++){
+            $(`.ringD52${i}`).append(`
+                <span class="bolt-${j}"></span>
+            `);
+        }
+    };
+});

@@ -1,0 +1,57 @@
+@mixin boltD52($numBolts, $i){
+    position: absolute;
+    // width: 5px;
+    // height: 5px;
+    background-color: #ececec;
+    border-radius: 50%;
+    $nullBase: $i - 1;
+    $angle: 360 / $numBolts;
+    $deg: ($nullBase * $angle) + deg;
+    transform: translate3d(0px,0px,0) rotate($deg);
+}
+.days-52{
+    background-color: #1ab86e;
+    .contentD52{
+        width: 300px;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @for $i from 1 through 10{
+            .ringD52#{$i}{
+                //variables
+                $widthD52 : 35px + ($i * 15);
+                $heightD52 : 35px + ($i * 15);
+                //
+                position: absolute;
+                width: $widthD52;
+                height: $heightD52;
+                border-radius: 50%;
+                //variables para el for
+                $countBolts: ($i * 10) + 10;
+                @for $j from 1 through $countBolts{
+                    .bolt-#{$j}{
+                        transform-origin: $widthD52/2 $heightD52/2;
+                        @include boltD52($countBolts, $j);
+                        animation: widthHeightD52 4.5s #{$i* 0.4}s ease-in-out infinite;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@keyframes widthHeightD52{
+    0%{
+        width: 0px;
+        height: 0px;
+    }
+    50%{
+        width: 5px;
+        height: 5px;
+    }
+    100%{
+        width: 0px;
+        height: 0px;
+    }
+}
