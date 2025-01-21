@@ -1,0 +1,43 @@
+.days-54{
+    background-color: #293947;
+    overflow: hidden;
+    .contentD54{
+        width: 300px;
+        height: 300px;
+        transform: scaleX(1.3);
+        .olaD540{
+            fill: #7fbbdd;
+        }
+        .olaD541{
+            fill: #276386;
+        }
+        .olaD542{
+            fill: #538eb1;
+        }
+        //bucle para animation
+        
+        @for $i from 0 through 2{
+            //variables
+            $timeAnimation: calc(($i + 1) * 10) / 2;
+            .olaD54#{$i}{
+                animation: olaD54#{$i} $timeAnimation + s ease-in-out infinite;
+            }
+        }
+    }
+}
+@for $i from 0 through 2{
+    //variables
+    $positionY: -69px;
+    @keyframes olaD54#{$i} {
+        0%{
+            transform: translateX(-30px) translateY(calc($i * $positionY));
+        }
+        50%{
+            transform: translateX(30px) translateY(calc($i * $positionY));
+        }
+        100%{
+            transform: translateX(-30px) translateY(calc($i * $positionY));
+        }
+    }
+}
+

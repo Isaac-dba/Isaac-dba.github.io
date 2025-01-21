@@ -3,7 +3,7 @@ $numberOfRings: 6; //
 $numberOfDots: 12; //
 $radius: 100;
 $dotsPerCircle: 12;
-$angle: 360 / $dotsPerCircle;
+$angle: calc(360 / $dotsPerCircle);
 
 .days-46{
     box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.3);
@@ -41,7 +41,7 @@ $angle: 360 / $dotsPerCircle;
 		animation: inOut-#{$i} 6s ease-in-out alternate infinite;
 		//opacity auto
 		.circle {
-			opacity: (1 - ($nullBase / 10) );
+			opacity: (1 - calc($nullBase / 10) );
 		}
 	}	
 }
@@ -60,10 +60,10 @@ $angle: 360 / $dotsPerCircle;
 	@keyframes inOut-#{$i} {
 		$nullBase: $i - 1;
 		0% {
-			transform: scale(1 - ($nullBase / 7)) rotate( ($nullBase*5) + deg );
+			transform: scale(1 - calc($nullBase / 7)) rotate( ($nullBase*5) + deg );
 		}
 		100% {
-			transform: scale(1 - ($nullBase / 22)) rotate( ( ($nullBase*10) + 360) + deg);
+			transform: scale(1 - calc($nullBase / 22)) rotate( ( ($nullBase*10) + 360) + deg);
 		}
 	}
 }

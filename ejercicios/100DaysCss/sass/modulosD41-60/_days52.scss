@@ -5,7 +5,7 @@
     background-color: #ececec;
     border-radius: 50%;
     $nullBase: $i - 1;
-    $angle: 360 / $numBolts;
+    $angle: calc(360 / $numBolts);
     $deg: ($nullBase * $angle) + deg;
     transform: translate3d(0px,0px,0) rotate($deg);
 }
@@ -31,7 +31,8 @@
                 $countBolts: ($i * 10) + 10;
                 @for $j from 1 through $countBolts{
                     .bolt-#{$j}{
-                        transform-origin: $widthD52/2 $heightD52/2;
+                        // transform-origin: $widthD52/2 $heightD52/2;
+                        transform-origin: calc($widthD52/2) calc($heightD52/2);
                         @include boltD52($countBolts, $j);
                         animation: widthHeightD52 4.5s #{$i* 0.4}s ease-in-out infinite;
                     }
