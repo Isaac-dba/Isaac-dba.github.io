@@ -7636,6 +7636,55 @@
     height: 0px;
   }
 }
+.days-53 {
+  background-color: rgba(23, 51, 77, 0.7411764706);
+}
+.days-53 .contentD53 {
+  background-color: #fff;
+  width: 200px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 2px 10px 1px rgba(0, 0, 0, 0.6666666667);
+  border-radius: 5px;
+}
+.days-53 .contentD53 #rangeD53 {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 90%;
+  background-color: #5fcf2a;
+  height: 4px;
+  border-radius: 10px;
+  box-shadow: -1px -1px 1px 1px #e4e4e4;
+  position: relative;
+}
+.days-53 .contentD53 ::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: white url(https://100dayscss.com/codepen/slider-thumb.png) center center no-repeat;
+  background-size: 50% 50%;
+  border: solid 2px #38d418;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.days-53 .contentD53 ::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border: solid 2px black;
+  cursor: pointer;
+}
+.days-53 .contentD53 ::-ms-thumb {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border: solid 2px black;
+  cursor: pointer;
+}
+
 .days-21 {
   background-color: #2c2e2e;
   overflow: hidden;
