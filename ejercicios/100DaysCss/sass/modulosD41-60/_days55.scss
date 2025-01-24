@@ -1,0 +1,125 @@
+.days-55{
+    background-color: #2B4147;
+    .outerCircleD55{
+        z-index: 10;
+        cursor: pointer;
+        width: 200px;
+        height: 200px;
+        background-color: #f2f2f2;
+        border-radius: 50%;
+        position: relative;
+        box-shadow: 0 0 10px 0 #292929;
+        .svgD55{
+            fill: none;  
+            transform: rotate(180deg);
+            border-radius: 50%;
+            circle{
+                stroke: url("#linearGradientD55");
+                stroke-width: 20px;
+                stroke-dashoffset: 0;
+                stroke-dasharray: 320 120;
+                opacity: 0.85;
+            }
+        }    
+        .contentTextD55{
+            position: absolute;
+            width: 140px;
+            height: 140px;
+            top: 15%;
+            left: 15%;
+            background-color: #ffffffbb;
+            border-radius: 50%;
+            box-shadow: 0px 0px 10px 0px #cfcccc;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 15px 0px 0px 0px;
+            overflow: hidden;
+            color: #cfcccc;
+            .temperD55{
+                font-size: 70px;
+                font-weight: 100;
+                width: 250px;
+                display: flex;
+                justify-content: space-around;
+                color: #7611b1e7;
+                transform: translateX(67.5px);
+                transition: transform 1s ease;
+                .n19D55{
+                    animation: opaScD55A2 1s  ease-in-out forwards;
+                }
+                .n20D55{
+                    animation: opaScD55A1 1s  ease-in-out forwards;
+                }
+                & span > span{
+                    font-size: 20px;
+                    position: relative;
+                    top: -35px;
+                }
+            }
+            .cityD55{
+                margin-top: -10px;
+            }
+            .tempActD55{
+                font-size: 20px;
+                margin-bottom: -10px;
+                margin-left: 10px;
+            }
+            .svgLineD55{
+                position: absolute;
+                border-radius: 50%;
+                width: 140px;
+                height: 140px;
+                transform: translateY(-15.5px);
+                transition: transform 1s ease;
+                line{
+                    stroke: #a5a5a5;
+                }
+            }
+        }
+        &:hover{
+            .contentTextD55 .temperD55{
+                transform: translateX(-55px);
+                transition: transform 1s ease;
+            }
+            .contentTextD55 .temperD55 .n20D55{
+                animation: opaScD55A2 1s  ease-in-out forwards;
+            }
+            .contentTextD55 .temperD55 .n19D55{
+                animation: opaScD55A1 1s  ease-in-out forwards;
+            }
+            & .svgLineD55{
+                transform: rotate(40deg) translateY(-12.5px) translateX(-12.5px);
+                transition: all 1s ease;
+            }
+        }
+    }   
+}
+@keyframes opaScD55A1 {
+    0%{
+        opacity: 1;
+        scale: 1;
+    }
+    50%{
+        opacity: 0;
+        scale: 0;
+    }
+    100%{
+        opacity: 0;
+        scale: 0;
+    }
+}
+@keyframes opaScD55A2 {
+    0%{
+        opacity: 0;
+        scale: 0;
+    }
+    99%{
+        opacity: 1;
+        scale: 1;
+    }
+    100%{
+        opacity: 1;
+        scale: 1;
+    }
+}
