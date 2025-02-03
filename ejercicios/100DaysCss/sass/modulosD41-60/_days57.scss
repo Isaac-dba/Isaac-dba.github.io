@@ -1,0 +1,123 @@
+.days-57{
+    background-color: #2d4258;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+    .contentD57{
+        position: absolute;
+        perspective: 1000px;
+        .icohedroD57{
+            transform-style: preserve-3d;
+            width: 80px;
+            height: 140px;
+            transform: rotateX(-40deg) rotateY(-40deg);
+            transition: all 3s ease-in-out;
+            &:hover{
+                transform: rotateX(-400deg) rotateY(-400deg);
+                & > .triangleD57{
+                    opacity: 0.4;
+                }
+            }
+            .triangleD57{
+                width: 0px;
+                height: 0px;
+                border-style: solid;
+                border-color: transparent transparent #eee transparent;
+                border-width: 0px 40px calc(40 * 1.732)+px 40px;
+                position: absolute;
+                transform-origin: 50% 100%;
+                transition: opacity 3s ease-in-out;
+            }
+            //obtener contenedores pares
+            @for $i from 1 through 6{
+                $id: $i* 2;
+                .triangleD57-#{$id}{
+                    border-color: transparent transparent #d6d6d6 transparent;
+                }
+            }
+            //variables 
+            $translate64: 64.6px;
+            $rotate90: 90deg;
+            $rotate159: 159.095deg;
+            $rotate20: 20.905deg;
+            $translate40: 40px;
+            .triangleD57-1{
+                transform: translateZ($translate64) rotateZ($rotate90) rotateX($rotate159);
+            }
+            .triangleD57-2{
+                transform: translateZ($translate64) rotateZ(-$rotate90) rotateX($rotate159);
+            }
+            .triangleD57-3{
+                transform: translateZ(-$translate64) rotateZ($rotate90) rotateX(-$rotate159);
+            }
+            .triangleD57-4{
+                transform: translateZ(-$translate64) rotate(-$rotate90) rotateX(-$rotate159);
+            }
+            .triangleD57-5{
+                transform: rotateY($rotate90) translateZ($translate64) rotateX($rotate20);
+            }
+            .triangleD57-6{
+                transform: rotateY($rotate90) translateZ($translate64) rotateX($rotate159);
+            }
+            .triangleD57-7{
+                transform: rotateY($rotate90) translateZ(-$translate64) rotateX(-$rotate20);
+            }
+            .triangleD57-8{
+                transform: rotateY($rotate90) translateZ(-$translate64) rotateX(-$rotate159);
+            }
+            .triangleD57-9{
+                transform: rotateX($rotate90) translateZ($translate64) rotateX($rotate20);
+                // background-color: brown;
+            }
+            .triangleD57-10{
+                transform: rotateX(-$rotate90) translateZ(-$translate64) rotateX(-$rotate20);
+            }
+            .triangleD57-11{
+                transform: rotateX($rotate90) translateZ(-$translate64) rotateX(-$rotate20);
+            }
+            .triangleD57-12{
+                transform: rotateX(-$rotate90) translateZ($translate64) rotateX($rotate20);
+            }
+            //cambiar border y color de triangulo
+            //para cambiar posicion del triangulo
+            @for $i from 13 through 20{
+                .triangleD57-#{$i}{
+                    border-width: calc(40 * 1.732)+px 40px 0px 40px;
+                    border-color: #fff transparent transparent transparent;
+                }
+            }
+            .triangleD57-13{
+                // background-color: gold;
+                transform: rotateX(-$rotate90) translateZ(-$translate64) translateX($translate40) 
+                rotateY(135deg) rotateX(35deg) rotateZ(-22.5deg);
+            }
+            .triangleD57-14{
+                transform: rotateX(-$rotate90) translateZ(-$translate64) translateX(-$translate40)
+                rotateX(-45deg) rotateY(-145deg) rotateZ(-8deg);
+            }
+            .triangleD57-15{
+                transform: rotateX($rotate90) translateZ($translate64) translateX($translate40)
+                rotateX(45deg) rotateY(35.905deg) rotateZ(-8deg);
+            }
+            .triangleD57-16{
+                transform: rotateX($rotate90) translateZ($translate64) translateX(-$translate40)
+                rotateX(45deg) rotateY(-35.905deg) rotateZ(8deg);
+            }
+            .triangleD57-17{
+                transform: rotateX($rotate90) translateZ(-$translate64) translateX($translate40)
+                rotateX(-45deg) rotateY(-35.905deg) rotateZ(-8deg);
+            }
+            .triangleD57-18{
+                transform: rotateX($rotate90) translateZ(-$translate64) translateX(-$translate40)
+                rotateX(-45deg) rotateY(35.905deg) rotateZ(8deg);
+            }
+            .triangleD57-19{
+                transform: rotateX(-$rotate90) translateZ($translate64) translateX($translate40)
+                rotateX(45deg) rotateY(35.905deg) rotateZ(-8deg);
+            }
+            .triangleD57-20{
+                transform: rotateX(-$rotate90) translateZ($translate64) translateX(-$translate40)
+                rotateX(45deg) rotateY(145deg) rotateZ(-8deg);
+            }
+        }
+    }
+}
+//entendido mas sobre transform
