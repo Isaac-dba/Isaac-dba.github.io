@@ -1,0 +1,278 @@
+.days-58{
+    background-color: #eb1313da;
+    .contentD58{
+        // background-color: red;
+        perspective: 1000px;
+        position: absolute;
+        //variables globales locales
+        $widtheightD58: 200px;
+        $translateZ: (8px, 16px, 24px, 32px, 40px, 48px, 56px, 64px, 72px);
+        $sizesD58: (200px, 195px, 185px, 175px, 160px, 140px, 115px, 85px, 50px);
+        $translateXY: (0px, 2.5px, 7.5px, 12.5px, 20px, 30px, 42.5px, 57.5px, 75px);
+        .sphere{
+            transform-style: preserve-3d;
+            transform: rotateX(75deg);
+            // border-radius: 50%;
+            width: $widtheightD58;
+            height: $widtheightD58;
+            transition: all 4s ease;
+            border-radius: 50%;
+            &:hover{
+                transform: rotateX(258deg);
+            }
+            animation: scaleD58 8s ease-in-out infinite;
+            .planeD58{
+                background-color: #fff;
+                width: $widtheightD58;
+                height: $widtheightD58;
+                position: absolute;
+                border-radius: 50%;
+                border: solid 3px #eb1313da;
+                background-color: #fff;
+                transform-origin: 50% 50%;
+            }
+            @for $i from 1 through 9{
+                    //variables locales
+                    $size: nth($sizesD58, $i);
+                    $gaps: nth($translateZ, $i);
+                    $translate: nth($translateXY, $i);
+                    .planeD58-#{$i}{
+                        width: $size;
+                        height: $size;
+                        transform: translateZ($gaps) translate($translate, $translate);
+                        animation: plane-#{$i} 8s ease infinite;
+                    }
+                    @keyframes plane-#{$i} {
+                        0%{
+                            transform: translateZ(0px) translate($translate, $translate);
+                            border-color: #fff;
+                        }
+                        10%{
+                            border-color: #fff;
+                            transform: translateZ(0px) translate($translate, $translate);
+                        }
+                        25%{
+                            border-color: #fff;
+                            transform: translateZ(0px) translate($translate, $translate);
+                        }
+                        30%{
+                            transform: translateZ($i * 10px) translate($translate, $translate);
+                            border-color: #eb1313da;
+                        }
+                        35%{
+                            transform: translateZ($gaps) translate($translate, $translate);
+                        }
+                        40%{
+                            transform: translateZ($i * 9px) translate($translate, $translate);
+                        }
+                        45%{
+                            transform: translateZ($gaps) translate($translate, $translate);
+                            border-color: #eb1313da;
+                        }
+                        55%{
+                            transform: translateZ($gaps) translate($translate, $translate);
+                            border-color: #eb1313da;
+                        }
+                        70%{
+                            border-color: #eb1313da;
+                        }
+                        79%{
+                            border-color: #eb1313da;
+                        }
+                        80%{
+                            transform: translateZ($i * 10px) translate($translate, $translate);
+                            border-color: #eb1313da;
+                        }
+                        85%{
+                            transform: translateZ(0px) translate($translate, $translate);
+                            border-color: #fff;
+                        }
+                        100%{
+                            transform: translateZ(0px) translate($translate, $translate);
+                            border-color: #fff;
+                        }
+                    }
+                }
+                //sacar para evitar que se mueva
+                .planeD58-10{
+                    width: 200px;
+                    height: 200px;
+                    transform: translateZ(0px) translate(0px, 0px);
+                }
+                
+                @for $i from 11 through 19{
+                //variables locales 
+                //ajustar id para las list variables
+                $id: $i - 10;
+                $size: nth($sizesD58, $id);
+                $gaps: nth($translateZ, $id);
+                $translate: nth($translateXY, $id);
+                .planeD58-#{$i}{
+                    width: $size;
+                    height: $size;
+                    transform: translateZ(-$gaps) translate($translate, $translate);  
+                    animation: plane-#{$i} 8s ease-in-out infinite; 
+                }
+                @keyframes plane-#{$i} {
+                    0%{
+                        transform: translateZ(0px) translate($translate, $translate);
+                        border-color: #fff;
+                    }
+                    10%{
+                        border-color: #fff;
+                        transform: translateZ(0px) translate($translate, $translate);
+                    }
+                    25%{
+                        border-color: #fff;
+                        transform: translateZ(0px) translate($translate, $translate);
+                    }
+                    30%{
+                        transform: translateZ(-$id * 10px) translate($translate, $translate);
+                        border-color: #eb1313da;
+                    }
+                    35%{
+                        transform: translateZ(-$gaps) translate($translate, $translate);
+                    }
+                    40%{
+                        transform: translateZ(-$id * 9px) translate($translate, $translate);
+                    }
+                    45%{
+                        transform: translateZ(-$gaps) translate($translate, $translate);
+                        border-color: #eb1313da;
+                    }
+                    55%{
+                        transform: translateZ(-$gaps) translate($translate, $translate);
+                        border-color: #eb1313da;
+                    }
+                    70%{
+                        border-color: #eb1313da;
+                    }
+                    79%{
+                        border-color: #eb1313da;
+                    }
+                    80%{
+                        transform: translateZ(-$id * 10px) translate($translate, $translate);
+                        border-color: #eb1313da;
+                    }
+                    85%{
+                        transform: translateZ(0px) translate($translate, $translate);
+                        border-color: #fff;
+                    }
+                    100%{
+                        transform: translateZ(0px) translate($translate, $translate);
+                        border-color: #fff;
+                    }
+                }
+            }   
+        }
+    }
+}
+//scale animation
+@keyframes scaleD58 {
+    0%{
+        scale: 0;
+    }
+    20%{
+        scale: 0;
+    }
+    22.5%{
+        scale: 1.2;
+    }
+    25%{
+        scale: 1;
+    }
+    27.5%{
+        scale: 1;
+    }
+    85%{
+        scale: 1;
+    }
+    90%{
+        scale: 1.1;
+    }
+    100%{
+        scale: 0;
+    }
+}
+
+
+//--Nota--
+//conclusion para  llegar a las variables.
+
+// informacion recolectado
+        // Variables Ejemplo
+        // $widthD58: 200px;
+        // $heightD58: 200px;
+        // $translateZ: (0px, 10px, 20px, 30px, 40px, 50px, 60px, 70px, 80px, 90px);
+        // $sizes: (200px, 200px, 195px, 185px, 175px, 160px, 140px, 115px, 85px, 50px);
+        // $translateXY: (0px, 0px, 2.5px, 7.5px, 12.5px, 20px, 30px, 42.5px, 57.5px, 75px);
+
+        //         manera de uso
+        //         $size: nth($sizes, $i);
+        //         $translateZ: nth($translateZ, $i);
+        //         $translateXY: nth($translateXY, $i);
+        //         $animationName: individual
+            
+            
+
+            // .planeD58-10{
+            //     width: $widthD58;
+            //     height: $heightD58;
+            //     transform: translateY(0px);
+            //     z-index: 0;
+            // }
+            // .planeD58-9{
+            //     width: $widthD58;
+            //     height: $heightD58;
+            //     z-index: 1;
+            //     transform: translateZ(10px) ;
+            // }
+            // .planeD58-8{
+            //     width: $widthD58 - 5;
+            //     height: $heightD58 - 5;
+            //     z-index: 2;
+            //     transform: translateZ(20px) translate(2.5px, 2.5px);// - 5
+            // }
+            // .planeD58-7{
+            //     width: $widthD58 - 15px;
+            //     height: $heightD58 - 15px;
+            //     z-index: 3;
+            //     transform: translateZ(30px) translate(7.5px, 7.5px);// - 5
+            // }
+            // .planeD58-6{
+            //     width: $widthD58 - 25px;
+            //     height: $heightD58 - 25px;
+            //     z-index: 4;
+            //     transform: translateZ(40px) translate(12.5px, 12.5px);// - 8.5
+            // }
+            // .planeD58-5{
+            //     width: $widthD58 - 40px;
+            //     height: $heightD58 - 40px;
+            //     z-index: 5;
+            //     transform: translateZ(50px) translate(20px, 20px); // - 10
+            // }
+            // .planeD58-4{
+            //     width: $widthD58 - 60px;
+            //     height: $heightD58 - 60px;
+            //     z-index: 6;
+            //     transform: translateZ(60px) translate(30px, 30px); // - 12.5
+            // }
+            // .planeD58-3{
+            //     width: $widthD58 - 85px;
+            //     height: $heightD58 - 85px;
+            //     z-index: 7;
+            //     transform: translateZ(70px) translate(42.5px, 42.5px); // - 15
+            // }
+            // .planeD58-2{
+            //     width: $widthD58 - 115px;
+            //     height: $heightD58 - 115px;
+            //     z-index: 8;
+            //     transform: translateZ(80px) translate(57.5px, 57.5px); // - 22.5
+            // }
+            // .planeD58-1{
+            //     width: $widthD58 - 150px;
+            //     height: $heightD58 - 150px;
+            //     z-index: 9;
+            //     transform: translateZ(90px) translate(75px, 75px);
+            //     animation: identifier 3s ease-in-out infinite;
+            // }
