@@ -9480,6 +9480,156 @@
     scale: 0;
   }
 }
+.days-59 {
+  box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.3);
+  background: url("/ejercicios/100DaysCss/img/verde.jpg") no-repeat center;
+  background-size: cover;
+}
+.days-59 .contentD59 {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.days-59 .contentD59 .textD59 {
+  text-align: center;
+  position: absolute;
+}
+.days-59 .contentD59 .textD59 h1, .days-59 .contentD59 .textD59 h2 {
+  font-size: 2rem;
+  color: #fff;
+  text-transform: uppercase;
+  transition: all 2s ease-in-out;
+}
+.days-59 .contentD59 .imgD59 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.days-59 .contentD59 .imgD59 .imgD59-1 {
+  width: 12.5%;
+  height: 100%;
+  background-color: rgba(240, 248, 255, 0);
+  background-image: url("/ejercicios/100DaysCss/img/rojo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-X: 12.5%;
+  opacity: 0;
+  transform: translateY(-60px);
+  transition: all 2s ease-in-out;
+}
+.days-59 .contentD59 .imgD59 .imgD59-2 {
+  width: 12.5%;
+  height: 100%;
+  background-color: rgba(240, 248, 255, 0);
+  background-image: url("/ejercicios/100DaysCss/img/rojo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-X: 25%;
+  opacity: 0;
+  transform: translateY(-60px);
+  transition: all 2s ease-in-out;
+}
+.days-59 .contentD59 .imgD59 .imgD59-3 {
+  width: 12.5%;
+  height: 100%;
+  background-color: rgba(240, 248, 255, 0);
+  background-image: url("/ejercicios/100DaysCss/img/rojo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-X: 37.5%;
+  opacity: 0;
+  transform: translateY(-60px);
+  transition: all 2s ease-in-out;
+}
+.days-59 .contentD59 .imgD59 .imgD59-4 {
+  width: 12.5%;
+  height: 100%;
+  background-color: rgba(240, 248, 255, 0);
+  background-image: url("/ejercicios/100DaysCss/img/rojo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-X: 50%;
+  opacity: 0;
+  transform: translateY(-60px);
+  transition: all 2s ease-in-out;
+}
+.days-59 .contentD59 .imgD59 .imgD59-5 {
+  width: 12.5%;
+  height: 100%;
+  background-color: rgba(240, 248, 255, 0);
+  background-image: url("/ejercicios/100DaysCss/img/rojo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-X: 62.5%;
+  opacity: 0;
+  transform: translateY(-60px);
+  transition: all 2s ease-in-out;
+}
+.days-59 .contentD59 .imgD59 .imgD59-6 {
+  width: 12.5%;
+  height: 100%;
+  background-color: rgba(240, 248, 255, 0);
+  background-image: url("/ejercicios/100DaysCss/img/rojo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-X: 75%;
+  opacity: 0;
+  transform: translateY(-60px);
+  transition: all 2s ease-in-out;
+}
+.days-59 .contentD59 .imgD59 .imgD59-7 {
+  width: 12.5%;
+  height: 100%;
+  background-color: rgba(240, 248, 255, 0);
+  background-image: url("/ejercicios/100DaysCss/img/rojo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-X: 87.5%;
+  opacity: 0;
+  transform: translateY(-60px);
+  transition: all 2s ease-in-out;
+}
+.days-59 .contentD59 .imgD59 .imgD59-8 {
+  width: 12.5%;
+  height: 100%;
+  background-color: rgba(240, 248, 255, 0);
+  background-image: url("/ejercicios/100DaysCss/img/rojo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-X: 100%;
+  opacity: 0;
+  transform: translateY(-60px);
+  transition: all 2s ease-in-out;
+}
+.days-59 .contentD59 .imgD59 .imgD59-2 {
+  transform: translateY(60px);
+}
+.days-59 .contentD59 .imgD59 .imgD59-4 {
+  transform: translateY(60px);
+}
+.days-59 .contentD59 .imgD59 .imgD59-6 {
+  transform: translateY(60px);
+}
+.days-59 .contentD59 .imgD59 .imgD59-8 {
+  transform: translateY(60px);
+}
+.days-59 .contentD59:hover .textD59 h1 {
+  transform: translateX(-60px);
+  opacity: 0;
+}
+.days-59 .contentD59:hover .textD59 h2 {
+  transform: translateX(60px);
+  opacity: 0;
+}
+.days-59 .contentD59:hover .translatey {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
 .days-21 {
   background-color: #2c2e2e;
   overflow: hidden;
