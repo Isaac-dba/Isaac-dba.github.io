@@ -5,7 +5,7 @@ const section = document.querySelectorAll("#section-days article");
 const spanNum = document.getElementById("days-number");
 
 //funcionalidad
-let currentId = 59;
+let currentId = 61;
 function showArticle(index){
     section.forEach((article, i) => {
         article.classList.toggle("active", i === index);

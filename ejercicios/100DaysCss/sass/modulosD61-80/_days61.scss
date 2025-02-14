@@ -1,0 +1,25 @@
+.days-61{
+    .screenD61{
+        width: 300px;
+        height: 300px;
+        border-radius: 10px;
+        position: absolute;
+    }
+    .screenD61A{
+        background: linear-gradient(to top left, #4e9fe0 0%, #02fdd3 100%);
+        opacity: 1;
+    }
+    .screenD61B{
+        background: linear-gradient(to top left, #ffd208 0%, #1cf0cc 100%);
+        opacity: 0;
+        animation: colorD61 4s ease-in-out infinite;
+    }
+}
+@keyframes colorD61 {
+    0%, 100%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+}
