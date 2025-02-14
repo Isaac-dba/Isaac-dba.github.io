@@ -5,7 +5,7 @@ const section = document.querySelectorAll("#section-days article");
 const spanNum = document.getElementById("days-number");
 
 //funcionalidad
-let currentId = 58;
+let currentId = 59;
 function showArticle(index){
     section.forEach((article, i) => {
         article.classList.toggle("active", i === index);
@@ -3256,4 +3256,17 @@ $(document).ready(function(){
             `);
         }
     };
+
+    //Day 60 
+    $(".days-60").on("mousemove", (e) => {
+        let heightD60 = e.clientY;
+        $(".days-60 .planeD60").css({
+            height: heightD60,
+        });
+    })
+    $(".days-60").on("mouseleave", (e) => {
+        $(".days-60 .planeD60").css({
+            height: 250,
+        });
+    })
 });
