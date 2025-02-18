@@ -3269,4 +3269,41 @@ $(document).ready(function(){
             height: 250,
         });
     })
+
+
+    //Day 62
+    for(let i = 1; i <= 3; i++){
+        $(`.days-62 .contentD62 .headerD62 #itemD62-${i}`).on("mouseover", (e) => {
+            let idD62 = e.currentTarget.id;
+            if(idD62 == `itemD62-1`){
+                $(`.days-62 .contentD62 .footerD62 .listD62 .lineD62 .BGLineD62`).css({
+                    width: "5%",
+                });
+            }else if(idD62 == `itemD62-2`){
+                $(`.days-62 .contentD62 .footerD62 .listD62-1 .lineD62 .BGLineD62`).css({
+                    width: "25%",
+                });
+                $(`.days-62 .contentD62 .footerD62 .listD62-2 .lineD62 .BGLineD62`).css({
+                    width: "75%",
+                }); 
+                $(`.days-62 .contentD62 .footerD62 .listD62-3 .lineD62 .BGLineD62`).css({
+                    width: "45%",
+                });
+            }else if(idD62 == `itemD62-3`){
+                $(`.days-62 .contentD62 .footerD62 .listD62 .lineD62 .BGLineD62`).css({
+                    width: "100%",
+                });
+            }
+        })
+        
+        $(`.days-62 .contentD62 .headerD62 #itemD62-${i}`).on("mouseleave", (e) => {
+            let idD62 = e.currentTarget.id;
+            if(idD62 == `itemD62-${i}`){
+                $(`.days-62 .contentD62 .footerD62 .listD62 .lineD62 .BGLineD62`).css({
+                    width: "0%",
+                })
+            }
+        })
+    } 
+    
 });
