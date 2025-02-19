@@ -1,0 +1,36 @@
+.days-63{
+    background-color: rgb(47, 194, 84);
+    box-shadow: 0px 0px 5px 0px #000;
+    .contentD63{
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        overflow: hidden;
+        .circleD63{
+            width: 200px;
+            height: 200px;
+            border: dotted 2px #fff;
+            border-radius: 50%;
+            position: absolute;
+            top: 100px;
+            left: 100px;
+        }
+        @for $i from 1 through 50{
+            .circleD63-#{$i}{
+                animation: circleD63 10s ease-in-out ($i / -5)+s infinite both;
+                z-index: $i;
+            }
+            @keyframes circleD63 {
+                0%{
+                    transform: scale(0) translate(-200px, -200px);
+                    opacity: 0.4;
+                }
+                100%{
+                    transform: scale(3.5) translate(0,0);
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}  
+//scale tiene prioridad 
