@@ -10537,6 +10537,41 @@
   }
 }
 
+.days-64 {
+  background-color: #082f46;
+}
+.days-64 .contentD64 {
+  position: absolute;
+}
+.days-64 .contentD64 .hoverD64 {
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 5px 0px #000;
+  font-size: 1.2rem;
+  transition: all 0.45s ease;
+}
+.days-64 .contentD64 .hoverD64A {
+  transform: translate(-75px, -30px);
+  background-color: blueviolet;
+}
+.days-64 .contentD64 .hoverD64B {
+  transform: translate(-85px, -40px);
+}
+.days-64 .contentD64:hover .hoverD64A {
+  transform: translate(-85px, -40px);
+  background-color: #fff;
+}
+.days-64 .contentD64:hover .hoverD64B {
+  transform: translate(-75px, -30px);
+  background-color: blueviolet;
+  color: #fff;
+}
+
 .days-21 {
   background-color: #2c2e2e;
   overflow: hidden;
