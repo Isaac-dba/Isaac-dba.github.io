@@ -1,0 +1,39 @@
+.days-65{
+    background-color: #23a5fc;
+    @for $i from 1 through 18{
+        //variables
+        $size: 200px;
+        $deg: calc(360 - $i * 10);
+        //encontre la solucion probando con + - / hasta que di con * 
+        //a prueba i error pero sabia que estaba la solucion por aquí.
+        //(360 / $i) era mi base
+        $rotateXY: 70deg;
+        //
+        .contentD65{
+            width: 200px;
+            height: 200px;
+            .itemD65{
+                border: solid 3px #fff;
+                position: absolute;
+            }
+            .itemD65-#{$i}{
+                width: $size;
+                height: $size;
+                animation: rotateD65-#{$i} 5s ease-in-out  infinite;
+            }
+        }
+        @keyframes rotateD65-#{$i} {
+            // $nullball: ($i * (48 / $deg)) + "%";
+            0%, 100%{
+                border-radius: 0px;
+                transform: rotateZ(0deg);
+            }
+            50%{
+                border-radius: 50%;
+                transform: rotateZ(($deg) + deg) rotateX($rotateXY);
+                border-width: 2px;
+            }
+        }
+    }
+    
+}
