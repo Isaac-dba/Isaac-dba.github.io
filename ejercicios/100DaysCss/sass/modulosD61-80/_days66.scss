@@ -1,0 +1,78 @@
+.days-66{
+    background-color: #617a7e;
+    $size: 45px;
+    .contentD66{
+        width: 100px;
+        height: 100px;
+        // background-color: red;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        input{
+            position: absolute;
+            width: $size;
+            height: $size;
+            z-index: 3;
+            opacity: 0;
+            &:checked{
+                & ~ .circleD66 .innerD66{
+                    background-color: #30ec3a;
+                    scale: 0.3;
+                }
+                & ~ .ringD66{
+                    @for $i from 1 through 12{
+                        $angleD66: calc(360 / 12);
+                        & .rD66-#{$i}{
+                            animation: itemD66-#{$i} 0.5s ease-in-out forwards;
+                        }
+                    }
+                }
+            }
+        }
+        .circleD66{
+            position: absolute;
+            width: $size;
+            height: $size;
+            background-color: #fff;
+            border-radius: 50%;
+            z-index: 2;
+            .innerD66{
+                width: $size - 4;
+                height: $size - 4;
+                background-color: #617a7e;
+                position: absolute;
+                top: 2px;
+                left: 2px;
+                border-radius: 50%;
+                transition: all 0.5s ease-in-out;
+            }
+        }
+        .ringD66{
+            position: absolute;
+            border-radius: 50%;
+            @for $i from 1 through 12{
+                $angleD66: calc(360 / 12);
+                .rD66-#{$i}{
+                    position: absolute;
+                    width: 10px;
+                    height: 2px;
+                    background-color: #fff;
+                    transform: rotate(($i * $angleD66) + deg) translate(5px);
+                    opacity: 1;
+                    top: -0.2px;
+                    left: -4.5px;
+                }
+                @keyframes itemD66-#{$i} {
+                    0%{
+                        transform: rotate(($i * $angleD66) + deg) translate(5px);
+                    }
+                    100%{
+                        transform: rotate(($i * $angleD66) + deg) translate(55px);
+                        opacity: 0;
+                    }
+                }
+            }
+        }
+    }
+}
