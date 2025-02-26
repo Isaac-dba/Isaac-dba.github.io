@@ -1,0 +1,99 @@
+.days-67{
+    background-color: #fdd03e;
+    $shadowBG: #AB9038;
+    $numItems: 12;  
+    .contentD67{
+        width: 150px;
+        height: 150px;
+        perspective: 1000px;
+        position: absolute;
+        left: 100px;
+        .CParasol{
+            transform-style: preserve-3d;
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            animation: rotateD67A 4s linear infinite;
+            transform-origin: 16% 0%;
+            z-index: 1;
+            .itemD67{
+                position: absolute;
+                width: 0px;
+                height: 0px;
+                border-style: solid;
+                border-width: 0px 24px 98px 24px;
+                border-color: transparent transparent #fff transparent;
+                transform-origin: 50% 0%;
+            }
+            //posicionar triangulos
+            @for $i from 1 through $numItems{
+                $deg: calc(360 / $numItems) * $i - 1;
+                .itemD67-#{$i}{
+                    transform: rotateZ($deg+deg) rotateX(-25deg);
+                }
+            }
+            @for $j from 1 through ($numItems / 2){
+                $id: $j * 2;
+                .itemD67-#{$id}{
+                    border-color: transparent transparent #fc0909 transparent;
+                }
+            }
+        }
+        .palo{
+            width: 5px;
+            height: 150px;
+            background-color: #92908b;
+            border-radius: 5px;
+            transform: rotateZ(-18deg) translate(42px, 12px);
+            &::before{
+                content: "";
+                position: absolute;
+                width: 4px;
+                height: 100px;
+                background-color: $shadowBG;
+                transform: rotateZ(90deg) translate(98px, -50px);
+                border-radius: 5px;
+            }
+        }
+        .shadowParasol{
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            scale: 0.7;
+            animation: rotateD67B 4s linear infinite;
+            transform-origin: 16% 0%;
+            .shadowP{
+                position: absolute;
+                width: 0px;
+                height: 0px;
+                border-style: solid;
+                border-width: 0px 25px 98px 25px;
+                border-color: transparent transparent $shadowBG transparent;
+                transform-origin: 50% 0%;
+                box-shadow: 0px 0px 5px 2px $shadowBG;
+            }
+            @for $SW from 1 through $numItems{
+                $deg: calc(360 / $numItems) * $SW;
+                .SP-#{$SW}{
+                    transform: rotateZ($deg+deg) rotateX(-25deg);
+                }
+            }
+        }
+    }
+}
+@keyframes rotateD67A {
+    0%{
+        transform: rotateX(70deg) rotateY(-18deg) rotateZ(0deg);
+    }
+    100%{
+        transform: rotateX(70deg) rotateY(-18deg) rotateZ(360deg);
+    }
+}
+@keyframes rotateD67B {
+    0%{
+        transform: translate(207px, -55px) rotateX(70deg) rotateY(-18deg) rotateZ(0deg);
+    }
+    100%{
+        transform: translate(207px, -55px) rotateX(70deg) rotateY(-18deg) rotateZ(360deg);
+    }
+}

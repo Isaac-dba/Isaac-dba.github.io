@@ -11318,6 +11318,175 @@
   }
 }
 
+.days-67 {
+  background-color: #fdd03e;
+}
+.days-67 .contentD67 {
+  width: 150px;
+  height: 150px;
+  perspective: 1000px;
+  position: absolute;
+  left: 100px;
+}
+.days-67 .contentD67 .CParasol {
+  transform-style: preserve-3d;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  animation: rotateD67A 4s linear infinite;
+  transform-origin: 16% 0%;
+  z-index: 1;
+}
+.days-67 .contentD67 .CParasol .itemD67 {
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 0px 24px 98px 24px;
+  border-color: transparent transparent #fff transparent;
+  transform-origin: 50% 0%;
+}
+.days-67 .contentD67 .CParasol .itemD67-1 {
+  transform: rotateZ(29deg) rotateX(-25deg);
+}
+.days-67 .contentD67 .CParasol .itemD67-2 {
+  transform: rotateZ(59deg) rotateX(-25deg);
+}
+.days-67 .contentD67 .CParasol .itemD67-3 {
+  transform: rotateZ(89deg) rotateX(-25deg);
+}
+.days-67 .contentD67 .CParasol .itemD67-4 {
+  transform: rotateZ(119deg) rotateX(-25deg);
+}
+.days-67 .contentD67 .CParasol .itemD67-5 {
+  transform: rotateZ(149deg) rotateX(-25deg);
+}
+.days-67 .contentD67 .CParasol .itemD67-6 {
+  transform: rotateZ(179deg) rotateX(-25deg);
+}
+.days-67 .contentD67 .CParasol .itemD67-7 {
+  transform: rotateZ(209deg) rotateX(-25deg);
+}
+.days-67 .contentD67 .CParasol .itemD67-8 {
+  transform: rotateZ(239deg) rotateX(-25deg);
+}
+.days-67 .contentD67 .CParasol .itemD67-9 {
+  transform: rotateZ(269deg) rotateX(-25deg);
+}
+.days-67 .contentD67 .CParasol .itemD67-10 {
+  transform: rotateZ(299deg) rotateX(-25deg);
+}
+.days-67 .contentD67 .CParasol .itemD67-11 {
+  transform: rotateZ(329deg) rotateX(-25deg);
+}
+.days-67 .contentD67 .CParasol .itemD67-12 {
+  transform: rotateZ(359deg) rotateX(-25deg);
+}
+.days-67 .contentD67 .CParasol .itemD67-2 {
+  border-color: transparent transparent #fc0909 transparent;
+}
+.days-67 .contentD67 .CParasol .itemD67-4 {
+  border-color: transparent transparent #fc0909 transparent;
+}
+.days-67 .contentD67 .CParasol .itemD67-6 {
+  border-color: transparent transparent #fc0909 transparent;
+}
+.days-67 .contentD67 .CParasol .itemD67-8 {
+  border-color: transparent transparent #fc0909 transparent;
+}
+.days-67 .contentD67 .CParasol .itemD67-10 {
+  border-color: transparent transparent #fc0909 transparent;
+}
+.days-67 .contentD67 .CParasol .itemD67-12 {
+  border-color: transparent transparent #fc0909 transparent;
+}
+.days-67 .contentD67 .palo {
+  width: 5px;
+  height: 150px;
+  background-color: #92908b;
+  border-radius: 5px;
+  transform: rotateZ(-18deg) translate(42px, 12px);
+}
+.days-67 .contentD67 .palo::before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 100px;
+  background-color: #AB9038;
+  transform: rotateZ(90deg) translate(98px, -50px);
+  border-radius: 5px;
+}
+.days-67 .contentD67 .shadowParasol {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  scale: 0.7;
+  animation: rotateD67B 4s linear infinite;
+  transform-origin: 16% 0%;
+}
+.days-67 .contentD67 .shadowParasol .shadowP {
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 0px 25px 98px 25px;
+  border-color: transparent transparent #AB9038 transparent;
+  transform-origin: 50% 0%;
+  box-shadow: 0px 0px 5px 2px #AB9038;
+}
+.days-67 .contentD67 .shadowParasol .SP-1 {
+  transform: rotateZ(30deg) rotateX(-25deg);
+}
+.days-67 .contentD67 .shadowParasol .SP-2 {
+  transform: rotateZ(60deg) rotateX(-25deg);
+}
+.days-67 .contentD67 .shadowParasol .SP-3 {
+  transform: rotateZ(90deg) rotateX(-25deg);
+}
+.days-67 .contentD67 .shadowParasol .SP-4 {
+  transform: rotateZ(120deg) rotateX(-25deg);
+}
+.days-67 .contentD67 .shadowParasol .SP-5 {
+  transform: rotateZ(150deg) rotateX(-25deg);
+}
+.days-67 .contentD67 .shadowParasol .SP-6 {
+  transform: rotateZ(180deg) rotateX(-25deg);
+}
+.days-67 .contentD67 .shadowParasol .SP-7 {
+  transform: rotateZ(210deg) rotateX(-25deg);
+}
+.days-67 .contentD67 .shadowParasol .SP-8 {
+  transform: rotateZ(240deg) rotateX(-25deg);
+}
+.days-67 .contentD67 .shadowParasol .SP-9 {
+  transform: rotateZ(270deg) rotateX(-25deg);
+}
+.days-67 .contentD67 .shadowParasol .SP-10 {
+  transform: rotateZ(300deg) rotateX(-25deg);
+}
+.days-67 .contentD67 .shadowParasol .SP-11 {
+  transform: rotateZ(330deg) rotateX(-25deg);
+}
+.days-67 .contentD67 .shadowParasol .SP-12 {
+  transform: rotateZ(360deg) rotateX(-25deg);
+}
+
+@keyframes rotateD67A {
+  0% {
+    transform: rotateX(70deg) rotateY(-18deg) rotateZ(0deg);
+  }
+  100% {
+    transform: rotateX(70deg) rotateY(-18deg) rotateZ(360deg);
+  }
+}
+@keyframes rotateD67B {
+  0% {
+    transform: translate(207px, -55px) rotateX(70deg) rotateY(-18deg) rotateZ(0deg);
+  }
+  100% {
+    transform: translate(207px, -55px) rotateX(70deg) rotateY(-18deg) rotateZ(360deg);
+  }
+}
 .days-21 {
   background-color: #2c2e2e;
   overflow: hidden;
