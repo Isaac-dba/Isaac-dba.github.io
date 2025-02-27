@@ -1,0 +1,57 @@
+.days-69{
+    background-color: #282d3d;
+    .contentD69{
+        width: 200px;
+        height: 200px;
+        background-color: #282d3d;
+        position: absolute;
+        svg{
+            clip-path: url("#clip");
+            position: absolute;
+            .eyeD69{
+                fill: #d8d8d8;
+                stroke: #282d3d;
+            }
+            #clip{
+                transform-origin: 50% 50%;
+                animation: eyeD69 5s ease-in-out infinite;
+            }
+        }
+        svg{
+            .circleGD69{
+                animation: circleD69 5s ease-in-out infinite;
+                fill: #fff;
+            }
+            .circlePD69{
+                fill: #415d68;
+                animation: circleD69 5s ease-in-out infinite;
+            }
+        }
+    }
+}
+
+@keyframes eyeD69 {
+    0%,5%,10%,20%,25%,35%,40%,50%,60%,70%,75%,100%{
+        transform: scaleY(1);
+    }
+    7.5%,22.5%,37.5%,65%{
+        transform: scaleY(0.01);
+    }
+    80%{
+        transform: scaleY(1) scaleX(1);
+    }
+    90%{
+        transform: scaleY(0.01) scaleX(0.9);
+    }
+}
+@keyframes circleD69 {
+    0%, 8.5%,40%,100%{
+        transform: translate(0px, 0px);
+    }
+    10%,23.5%{
+        transform: translate(-10px, 10px);
+    }
+    25%,37.5%{
+        transform: translate(10px, 10px);
+    }
+}
