@@ -11487,6 +11487,153 @@
     transform: translate(207px, -55px) rotateX(70deg) rotateY(-18deg) rotateZ(360deg);
   }
 }
+.days-68 {
+  background-color: rgba(111, 28, 189, 0.8470588235);
+  cursor: pointer;
+}
+.days-68 .contentD68 {
+  width: 120px;
+  height: 120px;
+  position: relative;
+}
+.days-68 .contentD68 #checkboxD68 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 10px;
+  left: 10px;
+  opacity: 0;
+  z-index: 1;
+}
+.days-68 .contentD68 #checkboxD68:checked ~ .circleD68 {
+  animation: svgD68 4s linear infinite;
+}
+.days-68 .contentD68 #checkboxD68:checked ~ .iconsD68 .microD68 {
+  animation: microD68 1s ease-in-out forwards;
+}
+.days-68 .contentD68 #checkboxD68:checked ~ .iconsD68 .loginD68 {
+  scale: 1;
+  transition: scale 1s 1s ease;
+}
+.days-68 .contentD68 .circleD68 {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  stroke-width: 5px;
+  stroke: #fff;
+  position: absolute;
+  fill: transparent;
+  stroke-linecap: round;
+}
+.days-68 .contentD68 .iconsD68 {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+}
+.days-68 .contentD68 .iconsD68 .microD68 {
+  width: 30px;
+  height: 80px;
+  position: absolute;
+  top: 20px;
+  left: 45px;
+}
+.days-68 .contentD68 .iconsD68 .microD68 .topD68 {
+  width: 30px;
+  height: 50px;
+  position: relative;
+  top: 5px;
+}
+.days-68 .contentD68 .iconsD68 .microD68 .topD68 .svgInnerD68 {
+  fill: rgba(111, 28, 189, 0.8470588235);
+  transform: scaleX(0.3) scaleY(0.35) translate(35px, 20px);
+}
+.days-68 .contentD68 .iconsD68 .microD68 .heightD68 {
+  width: 4px;
+  height: 15px;
+  background-color: #fff;
+  position: relative;
+  left: 12.5px;
+  top: -2px;
+}
+.days-68 .contentD68 .iconsD68 .microD68 .widthD68 {
+  width: 20px;
+  height: 4px;
+  background-color: #fff;
+  border-radius: 30px;
+  position: relative;
+  top: -2px;
+  left: 5px;
+}
+.days-68 .contentD68 .iconsD68 .loginD68 {
+  width: 100px;
+  height: 10px;
+  position: absolute;
+  top: 55px;
+  left: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  scale: 0;
+}
+.days-68 .contentD68 .iconsD68 .loginD68 .puntoD68-1 {
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+  transform: translateY(-5px);
+  animation: loginCircleD68 1s 0.2s ease infinite;
+}
+.days-68 .contentD68 .iconsD68 .loginD68 .puntoD68-2 {
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+  transform: translateY(-5px);
+  animation: loginCircleD68 1s 0.4s ease infinite;
+}
+.days-68 .contentD68 .iconsD68 .loginD68 .puntoD68-3 {
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+  transform: translateY(-5px);
+  animation: loginCircleD68 1s 0.6s ease infinite;
+}
+
+@keyframes loginCircleD68 {
+  0% {
+    transform: translateY(-5px);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
+}
+@keyframes svgD68 {
+  0% {
+    stroke-dashoffset: 1500;
+    stroke-dasharray: 500;
+    transform: rotate(-85deg);
+  }
+  100% {
+    stroke-dashoffset: 590;
+    stroke-dasharray: 500;
+    transform: rotate(288deg);
+  }
+}
+@keyframes microD68 {
+  0% {
+    scale: 1;
+  }
+  10% {
+    scale: 1.2;
+  }
+  100% {
+    scale: 0;
+  }
+}
 .days-21 {
   background-color: #2c2e2e;
   overflow: hidden;

@@ -1,0 +1,141 @@
+.days-68{
+    background-color: #6f1cbdd8;
+    //variables
+    $sizeD68: 120px;
+    //
+    cursor: pointer;
+    .contentD68{
+        width: $sizeD68;
+        height: $sizeD68;
+        position: relative;
+        #checkboxD68{
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            top: 10px;
+            left: 10px;
+            opacity: 0;
+            z-index: 1;
+            &:checked{
+                & ~ .circleD68{
+                    animation: svgD68 4s linear infinite;
+                }
+                & ~ .iconsD68 .microD68{
+                    animation: microD68 1s ease-in-out forwards;
+                }
+                & ~ .iconsD68 .loginD68{
+                    scale: 1;
+                    transition: scale 1s 1s ease;
+                    //transition tambien tiene retraso
+                }
+            }
+        }
+        .circleD68{
+            position: absolute;
+            width: $sizeD68;
+            height: $sizeD68;
+            stroke-width: 5px;
+            stroke: #fff;
+            position: absolute;
+            fill: transparent;
+            stroke-linecap: round;
+        }
+        .iconsD68{
+            width: $sizeD68;
+            height: $sizeD68;
+            position: absolute;
+            .microD68{
+                width: $sizeD68 / 4;
+                height: $sizeD68 - 40px;
+                position: absolute;
+                top: 20px;
+                left: 45px;
+                .topD68{
+                    width: 30px;
+                    height: 50px;
+                    position: relative;
+                    top: 5px;
+                    .svgInnerD68{
+                        fill: #6f1cbdd8;
+                        transform: scaleX(0.3) scaleY(0.35) translate(35px, 20px);
+                    }
+                }
+                .heightD68{
+                    width: 4px;
+                    height: 15px;
+                    background-color: #fff;
+                    position: relative;
+                    left: 12.5px;
+                    top: -2px;
+                }
+                .widthD68{
+                    width: 20px;
+                    height: 4px;
+                    background-color: #fff;
+                    border-radius: 30px;
+                    position: relative;
+                    top: -2px;
+                    left: 5px;
+                }
+            }
+            .loginD68{
+                width: 100px;
+                height: 10px;
+                position: absolute;
+                top: 55px;
+                left: 10px;
+                display: flex;
+                justify-content: center;
+                gap: 10px;
+                scale: 0;
+                @for $i from 1 through 3{
+                    .puntoD68-#{$i}{
+                        width: 10px;
+                        height: 10px;
+                        background-color: #fff;
+                        border-radius: 50%;
+                        transform: translateY(-5px);
+                        animation: loginCircleD68 1s #{$i * 0.2}+s ease infinite;
+                    }
+                }
+            }
+        }
+    }
+}
+//animacion puntos de login
+@keyframes loginCircleD68 {
+    0%{
+        transform: translateY(-5px);
+    }
+    50%{
+        transform: translateY(5px);
+    }
+    100%{
+        transform: translateY(-5px);
+    } 
+}
+//animacion svg
+@keyframes svgD68 {
+    0%{
+        stroke-dashoffset: 1500;
+        stroke-dasharray: 500;
+        transform: rotate(-85deg);
+    }
+    100%{
+        stroke-dashoffset:590;
+        stroke-dasharray:500;
+        transform: rotate(288deg);
+    }
+}
+//animacion micro
+@keyframes microD68 {
+    0%{
+        scale: 1;
+    }
+    10%{
+        scale: 1.2;
+    }
+    100%{
+        scale: 0;
+    }
+}
