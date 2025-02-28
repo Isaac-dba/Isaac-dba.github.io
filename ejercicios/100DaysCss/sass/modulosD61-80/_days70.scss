@@ -1,0 +1,47 @@
+.days-70{
+    box-shadow: 0px 0px 10px 10px #00000010;
+    overflow: hidden;
+    background-color: #e97262;
+    .contentD70{
+        width: 300px;
+        height: 300px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        .itemD70{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: solid 5px transparent;
+            width: 150px;
+            height: 150px;
+            // transition: border 0.5s ease;
+            .innerTextD70{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                color: #fff;
+                width: 150px;
+                height: 150px;
+                transition: all 0.5s ease;
+                & > p{
+                    font-size: 1.1rem;
+                }
+                & > span{
+                    font-size: 3.5rem;
+                    font-weight: 900;
+                }
+            }
+            &:hover{
+                border: solid 4px #473636;
+                overflow: hidden;
+                box-shadow: inset 2px 2px 4px 1px #00000040;
+                &  .innerTextD70{
+                    scale: 0.9;
+                }
+            }
+        }
+    }
+}
+
+//inset para un border interior 
