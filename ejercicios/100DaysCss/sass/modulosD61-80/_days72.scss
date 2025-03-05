@@ -1,0 +1,36 @@
+.days-72{
+    background-color: #58a1ff;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    // perspective: 1000px;
+    .contentD72{
+        // transform-style: preserve-3d;
+        position: relative;
+        width: 150px;
+        height: 150px;
+        transform: rotate(90deg);
+        // background-color: red;
+        .itemD72{
+            width: 150px;
+            height: 150px;
+            // background-color: #fff;
+            position: absolute;
+            border-radius: 50%;
+            border: solid 1px #fff;
+            transform-origin: 50% 50%;
+        }
+        @for $i from 1 through 10{
+            #itemD72-#{$i}{
+                animation: rotateD72 5s infinite ($i * 0.1)+s ease-in-out;
+            }
+        }
+    }
+}
+
+@keyframes rotateD72{
+    0%, 10%{
+        transform: rotateY(0deg) rotateX(0deg);
+    }
+    90%, 100%{
+        transform: rotateY(360deg) rotateX(360deg);
+    } 
+}
