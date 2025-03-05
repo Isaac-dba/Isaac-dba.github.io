@@ -1,0 +1,169 @@
+//variables
+$characters: (
+	a: '.-',
+	b: '-...',
+	c: '-.-.',
+	d: '-..',
+	e: '.',
+	f: '..-.',
+	g: '--.',
+	h: '....',
+	i: '..',
+	j: '.---',
+	k: '-.-',
+	l: '.-..',
+	m: '--',
+	n: '-.',
+	o: '---',
+	p: '.--.',
+	q: '--.-',
+	r: '.-.',
+	s: '...',
+	t: '-',
+	u: '..-',
+	v: '...-',
+	w: '.--',
+	x: '-..-',
+	y: '-.--',
+	z: '--..',
+	0: '-----',
+	1: '.----',
+	2: '..---',
+	3: '...--',
+	4: '....-',
+	5: '.....',
+	6: '-....',
+	7: '--...',
+	8: '---..',
+	9: '----.',
+);
+$duration: 1s;
+//funcion para crear animaciones
+@function createAnimation($key, $value){
+    $animation-end: ();
+    $animation-name: "";
+	//iteramos en el codigo morse
+	@for $i from 1 through str-length($value){
+		//nombrar animacion segun el simbolo
+        $symbol: str-slice($value, $i, $i);
+		@if $symbol == "."{
+			$animation-name: short-#{$key}-#{$i};
+		}
+		@if $symbol == "-"{
+			$animation-name: long-#{$key}-#{$i};
+		}
+		//crear animation juntando las piezas
+		$animation: $animation-name $duration (($i - 1) * $duration);
+		//combinar animaciones 
+		$animation-end: append($animation-end, $animation, comma);
+	}
+    @return $animation-end;
+}
+
+.days-71{
+	background-color: rgba(0, 0, 0, 0.801);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.801);
+	overflow: hidden;
+	.contentD71{
+		width: 300px;
+		height: 300px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		.inputsD71{
+			// background-color: red;
+			.luzCodeD71{
+				width: 40px;
+				height: 40px;
+				background-color: #ffff;
+				border-radius: 50%;
+				position: relative;
+				left: 130px;
+				bottom: -20px;
+				box-shadow: 0px 0px 10px 0px #ffff;
+				opacity: 0;
+			}
+			input[type*="radio"]{
+				opacity: 0;
+			}
+			@each $key, $value in $characters{
+				input#input-#{$key}{
+					&:checked ~ .luzCodeD71{
+                        animation: createAnimation($key, $value );
+					}
+				}
+			}
+		}
+		.tecladoD71{
+			padding: 5px;
+			background-color: #5f5f5f;
+			height: 45%;
+			border-top: 2px solid rgb(110, 110, 110);
+			display: flex;
+			flex-direction: column;
+			gap: 5px;
+			color: #ffff;
+			font-size: 17px;
+			font-weight: 100;
+			.lineD71{
+				margin-bottom: 2px;
+				display: flex;
+				align-items: center;
+				justify-content: space-evenly;
+				label{
+					display: flex;
+					width: 25px;
+					height: 25px;
+					border-radius: 50%;
+					text-align: center;
+					align-items: center;
+					justify-content: center;
+				}
+				:hover{
+					background-color: #8d8d8d;
+				}
+			}
+			.lineD71-3{
+				justify-content: start;
+				label{
+					margin-left: 5px;
+				}
+			}
+		}
+	}
+}
+
+//        punto      raya
+//opacity 41 - 59 // 16 -84
+//animaciones
+@each $key, $value in $characters{
+	//crear animaciones correspondientes a cada codigo morse
+	@for $i from 1 through str-length($value){
+		$symbol: str-slice($value, $i, $i);
+		//el uso de condicionales if es para crear 
+		//animaciones totales de punto y raya segun el codigo morse($value)
+		@if $symbol == "."{
+			@keyframes short-#{$key}-#{$i} {
+				0%, 40%, 60%, 100%{
+					opacity: 0;
+				}
+				41%, 59%{
+					opacity: 1;
+				}
+			}
+		}
+		@if $symbol == "-"{
+			@keyframes long-#{$key}-#{$i} {
+				0%, 15%, 85%, 100%{
+					opacity: 0;
+				}
+				16%, 84%{
+					opacity: 1;
+				}
+			}
+		}
+	}
+}
+
+//aprendiendo a usar funciones en sass
+//ejemplo de funcion de la pagina oficial 100DaysCss
