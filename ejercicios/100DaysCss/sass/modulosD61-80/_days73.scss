@@ -1,0 +1,48 @@
+.days-73{
+    background-color: #ffa600;
+    box-shadow: 0 0 10px 0px #000;
+    .contentD73{
+        font-size: 30px;
+        color: #fff;
+        height: 35px;
+        width: 175px;
+        // background-color: red;
+        overflow: hidden;
+        p{
+            position: absolute;
+        }
+        .spansD73{
+            display: flex;
+            flex-direction: column;
+            font-weight: bold;
+            position: relative;
+            span{
+                text-shadow: 2px 2px 2px #e67e22;
+                transform: translate(65px, 35px);
+                position: absolute;
+            }
+            @for $i from 1 through 4{
+                .span-#{$i}{
+                    animation: translateD73-#{$i} 4s infinite ($i - 1)+s  both;
+                }
+            }
+        }
+    }
+}
+$translateD73: 65px;
+@for $i from 1 through 4{
+    @keyframes translateD73-#{$i} {
+        0%{
+            transform: translate($translateD73, 135px);
+        }
+        25%{
+            transform: translate($translateD73, 35px);
+        }
+        40%,50%{
+            transform: translate($translateD73, 0px);
+        }
+        100%{
+            transform: translate($translateD73, -135px);
+        }
+    }
+}
