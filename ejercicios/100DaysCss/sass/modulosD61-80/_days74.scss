@@ -1,0 +1,66 @@
+.days-74{
+    background-color: #25cf9c;
+    box-shadow: 0 0 5px 0 #000;
+    .contentD74{
+        display: flex;
+        gap: 10px;
+        //variables
+        $size: 35px;
+        .btn-radio{
+            width: $size;
+            height: $size;
+            border: solid 1px #fff;
+            border-radius: 50%;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .btnInner{
+                width: $size;
+                height: $size;
+                background-color: #fff;
+                scale: 0;
+                position: absolute;
+                border-radius: 50%;
+                transition: all 0.5s ease-in-out;
+            }
+            .num{
+                color: #fff;
+                font-weight: 500;
+                transition: all 0.5s ease-in-out;
+                z-index: 0;
+                position: absolute;
+            }
+            .btnHover{
+                width: $size - 2px;
+                height: $size - 2px;
+                border-radius: 50%;
+                transition: all 0.7s ease-in-out;
+            }
+            #slider{
+                position: absolute;
+                width: $size;
+                height: $size;
+                opacity: 0;
+                z-index: 5;
+                &:checked{
+                    & ~ .btnInner{
+                        scale: 1;
+                    }
+                    & ~ .num{
+                        color: #25cf9c;
+                    }
+                    & ~ .btnHover{
+                        opacity: 0;
+                    }
+                }
+                &:hover{
+                    cursor: pointer;
+                    & ~ .btnHover{
+                        background-color: #349c7d;
+                    }
+                }
+            }
+        }
+    }
+}

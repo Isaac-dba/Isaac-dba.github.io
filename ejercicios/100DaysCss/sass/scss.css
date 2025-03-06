@@ -13112,6 +13112,69 @@
     transform: translate(65px, -135px);
   }
 }
+.days-74 {
+  background-color: #25cf9c;
+  box-shadow: 0 0 5px 0 #000;
+}
+.days-74 .contentD74 {
+  display: flex;
+  gap: 10px;
+}
+.days-74 .contentD74 .btn-radio {
+  width: 35px;
+  height: 35px;
+  border: solid 1px #fff;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.days-74 .contentD74 .btn-radio .btnInner {
+  width: 35px;
+  height: 35px;
+  background-color: #fff;
+  scale: 0;
+  position: absolute;
+  border-radius: 50%;
+  transition: all 0.5s ease-in-out;
+}
+.days-74 .contentD74 .btn-radio .num {
+  color: #fff;
+  font-weight: 500;
+  transition: all 0.5s ease-in-out;
+  z-index: 0;
+  position: absolute;
+}
+.days-74 .contentD74 .btn-radio .btnHover {
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  transition: all 0.7s ease-in-out;
+}
+.days-74 .contentD74 .btn-radio #slider {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  opacity: 0;
+  z-index: 5;
+}
+.days-74 .contentD74 .btn-radio #slider:checked ~ .btnInner {
+  scale: 1;
+}
+.days-74 .contentD74 .btn-radio #slider:checked ~ .num {
+  color: #25cf9c;
+}
+.days-74 .contentD74 .btn-radio #slider:checked ~ .btnHover {
+  opacity: 0;
+}
+.days-74 .contentD74 .btn-radio #slider:hover {
+  cursor: pointer;
+}
+.days-74 .contentD74 .btn-radio #slider:hover ~ .btnHover {
+  background-color: #349c7d;
+}
+
 .days-21 {
   background-color: #2c2e2e;
   overflow: hidden;
