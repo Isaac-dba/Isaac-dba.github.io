@@ -13241,6 +13241,20 @@
     transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg);
   }
 }
+.days-76 {
+  background-color: #34495E;
+}
+.days-76 .contentD76 {
+  padding: 10px;
+}
+.days-76 .contentD76 input {
+  padding: 15px;
+  box-shadow: 0px 0px 10px 0px #24313d;
+  outline: none;
+  border: none;
+  text-align: center;
+}
+
 .days-21 {
   background-color: #2c2e2e;
   overflow: hidden;
