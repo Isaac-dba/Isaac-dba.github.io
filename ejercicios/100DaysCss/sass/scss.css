@@ -13477,6 +13477,34 @@
     transform: translateX(42px);
   }
 }
+.days-78 {
+  background-color: rgb(79, 155, 255);
+  box-shadow: 0 0 10px 0 #000010;
+}
+.days-78 .contentD78 {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.days-78 .contentD78 .hoverD78 {
+  width: 150px;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+.days-78 .contentD78 .hoverD78:hover {
+  scale: 1.1;
+  box-shadow: 4px 4px 10px 1px #4c4c50;
+}
+
 .days-21 {
   background-color: #2c2e2e;
   overflow: hidden;
