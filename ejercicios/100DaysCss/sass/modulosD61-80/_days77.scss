@@ -1,0 +1,53 @@
+.days-77{
+    background-color: #b257d6;
+    .contentD77{
+        width: 50px;
+        height: 50px;
+        background-color: #fff;
+        border-radius: 50%;
+        position: absolute;
+        animation: circleD77 2s ease-in-out infinite;
+        @for $i from 1 through 6{
+            .circleD77-#{$i}{
+                width: 50px;
+                height: 50px;
+                background: #ffffff4d;
+                position: absolute;
+                border-radius: 50%;
+                opacity: 1 - ($i / 10);
+                animation: blurD77-#{$i} 2s ease-in-out infinite;
+            }
+        }
+    }
+}
+
+@keyframes circleD77 {
+    0%{
+        transform: translate(-125px, 0px);
+    }
+
+    50%{
+        transform: translate(125px, 0px);
+    }
+    100%{
+        transform: translate(-125px, 0px);
+    }
+}
+
+@for $i from 1 through 6{
+    @keyframes blurD77-#{$i} {
+        0%, 100%{
+            transform: translateX(0px);
+        }
+        25%{
+            transform: translateX($i * -7px);
+        }
+        50%{
+            transform: translateX(0px);
+        }
+        75%{
+            transform: translateX($i * 7px);
+        }
+    }
+    
+}
