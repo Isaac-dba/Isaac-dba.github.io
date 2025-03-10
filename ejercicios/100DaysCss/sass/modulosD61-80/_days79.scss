@@ -1,0 +1,118 @@
+ //variables
+$angleD79: 360 / 10;
+.days-79{
+    background-color: #4e6577;
+    box-shadow: 0 0 10px 0 #000;
+    perspective: 1000px;
+    .contentD79{
+        transform-style: preserve-3d;
+        position: absolute;
+        top: 125px;
+        left: 125px;
+        .itemD79{
+            width: 50px;
+            height: 50px;
+            background-color: #fff;
+            position: absolute;
+            transform-origin: 50% 50%;
+        }
+        @for $i from 1 through 10{
+            .itemD79-#{$i}{
+                animation: animateD79-#{$i} 10s ease-in-out infinite;
+            }
+        }
+    }
+}
+//animacion
+@for $i from 1 through 10{
+    @keyframes animateD79-#{$i} {
+        0%{
+            scale: 0;
+        }
+        5%{
+            scale: 1;
+            transform: rotateZ(0deg);
+        }
+        10%{
+            transform: rotateZ(($angleD79 * ($i - 1))+deg);
+        }
+        14%{
+            scale: 1;
+        }
+        15%{
+            transform: rotateZ(($angleD79 * ($i - 1))+deg) translate(80px, 0px) scaleY(0.1) scaleX(0.5);
+        }
+        20%{
+            transform: rotateZ(($angleD79 * ($i - 1))+deg) translate(80px, 0px) scaleY(0.1) scaleX(0.5)
+        }
+        25%{
+            transform: rotateZ(($angleD79 * ($i - 1))+deg) translate(80px, 0px) scaleY(0.2) scaleX(0.2)
+            rotate(90deg);
+        }
+        30%{
+            transform: rotateZ(($angleD79 * ($i - 1))+deg) translate(80px, 0px) scaleY(0.7) scaleX(0.2)
+            rotate(90deg);
+        }
+        35%{
+            transform: rotateZ(($angleD79 * ($i - 1))+deg) translate(50px, 0px) scaleY(0.7) scaleX(0.1)
+            rotate(90deg) rotateZ(90deg);
+        }
+        40%{
+            transform: rotateZ(($angleD79 * ($i - 1))+deg) translate(50px, -30px) scaleY(0.7) scaleX(0.1)
+            rotate(90deg) rotateZ(90deg);
+        }
+        45%{
+            transform: rotateZ(($angleD79 * ($i - 1))+deg) translate(50px, 30px) scaleY(0.7) scaleX(0.1)
+            rotate(90deg) rotateZ(90deg);
+        }
+        50%{
+            transform: rotateZ(($angleD79 * ($i - 1))+deg) translate(50px, 0px) scaleY(0.7) scaleX(0.1)
+            rotate(90deg) rotateZ(90deg);
+        }
+        55%{
+            transform: rotateZ(($angleD79 * ($i - 1))+deg) translate(50px, 0px) scaleY(0.1) scaleX(0.5)
+            rotate(90deg) rotateZ(90deg);
+        }
+        60%{
+            transform: rotateZ(($angleD79 * ($i - 1))+deg) translate(50px, 0px) scaleY(0.4) scaleX(0.1)
+            rotate(90deg) rotateZ(90deg);
+            border-radius: 0%;
+        }
+        65%{
+            transform: rotateZ(($angleD79 * ($i - 1))+deg) translate(80px, 0px) scaleY(0.2) scaleX(0.2)
+            rotate(0deg) rotateZ(0deg);
+            border-radius: 50%;
+        }
+        70%{
+            transform: rotateZ(($angleD79 * ($i - 1))+deg) translate(1px, 0px) scaleY(0.2) scaleX(0.2)
+            rotate(0deg) rotateZ(0deg);
+            border-radius: 50%;
+        }
+        74%{
+            transform: rotateZ(($angleD79 * ($i - 1))+deg) translate(80px, 0px) scaleY(0.1) scaleX(0.5);
+            border-radius: 0%;
+        }
+        78%{
+            transform: rotateZ(($angleD79 * ($i - 1))+deg) translate(80px, 0px) scaleY(0.2) scaleX(0.2);
+        }
+        82%{
+            transform: rotateZ(($angleD79 * ($i - 1))+deg) translate(40px, 0px) scaleY(0.2) scaleX(0.2);
+        }
+        86%{
+            transform: rotateZ(($angleD79 * ($i - 1))+deg) translate(50px, 0px) scaleY(0.2) scaleX(0.2)
+            rotateZ(90deg);
+        }
+        90%{
+            transform: rotateZ(($angleD79 * ($i - 1))+deg) translate(30px, 0px) scaleY(0.5) scaleX(0.1)
+            rotateZ(0deg);
+        }
+        95%{
+            transform: rotateZ(($angleD79 * ($i - 1))+deg) translate(10px, 0px) scaleY(0.08) scaleX(0.5)
+            rotateZ(0deg);
+        }
+        100%{
+            transform: rotateZ(($angleD79 * ($i - 1))+deg) translate(210px, 0px) scaleY(0.08) scaleX(0.5)
+            rotateZ(0deg);
+        }
+    }
+}
