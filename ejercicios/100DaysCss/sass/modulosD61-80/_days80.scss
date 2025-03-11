@@ -1,0 +1,44 @@
+.days-80{
+    box-shadow: 0 0 10px 0 #0000109c;
+    //variables
+    $widthD80: 25%;
+    .contentD80{
+        display: flex;
+        width: 300px;
+        height: 300px;
+        flex-direction: row;
+        align-items: stretch;
+        .hoverD80{
+            width: 10%;
+            height: 100%;
+            background-color: #ff9b04;
+            display: grid;
+            align-content: center;
+            justify-items: center;
+            position: relative;
+            transition: all 0.5s ease-in-out;
+            flex: 1 1 auto;
+            &:nth-child(2n + 1){
+                background-color: #1e3e50;
+            }
+            & > span{
+                color: #ffff;
+                scale: 0;
+                transition: all 0.5s ease-in-out;
+            }
+        }
+        @for $i from 1 through 4{
+            .hoverD80-#{$i}{
+                &:hover{
+                    width: 100%;
+                    & > span{
+                        scale: 1;
+                    }
+                    & ~ .hoverD80{
+                        width: $widthD80 / 2;
+                    }
+                }
+            }
+        }
+    }
+}

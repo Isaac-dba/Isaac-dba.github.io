@@ -14314,6 +14314,72 @@
     transform: rotateZ(324deg) translate(210px, 0px) scaleY(0.08) scaleX(0.5) rotateZ(0deg);
   }
 }
+.days-80 {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 16, 0.6117647059);
+}
+.days-80 .contentD80 {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  flex-direction: row;
+  align-items: stretch;
+}
+.days-80 .contentD80 .hoverD80 {
+  width: 10%;
+  height: 100%;
+  background-color: #ff9b04;
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  position: relative;
+  transition: all 0.5s ease-in-out;
+  flex: 1 1 auto;
+}
+.days-80 .contentD80 .hoverD80:nth-child(2n+1) {
+  background-color: #1e3e50;
+}
+.days-80 .contentD80 .hoverD80 > span {
+  color: white;
+  scale: 0;
+  transition: all 0.5s ease-in-out;
+}
+.days-80 .contentD80 .hoverD80-1:hover {
+  width: 100%;
+}
+.days-80 .contentD80 .hoverD80-1:hover > span {
+  scale: 1;
+}
+.days-80 .contentD80 .hoverD80-1:hover ~ .hoverD80 {
+  width: 12.5%;
+}
+.days-80 .contentD80 .hoverD80-2:hover {
+  width: 100%;
+}
+.days-80 .contentD80 .hoverD80-2:hover > span {
+  scale: 1;
+}
+.days-80 .contentD80 .hoverD80-2:hover ~ .hoverD80 {
+  width: 12.5%;
+}
+.days-80 .contentD80 .hoverD80-3:hover {
+  width: 100%;
+}
+.days-80 .contentD80 .hoverD80-3:hover > span {
+  scale: 1;
+}
+.days-80 .contentD80 .hoverD80-3:hover ~ .hoverD80 {
+  width: 12.5%;
+}
+.days-80 .contentD80 .hoverD80-4:hover {
+  width: 100%;
+}
+.days-80 .contentD80 .hoverD80-4:hover > span {
+  scale: 1;
+}
+.days-80 .contentD80 .hoverD80-4:hover ~ .hoverD80 {
+  width: 12.5%;
+}
+
 .days-21 {
   background-color: #2c2e2e;
   overflow: hidden;
