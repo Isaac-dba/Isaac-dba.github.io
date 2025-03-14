@@ -1,0 +1,55 @@
+.days-82{
+    background-color: #acc2db9d;
+    perspective: 1000px;
+    .contentD82{
+        transform-style: preserve-3d;
+        position: relative;
+        left: -50px;
+        height: 50px;
+        border-radius: 30px;
+        transition: all 0.5s ease-in-out;
+        transform-origin: 0% 50%;
+        .sendD82, .doneD82{
+            width: 100px;
+            height: 50px;
+            border-radius: 30px;
+            position: absolute;
+            display: grid;
+            justify-items: center;
+            align-items: center;
+            font-weight: bold;
+            transition: all 0.5s ease-in-out;
+        }
+        .sendD82{
+            background-color: #fff;
+            transform: rotateX(0deg);
+            color: #666666;
+            box-shadow: 2px 5px 5px 1px #8e8e8f6c;
+        }
+        .doneD82{
+            backface-visibility: hidden;
+            background-color: #66b86a;
+            transform: rotateX(-180deg);
+            outline: solid 2px #fff;
+            color: #fff;
+        }
+    }
+    #inputD82{
+        width: 100px;
+        height: 50px;
+        position: absolute;
+        z-index: 2;
+        opacity: 0;
+        &:checked{
+            & ~ .contentD82{
+                transform: rotateX(180deg);
+            }
+            & ~ .contentD82 .sendD82{
+                box-shadow: none;
+            }
+            & ~ .contentD82 .doneD82{
+                box-shadow: 2px 5px 5px 1px #8e8e8f6c;
+            }
+        }
+    }
+}
