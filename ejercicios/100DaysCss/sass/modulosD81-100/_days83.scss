@@ -1,0 +1,50 @@
+.days-83{
+    background-color: #1b2a46f8;
+    box-shadow: 0 0 10px 0 #000000;
+    .contentD83{
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        overflow: hidden;
+        .contentLines{
+            position: absolute;
+            top: 150px;
+            left: 150px;
+            .linesD83{
+                width: 2px;
+                height: 20px;
+                background-color: #ffff;
+                position: absolute;
+            }
+        }
+        @for $i from  1 through 30{
+            $deslayD83: ($i - 1) * (4 / 30)  * -1;
+            .CL-#{$i}{
+                animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) ($deslayD83)+s infinite;
+
+                @for $j from 1 through 24{
+                    $degreeD83: (360 / 24) * ($j - 1) - (random() * 10) ;
+                    $offset: 100 - (random() * 40) ;
+                    .lineD83-#{$j}{
+                        transform: rotate($degreeD83+deg) translate3d(0, ($offset+px), 0) 
+                        scaleY($offset / 100);
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@keyframes ring {
+    0%{
+        opacity: 0.1;
+        scale: 0;
+    }
+    90%{
+        opacity: 1;
+    }
+    100%{
+        scale: 4;
+    }
+}
