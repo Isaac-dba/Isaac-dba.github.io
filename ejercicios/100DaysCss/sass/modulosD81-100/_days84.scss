@@ -1,0 +1,78 @@
+.days-84{
+    background-color: #d3dbe2;
+    box-shadow: 0 0 10px 0 #00010062;
+    .contentD84{
+        width: 150px;
+        height: 200px;
+        background-color: #202020;
+        box-shadow: 0 5px 10px 0px #686868;
+        border-radius:2px 5px 5px 2px;
+        // overflow: hidden;
+        position: absolute;
+        display: flex;
+        .borderLeftD84{
+            width: 8px;
+            height: 200px;
+            background-color: #414141;
+            position: absolute;
+            box-shadow: inset 2px 0px 2px 1px #27272750;
+            &::after{
+                content: "";
+                position: absolute;
+                width: 8px;
+                height: 200px;
+                background-color: #11111150;
+                left: 8px;
+            }
+        }
+        .bordeRedD84{
+            width: 8px;
+            height: 202px;
+            background-color: #ce0e0e;
+            position: absolute;
+            left: 120px;
+            top: -1px;
+            $borderColorD84: #6e6e6e85;
+            &::after{
+                content: "";
+                position: absolute;
+                width: 1px;
+                height: 202px;
+                background-color: $borderColorD84;
+                left: 0px;
+                box-shadow: 2px 0px 1px 0 $borderColorD84;
+            }
+            &::before{
+                content: "";
+                position: absolute;
+                width: 1px;
+                height: 202px;
+                background-color: $borderColorD84;
+                left: 4px;
+                box-shadow: 2px 0px 1px 0 $borderColorD84;
+            }
+        }
+        .textD84{
+            width: 100px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            left: 16px;
+            top: -10px;
+            .contentH1D84{
+                color: #fff;
+                font-size: 1.3rem;
+            }
+            & > span{
+                color: #b3b3b3;
+                font-size: 12px;
+                position: relative;
+                left: -12px;
+                font-weight: 700;
+            }
+        }
+    }
+}
