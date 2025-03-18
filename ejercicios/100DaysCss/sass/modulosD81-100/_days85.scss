@@ -1,0 +1,33 @@
+.days-85{
+    background-color: #a557c4;
+    box-shadow: 0 0 10px 0 #000;
+    .contentD85{
+        width: 300px;
+        height: 2px;
+        display: flex;
+        .pixeles{
+            width: 2px;
+            height: 2px;
+            background-color: #fff;
+        }
+        @for $i from 1 through 150{
+            $translateYD85: 0;
+            @if $i < 75{
+                $translateYD85: (0px + ($i * $i ) / 60) ;
+            }@else{
+                $translateYD85: (0px + ((150 - $i) * (150 - $i)) / 60);
+            }
+            .px-#{$i}{
+                animation: px-#{$i} 3s ease-in-out infinite;
+            }
+            @keyframes px-#{$i} {
+                0%, 100%{
+                    transform: translateY($translateYD85);
+                }
+                50%{
+                    transform: translateY(-$translateYD85);
+                }
+            }
+        }
+    }
+}
