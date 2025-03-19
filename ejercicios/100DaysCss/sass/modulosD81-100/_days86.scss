@@ -1,0 +1,94 @@
+.days-86{
+    background-color: #34495e;
+    box-shadow: 0 0 10px 0 #000;
+    .contentD86{
+        //variables
+        $sizeD86: 300px;
+        //
+        width: $sizeD86;
+        height: $sizeD86;
+        position: relative;
+        .baseD86{
+            width: $sizeD86 - 150;
+            height: 5px;
+            background-color: #d6d6d6;
+            position: absolute;
+            transform: translate3d(75px, 90px, 0);
+            border-radius: 10px;
+        }
+        .linesD86{
+            width: $sizeD86 - 150;
+            height: 80px;
+            transform: translate3d(75px, 95px, 0);
+            display: flex;
+            justify-content: space-around;
+            .lineD86{
+                width: 1px;
+                height: 80px;
+                background-color: #ffff;
+                transform-origin: 0% 0%;
+                &:nth-last-child(1){
+                    animation: moveD86-1 2s ease-in-out infinite;
+                }
+                &:nth-child(1){
+                    animation: moveD86-2 2s ease-in-out 1s infinite;
+                }    
+            }
+        }
+        .circlesD86{
+            width: $sizeD86 - 150;
+            height: 30px;
+            transform: translate3d(75px, 95px, 0);
+            display: flex;
+            .circleD86{
+                width: 30px;
+                height: 30px;
+                background-color: #ffff;
+                border-radius: 50%;
+                transform-origin: 100% 0%;
+                &:nth-last-child(1){
+                    animation: circleD86-1 2s ease-in-out infinite;
+                }
+                &:nth-child(1){
+                    animation: circleD86-2 2s ease-in-out 1s infinite;
+                }
+            }
+        }
+    }
+}
+
+@for $i from 1 through 2{
+    $offsetD86: 0;
+    $rotateD86: 0;
+    $tX: 0;
+    $tY: 0;
+    @if $i == 1{
+        $offsetD86: -30;
+        $rotateD86: -20;
+        $tX:40px;
+        $tY: -15px;
+    }
+    @if $i == 2{
+        $offsetD86: 30;
+        $rotateD86: 25;
+        $tX:-40px;
+        $tY: -5px;
+    }
+    
+    @keyframes moveD86-#{$i} {
+        0%,20%, 80%, 100%{
+            transform: rotate(0deg);
+        }
+        50%{
+            transform: rotate($offsetD86+deg);
+        }
+    }
+    @keyframes circleD86-#{$i} {
+        0%,20%, 80%, 100%{
+            transform: translate(0px, 0px) rotate(0deg);
+        }
+        50%{
+            transform: translate($tX, $tY) rotate($rotateD86+deg);
+        }
+    }
+}
