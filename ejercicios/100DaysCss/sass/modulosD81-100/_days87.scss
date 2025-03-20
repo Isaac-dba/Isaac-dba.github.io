@@ -79,12 +79,17 @@
         opacity: 1;
         width: 3px;
         height: 70px;
+        box-shadow: -3px 0 5px 2px #fff;
+    }
+    58%{
+        box-shadow: -3px 0 5px 2px #fff;
     }
     59% {
-        width: 0;
-        height: 0;
+        width: 0px;
+        height: 0px;
+        box-shadow: none;
     }
     60%, 100%{
-        transform: translate(45px, -60px) rotate(-39deg);
+        transform: translate(36px, -60px) rotate(-39deg);
     }
 }
