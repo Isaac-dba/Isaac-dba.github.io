@@ -1,0 +1,54 @@
+.days-88{
+    background-color: #263144;
+    box-shadow: 0 0 10px 0 #000;
+    .contentD88{
+        position: absolute;
+        .flameD88{
+            position: absolute;
+            width: 15px;
+            height: 25px;
+            background-color: #ffa600;
+            animation: flameD88 5s ease-in-out infinite;
+            box-shadow: 0 -4px 10px 5px #ffa60060;
+            top: -75px;
+        }
+        .mechaD88{
+            width: 3px;
+            height: 10px;
+            background-color: #ffa60060;
+            position: absolute;
+            top: -55px;
+            left: 5px;
+        }
+        .velaD88{
+            width: 60px;
+            height: 100px;
+            background-color: #fff;
+            position: absolute;
+            top: -45px;
+            left: -25px;
+            border-radius: 5px;
+            border-right: solid 10px #87a1ce62;
+        }
+        .baseD88{
+            width: 120px;
+            height: 10px;
+            background-color: #131a25;
+            position: absolute;
+            top: 55px;
+            left: -55px;
+            border-radius: 10px;
+        }
+    }
+}
+
+@keyframes flameD88 {
+    0%, 100%{
+        border-radius: 50px 0px 30px 30px;
+        transform: rotateY(-35deg) rotateX(15deg) rotateZ(5deg);
+    }
+    50%{
+        border-radius: 0px 50px 30px 30px;
+        transform: rotateY(35deg) rotateX(-15deg) rotateZ(-5deg);
+    }
+}
