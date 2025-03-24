@@ -1,0 +1,81 @@
+.days-89{
+    background-color: #0fb48b;
+    box-shadow: 0 0 10px 0 #000;
+    .contentD89{
+        width: 300px;
+        height: 300px;
+        display: grid;
+        position: absolute;
+        grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
+        .contentLine{
+            width: 30px;
+            height: 30px;
+            position: relative;
+            .linesD89{
+                background-color: #fff;
+                width: 20px;
+                height: 20px;
+                transform-origin: 50% 50%;
+            }
+            .lineD89-1{
+                animation: lineD89-1 6s ease-in-out infinite;
+            }
+            .lineD89-2{
+                animation: lineD89-2 6s ease-in-out infinite;
+            }
+        }
+    }
+}
+//6s animate
+@keyframes lineD89-1 {
+    0%, 100%{
+        transform: translate(5px, 5px) rotateZ(-45deg);
+        width: 20px;
+        height: 20px;
+    }
+    20%, 30%{
+        transform: translate(5px, 5px) rotate(0deg);
+        width: 20px;
+        height: 20px;
+    }
+    40%, 50%{
+        transform: translate(0px, 10px) rotate(0deg);
+        width: 30px;
+        height: 10px;
+    }
+    60%{
+        width: 30px;
+        height: 10px;
+        transform: translate(0px, 10px) rotate(45deg);
+    }
+    80%{
+        width: 30px;
+        height: 10px;
+        transform: translate(0px, 10px) rotate(45deg)
+        translateX(-10.5px);
+    }
+
+}
+@keyframes lineD89-2 {
+    0%, 20%, 30%, 100%{
+        transform: translate(5px, -15px) rotate(45deg);
+        width: 20px;
+        height: 20px;
+    }
+    40%, 50%{
+        width: 10px;
+        height: 30px;
+        transform: translate(10px, -10px) rotate(0deg);
+    }
+    60%{
+        width: 10px;
+        height: 30px;
+        transform: translate(10px, -10px) rotate(45deg)
+    }
+    80%{
+        width: 10px;
+        height: 30px;
+        transform: translate(10px, -10px) rotate(45deg)
+        translateX(10.5px);
+    }
+}
