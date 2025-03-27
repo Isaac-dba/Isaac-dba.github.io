@@ -1,0 +1,580 @@
+.days-90{
+    background-color: rgb(43, 121, 211);
+    box-shadow: 0 0 10px 0 #000;
+    overflow: hidden;
+    .contentD90{
+        width: 300px;
+        height: 300px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
+        padding: 0px;
+        overflow: hidden;
+        position: relative;
+        .itemD90{
+            width: 20px;
+            height: 20px;
+            // outline: solid 1px black;
+            z-index: 10;
+        }
+        @for $i from 1 through 210{
+            @if $i < 16{
+                .itemD90-#{$i}{
+                    &:hover{
+                        @for $j from 2 through 4{
+                            //variables para ajustar el movimiento de la linea
+                            $widthD90: 170% - ($i * 12.5);  
+                            $countD90: $j * (($j / 2) * -2.9323);
+                            $totalWidthD90: $widthD90 - $countD90;
+                            $offsetD90: 0;
+                            //condicionales para ajustar lineas R
+                            @if $j == 2{
+                                $offsetD90: - 18;
+                            }@else if $j == 3{
+                                $offsetD90: 0;
+                            }@else if $j == 4{
+                                $offsetD90: + 18;
+                            }
+                            //fin 
+                            & ~ .contentD90Lines .linesD90L .lineD90-#{$j}{
+                                width: $totalWidthD90 ;
+                            }
+                            & ~ .contentD90Lines .linesD90R .lineD90-#{$j}{
+                                width: (170% -  $totalWidthD90) + $offsetD90;
+                            }
+                        }
+                    }
+                }
+            }
+            // en sass && de javaScritp se representa con and
+            @if $i > 15 and $i < 31{
+                .itemD90-#{$i}{
+                    &:hover{
+                        @for $j from 2 through 5{
+                            //variables para ajustar el movimiento de la linea
+                            $newIdD40: $i - 15;// para nuevas lineas
+                            $countD90: $j * (($j / 2) * 2.9323);
+                            $widthD90: 200% - ($newIdD40 * 12.5);
+                            $totalWidthD90: $widthD90 - $countD90;
+                            $offsetD90L: 0;// de aqui en adelante hay que actualizarlo
+                            $offsetD90R: 0;
+                            //condicional
+                            @if $j == 2{
+                                $offsetD90L: -7;
+                                $offsetD90R: 7;
+                            }@else if $j == 3{
+                                $offsetD90L: -7;
+                                $offsetD90R: -7;
+                            }@else if $j == 4{
+                                $offsetD90L: 10;
+                                $offsetD90R: -10;
+                            }@else if $j == 5{
+                                $offsetD90L: 30;
+                                $offsetD90R: -12;
+                            }
+                            //fin
+                            & ~ .contentD90Lines .linesD90L .lineD90-#{$j}{
+                                width: $totalWidthD90 + $offsetD90L;
+                            }
+                            & ~ .contentD90Lines .linesD90R .lineD90-#{$j}{
+                                width:(170% - $totalWidthD90) + $offsetD90R;
+                            }
+                        }
+                    }
+                }
+            }
+            @if $i > 30 and $i < 46{
+                .itemD90-#{$i}{
+                    &:hover{
+                        @for $j from 2 through 6{
+                            //variables para ajustar el movimiento de la linea
+                            $newIdD40: $i - 30;
+                            $countD90: $j * (($j / 2) * -2.9323);
+                            $widthD90: 170% - ($newIdD40 * 12.5);
+                            $totalWidthD90: $widthD90 - $countD90;
+                            $offsetD90L: 0;
+                            $offsetD90R: 0;
+                            //condicional
+                            @if $j == 2{
+                                $offsetD90L: 17; 
+                            }@else if $j == 3{
+                                $offsetD90L: 4;
+                            }@else if $j == 4{
+                                $offsetD90L: -15;
+                                $offsetD90R: 2;
+                            }@else if $j == 5{
+                                $offsetD90L: -20;
+                                $offsetD90R: 23 ;
+                            }@else if $j == 6{
+                                $offsetD90L: -30;
+                                $offsetD90R: 48;
+                            }
+                            & ~ .contentD90Lines .linesD90L .lineD90-#{$j}{
+                                width: $totalWidthD90 + $offsetD90L;
+                            }
+                            & ~ .contentD90Lines .linesD90R .lineD90-#{$j}{
+                                width: (170% - $totalWidthD90) + $offsetD90R;
+                            }
+                        }
+                    }
+                }
+            }
+            @if $i > 45 and $i < 61{
+                .itemD90-#{$i}{
+                    &:hover{
+                        @for $j from 3 through 7{
+                            //variables para ajustar el movimiento de la linea
+                            $newIdD40: $i - 45;
+                            $countD90: $j * (($j / 2) * -2.9323);
+                            $widthD90: 170% - ($newIdD40 * 12.5);
+                            $totalWidthD90: $widthD90 - $countD90;
+                            $offsetD90L: 0;
+                            $offsetD90R: 0;
+                            //condicional
+                            @if $j == 3{
+                                $offsetD90L: 10;
+                                $offsetD90R: 8;
+                            }@else if $j == 4{
+                                $offsetD90L: -6;
+                                $offsetD90R: 10;
+                            }@else if $j == 5{
+                                $offsetD90L: -28;
+                                $offsetD90R: 15;
+                            }@else if $j == 6{
+                                $offsetD90L: -36;
+                                $offsetD90R: 40;
+                            }@else if $j == 7{
+                                $offsetD90L: -48;
+                                $offsetD90R: 67;
+                            }
+                            & ~ .contentD90Lines .linesD90L .lineD90-#{$j}{
+                                width: $totalWidthD90 + $offsetD90L;
+                            }
+                            & ~ .contentD90Lines .linesD90R .lineD90-#{$j}{
+                                width: (170% - $totalWidthD90) + $offsetD90R;
+                            }
+                        }
+                    }
+                }
+            }
+            @if $i > 60 and $i < 76{
+                .itemD90-#{$i}{
+                    &:hover{
+                        @for $j from 4 through 8{
+                            //variables para ajustar el movimiento de la linea
+                            $newIdD40: $i - 60;
+                            $countD90: $j * (($j / 2) * -2.9323);
+                            $widthD90: 170% - ($newIdD40 * 12.5);
+                            $totalWidthD90: $widthD90 - $countD90;
+                            $offsetD90L: 0;
+                            $offsetD90R: 0;
+                            //condicional
+                            @if $j == 4{
+                                $offsetD90L: 2;
+                                $offsetD90R: 16;
+                            }@else if $j == 5{
+                                $offsetD90L: -20;
+                                $offsetD90R: 20;
+                            }@else if $j == 6{
+                                $offsetD90L: -45;
+                                $offsetD90R: 30;
+                            }@else if $j == 7{
+                                $offsetD90L: -56;
+                                $offsetD90R: 55;
+                            }@else if $j == 8{
+                                $offsetD90L: -68;
+                                $offsetD90R: 87;
+                            }
+                            & ~ .contentD90Lines .linesD90L .lineD90-#{$j}{
+                                width: $totalWidthD90 + $offsetD90L;
+                            }
+                            & ~ .contentD90Lines .linesD90R .lineD90-#{$j}{
+                                width: (170% - $totalWidthD90) + $offsetD90R;
+                            }
+                        }
+                    }
+                }
+            }
+            @if $i > 75 and $i < 91{
+                .itemD90-#{$i}{
+                    &:hover{
+                        @for $j from 5 through 9{
+                            //variables para ajustar el movimiento de la linea
+                            $newIdD40: $i - 75;
+                            $countD90: $j * (($j / 2) * -2.9323);
+                            $widthD90: 170% - ($newIdD40 * 12.5);
+                            $totalWidthD90: $widthD90 - $countD90;
+                            $offsetD90L: 0;
+                            $offsetD90R: 0;
+                            //condicional
+                            @if $j == 5{
+                                $offsetD90L: -12;
+                                $offsetD90R: 30;
+                            }@else if $j == 6{
+                                $offsetD90L: -36;
+                                $offsetD90R: 38;
+                            }@else if $j == 7{
+                                $offsetD90L: -65;
+                                $offsetD90R: 49;
+                            }@else if $j == 8{
+                                $offsetD90L: -77;
+                                $offsetD90R: 78;
+                            }@else if $j == 9{
+                                $offsetD90L: -93;
+                                $offsetD90R: 112;
+                            }
+                            & ~ .contentD90Lines .linesD90L .lineD90-#{$j}{
+                                width: $totalWidthD90 + $offsetD90L;
+                            }
+                            & ~ .contentD90Lines .linesD90R .lineD90-#{$j}{
+                                width: (170% - $totalWidthD90) + $offsetD90R;
+                            }
+                        }
+                    }
+                }
+            }
+            @if $i > 90 and $i < 106{
+                .itemD90-#{$i}{
+                    &:hover{
+                        @for $j from 6 through 10{
+                            //variables para ajustar el movimiento de la linea
+                            $newIdD40: $i - 90;
+                            $countD90: $j * (($j / 2) * -2.9323);
+                            $widthD90: 170% - ($newIdD40 * 12.5);
+                            $totalWidthD90: $widthD90 - $countD90;
+                            $offsetD90L: 0;
+                            $offsetD90R: 0;
+                            //condicional
+                            @if $j == 6{
+                                $offsetD90L: -29;
+                                $offsetD90R: 46;
+                            }@else if $j == 7{
+                                $offsetD90L: -56;
+                                $offsetD90R: 56;
+                            }@else if $j == 8{
+                                $offsetD90L: -86;
+                                $offsetD90R: 71;
+                            }@else if $j == 9{
+                                $offsetD90L: -104;
+                                $offsetD90R: 102;
+                            }@else if $j == 10{
+                                $offsetD90L: -123;
+                                $offsetD90R: 140;
+                            }
+                            & ~ .contentD90Lines .linesD90L .lineD90-#{$j}{
+                                width: $totalWidthD90 + $offsetD90L;
+                            }
+                            & ~ .contentD90Lines .linesD90R .lineD90-#{$j}{
+                                width: (170% - $totalWidthD90) + $offsetD90R;
+                            }
+                        }
+                    }
+                }
+            }
+            @if $i > 105 and $i < 121{
+                .itemD90-#{$i}{
+                    &:hover{
+                        @for $j from 7 through 11{
+                            //variables para ajustar el movimiento de la linea
+                            $newIdD40: $i - 105;
+                            /// $j se divide entre 3 para ajustarse mas
+                            $countD90: $j * (($j / 3) * -2.9323);
+                            $widthD90: 170% - ($newIdD40 * 12.5);
+                            $totalWidthD90: $widthD90 - $countD90;
+                            $offsetD90L: 0;
+                            $offsetD90R: 0;
+                            //condicional
+                            @if $j == 7{
+                                $offsetD90L: -25;
+                                $offsetD90R: 42;
+                            }@else if $j == 8{
+                                $offsetD90L: -48;
+                                $offsetD90R: 47;
+                            }@else if $j == 9{
+                                $offsetD90L: -72;
+                                $offsetD90R: 56;
+                            }@else if $j == 10{
+                                $offsetD90L: -84;
+                                $offsetD90R: 82;
+                            }@else if $j == 11{
+                                $offsetD90L: -95;
+                                $offsetD90R: 112;
+                            }
+                            & ~ .contentD90Lines .linesD90L .lineD90-#{$j}{
+                                width: $totalWidthD90 + $offsetD90L;
+                            }
+                            & ~ .contentD90Lines .linesD90R .lineD90-#{$j}{
+                                width: (170% - $totalWidthD90) + $offsetD90R;
+                            }
+                        }
+                    }
+                }
+            }
+            @if $i > 120 and $i < 136{
+                .itemD90-#{$i}{
+                    &:hover{
+                        @for $j from 8 through 12{
+                            //variables para ajustar el movimiento de la linea
+                            $newIdD40: $i - 120;
+                            /// $j se divide entre num para ajustarse mas
+                            $countD90: $j * (($j / 4) * -2.9323);
+                            $widthD90: 170% - ($newIdD40 * 12.5);
+                            $totalWidthD90: $widthD90 - $countD90;
+                            $offsetD90L: 0;
+                            $offsetD90R: 0;
+                            //condicional
+                            @if $j == 8{
+                                $offsetD90L: -23;
+                                $offsetD90R: 42;
+                            }@else if $j == 9{
+                                $offsetD90L: -45;
+                                $offsetD90R: 46;
+                            }@else if $j == 10{
+                                $offsetD90L: -66;
+                                $offsetD90R: 51;
+                            }@else if $j == 11{
+                                $offsetD90L: -74;
+                                $offsetD90R: 76;
+                            }@else if $j == 12{
+                                $offsetD90L: -83;
+                                $offsetD90R: 100;
+                            }
+                            & ~ .contentD90Lines .linesD90L .lineD90-#{$j}{
+                                width: $totalWidthD90 + $offsetD90L;
+                            }
+                            & ~ .contentD90Lines .linesD90R .lineD90-#{$j}{
+                                width: (170% - $totalWidthD90) + $offsetD90R;
+                            }
+                        }
+                    }
+                }
+            }
+            @if $i > 135 and $i < 151{
+                .itemD90-#{$i}{
+                    &:hover{
+                        @for $j from 9 through 13{
+                            //variables para ajustar el movimiento de la linea
+                            $newIdD40: $i - 135;
+                            /// $j se divide entre num para ajustarse mas
+                            $countD90: $j * (($j / 4) * -2.9323);
+                            $widthD90: 170% - ($newIdD40 * 12.5);
+                            $totalWidthD90: $widthD90 - $countD90;
+                            $offsetD90L: 0;
+                            $offsetD90R: 0;
+                            //condicional
+                            @if $j == 9{
+                                $offsetD90L: -35;
+                                $offsetD90R: 55;
+                            }@else if $j == 10{
+                                $offsetD90L: -56;
+                                $offsetD90R: 60;
+                            }@else if $j == 11{
+                                $offsetD90L: -82;
+                                $offsetD90R: 67;
+                            }@else if $j == 12{
+                                $offsetD90L: -89;
+                                $offsetD90R: 93;
+                            }@else if $j == 13{
+                                $offsetD90L: -100;
+                                $offsetD90R: 119;
+                            }
+                            & ~ .contentD90Lines .linesD90L .lineD90-#{$j}{
+                                width: $totalWidthD90 + $offsetD90L;
+                            }
+                            & ~ .contentD90Lines .linesD90R .lineD90-#{$j}{
+                                width: (170% - $totalWidthD90) + $offsetD90R;
+                            }
+                        }
+                    }
+                }
+            }
+            @if $i > 150 and $i < 166{
+                .itemD90-#{$i}{
+                    &:hover{
+                        @for $j from 10 through 14{
+                            //variables para ajustar el movimiento de la linea
+                            $newIdD40: $i - 150;
+                            /// $j se divide entre num para ajustarse mas
+                            $countD90: $j * (($j / 4) * -2.9323);
+                            $widthD90: 170% - ($newIdD40 * 12.5);
+                            $totalWidthD90: $widthD90 - $countD90;
+                            $offsetD90L: 0;
+                            $offsetD90R: 0;
+                            //condicional
+                            @if $j == 10{
+                                $offsetD90L: -50;
+                                $offsetD90R: 68;
+                            }@else if $j == 11{
+                                $offsetD90L: -72;
+                                $offsetD90R: 76;
+                            }@else if $j == 12{
+                                $offsetD90L: -98;
+                                $offsetD90R: 83;
+                            }@else if $j == 13{
+                                $offsetD90L: -107;
+                                $offsetD90R: 111;
+                            }@else if $j == 14{
+                                $offsetD90L: -120;
+                                $offsetD90R: 138;
+                            }
+                            & ~ .contentD90Lines .linesD90L .lineD90-#{$j}{
+                                width: $totalWidthD90 + $offsetD90L;
+                            }
+                            & ~ .contentD90Lines .linesD90R .lineD90-#{$j}{
+                                width: (170% - $totalWidthD90) + $offsetD90R;
+                            }
+                        }
+                    }
+                }
+            }
+            @if $i > 165 and $i < 181{
+                .itemD90-#{$i}{
+                    &:hover{
+                        @for $j from 11 through 15{
+                            //variables para ajustar el movimiento de la linea
+                            $newIdD40: $i - 165;
+                            /// $j se divide entre num para ajustarse mas
+                            $countD90: $j * (($j / 5) * -2.9323);
+                            $widthD90: 170% - ($newIdD40 * 12.5);
+                            $totalWidthD90: $widthD90 - $countD90;
+                            $offsetD90L: 0;
+                            $offsetD90R: 0;
+                            //condicional
+                            @if $j == 11{
+                                $offsetD90L: -47;
+                                $offsetD90R: 65;
+                            }@else if $j == 12{
+                                $offsetD90L: -67;
+                                $offsetD90R: 72;
+                            }@else if $j == 13{
+                                $offsetD90L: -91;
+                                $offsetD90R: 77;
+                            }@else if $j == 14{
+                                $offsetD90L: -98;
+                                $offsetD90R: 102;
+                            }@else if $j == 15{
+                                $offsetD90L: -108;
+                                $offsetD90R: 126;
+                            }
+                            & ~ .contentD90Lines .linesD90L .lineD90-#{$j}{
+                                width: $totalWidthD90 + $offsetD90L;
+                            }
+                            & ~ .contentD90Lines .linesD90R .lineD90-#{$j}{
+                                width: (170% - $totalWidthD90) + $offsetD90R;
+                            }
+                        }
+                    }
+                }
+            }
+            @if $i > 180 and $i < 196{
+                .itemD90-#{$i}{
+                    &:hover{
+                        @for $j from 12 through 16{
+                            //variables para ajustar el movimiento de la linea
+                            $newIdD40: $i - 180;
+                            /// $j se divide entre num para ajustarse mas
+                            $countD90: $j * (($j / 6) * -2.9323);
+                            $widthD90: 170% - ($newIdD40 * 12.5);
+                            $totalWidthD90: $widthD90 - $countD90;
+                            $offsetD90L: 0;
+                            $offsetD90R: 0;
+                            //condicional
+                            @if $j == 12{
+                                $offsetD90L: -50;
+                                $offsetD90R: 65;
+                            }@else if $j == 13{
+                                $offsetD90L: -67;
+                                $offsetD90R: 70;
+                            }@else if $j == 14{
+                                $offsetD90L: -91;
+                                $offsetD90R: 74;
+                            }@else if $j == 15{
+                                $offsetD90L: -98;
+                                $offsetD90R: 97;
+                            }@else if $j == 16{
+                                $offsetD90L: -108;
+                                $offsetD90R: 120;
+                            }
+                            & ~ .contentD90Lines .linesD90L .lineD90-#{$j}{
+                                width: $totalWidthD90 + $offsetD90L;
+                            }
+                            & ~ .contentD90Lines .linesD90R .lineD90-#{$j}{
+                                width: (170% - $totalWidthD90) + $offsetD90R;
+                            }
+                        }
+                    }
+                }
+            }
+            @if $i > 195 and $i < 211{
+                .itemD90-#{$i}{
+                    &:hover{
+                        @for $j from 13 through 17{
+                            //variables para ajustar el movimiento de la linea
+                            $newIdD40: $i - 195;
+                            /// $j se divide entre num para ajustarse mas
+                            $countD90: $j * (($j / 6) * -2.9323);
+                            $widthD90: 170% - ($newIdD40 * 12.5);
+                            $totalWidthD90: $widthD90 - $countD90;
+                            $offsetD90L: 0;
+                            $offsetD90R: 0;
+                            //condicional
+                            @if $j == 13{
+                                $offsetD90L: -57;
+                                $offsetD90R: 75;
+                            }@else if $j == 14{
+                                $offsetD90L: -78;
+                                $offsetD90R: 83;
+                            }@else if $j == 15{
+                                $offsetD90L: -102;
+                                $offsetD90R: 88;
+                            }@else if $j == 16{
+                                $offsetD90L: -108;
+                                $offsetD90R: 112;
+                            }@else if $j == 17{
+                                $offsetD90L: -116;
+                                $offsetD90R: 134;
+                            }
+                            & ~ .contentD90Lines .linesD90L .lineD90-#{$j}{
+                                width: $totalWidthD90 + $offsetD90L;
+                            }
+                            & ~ .contentD90Lines .linesD90R .lineD90-#{$j}{
+                                width: (170% - $totalWidthD90) + $offsetD90R;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .contentD90Lines{
+            width: 300px;
+            height: 330px;
+            position: absolute;
+            display: flex;
+            .linesD90R{
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                .lineD90{
+                    width: 0%;
+                    height: 1px;
+                    background-color: #fff;
+                    transition: all 0.3s ease-in-out;
+                }
+            }
+            .linesD90L{
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                align-items: end;
+                .lineD90{
+                    width: 0%;
+                    height: 1px;
+                    background-color: #fff;
+                    transition: all 0.3s ease-in-out;
+                    
+                }
+            }
+        }
+    }
+}
