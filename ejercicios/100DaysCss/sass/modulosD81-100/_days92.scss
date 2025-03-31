@@ -1,0 +1,128 @@
+.days-92{
+    background-color: #0da54d;
+    .contentD92{
+        width: 300px;
+        height: 300px;
+        .ballD92{
+            width: 12px;
+            height: 12px;
+            background-color: #fff;
+            border-radius: 50%;
+            position: absolute;
+        }
+        @for $i from 1 through 16{
+            @if $i >= 1 and $i <= 4{
+                .ballD92-#{$i}{
+                    animation: moveD92A-#{$i} 6s linear infinite;
+                }
+            }
+            @if $i >= 5 and $i <= 8{
+                .ballD92-#{$i}{
+                    animation: moveD92A-#{$i - 4} 6s linear infinite reverse;
+                }
+            }
+            @if $i >= 9 and $i <= 12{
+                .ballD92-#{$i}{
+                    animation: moveD92B-#{$i} 3.5s linear infinite;
+                }
+            }
+            @if $i >= 13 and $i <= 16{
+                .ballD92-#{$i}{
+                    animation: moveD92B-#{$i} 3.5s linear infinite;
+                }
+            }
+        }
+    }
+}
+@for $a from 1 through 4{
+    //variables
+    $positionInitialD92A: ((144px, 0px), (288px, 144px), (144px, 288px), (0px, 144px));
+    $moveD92A: ((288px, 144px), (144px, 288px), (0px, 144px), (144px, 0px));
+    $moveD92B: ((144px, 288px), (0px, 144px), (144px, 0px), (288px, 144px));
+    $moveD92C: ((0px, 144px), (144px, 0px), (288px, 144px), (144px, 288px));  
+    //
+    @keyframes moveD92A-#{$a} {
+        0%, 100%{
+            transform: translate(nth($positionInitialD92A, $a));
+        }
+        25%{
+            transform: translate(nth($moveD92A, $a));
+        }
+        50%{
+            transform: translate(nth($moveD92B, $a));
+        }
+        75%{
+            transform: translate(nth($moveD92C, $a));
+        }
+        
+    }
+}
+@for $mt from 1 through 2{
+    //variable
+    $moveD92: 288px;
+    //
+    @keyframes moveD92B-9 {
+        0%, 100%{
+            transform: translate(0px, 0px);
+        }
+        50%{
+            transform: translate($moveD92, ($moveD92 / 2));
+        }
+    }
+    @keyframes moveD92B-10 {
+        0%, 100%{
+            transform: translate(0px, 0px);
+        }
+        50%{
+            transform: translate(($moveD92 / 2), $moveD92);
+        }
+    }
+    @keyframes moveD92B-11 {
+        0%, 100%{
+            transform: translate(0px, $moveD92);
+        }
+        50%{
+            transform: translate($moveD92, ($moveD92 / 2));
+        }
+    }
+    @keyframes moveD92B-12 {
+        0%, 100%{
+            transform: translate(0px, $moveD92);
+        }
+        50%{
+            transform: translate(($moveD92 / 2), 0px);
+        }
+    }
+    @keyframes moveD92B-13 {
+        0%, 100%{
+            transform: translate($moveD92, $moveD92);
+        }
+        50%{
+            transform: translate(($moveD92 / 2), 0px);
+        }
+    }
+    @keyframes moveD92B-14 {
+        0%, 100%{
+            transform: translate($moveD92, $moveD92);
+        }
+        50%{
+            transform: translate((0px, $moveD92 / 2));
+        }
+    }
+    @keyframes moveD92B-15 {
+        0%, 100%{
+            transform: translate($moveD92, 0px);
+        }
+        50%{
+            transform: translate(0px, ($moveD92 / 2));
+        }
+    }
+    @keyframes moveD92B-16 {
+        0%, 100%{
+            transform: translate($moveD92, 0px);
+        }
+        50%{
+            transform: translate(($moveD92 / 2), $moveD92);
+        }
+    }
+}
