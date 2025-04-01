@@ -1,0 +1,98 @@
+.days-93{
+    background-color: #ff6a07;
+    .contentD93{
+        position: relative;
+        width: 150px;
+        height: 220px;
+        // background-color: red;
+        &:hover{
+            & .padlockD93Body{
+                transform: translate(9%, 64.5%) rotateZ(270deg);
+            }
+        }
+        .padlockD93{
+            fill: none;
+            stroke-width: 5px;
+            stroke: #fff;
+            position: absolute;
+            
+            &:nth-child(2n + 1){
+                z-index: 2;
+            }
+            .svgD93-1{
+                box-shadow: 2px 0px 10px 0px black;
+                stroke: #f0f0f0;
+            }
+            .svgD93-2{
+                stroke: #868686;
+                filter: drop-shadow(4px 0px 5px #4646465d);
+            }
+            .circleD93{
+                filter: drop-shadow(3px 10px 3px #5252524d);
+                fill: #222222;
+            }
+        }
+        .padlockD93Body{
+            width: 127px;
+            height: 127px;
+            // background-color: #222222;
+            // background-color: red;
+            position:absolute;
+            transform: translate(9%, 64.5%) rotate(-90deg);
+            transform-origin: 50% 50%;
+            transition: all 2s ease;
+            border-radius: 50%;
+            z-index: 2;
+            .contentLinesD93{
+                width: 100%;
+                height: 100%;
+                // background-color: red;
+                border-radius: 50%;
+                transform: translate(49%, 48%);
+                .lineD93{
+                    width: 2px;
+                    height: 6px;
+                    background-color: #dadada;
+                    position: absolute;
+                }
+                @for $i from 1 through 40{
+                    @for $n from 1 through 8{
+                        //variables
+                        $angleD93: (360 / 40) * ($i - 1);
+                        $lineIdD93: $n * 5; 
+                        $lineAngleD93: (360 / 8) * ($n - 1);
+                        //
+                        .lineD93-#{$i - 1}{
+                            transform: rotate($angleD93+deg) translateX(55px) rotateZ(90deg);
+                        }
+                        .lineD93-#{$lineIdD93}{
+                            width: 2.3px;
+                            background-color: #fff;
+                            transform: rotate($lineAngleD93+deg) translateX(53px) rotateZ(90deg) scaleY(1.8);
+                        }
+                    }
+                }
+            }
+            .contentD93Num{
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+                transform: translate(46%, -56%);
+                .numD93{
+                    color: #fff;
+                    position: absolute;
+                    font-size: 12px;
+                    font-weight: bold;
+                }
+                @for $num from 1 through 8{
+                    //variables
+                    $angleD93Num: (360 / 8) * ($num - 1);
+                    //
+                    .numD93-#{$num}{
+                        transform: rotate($angleD93Num+deg) translateX(35px) rotateZ(90deg);
+                    }
+                }
+            }
+        }
+    }
+}
