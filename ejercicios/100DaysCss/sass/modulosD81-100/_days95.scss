@@ -1,0 +1,81 @@
+.days-95{
+    background-color: #ffdeb6;
+    box-shadow: 0 0 10px 0 #a5a5a5;
+    .contentD95{
+        width: 300px;
+        height: 300px;
+        position: relative;
+        .earsD95{
+            width: 200px;
+            height: 100px;
+            position: absolute;
+            left: 50px;
+            top: 20%;
+            stroke-width: 6px;
+            stroke: #ff8b9e;
+            fill: pink;
+        }
+        .centerD95{
+            width: 150px;
+            height: 150px;
+            background-color: #ff8b9e;
+            border-radius: 50%;
+            position: absolute;
+            top: 25%;
+            left: 25%;
+            .eyesD95{
+                width: 20px;
+                height: 20px;
+                background-color: #000;
+                position: absolute;
+                border-radius: 50%;
+                border: solid 8px #fff;
+                animation: eyesD95 5s linear infinite;
+            }
+            .eyeD95left{
+                top: 44%;
+                left: 20%;
+            }
+            .eyeD95right{
+                top: 44%;
+                left: calc(80% - 20px);
+            }
+            .noseD95{
+                width: 60px;
+                height: 50px;
+                background-color: pink;
+                border-radius: 50%;
+                position: relative;
+                top: 85px;
+                left: calc(50% - 31px);
+                .noseD95left{
+                    width: 15px;
+                    height: 15px;
+                    background-color: #b84d5f;
+                    position: absolute;
+                    top: 25%;
+                    left: 15%;
+                    border-radius: 50%;
+                }
+                .noseD95right{
+                    width: 15px;
+                    height: 15px;
+                    background-color: #b84d5f;
+                    position: absolute;
+                    top: 25%;
+                    left: calc(85% - 15px);
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+}
+
+@keyframes eyesD95 {
+    0%, 50%, 54%, 60%, 100%{
+        transform: scaleY(1);
+    }
+    52%{
+        transform: scaleY(0.1);
+    }
+}
