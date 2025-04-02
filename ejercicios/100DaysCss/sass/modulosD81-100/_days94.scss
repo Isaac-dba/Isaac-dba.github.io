@@ -1,0 +1,134 @@
+.days-94{
+    background-color: #d1dfd5;
+    box-shadow: 0px 0px 10px 0px #7a7a7a;
+    .contentD94{
+        width: 300px;
+        height: 300px;
+        position: relative;
+        @for $i from 1 through 2{
+             //variables
+            $translateD94X: 0px;
+            $borderD94: 0 0 0 0;
+            $trOrigin: 0 0;
+            $bCD94: 0;
+            @if $i == 1{
+                $bCD94: #c90000;
+                $translateD94X: 90px;
+                $borderD94: 0px 0px 200px 60px;
+                $trOrigin: 100% 0%;
+            }@else{
+                $bCD94: #ff0505;
+                $translateD94X: 150px;
+                $borderD94: 0px 60px 200px 0px;
+                $trOrigin: 0% 100%;
+            }
+            .palmaD94-#{$i}{
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: $borderD94;
+                transform-origin: $trOrigin;
+                border-color: transparent transparent $bCD94 transparent;
+                animation:  palmaD94-#{$i} 1s linear forwards 1s;
+                position: absolute;
+                transform: translate($translateD94X, 10px) scale(0);
+            }
+        }
+        .ramasD94{
+            width: 100px;
+            height: 200px;
+            // background-color: #fff;
+            transform-origin: 50% 100%;
+            transform: translate(100px, 60px);
+            animation: scaleD94 1s ease-in-out forwards;
+            .ramaD94-1{
+                position: absolute;
+                width: 5px;
+                height: 100%;
+                background-color: #eca116;
+                transform: translate(47.5px, 0%);
+                border-radius: 5px 5px 0 0;
+            }
+            @for $i from 2 through 6{
+                $heightD94: $i * 9px;
+                .ramaD94-#{$i}{
+                    position: absolute;
+                    width: 5px;
+                    height: $heightD94;
+                    background-color: #eca116;
+                    border-radius: 5px 5px 0 0;
+            
+                    &:nth-child(2n + 2){
+                        transform: translate((47.5px - $heightD94 / 2.7), (($heightD94 * ($i - 1)) / 3.1)) 
+                        rotate(-43deg);
+                    }
+                }
+                @if $i == 3{
+                    .ramaD94-#{$i}{
+                    transform: translate((47.5px + ($heightD94 / 2.7)), (($heightD94 * ($i - 1)) / 3.1)) 
+                    rotate(43deg);   
+                    }
+                }
+                @if $i == 5{
+                    .ramaD94-#{$i}{
+                        transform: translate((47.5px + $heightD94 / 2.7), (($heightD94 * ($i - 1)) / 3.1)) 
+                        rotate(43deg);
+                    }
+                }
+            }
+        }
+        .baseD94{
+            width: 70px;
+            height: 4px;
+            background-color: #9abba3;
+            position: absolute;
+            transform-origin: 50% 20%;
+            transform: translate(15px, 200px);
+            border-radius: 5px;
+        }
+    }
+}
+@for $i from 1 through 2{
+    //variable
+    $translateD94X: 0;
+    @if $i == 1{
+        $translateD94X: 90px;
+    }@else{
+        $translateD94X: 150px;
+    }
+    @keyframes palmaD94-#{$i} {
+        0%, 20%{
+            transform: translate($translateD94X, 10px) scaleX(0);
+        }
+        60%{
+            transform: translate($translateD94X, 10px) scaleX(1.1);
+        }
+        70%{
+            transform: translate($translateD94X, 10px) scaleX(0.9);
+        }
+        80%, 100%{
+            transform: translate($translateD94X, 10px) scaleX(1);
+            
+        }
+    }
+
+}
+@keyframes scaleD94 {
+    0%, 10%{
+        transform: translate(100px, 60px) scale(0);
+    }
+    50%{
+        transform: translate(100px, 60px) scaleY(1.1);
+    }
+    60%{
+        transform: translate(100px, 60px) scaleY(0.8);
+    }
+    70%{
+        transform: translate(100px, 60px) scaleY(1);
+    }
+    100%{
+        transform: translate(100px, 60px) scale(1);
+    }
+}
+
+
