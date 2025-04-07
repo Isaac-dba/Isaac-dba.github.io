@@ -1,0 +1,92 @@
+.days-99{
+    background-color: #1eb64c;
+    box-shadow: 0 0 10px #838383;
+    .contentD99{
+        position: relative;
+        width: 300px;
+        height: 300px;
+        overflow: hidden;
+        #checkD99{
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            opacity: 0;
+            z-index: 12;
+            transform: translate(130px, 130px);
+            &:checked{
+                & ~ .centerD99{
+                    border-radius: 0%;
+                    transform: translate(130px, 130px) rotate(360deg);
+                    box-shadow: 6px 4px 20px 5px #85858552;
+                }
+                & ~ .boxShadowD99{
+                    transform: translate(130px, 130px) scale(11);
+                }
+                & ~ .borderD99{
+                    transform: translate(75px, 75px);
+                    width: 150px;
+                    height: 150px;
+                    opacity: 0;
+                }
+                @for $i from 1 through 20{
+                    $angleD99: 360 / 20 * $i;
+                    & ~ .linesD99 .lineD99-#{$i}{
+                        width: 3px;
+                        height: 15px;
+                        transform: translate(147.5px, 142.5px) rotate($angleD99+deg) translateY(140px);
+                        opacity: 0;
+                    }
+                }
+            }
+        }
+        $timeD99: 0.8s;
+        .centerD99{
+            width: 40px;
+            height: 40px;
+            background-color: #ffff;
+            box-shadow: 0 0px 15px 0px #178337;
+            position: absolute;
+            border-radius: 50%;
+            transition: all $timeD99 ease-in-out;
+            z-index: 10;
+            border: none;
+            transform: translate(130px, 130px);
+        }
+        .boxShadowD99{
+            width: 40px;
+            height: 40px;
+            background-color: #4ef17f;
+            z-index: 1;
+            position: absolute;
+            transform: translate(130px, 130px);
+            transition: all $timeD99 ease-in-out;
+            border-radius: 50%;
+        }
+        .borderD99{
+            width: 30px;
+            height: 30px;
+            border: solid 2px #fff;
+            position: absolute;
+            z-index: 2;
+            border-radius: 50%;
+            transform: translate(135px, 135px);
+            transition: all $timeD99 ease-in-out;
+        }
+        .linesD99{
+            position: relative;
+            @for $i from 1 through 20{
+                $angleD99: 360 / 20 * $i;
+                .lineD99-#{$i}{
+                    z-index: 3;
+                    width: 1px;
+                    height: 5px;
+                    background-color: #fff;
+                    position: absolute;
+                    transform: translate(149.5px, 147.5px) rotate($angleD99+deg) translateY(10px);
+                    transition: all $timeD99 ease-in-out;
+                }
+            }
+        }
+    }
+}
+
