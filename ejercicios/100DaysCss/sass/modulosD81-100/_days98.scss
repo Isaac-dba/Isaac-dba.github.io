@@ -1,0 +1,263 @@
+.days-98{
+    background-color: #2c3e50;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    .contentD98{
+        width: 150px;
+        height: 150px;
+        position: relative;
+        .squareD98{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            @for $i from 1 through 4{
+                $bCD98: "";
+                @if $i == 1{
+                    $bCD98: #468fca transparent transparent transparent;
+                }@else if $i == 2{
+                    $bCD98: transparent #3b8ed1 transparent transparent;
+                }@else if $i == 3{
+                    $bCD98: transparent transparent #21659c transparent;
+                }@else{
+                    $bCD98: transparent transparent transparent #2f7dbd ;
+                }
+                .sideD98-#{$i}{
+                    width: 0;
+                    height: 0;
+                    position: absolute;
+                    border-width: 75px;
+                    border-style: solid;
+                    border-color: $bCD98;
+                    animation: sideD98-#{$i} 4s ease-in-out infinite;
+                }
+            }
+        }
+        .circlesAndsquareD98{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            animation: scaleD98 4s ease-in-out infinite;
+            @for $s from 1 through 8{
+                @if $s >= 1 and $s <= 4{
+                    $bCD98: #ffbe45;
+                    @if $s == 4{
+                        $bCD98: #eb8e14;
+                    }
+                    .squareD98-#{$s}{
+                        width: $s * 6px;
+                        height: $s * 6px;
+                        background-color: $bCD98;
+                        transform-origin: 100% 0%;
+                        animation: rotateD98-#{$s} 4s ease-in-out infinite;
+                    }
+                    .squareD98-5{
+                        width: 4 * 6px;
+                        height: 4 * 6px;
+                        background-color: #ffbe45;
+                        transform-origin: 0% 100%;
+                        animation: rotateD98-5 4s ease-in-out infinite;
+                    }
+                    .circleD98-#{$s}{
+                        width: 8px + $s;
+                        height: 8px + $s;
+                        border-radius: 50%;
+                        position: absolute;
+                        animation: circleD98-#{$s} 4s ease-in-out infinite;
+                    }
+                }
+                @if $s >= 6 and $s <= 8{
+                    .squareD98-#{$s}{
+                        width: ($s * 5px) - ($s * 4px);
+                        height: ($s * 5px) - ($s * 4px);
+                        background-color: #30f1c7;
+                        transform-origin: 100% 0%;
+                        animation: rotateD98-#{$s} 4s ease-in-out infinite;
+                    }
+                    @for $c from 5 through 8{
+                        .circleD98-#{$c}{
+                            position: absolute;
+                            border-radius: 50%;
+                            animation: circleD98-#{$c} 4s ease-in-out infinite;
+                        }
+
+                    }
+                }
+
+            }        
+        }
+    }
+}
+
+@for $a from 1 through 4{
+    $xD98A: 0px;
+    $yD98A: 0px;
+    $xD98B: 0px;
+    $yD98B: 0px;
+    $moveD98: 130px;
+    @if $a == 1{
+        $yD98B: -$moveD98;
+    }
+    @if $a == 2{
+        $xD98B: $moveD98;
+    }
+    @if $a == 3{
+        $yD98B: $moveD98;
+    }
+    @if $a == 4{
+        $xD98B: -$moveD98;
+    }
+    @keyframes sideD98-#{$a} {
+        0%, 80%, 100%{
+            transform: translate($xD98A, $yD98A);
+        }
+        50%{
+            transform: translate($xD98B, $yD98B);
+        }
+    }
+}
+@for $a from 1 through 4{
+    $xD98: 0;
+    $yD98: 0;
+    @if $a == 1{
+        $xD98: 100px;
+        $yD98: 120px;
+    }
+    @if $a == 2{
+        $xD98: 130px;
+        $yD98: 90px;
+    }
+    @if $a == 3{
+        $xD98: 140px;
+        $yD98: 20px;
+    }
+    @if $a == 4{
+        $xD98: 70px;
+        $yD98: 5px;
+    }
+    @keyframes rotateD98-#{$a}{
+        0%, 100%{
+            transform: translate(70px, 70px) rotate(-35deg) ;
+        }
+        50%{
+            transform: translate($xD98, $yD98) rotate(45deg);
+        }
+    } 
+}    
+
+@keyframes rotateD98-5{
+    0%, 100%{
+        transform: translate(70px, 70px) rotate(35deg);
+    }
+    50%{
+        transform: translate(0, 30px) rotate(-35deg);
+    }
+} 
+
+@for $a from 6 through 8{
+    $xD98: 0;
+    $yD98: 0;
+    @if $a == 6{
+        $xD98: 105px;
+        $yD98: 35px;
+    }
+    @if $a == 7{
+        $xD98: 20px;
+        $yD98: 80px;
+    }
+    @if $a == 8{
+        $yD98: 90px;
+    }
+    @keyframes rotateD98-#{$a} {
+        0%, 100%{
+            transform: translate(70px,70px) rotate(35deg);
+        }
+        50%{
+            transform: translate($xD98, $yD98) rotate(-35deg);
+        }
+    }
+}
+
+@for $a from 1 through 4{
+    $xD98: 0;
+    $yD98: 0;
+    $borderD98: 0;
+    $sizeD98: 0px;
+    $newIdD98: $a + 4;
+    @if $a == 1{
+        $xD98: 50px;
+        $yD98: 20px;
+        $borderD98: solid 3px #ffb730;
+    }
+    @if $a == 2{
+        $xD98: 95px;
+        $yD98: 80px;
+        $borderD98: solid 3px #dd9000;
+    }
+    @if $a == 3{
+        $xD98: 115px;
+        $yD98: 55px;
+        $borderD98: solid 4px #80f1c7;
+    }
+    @if $a == 4{
+        $xD98: 45px;
+        $yD98: 45px;
+        $borderD98: solid 4px #80f1c7;
+    }
+    @keyframes circleD98-#{$a}{
+        0%, 100%{
+            transform: translate(70px, 70px);
+            border: $borderD98;
+        }
+        50%{
+            transform: translate($xD98, $yD98);
+            border: $borderD98;
+        }
+    } 
+    @if $newIdD98 == 5{
+        $sizeD98: 15px;
+        $borderD98: solid 4px #dd9000;
+        $xD98: 65px;
+        $yD98: 35px;
+    }
+    @if $newIdD98 == 6{
+        $sizeD98: 18px;
+        $borderD98: solid 4px #ffb730;
+        $xD98: 90px;
+        $yD98: 48px;
+    }
+    @if $newIdD98 == 7{
+        $sizeD98: 19px;
+        $borderD98: solid 4px #80f1c7;
+        $xD98: 65px;
+        $yD98: 100px;
+    }
+    @if $newIdD98 == 8{
+        $sizeD98: 21px;
+        $borderD98: solid 5px #ffa730;
+        $xD98: 10px;
+        $yD98: 140px;
+    }
+    @keyframes circleD98-#{$newIdD98}{
+        0%, 100%{
+            transform: translate(70px, 70px);
+            border: $borderD98;
+            width: $sizeD98;
+            height: $sizeD98;
+        }
+        50%{
+            transform: translate($xD98, $yD98);
+            border: $borderD98;
+            width: $sizeD98;
+            height: $sizeD98;
+        }
+    } 
+}  
+
+@keyframes scaleD98{
+    0%, 80%, 100%{
+        transform: scale(0);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+}
