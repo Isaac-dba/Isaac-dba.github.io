@@ -1,0 +1,166 @@
+.days-100{
+    background-color: #252525;
+    box-shadow: 0 0 10px #000;
+    .contentD100{
+        width: 250px;
+        height: 150px;
+        display: flex;
+        position: relative;
+        .contentD100E{
+            width: 33.3%;
+            height: 150px;
+            .lineE-1{
+                width: 6px;
+                height: 150px;
+                border-radius: 10px;
+                animation: bcStrE-1 10s ease-in-out infinite;
+            }
+            .lineE-2{
+                width: 70%;
+                height: 6px;
+                transform: translate(13%, -6px);
+                border-radius: 10px;
+                animation: bcStrE-2 10s ease-in-out infinite;
+            }
+            .lineE-3{
+                width: 70%;
+                height: 6px;
+                transform: translate(13%, -156px);
+                border-radius: 10px;
+                animation: bcStrE-3 10s ease-in-out infinite;
+            }
+            .lineE-4{
+                width: 50%;
+                height: 6px;
+                transform: translate(19%, -90px);
+                border-radius: 10px;
+                animation: bcStrE-4 10s ease-in-out infinite;
+            }
+        }
+        .contentD100N{
+            width: 33.3%;
+            height: 150px;
+            .lineN-1{
+                width: 6px;
+                height: 150px;
+                border-radius: 10px;
+                animation: bcStrE-1 10s ease-in-out infinite;
+            }
+            .lineN-2{
+                width: 6px;
+                height: 150px;
+                border-radius: 10px;
+                animation: bcStrE-2 10s ease-in-out infinite;
+                transform: translate(70px, -150px);
+            }
+            .lineN-3{
+                width: 6px;
+                height: 155px;
+                border-radius: 10px;
+                transform: translate(35px, -302.5px) rotate(20deg);
+                animation: bcStrN-3 10s ease-in-out infinite;
+            }
+        }
+        .contentD100D{
+            width: 33.3%;
+            height: 150px;
+            .svgD100{
+                width: 150%;
+                height: 200px;
+                // background-color: red;
+                transform: translate(-8px, -25px);
+                .lineD{
+                    stroke: #000;
+                    stroke-width: 10px;
+                    stroke-linecap: round;
+                    animation: bcStrDC 10s ease-in-out infinite;
+                    transform: translate(10px, 33px);
+                    scale: 0.75;
+                }
+                .lineDD{
+                    stroke: #000;
+                    stroke-width: 10px;
+                    fill: none;
+                    stroke-linecap: round;
+                    animation: bcStrDCa 10s ease-in-out infinite;
+                    scale: 0.75;
+                    transform: translate(10px, 33px);
+                }
+            }
+        }
+    }
+}
+
+@keyframes bcStrE-2 {
+    0%, 10%, 12%, 14%, 61%, 63%, 65%, 100%{
+        background-color: #000000;
+        box-shadow: 0 0 10px 0px #000;
+    }
+    11%, 13%, 15%, 60%, 62%, 64%{
+        background-color: #ffffff;
+        box-shadow: 0 0 10px #ffffff;
+    }
+}
+@keyframes bcStrE-3 {
+    0%, 16%, 18%, 20%, 67%, 69%, 71%, 100%{
+        background-color: #000000;
+        box-shadow: 0 0 10px 0px #000;
+    }
+    17%, 19%, 21%, 66%, 68%, 70%{
+        background-color: #ffffff;
+        box-shadow: 0 0 10px #ffffff;
+    }
+}
+@keyframes bcStrE-1 {
+    0%, 22%, 24%, 26%, 73%, 75%, 77%, 100%{
+        background-color: #000000;
+        box-shadow: 0 0 10px 0px #000;
+    }
+    23%, 25%, 27%, 72%, 74%, 76%{
+        background-color: #ffffff;
+        box-shadow: 0 0 10px #ffffff;
+    }
+}
+@keyframes bcStrE-4 {
+    0%, 28%, 30%, 32%, 79%, 81%, 83%, 100%{
+        background-color: #000000;
+        box-shadow: 0 0 10px 0px #000;
+    }
+    29%, 31%, 33%, 78%, 80%, 82%{
+        background-color: #ffffff;
+        box-shadow: 0 0 10px #ffffff;
+    }
+}
+@keyframes bcStrN-3 {
+    0%, 34%, 36%, 38%, 85%, 87%, 89%, 100%{
+        background-color: #000000;
+        box-shadow: 0 0 10px 0px #000;
+    }
+    35%, 37%, 39%, 84%, 86%, 88%{
+        background-color: #ffffff;
+        box-shadow: 0 0 10px #ffffff;
+    }
+}
+@keyframes bcStrDCa {
+    0%, 33%, 35%, 37%, 79%, 81%, 83%, 100%{
+        filter: drop-shadow(0px 0px 10px #000);
+        stroke: #000000;
+
+    }
+    34%, 36%, 38%, 78%, 80%, 82%{
+        filter:drop-shadow(0px 0px 10px #ffffff);
+        stroke: #fff;
+    }
+}
+
+@keyframes bcStrDC {
+    0%, 27%, 29%, 31%, 87%, 89%, 91%, 100%{
+        stroke: #000000;
+        filter: drop-shadow(0px 0px 10px #000);
+    }
+    28%, 30%, 32%, 86%, 88%, 90%{
+        stroke: #fff;
+        filter:drop-shadow(0px 0px 10px #ffffff);
+        scale: 0.75;
+    }
+}
